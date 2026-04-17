@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🥾 Hike Research
 
-## Getting Started
+Personal catalog of hut-to-hut hikes worth considering. Single-user, statically
+generated, deployed free on Vercel. Data lives in `data/hikes.yaml` and is
+Zod-validated at build.
 
-First, run the development server:
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev       # http://localhost:3000
+npm run build     # also runs YAML validation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If the build fails with a schema error, the Zod issue path points to the
+offending entry (e.g. `3.downsides.2` = fourth hike, third downside).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Add or edit a hike
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+In Claude Code in this repo:
 
-## Learn More
+- `/add-hike <name>` — drafts a new entry and appends it after you confirm.
+- `/enrich-hike <slug>` — fills gaps in an existing entry without touching
+  the `notes` field.
 
-To learn more about Next.js, take a look at the following resources:
+Or just edit `data/hikes.yaml` by hand — `lib/schema.ts` is the source of
+truth for allowed fields and enum values.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Push to GitHub and import the repo in Vercel. No env vars, no config.
+Every `git push` to `main` triggers a rebuild and deploy.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The repo and live site are public, so treat `notes` as world-readable.

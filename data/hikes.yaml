@@ -1,0 +1,190 @@
+# Source of truth for hikes displayed on the site.
+# Schema: lib/schema.ts (Zod-validated at build time).
+# Add new entries with the /add-hike Claude Code slash command.
+
+- slug: mestia-to-ushguli
+  name: Mestia to Ushguli
+  country: Georgia
+  region: Svaneti
+  coordinates: [42.9, 42.95]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 58
+  length_days: 4
+  elevation_gain_m: 3200
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Medieval Svan defensive towers in nearly every village
+    - Remote feel with minimal crowds vs. Alpine classics
+    - Home-cooked Georgian hospitality at village homestays
+    - Ushguli is one of Europe's highest continuously inhabited settlements
+  downsides:
+    - Short season; high pass can close with weather
+    - Infrastructure less developed than Alps
+    - Getting to Mestia requires effort (overnight from Tbilisi or Kutaisi)
+  guide_links:
+    - title: Caucasus Trekking - Mestia to Ushguli overview
+      url: https://caucasus-trekking.com/mestia-to-ushguli
+    - title: Much Better Adventures writeup
+      url: https://www.muchbetteradventures.com/magazine/mestia-to-ushguli-trek-guide/
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    The tone-setter for this whole site: hut-to-hut without a full pack,
+    authentic culture, not yet overrun. Template to compare new candidates against.
+
+- slug: mardi-himal
+  name: Mardi Himal Trek
+  country: Nepal
+  region: Annapurna
+  coordinates: [28.45, 83.93]
+  style: hut-to-hut
+  accommodation: [teahouse]
+  pack_weight: light
+  length_km: 45
+  length_days: 5
+  elevation_gain_m: 2800
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Close-up views of Machapuchare (Fishtail) from High Camp
+    - Much quieter than ABC or Everest routes
+    - Rhododendron forests in spring are spectacular
+    - Short enough to fit in a 10-day trip from abroad
+  downsides:
+    - High Camp (4100m) is cold and basic
+    - Trail can be muddy below the tree line after rain
+  guide_links:
+    - title: Personal past-trip notes
+      url: https://example.com/mardi-himal-notes
+  obscurity: 3
+  status: done
+  notes: |
+    Favorite past hike. Use as a reference for how I rate "highlights"
+    — the Machapuchare view above the clouds is a 5/5 moment.
+
+- slug: annapurna-base-camp
+  name: Annapurna Base Camp
+  country: Nepal
+  region: Annapurna
+  coordinates: [28.53, 83.88]
+  style: hut-to-hut
+  accommodation: [teahouse]
+  pack_weight: light
+  length_km: 115
+  length_days: 10
+  elevation_gain_m: 4500
+  difficulty: hard
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - 360-degree Annapurna Sanctuary amphitheater at ABC
+    - Reliable teahouse infrastructure, no tent required
+    - Varied terrain from jungle to high alpine in one trek
+  downsides:
+    - More popular and busier than Mardi Himal
+    - Altitude (4130m) requires proper acclimatization
+  guide_links:
+    - title: Personal past-trip notes
+      url: https://example.com/abc-notes
+  obscurity: 2
+  status: done
+  notes: |
+    Loved it but notably busier than Mardi. Good gateway trek for
+    friends new to high-altitude hiking.
+
+- slug: pennine-way
+  name: Pennine Way
+  country: United Kingdom
+  region: Northern England
+  coordinates: [54.5, -2.2]
+  style: full-pack
+  accommodation: [bnb, hotel, camping, bivy]
+  pack_weight: full
+  length_km: 435
+  length_days: 19
+  elevation_gain_m: 11000
+  difficulty: hard
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - England's original long-distance path; wild moorland character
+    - Mix of pub stays, B&Bs, and bothies keeps it social but flexible
+    - High Force, Cauldron Snout, Hadrian's Wall section
+  downsides:
+    - Weather is frequently bad even in summer
+    - Some boggy sections are notoriously grim
+    - "Long: needs a committed 2-3 weeks"
+  guide_links:
+    - title: National Trails official page
+      url: https://www.nationaltrail.co.uk/en_GB/trails/pennine-way/
+    - title: Personal past-trip notes
+      url: https://example.com/pennine-way-notes
+  obscurity: 2
+  status: done
+  notes: |
+    My main "full-pack" reference. Left me wanting hut-to-hut by the end
+    — carrying everything in British rain is character-building but not
+    something I'm eager to repeat.
+
+- slug: tour-du-mont-blanc
+  name: Tour du Mont Blanc
+  country: France
+  region: Alps (FR/IT/CH)
+  coordinates: [45.83, 6.87]
+  style: hut-to-hut
+  accommodation: [refuge, hut, hotel]
+  pack_weight: light
+  length_km: 170
+  length_days: 11
+  elevation_gain_m: 10000
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Crosses three countries with distinct food and culture each day
+    - Refuge network is mature and well-run
+    - The views are, objectively, incredible
+  downsides:
+    - Heavily trafficked; refuges book out months ahead
+    - Feels more like a "vacation route" than a wilderness trek
+  guide_links:
+    - title: Cicerone TMB guide
+      url: https://www.cicerone.co.uk/tour-of-mont-blanc
+    - title: Personal past-trip notes
+      url: https://example.com/tmb-notes
+  obscurity: 1
+  status: done
+  notes: |
+    The archetypal "too popular" hut-to-hut. Use this as the far end of
+    the obscurity scale: anything rated 1 should feel like TMB.
+
+- slug: cavalls-del-vent
+  name: Cavalls del Vent
+  country: Spain
+  region: Catalan Pyrenees
+  coordinates: [42.27, 1.78]
+  style: hut-to-hut
+  accommodation: [refuge]
+  pack_weight: light
+  length_km: 85
+  length_days: 4
+  elevation_gain_m: 5200
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Eight refuges in a closed loop; no logistics headache
+    - Catalan Pyrenees much quieter than the French side
+    - Good food and wine at every hut
+  downsides:
+    - Route finding occasionally tricky above treeline
+    - Steep daily elevation changes
+  guide_links:
+    - title: Cavalls del Vent official site
+      url: https://www.cavallsdelvent.cat/
+    - title: Personal past-trip notes
+      url: https://example.com/cavalls-del-vent-notes
+  obscurity: 3
+  status: done
+  notes: |
+    Sweet spot: hut-to-hut, challenging, and Catalans outnumber foreign
+    hikers. Prime example of the kind of hike I want more of.
