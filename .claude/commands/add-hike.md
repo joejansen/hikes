@@ -21,7 +21,7 @@ Research the hike **$ARGUMENTS** and add it to `data/hikes.yaml`.
    - Whether it's typically done with a full pack, light pack, or either
    - Best months to go
    - 3-5 specific highlights and 1-3 honest downsides
-   - 2-4 guide links (Cicerone, national trail sites, blog trip reports — real URLs only)
+   - 2-4 guide links — see "Guide links" rules below
 
 4. **Draft the YAML entry** in the same style as existing entries. Important:
    - `slug` is lowercase kebab-case and unique.
@@ -35,3 +35,19 @@ Research the hike **$ARGUMENTS** and add it to `data/hikes.yaml`.
 6. **Do not** run `git add` / `git commit` or any network-writing commands. I'll commit and push myself.
 
 7. After writing, suggest running `npm run build` to confirm the Zod schema accepts it.
+
+## Guide links — rules
+
+Guide links must be real, working URLs. Placeholders and made-up URLs are not acceptable.
+
+- Search for **5-8 candidate** guides (blog trip reports, hiking-club writeups, Cicerone/Kev Reynolds-style guidebook pages, national-trail official sites).
+- Filter aggressively — include only the **2-4 best** in the entry. Quality bar:
+  - Written by someone who actually walked it (look for first-person trip reports with dated photos).
+  - Covers logistics useful to a planner: daily stages, accommodation, permits, seasons.
+  - Prefer independent blogs over tour operators. At most one tour-operator link per entry.
+- **Validate each URL before including it.** Run:
+  ```
+  curl -sL -o /dev/null -w "%{http_code}  %{url_effective}\n" -A "Mozilla/5.0" --max-time 15 <URL>
+  ```
+  Only keep URLs that return 200 (or a 3xx that lands on a 200). Drop anything returning 404, 403, 410, or timing out.
+- Give each link a descriptive `title` — "Cicerone TMB guidebook" beats "Cicerone". The title should hint at what's inside.

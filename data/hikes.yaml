@@ -25,10 +25,12 @@
     - Infrastructure less developed than Alps
     - Getting to Mestia requires effort (overnight from Tbilisi or Kutaisi)
   guide_links:
-    - title: Caucasus Trekking - Mestia to Ushguli overview
-      url: https://caucasus-trekking.com/mestia-to-ushguli
-    - title: Much Better Adventures writeup
-      url: https://www.muchbetteradventures.com/magazine/mestia-to-ushguli-trek-guide/
+    - title: Caucasus Trekking - detailed route reference
+      url: https://www.caucasus-trekking.com/treks/trek-mestia-to-ushguli
+    - title: Beyond Wild Places - 4-day trip report with homestay tips
+      url: https://beyondwildplaces.com/complete-guide-to-the-mestia-to-ushguli-trek/
+    - title: Going the Whole Hogg - Transcaucasian Trail Svaneti section
+      url: https://www.goingthewholehogg.com/transcaucasian-trail-svaneti-mestia-to-ushguli/
   obscurity: 4
   status: shortlisted
   notes: |
@@ -57,8 +59,10 @@
     - High Camp (4100m) is cold and basic
     - Trail can be muddy below the tree line after rain
   guide_links:
-    - title: Personal past-trip notes
-      url: https://example.com/mardi-himal-notes
+    - title: North Nepal Trek - 7-day itinerary and costs
+      url: https://northnepaltrek.com/mardi-himal-trek
+    - title: Visit Himalaya Treks - first-person trip account
+      url: https://www.visithimalayastrek.com/blog/a-journey-through-the-mardi-himal-trek
   obscurity: 3
   status: done
   notes: |
@@ -86,8 +90,12 @@
     - More popular and busier than Mardi Himal
     - Altitude (4130m) requires proper acclimatization
   guide_links:
-    - title: Personal past-trip notes
-      url: https://example.com/abc-notes
+    - title: Bucketlistly - 7-day photo-heavy trip report
+      url: https://www.bucketlistly.blog/posts/trekking-the-himalayas-annapurna-base-camp-in-7-days
+    - title: A Walk in the World - complete 8-day itinerary
+      url: https://awalkintheworld.com/annapurna-base-camp-trek/
+    - title: Stingy Nomads - independent-trekker planning guide
+      url: https://stingynomads.com/annapurna-base-camp-trek/
   obscurity: 2
   status: done
   notes: |
@@ -116,10 +124,14 @@
     - Some boggy sections are notoriously grim
     - "Long: needs a committed 2-3 weeks"
   guide_links:
-    - title: National Trails official page
+    - title: National Trails - official route pages
       url: https://www.nationaltrail.co.uk/en_GB/trails/pennine-way/
-    - title: Personal past-trip notes
-      url: https://example.com/pennine-way-notes
+    - title: Rambling Man - thorough planning writeup
+      url: https://ramblingman.org.uk/planningatrip/pennine_way/
+    - title: Becky the Traveller - 13-day wild-camping trip report
+      url: https://www.beckythetraveller.com/walking-pennine-way-wild-camping/
+    - title: Cicerone - Pennine Way guidebook page
+      url: https://www.cicerone.co.uk/the-pennine-way
   obscurity: 2
   status: done
   notes: |
@@ -148,10 +160,12 @@
     - Heavily trafficked; refuges book out months ahead
     - Feels more like a "vacation route" than a wilderness trek
   guide_links:
-    - title: Cicerone TMB guide
+    - title: Cicerone - Tour of Mont Blanc guidebook page
       url: https://www.cicerone.co.uk/tour-of-mont-blanc
-    - title: Personal past-trip notes
-      url: https://example.com/tmb-notes
+    - title: The Hiking Club - route, stages, and refuge tips
+      url: https://www.thehiking.club/tour-du-mont-blanc
+    - title: Shoulder Season - 10-day trip report with daily stages
+      url: https://www.shoulderseason.net/2018/07/12/planning-tour-du-mont-blanc/
   obscurity: 1
   status: done
   notes: |
@@ -179,10 +193,12 @@
     - Route finding occasionally tricky above treeline
     - Steep daily elevation changes
   guide_links:
-    - title: Cavalls del Vent official site
-      url: https://www.cavallsdelvent.cat/
-    - title: Personal past-trip notes
-      url: https://example.com/cavalls-del-vent-notes
+    - title: Unexpected Catalonia - 4-day hut-to-hut trip report
+      url: https://unexpectedcatalonia.com/cavalls-del-vent/
+    - title: Travesia Pirenaica - 4-5 day itinerary and refuge list
+      url: https://travesiapirenaica.com/en/cavalls-del-vent/
+    - title: Pyrenees Hut-to-Hut Hiking - route overview and logistics
+      url: https://pyreneeshuttohuthiking.com/tours/cavalls-del-vent-hike
   obscurity: 3
   status: done
   notes: |
