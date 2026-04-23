@@ -204,3 +204,350 @@
   notes: |
     Sweet spot: hut-to-hut, challenging, and Catalans outnumber foreign
     hikers. Prime example of the kind of hike I want more of.
+
+- slug: tusheti-traverse
+  name: Tusheti to Khevsureti Traverse (Omalo to Shatili)
+  country: Georgia
+  region: Tusheti / Khevsureti
+  coordinates: [42.3667, 45.6333]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, camping]
+  pack_weight: light
+  length_km: 75
+  length_days: 6
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Medieval Khevsur defensive tower villages at Shatili and Mutso
+    - Crossing the Atsunta Pass (3431 m) between two near-abandoned highland regions
+    - Alpine meadows and shepherd encampments almost untouched by tourism
+    - One of Europe's most isolated inhabited cultural landscapes
+  downsides:
+    - Two or three nights require camping or bivy — accommodation is truly sparse
+    - The Abano Pass road into Omalo is seasonal and 4x4 only
+    - Atsunta Pass can close in bad weather with no easy alternative route
+  guide_links:
+    - title: Caucasus Trekking - Omalo to Shatili route reference
+      url: https://www.caucasus-trekking.com/treks/trek-from-omalo-to-shatili
+    - title: Going the Whole Hogg - Shatili to Omalo trip report
+      url: https://www.goingthewholehogg.com/shatili-omalo-trek/
+    - title: Travel Sauro - hiking Tusheti practical notes
+      url: https://www.travelsauro.com/travel-hiking-tusheti/
+  obscurity: 5
+  status: researching
+  notes: |
+    The most obvious thematic sibling to Mestia-Ushguli: same country,
+    same tower-village vibe, even more remote. Camping middle nights is
+    a compromise on the hut-to-hut ideal but seems unavoidable.
+
+- slug: menalon-trail
+  name: Menalon Trail
+  country: Greece
+  region: Arcadia (Peloponnese)
+  coordinates: [37.5433, 22.1833]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, bnb]
+  pack_weight: light
+  length_km: 75
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - Lousios Gorge with cliffside Prodromos and Philosophou monasteries
+    - Traditional stone villages of Stemnitsa and Dimitsana as overnight stops
+    - First Greek trail awarded European Ramblers "Leading Quality Trail" status
+    - Shoulder-season hiking when the Alps are out of play
+  downsides:
+    - Summer heat and several water-scarce stages
+    - Some exposed cobbled and road sections
+    - Village tavernas can be sleepy midweek outside peak months
+  guide_links:
+    - title: Menalon Trail - official trail site
+      url: https://menalontrail.eu/en/
+    - title: Much Better Adventures - 75km trail through storied Arcadia
+      url: https://www.muchbetteradventures.com/magazine/menalon-trail-arcadia-greece-hiking/
+  obscurity: 4
+  status: researching
+  notes: |
+    Rare shoulder-season hut-to-hut candidate — could fit a spring or
+    autumn window when the Alpine refuges are still shut.
+
+- slug: markha-valley
+  name: Markha Valley Homestay Trek
+  country: India
+  region: Ladakh
+  coordinates: [33.9167, 77.4333]
+  style: hut-to-hut
+  accommodation: [homestay, camping]
+  pack_weight: light
+  length_km: 70
+  length_days: 7
+  elevation_gain_m: 3200
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Buddhist homestays in Sara, Markha and Hankar villages
+    - Kang Yatse (6400 m) seen from the Nimaling plateau
+    - Crossing the Kongmaru La at 5260 m
+    - Ruined forts, mani walls and a near-desert canyon landscape
+  downsides:
+    - Altitude is serious — several days of acclimatization in Leh required
+    - Multiple icy river crossings, especially in June
+    - Inner Line permit paperwork and very basic homestay amenities
+  guide_links:
+    - title: Much Better Adventures - Markha Valley trek guide
+      url: https://www.muchbetteradventures.com/magazine/markha-valley-trek-guide/
+    - title: Against the Compass - independent Markha Valley trekking guide
+      url: https://againstthecompass.com/en/markha-valley-trek-ultimate-guide/
+  obscurity: 3
+  status: researching
+  notes: |
+    Closest Ladakh analogue to the Mestia-Ushguli homestay format.
+    Would pair well with a week in Leh for acclimatization.
+
+- slug: stubaier-hohenweg
+  name: Stubaier Höhenweg
+  country: Austria
+  region: Stubai Alps (Tyrol)
+  coordinates: [47.1150, 11.3100]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 80
+  length_days: 8
+  elevation_gain_m: 6500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Horseshoe loop connecting eight DAV/ÖAV huts around the Stubai glaciers
+    - Constant views of the Zuckerhütl and the Habicht
+    - Grawagrubennieder pass at 2880 m
+    - Classic Austrian hut culture — Kaiserschmarrn, dorms, shared Stube
+  downsides:
+    - Several cabled and scrambly traverses; exposure is real
+    - Afternoon storms are frequent; hiking windows are short
+    - Huts sell out fast on weekends in July-August
+  guide_links:
+    - title: Stubaital tourism - official Stubai High Trail page
+      url: https://www.stubai.at/en/stubai-high-trail/
+    - title: The Hiking Life - quick & dirty guide to the Stubai High Trail
+      url: https://www.thehikinglife.com/2020/09/a-quick-dirty-guide-to-the-stubai-high-trail/
+    - title: Bookatrekking - Stubaier Höhenweg planning notes
+      url: https://bookatrekking.com/en/blog/stubaier-hoehenweg/
+  obscurity: 3
+  status: researching
+  notes: |
+    The "Alps hut-to-hut minus the TMB circus" candidate. All-hut,
+    no mixed lodging, but technical enough that it's a real step up
+    from Cavalls del Vent.
+
+- slug: tour-du-queyras
+  name: Tour du Queyras (GR58)
+  country: France
+  region: Southern French Alps (Queyras Regional Park)
+  coordinates: [44.6517, 6.6761]
+  style: hut-to-hut
+  accommodation: [refuge, guesthouse]
+  pack_weight: light
+  length_km: 130
+  length_days: 9
+  elevation_gain_m: 7800
+  difficulty: moderate
+  best_seasons: [July, August, September]
+  highlights:
+    - Loop entirely within the sunny Queyras Regional Park
+    - Saint-Véran, one of the highest continuously inhabited villages in Europe
+    - Col de Chamoussière (2884 m) with a brief dip across the Italian border
+    - Larch forests, marmots and the fortified hamlet of Fort Queyras
+  downsides:
+    - Several passes hold snow into early July
+    - A few long stages between gîtes in the south of the loop
+    - Some road-walking on alternative stages
+  guide_links:
+    - title: gr-infos.com - official GR58 Tour of Queyras overview
+      url: https://www.gr-infos.com/en/gr58.htm
+    - title: Ultimate France - Tour du Queyras (GR58) hiking guide
+      url: https://www.ultimatefrance.com/hiking/french-alps/tour-du-queyras-gr58
+  obscurity: 3
+  status: researching
+  notes: |
+    Appealing as a "French Alps without the Mont Blanc crowds" option.
+    GR infrastructure but one valley over from the tourist rush.
+
+- slug: peaks-of-the-balkans
+  name: Peaks of the Balkans
+  country: Albania
+  region: Prokletije / Accursed Mountains (AL/XK/ME)
+  coordinates: [42.3933, 19.7667]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 192
+  length_days: 11
+  elevation_gain_m: 9800
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Tri-border loop through the Accursed Mountains (Prokletije)
+    - Valbona-to-Theth pass with the most dramatic scenery in the Albanian Alps
+    - Family-run guesthouses serving burek, rakia and home cheese
+    - Remote alpine settlements at Doberdol and Milishevc
+  downsides:
+    - Cross-border permit required (usually via a local agency)
+    - Waymarking is patchy in places; GPS track is strongly recommended
+    - Livestock guardian dogs and some rough karst route-finding
+  guide_links:
+    - title: Cicerone - Peaks of the Balkans Trail guidebook page
+      url: https://www.cicerone.co.uk/the-peaks-of-the-balkans-trail
+    - title: Peaks of the Balkans - official info portal
+      url: https://peaksofthebalkans.info/
+    - title: The Hiking Life - quick & dirty guide to Peaks of the Balkans
+      url: https://www.thehikinglife.com/2024/10/a-quick-dirty-guide-to-the-peaks-of-the-balkans-trail/
+  obscurity: 3
+  status: researching
+  notes: |
+    Rising fast in popularity but still feels frontier outside the
+    Theth-Valbona corridor. Guesthouse/homestay mix is squarely in
+    the Mestia-Ushguli format I want more of.
+
+- slug: kackar-traverse
+  name: Kaçkar Mountains Traverse
+  country: Turkey
+  region: Eastern Black Sea (Pontic Alps)
+  coordinates: [40.8500, 41.0500]
+  style: hut-to-hut
+  accommodation: [guesthouse, camping, bivy]
+  pack_weight: either
+  length_km: 85
+  length_days: 8
+  elevation_gain_m: 5500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Granite peaks rising directly over Black Sea cloud forests
+    - Traditional Hemshin and Laz yaylas with wooden chalets
+    - Optional summit of Kaçkar Dağı (3937 m) mid-route
+    - Wildflower meadows and glacial tarns few foreigners ever see
+  downsides:
+    - Humid, cloudy weather is the norm on the north side
+    - A couple of stages require camping or bivy between yaylas
+    - Trailhead logistics take a full day each way from Trabzon or Erzurum
+  guide_links:
+    - title: Culture Routes Society - The Kaçkar route info
+      url: https://cultureroutesinturkey.com/the-kackar/
+    - title: Expert Vagabond - hiking Turkey's Kaçkar Mountains
+      url: https://expertvagabond.com/kackar-mountains/
+  obscurity: 5
+  status: researching
+  notes: |
+    Probably the most obscure candidate on this list — mixes yayla
+    guesthouse stays with some camping. Worth researching whether a
+    fully guesthouse-only variant exists.
+
+- slug: alta-via-2-dolomites
+  name: Alta Via 2 of the Dolomites
+  country: Italy
+  region: Dolomites (Trentino-Alto Adige / Veneto)
+  coordinates: [46.7150, 11.6567]
+  style: hut-to-hut
+  accommodation: [refuge, hut]
+  pack_weight: light
+  length_km: 170
+  length_days: 13
+  elevation_gain_m: 12000
+  difficulty: very-hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Traverses the Puez-Odle, Sella, Marmolada and Pale di San Martino groups
+    - Dramatic dolomite spires at almost every col
+    - Classic rifugio culture — polenta, speck and strudel each night
+    - Optional via ferrata (Dibona, Bepi Zac) for more exposure
+  downsides:
+    - Exposure and cable/scramble terrain not suited to novices
+    - Afternoon thunderstorms are frequent on high ridges
+    - Rifugios must be booked well in advance for peak-season dates
+  guide_links:
+    - title: Hut to Hut Hiking Dolomites - Alta Via 2 ultimate guide
+      url: https://huttohuthikingdolomites.com/alta-via-2-ultimate-guide
+    - title: Much Better Adventures - hiking the Dolomites' Alta Via 2
+      url: https://www.muchbetteradventures.com/magazine/alta-via-two-guide/
+    - title: The Hiking Club - Alta Via 2 route and planning
+      url: https://www.thehiking.club/alta-via-2-dolomites
+  obscurity: 3
+  status: researching
+  notes: |
+    The "Dolomites without doing Alta Via 1" option. More technical
+    than AV1 and notably quieter, but still an established rifugio route.
+
+- slug: jyrgalan-trek
+  name: Jyrgalan Trek (Ak-Suu Traverse)
+  country: Kyrgyzstan
+  region: Terskey Ala-Too (Tien Shan)
+  coordinates: [42.5836, 78.6525]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, camping]
+  pack_weight: light
+  length_km: 105
+  length_days: 6
+  elevation_gain_m: 4500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Community-tourism yurt camps across the Terskey Ala-Too
+    - Alpine lakes at Boz Uchuk with optional Ala-Köl extension
+    - Altyn Arashan hot springs as a mid-route stop
+    - Horseback resupply and genuine Kyrgyz nomad culture
+  downsides:
+    - Three 3800-4000 m passes can hold snow into mid-July
+    - Tent is useful as backup — yurt network has gaps
+    - Sudden weather changes and real altitude exposure
+  guide_links:
+    - title: Destination Jyrgalan - official community tourism trekking page
+      url: https://jyrgalan.com/what-to-do/trekking/
+    - title: Caravanistan - trekking in Kyrgyzstan overview
+      url: https://caravanistan.com/kyrgyzstan/things-to-do/trekking/
+    - title: Horizon Guides - expert guide to trekking in Kyrgyzstan
+      url: https://horizonguides.com/guides/trekking-in-kyrgyzstan
+  obscurity: 4
+  status: researching
+  notes: |
+    Central Asia still draws few foreign trekkers. Community tourism
+    model with yurts parallels Georgian homestays nicely.
+
+- slug: tour-of-monte-rosa
+  name: Tour of Monte Rosa
+  country: Switzerland
+  region: Pennine Alps (CH/IT)
+  coordinates: [46.0207, 7.7491]
+  style: hut-to-hut
+  accommodation: [hut, refuge, hotel]
+  pack_weight: light
+  length_km: 165
+  length_days: 10
+  elevation_gain_m: 12000
+  difficulty: very-hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Circumnavigates the second-highest massif in the Alps
+    - Seven of the ten highest Alpine peaks visible en route
+    - Italian Walser villages on the Macugnaga and Alagna sides
+    - Optional glacier crossing via the Theodulpass
+  downsides:
+    - Daily ascents regularly exceed 1000 m
+    - Theodulpass needs rope/crampons or a guide
+    - Weather windows shorten quickly in September
+  guide_links:
+    - title: Cicerone - Hiking the Tour of Monte Rosa guidebook page
+      url: https://www.cicerone.co.uk/hiking-the-tour-of-monte-rosa
+    - title: Much Better Adventures - guide to the Tour of Monte Rosa
+      url: https://www.muchbetteradventures.com/magazine/tour-of-monte-rosa-guide/
+    - title: The Hiking Club - Tour of Monte Rosa route and planning
+      url: https://www.thehiking.club/tour-of-monte-rosa
+  obscurity: 3
+  status: researching
+  notes: |
+    The "TMB but quiet" pitch — much less trafficked than the
+    namesake route next door. Glacier stretch pushes it toward the
+    harder end of what I'd want hut-to-hut.

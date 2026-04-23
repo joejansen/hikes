@@ -27,6 +27,9 @@ const FLAGS: Record<string, string> = {
   Austria: "🇦🇹",
   Germany: "🇩🇪",
   Portugal: "🇵🇹",
+  Albania: "🇦🇱",
+  Kosovo: "🇽🇰",
+  Montenegro: "🇲🇪",
 };
 
 export function countryFlag(country: string): string {
