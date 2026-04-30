@@ -1354,3 +1354,377 @@
     Use the famous Boquete-Cerro Punta crossing as the spine, then make
     the trip more hut-to-hut by sleeping in Cerro Punta, Volcán and
     Boquete with coffee/highland side walks between.
+
+- slug: torres-del-paine-w
+  name: Torres del Paine W Circuit
+  country: Chile
+  region: Magallanes (Patagonia)
+  coordinates: [-50.95, -73.40]
+  style: hut-to-hut
+  accommodation: [refuge, hotel]
+  pack_weight: light
+  length_km: 80
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - The Torres viewpoint at sunrise from Refugio Chileno
+    - French Valley amphitheatre and Glacier Grey along the western arm
+    - Refugio network with hot meals and showers — a real hut-to-hut, not a campout
+    - Connecting catamaran across Lake Pehoé adds to the logistics charm
+  downsides:
+    - The Patagonian classic — book Las Torres and Vertice refugios months ahead
+    - Two separate concessionaires fragment the booking process
+    - Wind can be brutal even mid-summer; bring real layers
+  guide_links:
+    - title: Worldly Adventurer - self-guided W Trek planning guide
+      url: https://worldlyadventurer.com/torres-del-paine-w-hike-without-tour/
+    - title: Destinationless Travel - complete 2026 W Trek guide
+      url: https://destinationlesstravel.com/torres-del-paine-w-trek/
+    - title: Swoop Patagonia - refugio-by-refugio breakdown
+      url: https://www.swoop-patagonia.com/chile/torres-del-paine/refugios
+    - title: Backcountry Emily - O & W campground/refugio comparison
+      url: https://backcountryemily.com/ocircuit-campground-guide/
+  obscurity: 1
+  status: researching
+  notes: ""
+
+- slug: nahuel-huapi-traverse
+  name: Nahuel Huapi Traverse (Four Refugios)
+  country: Argentina
+  region: Río Negro (Bariloche / Patagonia)
+  coordinates: [-41.16, -71.45]
+  style: hut-to-hut
+  accommodation: [refuge, hut]
+  pack_weight: light
+  length_km: 46
+  length_days: 5
+  elevation_gain_m: 3800
+  difficulty: hard
+  best_seasons: [December, January, February, March]
+  highlights:
+    - Links Refugios Frey, Jakob, Laguna Negra and Lopez through Nahuel Huapi NP
+    - Granite spires above Toncek lagoon at Refugio Frey rival the Dolomites
+    - Easy access from Bariloche — no expedition logistics
+    - Wine, pizza and cold beer at the refugios at the end of every day
+  downsides:
+    - Brecha Negra and Cancha de Tenis crossings involve loose rock and exposure
+    - Only Refugio Frey is reservable; others are first-come basis
+    - Weather windows on the high traverses are short and unpredictable
+  guide_links:
+    - title: Trek Bariloche - Nahuel Huapi Traverse stage-by-stage
+      url: https://trekbariloche.com/nahuel-huapi-traverse.php
+    - title: Sol Salute - local's guide to the four Bariloche refugios
+      url: https://solsalute.com/blog/bariloche-refugios/
+    - title: Bariloche Tourism - official Refugio Frey route page
+      url: https://barilocheturismo.gob.ar/en/frey-hut
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: quilotoa-loop
+  name: Quilotoa Loop
+  country: Ecuador
+  region: Cotopaxi Province (Andean highlands)
+  coordinates: [-0.85, -78.90]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Finishes at the turquoise crater lake of Laguna Quilotoa
+    - Llullu Llama in Isinlivi and Black Sheep Inn in Chugchilán are destinations in themselves
+    - Cheap, social guesthouses with home-cooked dinners every night
+    - Indigenous Kichwa villages, agave terraces and cloud forest in three short days
+  downsides:
+    - Trail signage is famously unreliable; offline GPS map essential
+    - Steep canyon descents and re-ascents on every stage
+    - High altitude (3000-3900 m) — needs a couple of days in Quito or Latacunga first
+  guide_links:
+    - title: Amanda Outside - ultimate guide with daily stages
+      url: https://amandaoutside.com/quilotoa-loop-ecuador/
+    - title: Laidback Trip - independent trekker's planning guide
+      url: https://www.laidbacktrip.com/posts/hiking-quilotoa-loop-ecuador
+    - title: Travel Outlandish - hostel-by-hostel where to stay guide
+      url: https://traveloutlandish.com/blog/where-to-stay-quilotoa-loop-hostels-hotels/
+    - title: Practical Wanderlust - "what NOT to do" trip report
+      url: https://practicalwanderlust.com/hiking-the-quilotoa-loop-ecuador/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: salkantay-lodge-to-lodge
+  name: Salkantay Lodge-to-Lodge to Machu Picchu
+  country: Peru
+  region: Cordillera Vilcabamba (Cusco)
+  coordinates: [-13.33, -72.55]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 63
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Salkantay, Wayra, Colpa and Lucma lodges with hot tubs, fireplaces and wine
+    - Crosses the 4630 m Salkantay Pass beneath glaciers
+    - Permit-free alternative to the bottlenecked classic Inca Trail
+    - Ends at Machu Picchu via the Llactapata viewpoint
+  downsides:
+    - Single-operator route (Mountain Lodges of Peru) — pricey and not bookable independently
+    - High-altitude pass requires real acclimatization in Cusco first
+    - Last day to Machu Picchu involves a train, not a continuous hike
+  guide_links:
+    - title: Mountain Lodges of Peru - official Salkantay lodge route
+      url: https://www.mountainlodgesofperu.com/
+    - title: Aracari - independent travel-advisor's writeup
+      url: https://www.aracari.com/travel-wisdom/peru-treks/lodge-to-lodge-salkantay-trek-to-machu-picchu/
+    - title: Zest in a Tote - first-person trip report with daily stages
+      url: https://zestinatote.com/salkantay-trek-mountain-lodges-peru/
+    - title: The Better Beyond - 7-day luxury trek trip report
+      url: https://thebetterbeyond.com/lodge-to-lodge-peru/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: ausangate-lodge-to-lodge
+  name: Ausangate Lodge-to-Lodge (Camino del Apu)
+  country: Peru
+  region: Cordillera Vilcanota (Cusco)
+  coordinates: [-13.78, -71.22]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 50
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: hard
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Four community-run tambos at 4350-4830 m — the highest lodge chain in the Andes
+    - Circles Apu Ausangate (6384 m) past glacial lakes and red-rock passes
+    - Quieter approach to Vinicunca (Rainbow Mountain) without the day-tripper crowd
+    - Lodges are managed by Chillca and Osefina herding communities
+  downsides:
+    - Altitude is genuinely serious — every overnight is above 4300 m
+    - Single operator (Andean Lodges) controls all four tambos
+    - No heating beyond fireplaces; nights are punishingly cold
+  guide_links:
+    - title: Andean Lodges - official 5-day Ausangate itinerary
+      url: https://andeanlodges.com/ausangate-5-day-route-best-itinerary/
+    - title: Switchback Travel - independent guide to the Ausangate Trek
+      url: https://www.switchbacktravel.com/ausangate-trek-peru
+    - title: The Road Les Traveled - Andean Lodges trip report
+      url: https://theroadlestraveled.com/andean-lodges-ausangate-trek-rainbow-mountain/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: lares-lodge-to-lodge
+  name: Lares Valley Lodge-to-Lodge to Machu Picchu
+  country: Peru
+  region: Cordillera Urubamba (Cusco)
+  coordinates: [-13.18, -72.04]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 30
+  length_days: 6
+  elevation_gain_m: 2000
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Huacahuasi Lodge co-owned with the local Quechua community
+    - Visits weaving villages of Cancha Cancha, Quishuarani and Huacahuasi
+    - Far quieter than the classic Inca Trail or Salkantay corridors
+    - Hot tubs at every lodge after long days at 4000+ m
+  downsides:
+    - Single-operator (Mountain Lodges of Peru) trip — not a DIY route
+    - Daily distances are short; this is a cultural/comfort trek, not an athletic one
+    - Like Salkantay, the final approach to Machu Picchu uses train transfers
+  guide_links:
+    - title: TrXperience - ultimate guide to the Lares Trek
+      url: https://trexperienceperu.com/blog/lares-trek
+    - title: Here and There Club - Mountain Lodges of Peru Lares trip report
+      url: https://www.hereandthere.club/p/mountain-lodges-of-peru-lares-adventure
+    - title: Chimu Adventures - 6-day Lares MLP itinerary
+      url: https://www.chimuadventures.com/en-us/peru/mountain-lodges-peru-lares-6-day
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: colca-canyon
+  name: Colca Canyon Trek (Cabanaconde to Sangalle)
+  country: Peru
+  region: Arequipa (Colca Canyon)
+  coordinates: [-15.62, -71.97]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, hut]
+  pack_weight: light
+  length_km: 22
+  length_days: 3
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October, November]
+  highlights:
+    - Sangalle Oasis at the canyon floor — palm trees and natural pools
+    - Andean condors riding morning thermals at Cruz del Condor
+    - Stone-and-thatch villages of San Juan de Chuccho and Cosñirhua
+    - Colca is roughly twice as deep as the Grand Canyon
+  downsides:
+    - Day 3 is a brutal 1100 m switchback climb out of the canyon at altitude
+    - Cabanaconde is a long bus ride from Arequipa
+    - Sangalle ecolodges are basic — cold-water rinses and dorm-style rooms
+  guide_links:
+    - title: Worldly Adventurer - complete 2026 Colca Canyon hiking guide
+      url: https://worldlyadventurer.com/hiking-the-colca-canyon-peru/
+    - title: 90 Summers - independent trekker's Colca Canyon trip report
+      url: https://90summers.com/colca-canyon-trek/
+    - title: Awaygowe - detailed Colca Canyon trek with what to expect
+      url: https://www.awaygowe.com/colca-canyon-trek/
+    - title: Places Without Doors - 3-day self-guided itinerary
+      url: https://www.placeswithoutdoors.com/en/peru/three-day-hike-colca-canyon/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: vale-do-pati
+  name: Vale do Pati
+  country: Brazil
+  region: Chapada Diamantina (Bahia)
+  coordinates: [-12.97, -41.50]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Homestays with the eleven remaining Pati Valley families — full board, no hotels
+    - Cachoeirão waterfall plunging hundreds of metres into the valley
+    - Morro do Castelo viewpoint at sunrise above a sea of cloud
+    - One of the few South American hut-to-hut hikes in the Brazilian sertão, not the Andes
+  downsides:
+    - Trail is muddy and leech-prone in the wet season (Nov-Apr)
+    - Some river crossings can run high after rain
+    - Cold-water bucket showers and shared dorm beds at most homestays
+  guide_links:
+    - title: Take Your Backpack - independent Vale do Pati hike guide
+      url: https://www.takeyourbackpack.com/backpacking-in-brazil/hike-vale-do-pati/
+    - title: Mi Mundo es Tu Mundo - first-person 4-day trip report
+      url: https://www.mimundoestumundo.com/new-blog-1/2018/11/12/vale-do-pat-trek
+    - title: Much Better Adventures - Vale do Pati hiking guide
+      url: https://www.muchbetteradventures.com/magazine/vale-do-pati-valley-treks/
+    - title: Vale do Pati Experience - local trekking association portal
+      url: https://valedopatiexperience.com.br/trekking-vale-do-pati-english/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: iruya-camino-del-inca
+  name: Iruya to Nazareno (El Otro Camino del Inca)
+  country: Argentina
+  region: Salta / Jujuy (NW Argentine Andes)
+  coordinates: [-22.75, -65.21]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 70
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Homestays with Kolla communities in San Juan, Chiyayoc and San Isidro
+    - Crosses Abra del Colorado and Abra del Cóndor (over 4000 m)
+    - Iruya itself is a cobbled cliff-edge village reached by a single 4x4 road
+    - Quechua-speaking valleys few foreign hikers ever set foot in
+  downsides:
+    - Multi-day stages with no English-language guidance — Spanish is essential
+    - Homestays are pre-arranged through Iruya operators, not walk-in
+    - Severe altitude with passes above 4000 m on most stages
+  guide_links:
+    - title: Andes Challenge - 4-day Iruya hiking tour itinerary
+      url: https://andeschallenge.com/en/hiking-tour-iruya/
+    - title: La Nación - Iruya a Nazareno travesía feature
+      url: https://www.lanacion.com.ar/turismo/el-otro-camino-del-inca-travesia-de-iruya-a-nazareno-en-salta-nid2317323/
+    - title: America Latina Travel - Iruya to La Quiaca circuit overview
+      url: https://americalatina.travel/esp/tourist-circuits-attractions/11-trekking-de-iruya-a-la-quiaca
+    - title: Poncho Tours - Inca trail in Argentina background
+      url: https://ponchotours.com/the-inca-trail-in-argentina/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: ciudad-perdida
+  name: Ciudad Perdida (Lost City) Trek
+  country: Colombia
+  region: Sierra Nevada de Santa Marta
+  coordinates: [11.04, -73.92]
+  style: hut-to-hut
+  accommodation: [hut, camping]
+  pack_weight: light
+  length_km: 46
+  length_days: 4
+  elevation_gain_m: 2300
+  difficulty: hard
+  best_seasons: [December, January, February, March]
+  highlights:
+    - 1200-step ascent to the Tairona terraces of Teyuna, predating Machu Picchu by 650 years
+    - Trailside camps with bunks, mosquito nets and full board — no tent required
+    - Visits Kogui and Wiwa indigenous villages along the Buritaca river
+    - Jungle, river swims and pre-Columbian terraces in one continuous walk
+  downsides:
+    - Must be done with a licensed operator — independent trekking is prohibited
+    - Humid, muddy and genuinely sweaty; clothes never dry
+    - Camps are dorm-style and pack out at peak season
+  guide_links:
+    - title: The World Travel Guy - independent blogger's 4-day trip report
+      url: https://theworldtravelguy.com/lost-city-trek-colombia/
+    - title: Wiwa Tour - operator run by indigenous Wiwa families
+      url: https://wiwatour.com/en/tours/lost-city-trek-colombia/
+    - title: Expedition Colombia - Lost City trek operator overview
+      url: https://expeditioncolombia.com/lost-city-trek/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: el-cocuy
+  name: El Cocuy National Park (Three-Trail Cabaña Tour)
+  country: Colombia
+  region: Boyacá (Sierra Nevada del Cocuy)
+  coordinates: [6.41, -72.30]
+  style: hut-to-hut
+  accommodation: [guesthouse, hut]
+  pack_weight: light
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [December, January, February, July, August]
+  highlights:
+    - Cabañas Kanwara, Guaicany and El Pulpito as trailhead bases for three day-hikes
+    - Glaciated peaks of Ritacuba Blanco and Pulpito del Diablo above 5000 m
+    - One of the last places in the tropical Andes to see real glaciers
+    - U'wa indigenous high-altitude páramo with frailejón forests
+  downsides:
+    - Park rules now forbid camping inside — you must base from trailhead cabañas
+    - Three separate out-and-back day hikes rather than a continuous traverse
+    - Park access has been intermittently closed for U'wa/government disputes
+  guide_links:
+    - title: Fun Life Crisis - guide to hiking El Cocuy National Park
+      url: https://funlifecrisis.com/el-cocuy-national-park-trek-colombia/
+    - title: Hike Bike Travel - 6-day Sierra Nevada del Cocuy trip report
+      url: https://hikebiketravel.com/the-fabulous-6-day-sierra-nevada-del-cocuy-trek/
+    - title: Thinking Nomads - El Cocuy independent trekker guide
+      url: https://thinkingnomads.com/elcocuy/
+  obscurity: 3
+  status: researching
+  notes: ""
