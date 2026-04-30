@@ -2761,3 +2761,395 @@
   obscurity: 3
   status: researching
   notes: ""
+
+- slug: overland-track
+  name: Overland Track
+  country: Australia
+  region: Tasmania (Cradle Mountain–Lake St Clair National Park)
+  coordinates: [-41.85, 146.1]
+  style: hut-to-hut
+  accommodation: [hut, camping]
+  pack_weight: either
+  length_km: 65
+  length_days: 7
+  elevation_gain_m: 4500
+  difficulty: hard
+  best_seasons: [November, December, January, February, March, April]
+  highlights:
+    - Cradle Mountain's iconic dolerite peaks and Dove Lake at the northern trailhead — one of Australia's most-photographed landscapes
+    - Well-spaced hut network (Waterfall Valley, Windermere, Pelion, Kia Ora) lets you walk without a tent if huts are booked
+    - Ancient pencil pine forests, buttongrass moorlands, alpine tarns, and glacial valleys in rapid succession
+    - Optional Cradle Mountain summit (1545m) adds a spectacular high point on Day 1
+    - Lake St Clair — Australia's deepest lake — at the southern finish, with a ferry option to close the loop in style
+  downsides:
+    - Tasmania's weather is famously capricious — snow, rain, and wind can arrive in any month
+    - Must be booked months ahead; the October booking window for the following summer fills within hours
+    - One-way trail requires a shuttle or return transport between the two trailheads
+  guide_links:
+    - title: Parks Tasmania — official Overland Track site
+      url: https://parks.tas.gov.au/
+    - title: Great Walks of Australia — Overland Track overview
+      url: https://greatwalksofaustralia.com.au/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: great-ocean-walk
+  name: Great Ocean Walk
+  country: Australia
+  region: Victoria (Great Otway National Park / Surf Coast)
+  coordinates: [-38.72, 143.38]
+  style: full-pack
+  accommodation: [camping, hotel, guesthouse]
+  pack_weight: either
+  length_km: 104
+  length_days: 8
+  elevation_gain_m: 2800
+  difficulty: moderate
+  best_seasons: [March, April, May, June, July, August, September, October, November]
+  highlights:
+    - Ends at the Twelve Apostles — Australia's most dramatic coastal rock stack formation
+    - Shipwreck Coast with over 600 recorded wrecks; the trail passes historic lighthouses and rust-red cliffs
+    - Otway Ranges rainforest (giant mountain ash, glow-worm gullies) contrasting with open coastal heath on the same day
+    - Tour operators offer luggage transfer between designated camp sites, making a lighter experience feasible
+    - The Great Ocean Road traffic disappears below; the trail runs wild above the tourist highway
+  downsides:
+    - Primarily a camping trail with designated Parks Victoria sites — not town-to-town B&B walking
+    - December–February fire danger closes sections; summer heat on exposed headlands is severe
+    - Some stages are exposed and waterless; the camp-site booking system is non-negotiable for thru-walkers
+  guide_links:
+    - title: Parks Victoria — Great Ocean Walk official page
+      url: https://www.parks.vic.gov.au/places-to-see/parks/great-otway-national-park/things-to-do/great-ocean-walk
+    - title: We Are Explorers — Great Ocean Walk trip report
+      url: https://weareexplorers.co/great-ocean-walk-victoria/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: bibbulmun-track
+  name: Bibbulmun Track
+  country: Australia
+  region: Southwest Western Australia
+  coordinates: [-33.4, 117.0]
+  style: full-pack
+  accommodation: [hut, camping]
+  pack_weight: full
+  length_km: 1003
+  length_days: 60
+  elevation_gain_m: 14000
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - 49 three-sided timber waugal shelters spaced a day's walk apart — the closest thing Australia has to an Alpine hut network
+    - Diverse southwest WA ecosystems from jarrah and karri forest to granite outcrops, coastal heath, and the Southern Ocean at Albany
+    - Trail towns including Dwellingup, Collie, Balingup, Pemberton, Northcliffe, Walpole, and Denmark each have pubs, shops, and local character
+    - One of the world's great long-distance thru-hike routes, largely unknown outside Australia
+    - Spring wildflowers (September–October) in the southwest are among the most biodiverse on Earth
+  downsides:
+    - At 1003km, this is a 6–8 week commitment — sections are possible but the full trail requires a sabbatical
+    - Summer heat (November–March) and fire danger make sections genuinely dangerous; snakes are active
+    - Waugal shelters are first-come-first-served; a tent is strongly recommended as backup
+  guide_links:
+    - title: Bibbulmun Track Foundation — official trail site
+      url: https://www.bibbulmuntrack.org.au/
+    - title: Trail Hiking Australia — Bibbulmun Track planning guide
+      url: https://www.trailhiking.com.au/hikes/bibbulmun-track/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: cape-to-cape-track
+  name: Cape to Cape Track
+  country: Australia
+  region: Margaret River, Western Australia
+  coordinates: [-33.96, 115.07]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse, camping]
+  pack_weight: light
+  length_km: 135
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Walks the length of the Margaret River wine region — cellar doors, restaurants, and farm stays within reach each evening
+    - Point-to-point from Cape Naturaliste lighthouse to Cape Leeuwin lighthouse, Australia's most south-westerly point
+    - Dramatic limestone sea cliffs, sea caves, and white-sand beaches along the Indian Ocean
+    - Light-pack feasible by staying at Margaret River-area B&Bs, farm stays, and cottages rather than designated camp sites
+    - Cape Leeuwin waterwheel and the meeting of the Indian and Southern Oceans at the southern finish
+  downsides:
+    - December–February heat on exposed coastal sections can be brutal; fire restrictions may close the trail
+    - Water is scarce between towns; carrying capacity matters even in cooler months
+    - Getting between the two cape trailheads requires a car shuttle or awkward public transport connections
+  guide_links:
+    - title: Cape to Cape Track — official trail site
+      url: https://www.capetocapetrack.com.au/
+    - title: Explore Parks WA — Cape to Cape Track trail page
+      url: https://exploreparks.dbca.wa.gov.au/trail/cape-cape-track
+    - title: Trail Hiking Australia — Cape to Cape Track planning guide
+      url: https://www.trailhiking.com.au/hikes/cape-to-cape-track/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: grampians-peaks-trail
+  name: Grampians Peaks Trail
+  country: Australia
+  region: Grampians, Victoria
+  coordinates: [-37.2, 142.5]
+  style: full-pack
+  accommodation: [camping]
+  pack_weight: full
+  length_km: 160
+  length_days: 13
+  elevation_gain_m: 8600
+  difficulty: hard
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Dramatic sandstone escarpments and bluffs across the full length of the Grampians range
+    - Bunjil's Shelter and other Jardwadjali and Djab wurrung Aboriginal rock art sites integrated into the route
+    - Spring wildflower displays — one of Victoria's most biodiverse floral regions
+    - Summit panoramas from Mt William (1167m), the highest point in the Grampians
+    - Designated eco-campsites with rainwater tanks and composting toilets along the full route
+  downsides:
+    - Exposed ridgelines make summer (December–February) dangerously hot; the trail is effectively off-limits then
+    - Water sources are scarce between designated camp sites; carrying capacity is critical
+    - Campsite bookings fill quickly; planning well in advance is essential
+  guide_links:
+    - title: Parks Victoria — Grampians Peaks Trail official page
+      url: https://www.parks.vic.gov.au/places-to-see/parks/grampians-national-park/things-to-do/grampians-peaks-trail
+    - title: Parks Victoria — Grampians Peaks Trail maps and downloads
+      url: https://www.parks.vic.gov.au/places-to-see/parks/grampians-national-park/things-to-do/grampians-peaks-trail/grampians-peaks-trail-maps-and-downloads
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: goldfields-track
+  name: Goldfields Track
+  country: Australia
+  region: Central Victoria
+  coordinates: [-37.1, 144.3]
+  style: mixed
+  accommodation: [hotel, bnb, guesthouse, camping]
+  pack_weight: light
+  length_km: 210
+  length_days: 14
+  elevation_gain_m: 4440
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Gold rush heritage through Creswick, Daylesford, Castlemaine, Maldon, and Harcourt — all within walking distance of the track
+    - Town-to-town structure allows light-pack walking with pub and guesthouse stays each night
+    - Diverse terrain from eucalypt forest and granite boulders to pastoral farmland and historic mine sites
+    - Spring wildflower displays in the ranges
+    - V/Line train access at both termini (Ballarat and Bendigo) and midway points — no car needed
+  downsides:
+    - Primarily marketed for mountain bikers; walkers are a secondary audience and some sections suit cyclists more than hikers
+    - Water sources sparse between towns — must carry 2+ litres; summer heat makes sections genuinely dangerous
+    - March flies can be relentless in early autumn on exposed sections
+  guide_links:
+    - title: Goldfields Track — official trail site (walking)
+      url: https://goldfieldstrack.com.au/walk/
+    - title: The Bushwalking Blog — Goldfields Track walker's write-up
+      url: https://www.bushwalkingblog.com.au/goldfields-track/
+    - title: We Are Explorers — Daylesford to Ballarat section trip report
+      url: https://weareexplorers.co/daylesford-to-ballarat-goldfields-track/
+    - title: Trail Hiking Australia — Goldfields Track planning guide
+      url: https://www.trailhiking.com.au/hikes/goldfields-track/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: queen-charlotte-track
+  name: Queen Charlotte Track
+  country: New Zealand
+  region: Marlborough Sounds
+  coordinates: [-41.1, 174.2]
+  style: hut-to-hut
+  accommodation: [hotel, guesthouse, bnb, camping]
+  pack_weight: light
+  length_km: 73.5
+  length_days: 4
+  elevation_gain_m: 2800
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March, April]
+  highlights:
+    - Water taxis transfer bags lodge-to-lodge each morning — you walk with a day pack only through the Marlborough Sounds
+    - Furneaux Lodge (1900s heritage) and Punga Cove Resort are genuine highlights as overnight stops, not just crash pads
+    - Constant views over Queen Charlotte and Kenepuru Sounds from the ridgeline — a sea of wooded inlets in every direction
+    - Ship Cove starting point has historical weight as Captain Cook's most-visited New Zealand anchorage
+    - Lochmara Lodge at the southern end doubles as a wildlife sanctuary — weka, kākā, and tuatara on-site
+  downsides:
+    - The track is shared with mountain bikers (banned only December 1–February 28 on the first section) — expect fast-moving riders outside that window
+    - Much of the walking is in dense coastal bush; the ridge panoramas are the exception, not the rule
+    - Popular and commercially well-packaged — feels more like a resort circuit than a wilderness trail in peak summer
+  guide_links:
+    - title: DOC — official Queen Charlotte Track page (stages, permits, transport)
+      url: https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/queen-charlotte-sound-totaranui-area/things-to-do/tracks/queen-charlotte-track/
+    - title: And Anyways — March 2024 lodge-to-lodge trip report with bag transfer experience
+      url: https://andanyways.com/2024/03/13/queen-charlotte-track/
+    - title: 9to5explorer — four-day trip report with daily stages and logistics
+      url: https://9to5explorer.com/2024/03/30/queen-charlotte-track/
+    - title: Never Ending Voyage — independent planning guide with itinerary, accommodation and water taxi tips
+      url: https://www.neverendingvoyage.com/queen-charlotte-track-new-zealand/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: banks-peninsula-track
+  name: Banks Peninsula Track
+  country: New Zealand
+  region: Canterbury (Banks Peninsula)
+  coordinates: [-43.82, 173.05]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March, April]
+  highlights:
+    - Private track across working farmland with farm-stay accommodation included in the track fee
+    - Dramatic volcanic coastal scenery — steep sea cliffs, secluded bays, and Akaroa Harbour views
+    - Hinewai Reserve on Day 3 is one of the finest native bush regeneration stories in New Zealand
+    - Circular route from Onuku near Akaroa — no shuttle required
+    - Short, intimate days (7–10km each) invite lingering over the scenery rather than racing to the next camp
+  downsides:
+    - Permit and accommodation must be booked through a single system; places are limited per night
+    - Steep coastal terrain means even these short days feel demanding on tired legs
+    - Akaroa is 1.5 hours from Christchurch — getting there is most of the travel effort
+  guide_links:
+    - title: Banks Peninsula Track — official site and booking
+      url: https://bankstrack.co.nz/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: paparoa-track
+  name: Paparoa Track (Pike29 Memorial Track)
+  country: New Zealand
+  region: West Coast, South Island
+  coordinates: [-42.15, 171.55]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 55.7
+  length_days: 3
+  elevation_gain_m: 1900
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March, April]
+  highlights:
+    - Ridge-top traverse of the Paparoa Range with panoramic Tasman Sea and Southern Alps views
+    - Descent through Pororari River Gorge — a limestone karst canyon on the final day
+    - Pike29 Memorial Track spur commemorates the 29 miners killed in the 2010 Pike River disaster
+    - Gold-mining history on the Croesus Track approach from Blackball — stamper batteries and collapsed shafts
+    - Ends steps from Punakaiki's famous Pancake Rocks and blowholes on the Tasman coast
+  downsides:
+    - West Coast rainfall averages ~6,000mm per year — rain is the norm, not the exception
+    - Rocky, rough underfoot on much of the ridge — hard on feet over a long day
+    - Huts sleep 20–28 and book out fast; no camping permitted, so bookings are non-negotiable
+  guide_links:
+    - title: DOC — official Paparoa Track page (stages, huts, booking)
+      url: https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/paparoa-national-park/things-to-do/tracks/paparoa-track/
+    - title: Jonty NZ — day-by-day September 2023 trip report
+      url: https://jontynz.com/2023/09/08/paparoa-track-smoke-ho-car-park-to-moonlight-tops-hut/
+    - title: NZ Pocket Guide — complete planning guide with stage breakdown
+      url: https://nzpocketguide.com/the-complete-guide-to-the-paparoa-track/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: hump-ridge-track
+  name: Hump Ridge Track
+  country: New Zealand
+  region: Southland (Fiordland edge)
+  coordinates: [-46.1, 167.5]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 61
+  length_days: 3
+  elevation_gain_m: 3700
+  difficulty: hard
+  best_seasons: [November, December, January, February, March, April]
+  highlights:
+    - Percy Burn Viaduct — the Southern Hemisphere's tallest surviving wooden railway viaduct (36m) deep in coastal beech forest
+    - Ridge-top traverse above the treeline with panoramic views over Te Waewae Bay and the Fiordland edge
+    - Well-equipped DOC Great Walk huts (Okaka Lodge and Port Craig Historic Village) with hot showers and gas cooking
+    - Subalpine tussock, old-growth beech forest, and a remote Southland coast all in a single three-day loop
+    - One of NZ's newest Great Walks (2022) — crowd levels remain modest by Great Walk standards
+  downsides:
+    - The ridge ascent on Day 1 is 1300m of sustained climbing — a hard day regardless of conditions
+    - Tuatapere is the nearest town, requiring a significant drive from Queenstown or Te Anau
+    - Weather in Southland is unpredictable; the exposed ridge is no place to be in a Fiordland storm
+  guide_links:
+    - title: Hump Ridge Track — official track site
+      url: https://www.humpridgetrack.co.nz/
+    - title: DOC — Hump Ridge Track Great Walk information
+      url: https://www.doc.govt.nz/hump-ridge-track/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: lake-waikaremoana
+  name: Lake Waikaremoana Track
+  country: New Zealand
+  region: Te Urewera, Hawke's Bay
+  coordinates: [-38.75, 177.07]
+  style: hut-to-hut
+  accommodation: [hut, camping]
+  pack_weight: light
+  length_km: 46
+  length_days: 4
+  elevation_gain_m: 1400
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March, April]
+  highlights:
+    - Panekiri Bluff (1180m) on Day 1 gives sweeping views over a lake so isolated it feels like another world
+    - Dense podocarp-beech forest and the quietest Great Walk on the North Island — far fewer visitors than the South Island tracks
+    - Te Urewera is the first landmass in the world granted its own legal personhood, managed by Tūhoe iwi
+    - Five DOC huts on the lake circuit, each with a distinct character and lake view
+    - Boat shuttle from Onepoto skips the road section and closes the journey on the water
+  downsides:
+    - Sandflies are relentless at the lakeside huts and camps
+    - The Wairaumoana road section at the southern end is an unavoidable tarmac walk unless you take the boat
+    - Remoteness is the appeal but also the constraint — Wairoa is 60km away with no services trailside
+  guide_links:
+    - title: DOC — Hawke's Bay walking and tramping (Lake Waikaremoana Great Walk)
+      url: https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: heaphy-track
+  name: Heaphy Track
+  country: New Zealand
+  region: Kahurangi National Park (Nelson / West Coast)
+  coordinates: [-40.98, 172.40]
+  style: hut-to-hut
+  accommodation: [hut, camping]
+  pack_weight: light
+  length_km: 82
+  length_days: 5
+  elevation_gain_m: 3800
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March, April]
+  highlights:
+    - Crosses six distinct ecosystems in one point-to-point walk — tussock downs, beech forest, and West Coast nikau palm groves
+    - The coastal finale along the Tasman Sea beneath nikau palms is one of the most surreal landscapes in New Zealand
+    - Gouland Downs — a high plateau with giant land snails and otherworldly sparse vegetation
+    - Ends at Karamea, an isolated West Coast community that feels genuinely off-grid
+    - Seven DOC Great Walk huts with the landscape changing completely between each one
+  downsides:
+    - "Transport logistics are the main challenge: both Collingwood and Karamea are remote and require shuttles"
+    - Sandflies on the coastal section can be relentless in calm weather
+    - The West Coast receives heavy rainfall; the coastal finale is exposed to wild Tasman weather
+  guide_links:
+    - title: Heaphy Track — dedicated trail information site
+      url: https://www.heaphytrack.com/
+    - title: DOC — Kahurangi National Park (Heaphy Track base)
+      url: https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park
+  obscurity: 2
+  status: researching
+  notes: ""
