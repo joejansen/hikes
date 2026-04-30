@@ -812,3 +812,496 @@
     section of Kuststigen. Set the bar for the kind of light-pack
     village-to-village hiking we now look for: small B&Bs, breakfast
     included, almost nothing on our backs.
+
+- slug: high-atlas-berber-villages
+  name: High Atlas Berber Villages Circuit
+  country: Morocco
+  region: High Atlas (Toubkal National Park)
+  coordinates: [31.13, -7.92]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 70
+  length_days: 6
+  elevation_gain_m: 4500
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - Sleep in family-run gîtes d'étape in walnut-shaded Berber villages most travellers never see
+    - Tagines and mint tea cooked by host families, not on a camp stove
+    - Crosses high passes (Tizi n'Tacheddirt, Tizi n'Ououraine) with full Toubkal massif views
+    - Optional Toubkal summit (4,167 m) bolts on cleanly without changing the village rhythm
+    - Mules carry the bags, so you walk light even on the long days
+  downsides:
+    - Lower-elevation villages can feel crowded with day-trippers from Marrakech
+    - Hiring a qualified mountain guide is effectively mandatory and adds real cost
+    - Gîte food is repetitive (tagine, omelette, bread) over a week
+  guide_links:
+    - title: The Hiking Life - independent hiker's guide to the Toubkal Circuit
+      url: https://www.thehikinglife.com/2018/03/toubkal-circuit-independent-hikers-guide/
+    - title: Then We Walked - Berber Villages Trek first-person trip report
+      url: https://thenwewalked.com/berber-villages-trek-marrakech/
+    - title: Planet of Adventures - 7-day unguided Toubkal Circuit with daily stages and photos
+      url: https://planetofadventures.com/7-day-trekking-mount-toubkal-circuit/
+    - title: Tourdust - trekker's tale of the 6-day Toubkal Circuit
+      url: https://www.tourdust.com/blog/posts/trekkers-tale-6-day-toubkal-circuit-review
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mgoun-traverse
+  name: M'Goun Traverse
+  country: Morocco
+  region: Central High Atlas (Aït Bouguemez)
+  coordinates: [31.65, -6.43]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, camping]
+  pack_weight: light
+  length_km: 80
+  length_days: 6
+  elevation_gain_m: 4200
+  difficulty: hard
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Starts in the Aït Bouguemez "Happy Valley" - mud-brick villages, terraced fields, almost no foreign trekkers
+    - Wading the M'Goun river gorges, hopping between canyon walls in ankle-deep water
+    - Optional summit of Jebel M'Goun (4,068 m), North Africa's second-highest peak
+    - Genuine homestay nights with Amazigh families on the entry/exit days
+    - Encounters with seasonal nomadic shepherds on the Tarkedit plateau
+  downsides:
+    - Higher passes mean more nights in camp tents than under a homestay roof
+    - Logistics (transfer to Aït Bouguemez, finding a muleteer) are harder than the Toubkal area
+    - Gorge wading is impassable after summer storms or in early season
+  guide_links:
+    - title: Journey Beyond Travel - first-person M'Goun and Ait Bouguemez trek report
+      url: https://www.journeybeyondtravel.com/blog/mgoun-ait-bouguemez-valley.html
+    - title: Walkopedia - M'Goun massif route description and walker reviews
+      url: https://www.walkopedia.net/best-world-walks/Morocco/M'goun-Massif
+    - title: MoroCult blog - M'Goun and Ait Bouguemez Valley personal account
+      url: http://morocult.blogspot.com/2012/12/mgoun-ait-bouguemez-valley.html
+    - title: Journey Beyond Travel - Ait Bougmez trekking overview and stages
+      url: https://www.journeybeyondtravel.com/morocco/trekking/ait-bougmez
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: sinai-trail
+  name: Sinai Trail (Nuweiba to St Katherine)
+  country: Egypt
+  region: South Sinai
+  coordinates: [28.85, 34.10]
+  style: hut-to-hut
+  accommodation: [homestay, camping, bivy]
+  pack_weight: light
+  length_km: 220
+  length_days: 12
+  elevation_gain_m: 6000
+  difficulty: hard
+  best_seasons: [March, April, October, November]
+  highlights:
+    - Walked exclusively on Bedouin-owned land with Bedouin guides from three (now eight) tribes
+    - Camels carry water and gear, so trekking is light over otherwise punishing desert terrain
+    - Sea-to-summit arc finishing on Jebel Katherine (2,629 m), Egypt's highest peak
+    - Sleeping under the stars in remote wadis with no light pollution and no other hikers
+    - Profits go directly to the Bedouin cooperative - rare community-tourism model that actually works
+  downsides:
+    - Long, hot, exposed walking days with very little shade and water rationed from camels
+    - South Sinai still carries travel-advisory caveats from some governments
+    - Food is simple (bread, beans, rice) for nearly two weeks straight
+  guide_links:
+    - title: Sinai Trail - official cooperative site, sections and booking
+      url: https://sinaitrail.net/
+    - title: National Geographic - hiking with Bedouin on Egypt's Sinai Trail
+      url: https://www.nationalgeographic.com/travel/article/egypt-trekking-with-bedouin-sinai-trail
+    - title: Adventures of Venus - 220km/12-day Nuweiba to St Katherine trip report
+      url: https://venusadventures.net/2016/12/20/the-sinai-trail-a-220km-hiking-odyssey-across-the-desert/
+    - title: Wanderlust of Dill - first-person Sinai Trail account with photos
+      url: https://wanderlustofdill.com/2018/01/12/the-sinai-trail/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: simien-mountains-trek
+  name: Simien Mountains Trek (Sankaber–Geech–Chenek)
+  country: Ethiopia
+  region: Amhara / Simien Mountains National Park
+  coordinates: [13.22, 38.07]
+  style: hut-to-hut
+  accommodation: [camping, hut, hotel]
+  pack_weight: light
+  length_km: 65
+  length_days: 4
+  elevation_gain_m: 2400
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March]
+  highlights:
+    - Troops of gelada monkeys grazing within feet of the trail
+    - Imet Gogo (3,926 m) viewpoint over the Simien escarpment
+    - Chance to spot endemic Walia ibex and Ethiopian wolf near Chenek
+    - Jinbar Falls plunging into the Geech Abyss
+    - Simien Lodge / community lodges break up the standard tented nights
+  downsides:
+    - Mostly tented camps; "lodge" nights require detours and add cost
+    - Mandatory armed scout, guide, cook, and mules add bureaucracy and expense
+    - Debark park-office logistics and rough road in/out eat a full day each side
+  guide_links:
+    - title: Uncharted Backpacker - independent trekking guide with stages and costs
+      url: https://www.unchartedbackpacker.com/trekking-guide-simien-mountains-national-park-ethiopia/
+    - title: Atlas & Boots - first-person Simien trek with photos and itinerary
+      url: https://www.atlasandboots.com/travel-blog/simien-mountains-trek/
+    - title: Brilliant Ethiopia - reference guide to Simien camps and routes
+      url: https://www.brilliant-ethiopia.com/national-parks/simien-mountains/trekking
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: tigray-gheralta-churches-trek
+  name: Tigray Rock-Hewn Churches Trek (Gheralta)
+  country: Ethiopia
+  region: Tigray / Gheralta
+  coordinates: [13.97, 39.18]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, hotel]
+  pack_weight: light
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March]
+  highlights:
+    - Vertiginous free-climb to Abuna Yemata Guh, painted onto a sandstone pinnacle
+    - Maryam and Daniel Korkor cut into a cliff ledge above the Hawzen plain
+    - Sandstone tower scenery comparable to Monument Valley
+    - Sleeping in TESFA-style community guesthouses on cliff edges
+    - Coffee ceremonies and injera with Tigrayan farming families
+  downsides:
+    - Travel safety in Tigray remains volatile post-2020 conflict; check status
+    - Several church climbs require head for heights and bare-foot scrambles
+    - Walking is broken up by jeep transfers; not a continuous wilderness route
+  guide_links:
+    - title: Atlas & Boots - hiking the Tigray churches with daily detail
+      url: https://www.atlasandboots.com/travel-blog/tigray-churches-ethiopia/
+    - title: Travel Wiser - 3-day Tigray rock-hewn churches itinerary
+      url: https://travelwiser.co/2018/04/08/tigray-ethiopia-3-day-guide/
+    - title: Leave Your Daily Hell - Abuna Yemata Guh first-person account
+      url: https://leaveyourdailyhell.com/2024/01/05/abuna-yemata-guh/
+    - title: TESFA Tours blog - community guesthouse trekking model
+      url: https://www.tesfatours.com/blog
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: rwenzori-central-circuit
+  name: Rwenzori Central Circuit
+  country: Uganda
+  region: Rwenzori Mountains National Park
+  coordinates: [0.37, 29.95]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 65
+  length_days: 7
+  elevation_gain_m: 4200
+  difficulty: very-hard
+  best_seasons: [June, July, August, December, January, February]
+  highlights:
+    - Margherita Peak (5,109 m) summit on Mount Stanley with glacier crossing
+    - Five distinct ecological zones from rainforest to Afro-alpine
+    - Surreal forests of giant lobelia and groundsel above Bujuku
+    - Wooden mountain huts (Nyabitaba, John Matte, Bujuku, Elena, Kitandara, Guy Yeoman)
+    - True wilderness; you may not see another foreign trekker for days
+  downsides:
+    - Notoriously muddy, knee-deep bog terrain even in "dry" months
+    - Summit day requires crampons, harness, and rope; not a pure hike
+    - Huts are basic, damp, and often crowded with porter teams
+    - High cost (USD 1,500+ park/operator fees) for a 7-day trek
+  guide_links:
+    - title: The Wanderlust - first-person summit day trip report
+      url: https://the-wanderlust.com/2022/06/rwenzori-mountains-summit-day-margherita-peak-5109-m-asl/
+    - title: Karisia Walking Safaris - 8-day trek trip report with daily stages
+      url: https://www.karisia.com/about-karisia/karisia-blog/2023/8/21/a-rwenzori-adventure-trip-report-8-days-up-to-margharita-peak-rwenzori-mountains-uganda
+    - title: Rwenzori Mountains National Park - official Central Circuit reference
+      url: https://www.rwenzorimountainsnationalpark.com/rwenzori-central-circuit-trail/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: usambara-village-walk
+  name: Usambara Mountains Village Walk (Lushoto–Mambo–Mtae)
+  country: Tanzania
+  region: West Usambara Mountains / Tanga
+  coordinates: [-4.62, 38.30]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 80
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [June, July, August, September, January, February]
+  highlights:
+    - Mambo Viewpoint cliff-edge over Mkomazi plain 1,000 m below
+    - Walking village-to-village through Wasambaa farms and pine forests
+    - Local-run cultural-tourism program; income stays in mountain villages
+    - Magamba rainforest with colobus monkeys and chameleons
+    - Daily 5-6 hr stages on dirt tracks; doable with a daypack
+  downsides:
+    - Guesthouses are simple; cold-bucket showers and intermittent power
+    - Trail follows roads and farm tracks more than singletrack
+    - Crowds of curious children can make solo solitude impossible
+  guide_links:
+    - title: Journey Era - solo Lushoto-to-Mtae 82.5 km trek with daily journals
+      url: https://www.journeyera.com/usambara-mountains-lushoto-to-mtae/
+    - title: Pin Your Footsteps - Lushoto to Mambo trek trip report
+      url: https://www.pinyourfootsteps.com/usambara-mountains-hiking-from-lushoto-to-mambo/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: mount-mulanje-circuit
+  name: Mount Mulanje Forestry Huts Circuit
+  country: Malawi
+  region: Mulanje Massif, Southern Region
+  coordinates: [-15.95, 35.6]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: hard
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Sky-island granite massif rising from Malawi's plains, with peaks like Sapitwa (3002m)
+    - Network of ten basic forestry huts (Chambe, Lichenya, Sombani, Madzeka, Chinzama, Thuchila) lets you string together flexible 4-7 day routes
+    - Wood fires, mattresses, and cooking gear at each hut so you only need a sleeping bag and food
+    - Guides and porters are mandatory and inexpensive, supporting the local economy directly
+    - Almost no other foreigners on trail outside peak weeks
+  downsides:
+    - Huts are very basic with hole-in-floor toilets and no electricity
+    - Sapitwa summit scramble and weather can turn dangerous fast (people have died lost in mist)
+    - Logistics rely on porter/guide booking through the Forestry Department in Likhubula
+  guide_links:
+    - title: Wandering Woods - Mt Mulanje trip report with porter logistics
+      url: https://www.wanderingwoods.org/blog/2015/5/17/climbing-mt-mulanje-malawi
+    - title: Nomadic by Nature - 4-day Mulanje trek with hut details and photos
+      url: https://nomadic-by-nature.com/trekking-mount-mulanje-swimming-holes-alpine-chalets/
+    - title: Realworld Adventures - Mulanje hut maps and route facts
+      url: https://realworldadventures.com/mulanje-maps-facts/
+    - title: That Travel - independent hiking guide to climbing Mulanje
+      url: https://thattravel.co.uk/climbing-mount-mulanje-in-malawi/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: otter-trail
+  name: Otter Trail
+  country: South Africa
+  region: Garden Route, Tsitsikamma
+  coordinates: [-34.04, 23.36]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: full
+  length_km: 45
+  length_days: 5
+  elevation_gain_m: 1700
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Five-day coastal traverse from Storms River Mouth to Nature's Valley with constant ocean views
+    - Four well-spaced overnight huts (Ngubu, Scott, Oakhurst, Andre) right on the coast
+    - Bloukrans River crossing timed to low tide is the iconic crux of the trail
+    - Afromontane forest, fynbos, dolphins, whales (in season), and otter sightings
+    - Strict 12-hiker-per-day cap keeps the trail feeling wild
+  downsides:
+    - Books out roughly a year in advance through SANParks
+    - You carry full pack including all five days of food; daily distances are short but undulating with relentless ascent/descent
+    - Bloukrans crossing requires accurate tide timing and can be hazardous in heavy seas
+  guide_links:
+    - title: Stingy Nomads - detailed independent guide and day-by-day breakdown
+      url: https://stingynomads.com/otter-hiking-trail-guide/
+    - title: A Backyard Hiker - first-person trip report with the rough bits
+      url: https://www.abackyardhiker.com/the-otter-trail-i-got-more-than-i-bargained-for/
+    - title: Conservation Mag - day-by-day account with photos
+      url: https://conservationmag.org/en/hiking/hiking-the-otter-trail-a-day-by-day-account-of-south-africa-s-most-iconic-trail
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: whale-trail
+  name: Whale Trail
+  country: South Africa
+  region: De Hoop Nature Reserve, Western Cape
+  coordinates: [-34.45, 20.45]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [June, July, August, September, October, November]
+  highlights:
+    - Land-based southern right whale watching from cliff-tops July-October
+    - Slackpacking format - gear is shuttled between cottages so you walk with a daypack
+    - Four well-equipped overnight cottages with hot showers, beds, and kitchens
+    - Diverse terrain from Potberg fynbos to limestone coast and beach walking at Koppie Alleen
+    - Bookings open well in advance and the trail is capped at 12 hikers, keeping it quiet
+  downsides:
+    - Day 1 over Potberg and the long beach day are still genuinely tiring (~16 km)
+    - One-way logistics requires a vehicle shuttle or pre-arrangement with the reserve
+    - Whales only present in winter/spring, so summer hikers miss the headline attraction
+  guide_links:
+    - title: Wanderlust Movement - 5-day Whale Trail trip report (Sept 2022)
+      url: https://www.wanderlustmovement.org/whale-trail-hike/
+    - title: Wanderlust Movement - everything-you-need-to-know planning guide
+      url: https://www.wanderlustmovement.org/whale-trail-hike-in-south-africa/
+    - title: CapeNature - official Whale Trail booking and route info
+      url: https://www.capenature.co.za/reserves/the-whale-trail
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: drakensberg-mnweni-circuit
+  name: Mnweni Circuit (Northern Drakensberg)
+  country: South Africa
+  region: uKhahlamba-Drakensberg, KwaZulu-Natal / Lesotho border
+  coordinates: [-28.85, 29.05]
+  style: hut-to-hut
+  accommodation: [bivy, camping]
+  pack_weight: full
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 2400
+  difficulty: very-hard
+  best_seasons: [April, May, September, October, November]
+  highlights:
+    - Wildest, least-regulated section of the Drakensberg - no permits beyond the Mnweni Cultural Centre fee
+    - Sleeping caves like Mponjwane (Rockeries), Shepherd's, and Ledgers right under the escarpment spires
+    - Pinnacles of Mnweni and the Rockeries are some of the most dramatic rock scenery in southern Africa
+    - Big-pass days up Rockeries and down Mnweni Pass gain/lose ~1000 m of escarpment in a single push
+    - Genuine wilderness feel - you can go days without seeing other hikers
+  downsides:
+    - Caves are exposed rock shelters - you carry a sleeping pad, bag, stove, and all food
+    - Weather on the escarpment can flip from sun to lightning, snow, or thick mist within an hour
+    - Navigation is on you (no marked trail above the contour path); a 1:50,000 map and prior Berg experience strongly recommended
+  guide_links:
+    - title: DrakensbergHiker - Mnweni Circuit full route description
+      url: https://www.drakensberghiker.co.za/mnweni-drakensberg-circuit-route-description/
+    - title: DrakensbergHiker - Northern Traverse route description (extended option)
+      url: https://www.drakensberghiker.co.za/drakensberg-northern-traverse-route-description/
+    - title: Wanderlust Movement - 3-day Mnweni Circuit trip report
+      url: https://www.wanderlustmovement.org/mnweni-hike-drakensberg/
+    - title: Hiking South Africa - introduction to Mnweni and cave logistics
+      url: https://hikingsouthafrica.co.za/blogs/trails/drakensberg-introduction-to-mnweni
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: santo-antao-village-trek
+  name: Santo Antão Village Trek
+  country: Cape Verde
+  region: Santo Antão
+  coordinates: [17.07, -25.13]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March, April, May, June]
+  highlights:
+    - Cova crater rim descent into the lush Paúl Valley terraces
+    - Fontainhas perched on a knife-edge ridge above the Atlantic
+    - Coastal cliff path Ponta do Sol to Cruzinha through tiny fishing hamlets
+    - Home-cooked cachupa and grogue hospitality in family-run pensões
+    - Dramatic mountain-meets-ocean scenery unlike anywhere else in West Africa
+  downsides:
+    - Steep cobblestone trails are knee-punishing on long descents
+    - Ferry from São Vicente can be cancelled in rough seas
+    - Limited English; Portuguese or Cape Verdean Creole helps a lot
+  guide_links:
+    - title: Indie Traveller - Santo Antão hiker's travel guide
+      url: https://www.indietraveller.co/santo-antao-travel-guide/
+    - title: Jan Adventures - first-person hiking Santo Antão trip report
+      url: https://janadventures.com/hiking-santo-antao-in-cabo-verde/
+    - title: My Travel Journal - favourite spots and hikes on Santo Antão
+      url: https://mytraveljournal-blog.com/spots-and-hikes-santo-antao/
+    - title: Cape Verde Islands - walking and relaxing in Santo Antão trip report
+      url: https://www.capeverdeislands.org/travelreports/walking-relaxing-santo-antao-sao-vicente/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: gr-r2-reunion-traverse
+  name: GR R2 Réunion Traverse
+  country: Réunion (France)
+  region: Indian Ocean - Mascarene Islands
+  coordinates: [-21.1, 55.5]
+  style: hut-to-hut
+  accommodation: [refuge, guesthouse]
+  pack_weight: light
+  length_km: 130
+  length_days: 11
+  elevation_gain_m: 9000
+  difficulty: very-hard
+  best_seasons: [May, June, July, August, September, October, November]
+  highlights:
+    - Dawn summit of Piton des Neiges (3070m), the highest peak in the Indian Ocean
+    - Crossing all three cirques - Mafate, Cilaos and Salazie - on a single line
+    - Roadless Mafate village gîtes accessible only on foot or by helicopter
+    - Active volcano Piton de la Fournaise crater views near journey's end
+    - Wild swings between rainforest, alpine ridge and lava field in a few days
+  downsides:
+    - 8,000-10,000m of cumulative climbing punishes the legs
+    - Gîtes book up months ahead in July-August French school holidays
+    - Cyclone-season weather (Dec-Apr) can shut the high passes for days
+  guide_links:
+    - title: Much Better Adventures - 100km GR-R2 first-person account
+      url: https://www.muchbetteradventures.com/magazine/reunion-island-gr-r2/
+    - title: Ze Caillou - detailed GR R2 itinerary and gîte logistics
+      url: https://zecaillou.com/en/grr2-trek-hike-in-la-reunion/
+    - title: Summit Cairn - 10-day Réunion crossing trip report
+      url: https://www.summitcairn.com/en/reunion-island-crossing/
+    - title: Coddiwomple Chronicles - multi-day hike through the cirques
+      url: https://www.coddichronicles.com/hike-reunion-island/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: cirque-de-mafate-loop
+  name: Cirque de Mafate Loop
+  country: Réunion (France)
+  region: Indian Ocean - Mascarene Islands
+  coordinates: [-21.05, 55.43]
+  style: hut-to-hut
+  accommodation: [guesthouse, refuge]
+  pack_weight: light
+  length_km: 50
+  length_days: 5
+  elevation_gain_m: 4000
+  difficulty: hard
+  best_seasons: [May, June, July, August, September, October, November]
+  highlights:
+    - Sleeping in eight roadless îlets (La Nouvelle, Marla, Roche Plate, Aurère, Grand Place, Îlet à Bourse, Îlet à Malheur, Îlet des Lataniers)
+    - Trois Roches waterfall and the Rivière des Galets canyon
+    - Half-board family-run gîtes serving cari and rougail by lamplight
+    - Helicopter resupply flights overhead - the cirque has zero road access
+    - Walls of the cirque rising 1,500m above the village rooftops
+  downsides:
+    - Relentless up-and-down between îlets; few flat sections
+    - Gîtes must be booked weeks to months ahead, especially in summer
+    - Most independent route info is in French, not English
+  guide_links:
+    - title: Ze Caillou - GR R3 tour of Cirque de Mafate detailed itinerary
+      url: https://zecaillou.com/en/grr3-trek-reunion-hike-mafate/
+    - title: Wanderlust Ale - first-person Mafate trek trip report
+      url: https://wanderlustale.com/en/a-trek-to-mafate-the-most-remote-cirque-on-reunion-island/
+    - title: Ngalawa Sailing - planning a multi-day hike in Mafate
+      url: https://ngalawasailing.wordpress.com/2017/10/31/planning-a-multi-day-hike-in-mafate/
+    - title: Wandertheke - 7-day Mafate cirque crossing with photos
+      url: http://www.wandertheke.de/Reunion/Mafate.html
+  obscurity: 3
+  status: researching
+  notes: ""
