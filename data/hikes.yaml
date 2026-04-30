@@ -1353,3 +1353,1411 @@
     More of a micro-trek than a route, but it fits the "not traditional"
     brief well: walk between minority villages, sleep locally, and use
     shuttles to widen the radius.
+- slug: high-atlas-berber-villages
+  name: High Atlas Berber Villages Circuit
+  country: Morocco
+  region: High Atlas (Toubkal National Park)
+  coordinates: [31.13, -7.92]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 70
+  length_days: 6
+  elevation_gain_m: 4500
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - Sleep in family-run gîtes d'étape in walnut-shaded Berber villages most travellers never see
+    - Tagines and mint tea cooked by host families, not on a camp stove
+    - Crosses high passes (Tizi n'Tacheddirt, Tizi n'Ououraine) with full Toubkal massif views
+    - Optional Toubkal summit (4,167 m) bolts on cleanly without changing the village rhythm
+    - Mules carry the bags, so you walk light even on the long days
+  downsides:
+    - Lower-elevation villages can feel crowded with day-trippers from Marrakech
+    - Hiring a qualified mountain guide is effectively mandatory and adds real cost
+    - Gîte food is repetitive (tagine, omelette, bread) over a week
+  guide_links:
+    - title: The Hiking Life - independent hiker's guide to the Toubkal Circuit
+      url: https://www.thehikinglife.com/2018/03/toubkal-circuit-independent-hikers-guide/
+    - title: Then We Walked - Berber Villages Trek first-person trip report
+      url: https://thenwewalked.com/berber-villages-trek-marrakech/
+    - title: Planet of Adventures - 7-day unguided Toubkal Circuit with daily stages and photos
+      url: https://planetofadventures.com/7-day-trekking-mount-toubkal-circuit/
+    - title: Tourdust - trekker's tale of the 6-day Toubkal Circuit
+      url: https://www.tourdust.com/blog/posts/trekkers-tale-6-day-toubkal-circuit-review
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mgoun-traverse
+  name: M'Goun Traverse
+  country: Morocco
+  region: Central High Atlas (Aït Bouguemez)
+  coordinates: [31.65, -6.43]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, camping]
+  pack_weight: light
+  length_km: 80
+  length_days: 6
+  elevation_gain_m: 4200
+  difficulty: hard
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Starts in the Aït Bouguemez "Happy Valley" - mud-brick villages, terraced fields, almost no foreign trekkers
+    - Wading the M'Goun river gorges, hopping between canyon walls in ankle-deep water
+    - Optional summit of Jebel M'Goun (4,068 m), North Africa's second-highest peak
+    - Genuine homestay nights with Amazigh families on the entry/exit days
+    - Encounters with seasonal nomadic shepherds on the Tarkedit plateau
+  downsides:
+    - Higher passes mean more nights in camp tents than under a homestay roof
+    - Logistics (transfer to Aït Bouguemez, finding a muleteer) are harder than the Toubkal area
+    - Gorge wading is impassable after summer storms or in early season
+  guide_links:
+    - title: Journey Beyond Travel - first-person M'Goun and Ait Bouguemez trek report
+      url: https://www.journeybeyondtravel.com/blog/mgoun-ait-bouguemez-valley.html
+    - title: Walkopedia - M'Goun massif route description and walker reviews
+      url: https://www.walkopedia.net/best-world-walks/Morocco/M'goun-Massif
+    - title: MoroCult blog - M'Goun and Ait Bouguemez Valley personal account
+      url: http://morocult.blogspot.com/2012/12/mgoun-ait-bouguemez-valley.html
+    - title: Journey Beyond Travel - Ait Bougmez trekking overview and stages
+      url: https://www.journeybeyondtravel.com/morocco/trekking/ait-bougmez
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: sinai-trail
+  name: Sinai Trail (Nuweiba to St Katherine)
+  country: Egypt
+  region: South Sinai
+  coordinates: [28.85, 34.10]
+  style: hut-to-hut
+  accommodation: [homestay, camping, bivy]
+  pack_weight: light
+  length_km: 220
+  length_days: 12
+  elevation_gain_m: 6000
+  difficulty: hard
+  best_seasons: [March, April, October, November]
+  highlights:
+    - Walked exclusively on Bedouin-owned land with Bedouin guides from three (now eight) tribes
+    - Camels carry water and gear, so trekking is light over otherwise punishing desert terrain
+    - Sea-to-summit arc finishing on Jebel Katherine (2,629 m), Egypt's highest peak
+    - Sleeping under the stars in remote wadis with no light pollution and no other hikers
+    - Profits go directly to the Bedouin cooperative - rare community-tourism model that actually works
+  downsides:
+    - Long, hot, exposed walking days with very little shade and water rationed from camels
+    - South Sinai still carries travel-advisory caveats from some governments
+    - Food is simple (bread, beans, rice) for nearly two weeks straight
+  guide_links:
+    - title: Sinai Trail - official cooperative site, sections and booking
+      url: https://sinaitrail.net/
+    - title: National Geographic - hiking with Bedouin on Egypt's Sinai Trail
+      url: https://www.nationalgeographic.com/travel/article/egypt-trekking-with-bedouin-sinai-trail
+    - title: Adventures of Venus - 220km/12-day Nuweiba to St Katherine trip report
+      url: https://venusadventures.net/2016/12/20/the-sinai-trail-a-220km-hiking-odyssey-across-the-desert/
+    - title: Wanderlust of Dill - first-person Sinai Trail account with photos
+      url: https://wanderlustofdill.com/2018/01/12/the-sinai-trail/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: simien-mountains-trek
+  name: Simien Mountains Trek (Sankaber–Geech–Chenek)
+  country: Ethiopia
+  region: Amhara / Simien Mountains National Park
+  coordinates: [13.22, 38.07]
+  style: hut-to-hut
+  accommodation: [camping, hut, hotel]
+  pack_weight: light
+  length_km: 65
+  length_days: 4
+  elevation_gain_m: 2400
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March]
+  highlights:
+    - Troops of gelada monkeys grazing within feet of the trail
+    - Imet Gogo (3,926 m) viewpoint over the Simien escarpment
+    - Chance to spot endemic Walia ibex and Ethiopian wolf near Chenek
+    - Jinbar Falls plunging into the Geech Abyss
+    - Simien Lodge / community lodges break up the standard tented nights
+  downsides:
+    - Mostly tented camps; "lodge" nights require detours and add cost
+    - Mandatory armed scout, guide, cook, and mules add bureaucracy and expense
+    - Debark park-office logistics and rough road in/out eat a full day each side
+  guide_links:
+    - title: Uncharted Backpacker - independent trekking guide with stages and costs
+      url: https://www.unchartedbackpacker.com/trekking-guide-simien-mountains-national-park-ethiopia/
+    - title: Atlas & Boots - first-person Simien trek with photos and itinerary
+      url: https://www.atlasandboots.com/travel-blog/simien-mountains-trek/
+    - title: Brilliant Ethiopia - reference guide to Simien camps and routes
+      url: https://www.brilliant-ethiopia.com/national-parks/simien-mountains/trekking
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: tigray-gheralta-churches-trek
+  name: Tigray Rock-Hewn Churches Trek (Gheralta)
+  country: Ethiopia
+  region: Tigray / Gheralta
+  coordinates: [13.97, 39.18]
+  style: mixed
+  accommodation: [guesthouse, homestay, hotel]
+  pack_weight: light
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March]
+  highlights:
+    - Vertiginous free-climb to Abuna Yemata Guh, painted onto a sandstone pinnacle
+    - Maryam and Daniel Korkor cut into a cliff ledge above the Hawzen plain
+    - Sandstone tower scenery comparable to Monument Valley
+    - Sleeping in TESFA-style community guesthouses on cliff edges
+    - Coffee ceremonies and injera with Tigrayan farming families
+  downsides:
+    - Travel safety in Tigray remains volatile post-2020 conflict; check status
+    - Several church climbs require head for heights and bare-foot scrambles
+    - Walking is broken up by jeep transfers; not a continuous wilderness route
+  guide_links:
+    - title: Atlas & Boots - hiking the Tigray churches with daily detail
+      url: https://www.atlasandboots.com/travel-blog/tigray-churches-ethiopia/
+    - title: Travel Wiser - 3-day Tigray rock-hewn churches itinerary
+      url: https://travelwiser.co/2018/04/08/tigray-ethiopia-3-day-guide/
+    - title: Leave Your Daily Hell - Abuna Yemata Guh first-person account
+      url: https://leaveyourdailyhell.com/2024/01/05/abuna-yemata-guh/
+    - title: TESFA Tours blog - community guesthouse trekking model
+      url: https://www.tesfatours.com/blog
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: rwenzori-central-circuit
+  name: Rwenzori Central Circuit
+  country: Uganda
+  region: Rwenzori Mountains National Park
+  coordinates: [0.37, 29.95]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 65
+  length_days: 7
+  elevation_gain_m: 4200
+  difficulty: very-hard
+  best_seasons: [June, July, August, December, January, February]
+  highlights:
+    - Margherita Peak (5,109 m) summit on Mount Stanley with glacier crossing
+    - Five distinct ecological zones from rainforest to Afro-alpine
+    - Surreal forests of giant lobelia and groundsel above Bujuku
+    - Wooden mountain huts (Nyabitaba, John Matte, Bujuku, Elena, Kitandara, Guy Yeoman)
+    - True wilderness; you may not see another foreign trekker for days
+  downsides:
+    - Notoriously muddy, knee-deep bog terrain even in "dry" months
+    - Summit day requires crampons, harness, and rope; not a pure hike
+    - Huts are basic, damp, and often crowded with porter teams
+    - High cost (USD 1,500+ park/operator fees) for a 7-day trek
+  guide_links:
+    - title: The Wanderlust - first-person summit day trip report
+      url: https://the-wanderlust.com/2022/06/rwenzori-mountains-summit-day-margherita-peak-5109-m-asl/
+    - title: Karisia Walking Safaris - 8-day trek trip report with daily stages
+      url: https://www.karisia.com/about-karisia/karisia-blog/2023/8/21/a-rwenzori-adventure-trip-report-8-days-up-to-margharita-peak-rwenzori-mountains-uganda
+    - title: Rwenzori Mountains National Park - official Central Circuit reference
+      url: https://www.rwenzorimountainsnationalpark.com/rwenzori-central-circuit-trail/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: usambara-village-walk
+  name: Usambara Mountains Village Walk (Lushoto–Mambo–Mtae)
+  country: Tanzania
+  region: West Usambara Mountains / Tanga
+  coordinates: [-4.62, 38.30]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 80
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [June, July, August, September, January, February]
+  highlights:
+    - Mambo Viewpoint cliff-edge over Mkomazi plain 1,000 m below
+    - Walking village-to-village through Wasambaa farms and pine forests
+    - Local-run cultural-tourism program; income stays in mountain villages
+    - Magamba rainforest with colobus monkeys and chameleons
+    - Daily 5-6 hr stages on dirt tracks; doable with a daypack
+  downsides:
+    - Guesthouses are simple; cold-bucket showers and intermittent power
+    - Trail follows roads and farm tracks more than singletrack
+    - Crowds of curious children can make solo solitude impossible
+  guide_links:
+    - title: Journey Era - solo Lushoto-to-Mtae 82.5 km trek with daily journals
+      url: https://www.journeyera.com/usambara-mountains-lushoto-to-mtae/
+    - title: Pin Your Footsteps - Lushoto to Mambo trek trip report
+      url: https://www.pinyourfootsteps.com/usambara-mountains-hiking-from-lushoto-to-mambo/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: mount-mulanje-circuit
+  name: Mount Mulanje Forestry Huts Circuit
+  country: Malawi
+  region: Mulanje Massif, Southern Region
+  coordinates: [-15.95, 35.6]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: hard
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Sky-island granite massif rising from Malawi's plains, with peaks like Sapitwa (3002m)
+    - Network of ten basic forestry huts (Chambe, Lichenya, Sombani, Madzeka, Chinzama, Thuchila) lets you string together flexible 4-7 day routes
+    - Wood fires, mattresses, and cooking gear at each hut so you only need a sleeping bag and food
+    - Guides and porters are mandatory and inexpensive, supporting the local economy directly
+    - Almost no other foreigners on trail outside peak weeks
+  downsides:
+    - Huts are very basic with hole-in-floor toilets and no electricity
+    - Sapitwa summit scramble and weather can turn dangerous fast (people have died lost in mist)
+    - Logistics rely on porter/guide booking through the Forestry Department in Likhubula
+  guide_links:
+    - title: Wandering Woods - Mt Mulanje trip report with porter logistics
+      url: https://www.wanderingwoods.org/blog/2015/5/17/climbing-mt-mulanje-malawi
+    - title: Nomadic by Nature - 4-day Mulanje trek with hut details and photos
+      url: https://nomadic-by-nature.com/trekking-mount-mulanje-swimming-holes-alpine-chalets/
+    - title: Realworld Adventures - Mulanje hut maps and route facts
+      url: https://realworldadventures.com/mulanje-maps-facts/
+    - title: That Travel - independent hiking guide to climbing Mulanje
+      url: https://thattravel.co.uk/climbing-mount-mulanje-in-malawi/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: otter-trail
+  name: Otter Trail
+  country: South Africa
+  region: Garden Route, Tsitsikamma
+  coordinates: [-34.04, 23.36]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: full
+  length_km: 45
+  length_days: 5
+  elevation_gain_m: 1700
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Five-day coastal traverse from Storms River Mouth to Nature's Valley with constant ocean views
+    - Four well-spaced overnight huts (Ngubu, Scott, Oakhurst, Andre) right on the coast
+    - Bloukrans River crossing timed to low tide is the iconic crux of the trail
+    - Afromontane forest, fynbos, dolphins, whales (in season), and otter sightings
+    - Strict 12-hiker-per-day cap keeps the trail feeling wild
+  downsides:
+    - Books out roughly a year in advance through SANParks
+    - You carry full pack including all five days of food; daily distances are short but undulating with relentless ascent/descent
+    - Bloukrans crossing requires accurate tide timing and can be hazardous in heavy seas
+  guide_links:
+    - title: Stingy Nomads - detailed independent guide and day-by-day breakdown
+      url: https://stingynomads.com/otter-hiking-trail-guide/
+    - title: A Backyard Hiker - first-person trip report with the rough bits
+      url: https://www.abackyardhiker.com/the-otter-trail-i-got-more-than-i-bargained-for/
+    - title: Conservation Mag - day-by-day account with photos
+      url: https://conservationmag.org/en/hiking/hiking-the-otter-trail-a-day-by-day-account-of-south-africa-s-most-iconic-trail
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: whale-trail
+  name: Whale Trail
+  country: South Africa
+  region: De Hoop Nature Reserve, Western Cape
+  coordinates: [-34.45, 20.45]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [June, July, August, September, October, November]
+  highlights:
+    - Land-based southern right whale watching from cliff-tops July-October
+    - Slackpacking format - gear is shuttled between cottages so you walk with a daypack
+    - Four well-equipped overnight cottages with hot showers, beds, and kitchens
+    - Diverse terrain from Potberg fynbos to limestone coast and beach walking at Koppie Alleen
+    - Bookings open well in advance and the trail is capped at 12 hikers, keeping it quiet
+  downsides:
+    - Day 1 over Potberg and the long beach day are still genuinely tiring (~16 km)
+    - One-way logistics requires a vehicle shuttle or pre-arrangement with the reserve
+    - Whales only present in winter/spring, so summer hikers miss the headline attraction
+  guide_links:
+    - title: Wanderlust Movement - 5-day Whale Trail trip report (Sept 2022)
+      url: https://www.wanderlustmovement.org/whale-trail-hike/
+    - title: Wanderlust Movement - everything-you-need-to-know planning guide
+      url: https://www.wanderlustmovement.org/whale-trail-hike-in-south-africa/
+    - title: CapeNature - official Whale Trail booking and route info
+      url: https://www.capenature.co.za/reserves/the-whale-trail
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: drakensberg-mnweni-circuit
+  name: Mnweni Circuit (Northern Drakensberg)
+  country: South Africa
+  region: uKhahlamba-Drakensberg, KwaZulu-Natal / Lesotho border
+  coordinates: [-28.85, 29.05]
+  style: full-pack
+  accommodation: [bivy, camping]
+  pack_weight: full
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 2400
+  difficulty: very-hard
+  best_seasons: [April, May, September, October, November]
+  highlights:
+    - Wildest, least-regulated section of the Drakensberg - no permits beyond the Mnweni Cultural Centre fee
+    - Sleeping caves like Mponjwane (Rockeries), Shepherd's, and Ledgers right under the escarpment spires
+    - Pinnacles of Mnweni and the Rockeries are some of the most dramatic rock scenery in southern Africa
+    - Big-pass days up Rockeries and down Mnweni Pass gain/lose ~1000 m of escarpment in a single push
+    - Genuine wilderness feel - you can go days without seeing other hikers
+  downsides:
+    - Caves are exposed rock shelters - you carry a sleeping pad, bag, stove, and all food
+    - Weather on the escarpment can flip from sun to lightning, snow, or thick mist within an hour
+    - Navigation is on you (no marked trail above the contour path); a 1:50,000 map and prior Berg experience strongly recommended
+  guide_links:
+    - title: DrakensbergHiker - Mnweni Circuit full route description
+      url: https://www.drakensberghiker.co.za/mnweni-drakensberg-circuit-route-description/
+    - title: DrakensbergHiker - Northern Traverse route description (extended option)
+      url: https://www.drakensberghiker.co.za/drakensberg-northern-traverse-route-description/
+    - title: Wanderlust Movement - 3-day Mnweni Circuit trip report
+      url: https://www.wanderlustmovement.org/mnweni-hike-drakensberg/
+    - title: Hiking South Africa - introduction to Mnweni and cave logistics
+      url: https://hikingsouthafrica.co.za/blogs/trails/drakensberg-introduction-to-mnweni
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: santo-antao-village-trek
+  name: Santo Antão Village Trek
+  country: Cape Verde
+  region: Santo Antão
+  coordinates: [17.07, -25.13]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March, April, May, June]
+  highlights:
+    - Cova crater rim descent into the lush Paúl Valley terraces
+    - Fontainhas perched on a knife-edge ridge above the Atlantic
+    - Coastal cliff path Ponta do Sol to Cruzinha through tiny fishing hamlets
+    - Home-cooked cachupa and grogue hospitality in family-run pensões
+    - Dramatic mountain-meets-ocean scenery unlike anywhere else in West Africa
+  downsides:
+    - Steep cobblestone trails are knee-punishing on long descents
+    - Ferry from São Vicente can be cancelled in rough seas
+    - Limited English; Portuguese or Cape Verdean Creole helps a lot
+  guide_links:
+    - title: Indie Traveller - Santo Antão hiker's travel guide
+      url: https://www.indietraveller.co/santo-antao-travel-guide/
+    - title: Jan Adventures - first-person hiking Santo Antão trip report
+      url: https://janadventures.com/hiking-santo-antao-in-cabo-verde/
+    - title: My Travel Journal - favourite spots and hikes on Santo Antão
+      url: https://mytraveljournal-blog.com/spots-and-hikes-santo-antao/
+    - title: Cape Verde Islands - walking and relaxing in Santo Antão trip report
+      url: https://www.capeverdeislands.org/travelreports/walking-relaxing-santo-antao-sao-vicente/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: gr-r2-reunion-traverse
+  name: GR R2 Réunion Traverse
+  country: Réunion (France)
+  region: Indian Ocean - Mascarene Islands
+  coordinates: [-21.1, 55.5]
+  style: hut-to-hut
+  accommodation: [refuge, guesthouse]
+  pack_weight: light
+  length_km: 130
+  length_days: 11
+  elevation_gain_m: 9000
+  difficulty: very-hard
+  best_seasons: [May, June, July, August, September, October, November]
+  highlights:
+    - Dawn summit of Piton des Neiges (3070m), the highest peak in the Indian Ocean
+    - Crossing all three cirques - Mafate, Cilaos and Salazie - on a single line
+    - Roadless Mafate village gîtes accessible only on foot or by helicopter
+    - Active volcano Piton de la Fournaise crater views near journey's end
+    - Wild swings between rainforest, alpine ridge and lava field in a few days
+  downsides:
+    - 8,000-10,000m of cumulative climbing punishes the legs
+    - Gîtes book up months ahead in July-August French school holidays
+    - Cyclone-season weather (Dec-Apr) can shut the high passes for days
+  guide_links:
+    - title: Much Better Adventures - 100km GR-R2 first-person account
+      url: https://www.muchbetteradventures.com/magazine/reunion-island-gr-r2/
+    - title: Ze Caillou - detailed GR R2 itinerary and gîte logistics
+      url: https://zecaillou.com/en/grr2-trek-hike-in-la-reunion/
+    - title: Summit Cairn - 10-day Réunion crossing trip report
+      url: https://www.summitcairn.com/en/reunion-island-crossing/
+    - title: Coddiwomple Chronicles - multi-day hike through the cirques
+      url: https://www.coddichronicles.com/hike-reunion-island/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: cirque-de-mafate-loop
+  name: Cirque de Mafate Loop
+  country: Réunion (France)
+  region: Indian Ocean - Mascarene Islands
+  coordinates: [-21.05, 55.43]
+  style: hut-to-hut
+  accommodation: [guesthouse, refuge]
+  pack_weight: light
+  length_km: 50
+  length_days: 5
+  elevation_gain_m: 4000
+  difficulty: hard
+  best_seasons: [May, June, July, August, September, October, November]
+  highlights:
+    - Sleeping in eight roadless îlets (La Nouvelle, Marla, Roche Plate, Aurère, Grand Place, Îlet à Bourse, Îlet à Malheur, Îlet des Lataniers)
+    - Trois Roches waterfall and the Rivière des Galets canyon
+    - Half-board family-run gîtes serving cari and rougail by lamplight
+    - Helicopter resupply flights overhead - the cirque has zero road access
+    - Walls of the cirque rising 1,500m above the village rooftops
+  downsides:
+    - Relentless up-and-down between îlets; few flat sections
+    - Gîtes must be booked weeks to months ahead, especially in summer
+    - Most independent route info is in French, not English
+  guide_links:
+    - title: Ze Caillou - GR R3 tour of Cirque de Mafate detailed itinerary
+      url: https://zecaillou.com/en/grr3-trek-reunion-hike-mafate/
+    - title: Wanderlust Ale - first-person Mafate trek trip report
+      url: https://wanderlustale.com/en/a-trek-to-mafate-the-most-remote-cirque-on-reunion-island/
+    - title: Ngalawa Sailing - planning a multi-day hike in Mafate
+      url: https://ngalawasailing.wordpress.com/2017/10/31/planning-a-multi-day-hike-in-mafate/
+    - title: Wandertheke - 7-day Mafate cirque crossing with photos
+      url: http://www.wandertheke.de/Reunion/Mafate.html
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: camino-del-mayab
+  name: Camino del Mayab
+  country: Mexico
+  region: Yucatán (Cenotes & Haciendas)
+  coordinates: [20.6500, -89.4500]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, camping]
+  pack_weight: light
+  length_km: 130
+  length_days: 5
+  elevation_gain_m: 600
+  difficulty: moderate
+  best_seasons: [January, February, March, November, December]
+  highlights:
+    - Maya community-to-community walking close to Mérida but far from the beach circuit
+    - Cenotes, hacienda ruins, old rail beds and milpa paths in one lowland route
+    - Community meals and local guides make it feel culturally rooted rather than packaged
+    - Hot-climate hut-to-hut option when mountain routes are snowed in elsewhere
+  downsides:
+    - Heat and sun exposure are the main difficulty, not elevation
+    - Accommodation and meals are community-coordinated; not a show-up-and-wing-it route
+    - Some road and farm-track walking between the prettier jungle/cenote sections
+  guide_links:
+    - title: Yucatán Travel - Mayab Pathway overview
+      url: https://yucatan.travel/en/experience/018-mayab-pathway/
+    - title: National Geographic - Camino del Mayab community trail feature
+      url: https://www.nationalgeographic.com/travel/article/yucatan-jungle-hike-maya-communities-mexico
+    - title: Yucatán Magazine - Hacienda Trail route background
+      url: https://yucatanmagazine.com/yucatan-hacienda-trail/
+  obscurity: 4
+  status: researching
+  notes: |
+    Strong candidate if "hut-to-hut" can mean homestays and arranged
+    community meals rather than mountain refuges. Likely best with the
+    local route organization instead of trying to independently book
+    every village stop.
+
+- slug: pueblos-mancomunados-oaxaca
+  name: Pueblos Mancomunados
+  country: Mexico
+  region: Sierra Norte de Oaxaca
+  coordinates: [17.1700, -96.3900]
+  style: hut-to-hut
+  accommodation: [hut, guesthouse, homestay]
+  pack_weight: light
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Zapotec village-to-village hiking with one of Mexico's clearest hut-to-hut setups
+    - Community cabins, local guides, shared meals and forest conservation in the same model
+    - Pine forest, cloud forest, mushrooms, medicinal plants and ridge viewpoints above Oaxaca
+    - Easy access from Oaxaca City while still feeling well off the standard tourist loop
+  downsides:
+    - Guided/community-managed logistics are part of the model; independent wandering is limited
+    - Cabins are comfortable but rustic, especially on cold high-elevation nights
+    - Some villages have sparse services outside the arranged ecotourism network
+  guide_links:
+    - title: ATMEX - Expediciones Sierra Norte profile
+      url: https://atmex.org/proveedor/expediciones-sierra-norte/
+    - title: Outdoor Project - Sierra Norte of Oaxaca route overview
+      url: https://www.outdoorproject.com/adventures/mexico/hikes/sierra-norte-oaxaca
+    - title: Two Wandering Soles - Pueblos Mancomunados hiking guide
+      url: https://www.twowanderingsoles.com/blog/hiking-oaxaca-mexico-sierra-norte-pueblos-mancomunados
+  obscurity: 4
+  status: researching
+  notes: |
+    Probably the best pure Mexico answer to this research prompt. The
+    infrastructure exists, the villages are the point of the walk, and
+    the route is short enough to pair with a longer Oaxaca trip.
+
+- slug: camino-iniciatico-sierra-gorda
+  name: Camino Iniciático de Santiago
+  country: Mexico
+  region: Sierra Gorda, Querétaro
+  coordinates: [21.1900, -99.4700]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, hut]
+  pack_weight: light
+  length_km: 127
+  length_days: 7
+  elevation_gain_m: 3300
+  difficulty: moderate
+  best_seasons: [January, February, March, April, October, November, December]
+  highlights:
+    - New pilgrim-style route through Pinal de Amoles, Landa de Matamoros and Jalpan de Serra
+    - Franciscan missions, waterfalls, community museums and Sierra Gorda village food
+    - Low-to-moderate daily stages with official tourism promotion and guide recommendations
+    - Querétaro has enough hotels/cabins to make this feel more practical than many Mexican mountain ideas
+  downsides:
+    - Still emerging; expect less on-the-ground trail culture than the Camino de Santiago name implies
+    - A certified guide is recommended, which may reduce spontaneity
+    - Some stages may include road or rural-track walking rather than dedicated trail
+  guide_links:
+    - title: Querétaro Travel - Camino Iniciático route brochure
+      url: https://queretaro.travel/wp-content/uploads/2026/01/Folleto-Camino-Iniciatico-v2_baja.pdf
+    - title: Querétaro Travel - Sierra Gorda ecotourism lodging guide
+      url: https://queretaro.travel/lugares/sierra-gorda-ecotourism-guide/?lang=en
+    - title: Puerto del Zopilote - Initiatory Path of St. James
+      url: https://puertodelzopilote.travel/en/theinitiatorypathofstjames
+  obscurity: 5
+  status: researching
+  notes: |
+    Intriguing because it is explicitly trying to be a Mexican Camino,
+    but in a region with real ecotourism lodging and attractive towns.
+    Needs a ground-truth check on waymarking before treating it as an
+    independent walk.
+
+- slug: ruta-del-cafe-chiapas
+  name: Ruta del Café del Soconusco
+  country: Mexico
+  region: Soconusco, Chiapas
+  coordinates: [15.0500, -92.1800]
+  style: mixed
+  accommodation: [hotel, guesthouse, hut]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [January, February, March, November, December]
+  highlights:
+    - Finca-to-finca coffee country on the green Pacific slope near Guatemala
+    - Historic estates such as Argovia, Hamburgo, Santo Domingo, San Francisco and La Chiripa
+    - Lodging, restaurants, coffee tours, birding and plantation trails already exist
+    - Tacaná views and a very different Chiapas experience from San Cristóbal or Palenque
+  downsides:
+    - Not a formal continuous walking route; would need a guide, custom transfers or careful route design
+    - Chiapas security and road conditions need a fresh check before committing
+    - Lower elevations can be hot and humid even in the dry season
+  guide_links:
+    - title: Destinos México - Ruta del Café in Chiapas
+      url: https://programadestinosmexico.com/en/ruta-del-cafe-en-chiapas/
+    - title: Viaja Bonito - Soconusco coffee haciendas route
+      url: https://www.viajabonito.mx/mexico/ruta-haciendas-cafe-cafetaleras-soconusco-chiapas/
+    - title: El Universal - coffee route overview
+      url: https://www.eluniversal.com.mx/articulo/english/2015/07/12/coffee-route-chiapas/
+  obscurity: 5
+  status: researching
+  notes: |
+    Creative rather than canonical: the right version is probably a
+    custom lodge-to-lodge itinerary using finca roads and local guides,
+    with short transfers where roads are unsafe or unpleasant to walk.
+
+- slug: los-tuxtlas-veracruz
+  name: Los Tuxtlas Biocultural Route
+  country: Mexico
+  region: Veracruz
+  coordinates: [18.4200, -95.0800]
+  style: mixed
+  accommodation: [hotel, guesthouse, hut]
+  pack_weight: light
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Tropical forest, Catemaco lagoon, Sontecomapan mangroves and Gulf beaches in one compact area
+    - Community ecotourism projects such as Selva del Marinero add real overnight potential
+    - Boat-assisted walking between Catemaco, Sontecomapan, Montepío and Roca Partida could be excellent
+    - Feels culturally and ecologically distinct from the usual Mexico hiking shortlist
+  downsides:
+    - Needs careful curation; some connections are roads or boat legs rather than pleasant footpaths
+    - Humidity, insects and mud can be intense outside the driest months
+    - Tourist infrastructure exists but is uneven, with some informal operators around Catemaco
+  guide_links:
+    - title: Rutas de Veracruz - Ruta de Los Tuxtlas
+      url: https://www.rutasdeveracruz.com.mx/ruta-de-los-tuxtlas/
+    - title: Enlace Ecológico - Selva de Los Tuxtlas and Catemaco itinerary
+      url: https://enlaceecologico.org/viajes/selva-de-los-tuxtlas-catemaco/
+    - title: Mexico Travel and Leisure - Sontecomapan mangroves guide
+      url: https://www.mexicotravelandleisure.com/blog/sontecomapan-mangroves/
+  obscurity: 5
+  status: researching
+  notes: |
+    The most improvised Mexico idea: not a "trek" yet, but the mix of
+    rainforest, water transport, small towns and eco-cabins could make
+    a memorable 3-5 day walking route with the right local operator.
+
+- slug: copper-canyon-villages
+  name: Copper Canyon Village Traverse
+  country: Mexico
+  region: Chihuahua
+  coordinates: [27.5000, -107.7500]
+  style: mixed
+  accommodation: [hotel, guesthouse, hut]
+  pack_weight: light
+  length_km: 75
+  length_days: 6
+  elevation_gain_m: 3600
+  difficulty: hard
+  best_seasons: [March, April, October, November]
+  highlights:
+    - Link Creel, Divisadero, Cerocahui, Urique and/or Batopilas with canyon hikes and train segments
+    - Massive elevation contrast between pine highlands and subtropical canyon bottoms
+    - Rarámuri cultural landscape, missions and old mining towns rather than a pure wilderness trek
+    - Lodges and hotels exist in the key villages, so a light-pack version is possible
+  downsides:
+    - Not suitable as an improvised solo independent trek; security and local access need expert handling
+    - Long transfers or Chepe train hops are part of the realistic itinerary
+    - Heat in canyon bottoms and cold at the rim can overlap in shoulder season
+  guide_links:
+    - title: Adventure Life - Copper Canyon lodging towns overview
+      url: https://www.adventure-life.com/travel/stories/copper-canyon
+    - title: Copper Canyon Lodges - Batopilas hiking experiences
+      url: https://coppercanyonlodges.com/experiencias-veredas-riverside/
+    - title: Copper Canyon Adventures - guided hiking and village excursions
+      url: https://www.coppercanyonadventures.com/great-day-hiking
+  obscurity: 3
+  status: researching
+  notes: |
+    Huge upside, but this only belongs on the list if treated as a guided
+    lodge-and-train traverse. The route should be planned around current
+    local advice, not just map curiosity.
+
+- slug: xela-to-lake-atitlan
+  name: Xela to Lake Atitlán
+  country: Guatemala
+  region: Western Highlands
+  coordinates: [14.7800, -91.3000]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 46
+  length_days: 3
+  elevation_gain_m: 1600
+  difficulty: moderate
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Walk from Quetzaltenango to Lake Atitlán instead of taking the shuttle
+    - Cloud forest, coffee groves, steep cornfields, villages and a sunrise finish above the lake
+    - Homestays, temascal, meals, guides and luggage drop are already organized by Quetzaltrekkers
+    - Short, high-reward introduction to Guatemalan town-to-town trekking
+  downsides:
+    - Popular by Guatemala trekking standards, especially with backpackers in Xela
+    - Route can be affected by local protests or road-access disruptions
+    - Sleeping is indoors but basic; trekkers still carry sleeping bag and mat
+  guide_links:
+    - title: Quetzaltrekkers - Xela to Lake Atitlán 3-day hike
+      url: https://www.quetzaltrekkers.com/xela/xela-lago-atitlan/
+    - title: Mayan Gateway - Trek Xela to Lake Atitlán
+      url: https://mayangateway.com/trek-xela-lake-atitlan/
+    - title: 5 Lost Together - Quetzaltrekkers trip report
+      url: https://www.5losttogether.com/xela-to-lake-atitlan-3-day-trek-with-quetzaltrekkers-in-2023/
+  obscurity: 2
+  status: researching
+  notes: |
+    The safest Guatemala recommendation because the logistics are proven.
+    Not obscure, but it cleanly satisfies the walk-between-communities
+    brief and ends somewhere worth lingering.
+
+- slug: nebaj-to-todos-santos
+  name: Nebaj to Todos Santos
+  country: Guatemala
+  region: Cuchumatanes
+  coordinates: [15.5000, -91.3600]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hotel]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 4000
+  difficulty: hard
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Remote Ixil and Mam highland walking across the highest non-volcanic range in Central America
+    - Community hostels, rustic huts, boutique hotels and family meals on organized versions
+    - Open altiplano, pine forest, cheese farms, Todos Santos textiles and serious cultural texture
+    - Far less trafficked than the Atitlán trek
+  downsides:
+    - Higher, colder and more committing than most Central America village walks
+    - Some vehicle hops are used between trailheads on standard itineraries
+    - Best with a specialist guide because remote communities and route access are sensitive
+  guide_links:
+    - title: Old Town Outfitters - Nebaj to Todos Santos Hut-to-Hotel Trek
+      url: https://adventureguatemala.com/tour/nebaj-todos-santos-hut-to-hotel
+    - title: Qué Pasa - trekking the Guatemalan Highlands
+      url: https://quepasa.gt/trekking-the-guatemalan-highlands-from-nebaj-to-todos-santos/
+    - title: Explorevia - 3-day Nebaj to Todos Santos homestay option
+      url: https://www.explorevia.com/guatemala/nebaj-to-todos-santos-3-day-trekking-adventure-homestays_p-19898
+  obscurity: 4
+  status: researching
+  notes: |
+    Best "next level" Guatemala option after Xela-Atitlán. More effort,
+    more altitude and more cultural depth, with enough hosted lodging to
+    stay in the hut-to-hut family.
+
+- slug: toledo-maya-villages
+  name: Toledo Maya Villages Walk
+  country: Belize
+  region: Toledo District
+  coordinates: [16.1800, -88.8000]
+  style: mixed
+  accommodation: [homestay, guesthouse, hut]
+  pack_weight: light
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Maya village homestays and guesthouses around Punta Gorda rather than resort Belize
+    - Forest trails, gravel village roads, caves, waterfalls and small archaeological sites
+    - Toledo Ecotourism Association and host-family networks give the idea a community base
+    - Easy to pair inland walking with Lubaantun, Nim Li Punit or Blue Creek
+  downsides:
+    - Public buses are sparse; a realistic route needs local coordination
+    - Humidity, mud and river crossings can complicate walking in the wet season
+    - Some village links are roads, so route quality will depend heavily on guide choice
+  guide_links:
+    - title: Toledo Ecotourism Association - community tourism program
+      url: https://belizemayatourism.org/
+    - title: My Guide Belize - Maya villages and host-family networks
+      url: https://www.myguidebelize.com/belize/culture-art/maya-village
+    - title: TIDE Tours - Toledo conservation and community tourism
+      url: https://tidetours.org/
+  obscurity: 5
+  status: researching
+  notes: |
+    A cultural walking circuit more than a signed trail. Worth pursuing
+    if the goal is creative, community-based travel with some hiking
+    each day and a real bed each night.
+
+- slug: miraflor-moropotente
+  name: Miraflor-Moropotente Reserve
+  country: Nicaragua
+  region: Estelí
+  coordinates: [13.2500, -86.2500]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hut]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Community-based cloud forest walking through coffee farms, orchids, viewpoints and waterfalls
+    - Homestays and finca lodges keep money close to the reserve communities
+    - Cooler northern highlands make this feel very different from Nicaragua's hotter volcano circuit
+    - Flexible 2-4 day format from Estelí with local guides
+  downsides:
+    - Trails can be muddy and informal; guide quality matters
+    - Lodging is rural and simple, often with limited electricity or hot water
+    - Less of a linear thru-hike than a stitched-together farm and forest circuit
+  guide_links:
+    - title: Visit Nicaragua - community-based rural tourism listings
+      url: https://www.visitanicaragua.com/en/community-based-rural-tourism/
+    - title: Info-Nicaragua - Miraflor-Moropotente Reserve guide
+      url: https://info-nicaragua.com/esteli/miraflor-moroponte-nature-reserve/
+    - title: Hola Hola Tours - Miraflor trekking homestay
+      url: https://www.holaholatours.com/services/esteli/miraflor-trekking-homestay
+  obscurity: 4
+  status: researching
+  notes: |
+    Very aligned with the brief: pleasant rural walking, coffee culture,
+    plenty of hosted stays, and still off the standard Granada/Ometepe
+    backpacker axis.
+
+- slug: pueblos-blancos-apoyo
+  name: Pueblos Blancos and Laguna de Apoyo
+  country: Nicaragua
+  region: Masaya / Granada
+  coordinates: [11.9200, -86.0600]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 40
+  length_days: 3
+  elevation_gain_m: 900
+  difficulty: easy
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Walkable craft towns, crater-rim viewpoints and Laguna de Apoyo swims close to Granada
+    - Catarina, San Juan de Oriente, Diriá, Diriomo, Niquinohomo and Masatepe offer varied village stops
+    - Pottery workshops, nurseries, markets and mirador cafes make the walking feel social and local
+    - Easy logistics and many guesthouses make this a gentle town-to-town experiment
+  downsides:
+    - More cultural ramble than trek; some links are paved roads with traffic
+    - Low challenge if the goal is a proper mountain route
+    - Needs careful routing around quieter back roads and crater paths to avoid busy roads
+  guide_links:
+    - title: Nicaragua Travels - Pueblos Blancos and Apoyo Lagoon
+      url: https://nicaragua-travels.com/granada-region/pueblos-blancos
+    - title: Visit Nicaragua - Apoyo and rural tourism context
+      url: https://www.visitanicaragua.com/en/community-based-rural-tourism/
+    - title: ViaNica - Laguna de Apoyo destination guide
+      url: https://vianica.com/go/specials/25-apoyo-lagoon-nicaragua
+  obscurity: 4
+  status: researching
+  notes: |
+    Included because the user asked for creative options. This is the
+    "pleasant walking between towns with swims and crafts" version, not
+    a wilderness hiking trip.
+
+- slug: ruta-de-las-flores
+  name: Ruta de las Flores
+  country: El Salvador
+  region: Apaneca-Ilamatepec Highlands
+  coordinates: [13.8700, -89.8000]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1100
+  difficulty: easy
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Coffee towns close enough for a village-to-village walking itinerary
+    - Nahuizalco, Salcoatitán, Juayúa, Apaneca, Ataco and Ahuachapán each have a distinct feel
+    - Waterfall hikes, weekend food fair, murals, coffee farms, hot springs and boutique guesthouses
+    - Good infrastructure but still more regional and grounded than the surf/volcano tourist circuit
+  downsides:
+    - The main road is not the point; use side paths, local trails and short bus hops where needed
+    - Weekends can be busy with domestic visitors
+    - Hiking is mostly day-walk add-ons rather than a single signed footpath
+  guide_links:
+    - title: Visit Centroamerica - Route of the Flowers
+      url: https://www.visitcentroamerica.com/en/visit/route-of-the-flowers/
+    - title: Visit El Salvador - Ruta de las Flores village guide
+      url: https://www.visitelsalvador.ai/blog/ruta-de-las-flores-guide-complet-villages
+    - title: Sally Sees - Ruta de las Flores travel guide
+      url: https://sallysees.com/ruta-de-las-flores-el-salvador/
+  obscurity: 3
+  status: researching
+  notes: |
+    Best framed as "slow travel on foot" rather than a thru-hike. The
+    payoff is towns, coffee and waterfalls, with buses available if a
+    road segment is dull or unsafe to walk.
+
+- slug: ruta-lenca-honduras
+  name: Ruta Lenca Highlands
+  country: Honduras
+  region: Lempira / Intibucá / La Paz
+  coordinates: [14.5000, -88.7000]
+  style: mixed
+  accommodation: [hotel, guesthouse, homestay]
+  pack_weight: light
+  length_km: 70
+  length_days: 5
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Gracias, La Campa, San Manuel Colohete, Yamaranguila, La Esperanza and Marcala as highland anchors
+    - Lenca pottery, markets, colonial churches, pine forest and coffee country
+    - Celaque National Park can add a serious mountain day above Gracias
+    - More authentic and less touristed than most Central America highland circuits
+  downsides:
+    - Not a formal walking trail; needs local guides and selective transfers
+    - Road conditions and Honduras safety context need a current check before planning
+    - Lodging clusters around towns, so daily stages may not naturally line up
+  guide_links:
+    - title: Honduras Travel - The Lenca Route
+      url: https://hondurastravel.com/the-lenca-route/
+    - title: Honduras Travel - La Esperanza travel guide
+      url: https://hondurastravel.com/la-esperanza-travel-guide/
+    - title: Hostelworld - Ecolodge Guancascos near Celaque
+      url: https://www.hostelworld.com/hostels/p/305434/ecolodge-guancascos/
+  obscurity: 5
+  status: researching
+  notes: |
+    Worth keeping because it has the exact cultural ingredients the
+    prompt asked for, but it is a custom guided itinerary rather than
+    a route to download and follow.
+
+- slug: camino-de-costa-rica
+  name: El Camino de Costa Rica
+  country: Costa Rica
+  region: Caribbean to Pacific
+  coordinates: [9.8000, -83.7000]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hotel, camping]
+  pack_weight: light
+  length_km: 280
+  length_days: 16
+  elevation_gain_m: 8500
+  difficulty: hard
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Established coast-to-coast route from the Caribbean side to Quepos on the Pacific
+    - Sixteen stages through banana lowlands, rainforest, coffee regions and rural communities
+    - Community homes, small hostels and campsites make it a true Central American hut-to-hut analogue
+    - Waymarking, stage information and lodging resources are unusually mature for the region
+  downsides:
+    - Long and physically sustained; not a casual village-walk vacation
+    - Some accommodations require advance reservations and indigenous-guide coordination
+    - Wet-season mud and river conditions can make this much harder
+  guide_links:
+    - title: El Camino de Costa Rica - official home
+      url: https://caminodecostarica.org/
+    - title: El Camino de Costa Rica - trail stages
+      url: https://caminodecostarica.org/discover/trail-stages/
+    - title: Camino de Costa Rica Lodging - accommodation planner
+      url: https://www.caminodecostaricalodging.com/accommodations/
+  obscurity: 2
+  status: researching
+  notes: |
+    The most developed Central America answer. It may be less "off the
+    beaten path" than the improvised routes, but the community lodging
+    and coast-to-coast structure make it a benchmark candidate.
+
+- slug: chiriqui-highlands-quetzales
+  name: Chiriquí Highlands via Los Quetzales
+  country: Panama
+  region: Boquete / Volcán / Cerro Punta
+  coordinates: [8.8200, -82.5300]
+  style: hut-to-hut
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Los Quetzales Trail links Boquete and Cerro Punta through Barú Volcano National Park
+    - Cloud forest, coffee estates, cool highland towns and strong lodging infrastructure
+    - Volcán and Cerro Punta are quieter and more local than Boquete's expat/backpacker scene
+    - Easy to build a 3-5 day light-pack itinerary with short transfers at the trailheads
+  downsides:
+    - The core Los Quetzales crossing is a day hike, so extra town-to-town days are custom additions
+    - Trails around Boquete have a real getting-lost history; use guides for anything beyond marked routes
+    - Rain and mud are common even in better months
+  guide_links:
+    - title: Anywhere - Los Quetzales Trail guide
+      url: https://www.anywhere.com/panama/attractions/los-quetzales-trail-hike
+    - title: Valle Escondido - Boquete and Cerro Punta Quetzal Trail
+      url: https://www.valleescondidoboquete.com/es/boquete/sendero-de-los-quetzalez-boquete/
+    - title: Take Your Backpack - Chiriquí Highlands travel guide
+      url: https://www.takeyourbackpack.com/backpacking-in-panama/visit-chiriqui-highlands/
+  obscurity: 3
+  status: researching
+  notes: |
+    Use the famous Boquete-Cerro Punta crossing as the spine, then make
+    the trip more hut-to-hut by sleeping in Cerro Punta, Volcán and
+    Boquete with coffee/highland side walks between.
+
+- slug: torres-del-paine-w
+  name: Torres del Paine W Circuit
+  country: Chile
+  region: Magallanes (Patagonia)
+  coordinates: [-50.95, -73.40]
+  style: hut-to-hut
+  accommodation: [refuge, hotel]
+  pack_weight: light
+  length_km: 80
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - The Torres viewpoint at sunrise from Refugio Chileno
+    - French Valley amphitheatre and Glacier Grey along the western arm
+    - Refugio network with hot meals and showers — a real hut-to-hut, not a campout
+    - Connecting catamaran across Lake Pehoé adds to the logistics charm
+  downsides:
+    - The Patagonian classic — book Las Torres and Vertice refugios months ahead
+    - Two separate concessionaires fragment the booking process
+    - Wind can be brutal even mid-summer; bring real layers
+  guide_links:
+    - title: Worldly Adventurer - self-guided W Trek planning guide
+      url: https://worldlyadventurer.com/torres-del-paine-w-hike-without-tour/
+    - title: Destinationless Travel - complete 2026 W Trek guide
+      url: https://destinationlesstravel.com/torres-del-paine-w-trek/
+    - title: Swoop Patagonia - refugio-by-refugio breakdown
+      url: https://www.swoop-patagonia.com/chile/torres-del-paine/refugios
+    - title: Backcountry Emily - O & W campground/refugio comparison
+      url: https://backcountryemily.com/ocircuit-campground-guide/
+  obscurity: 1
+  status: researching
+  notes: ""
+
+- slug: nahuel-huapi-traverse
+  name: Nahuel Huapi Traverse (Four Refugios)
+  country: Argentina
+  region: Río Negro (Bariloche / Patagonia)
+  coordinates: [-41.16, -71.45]
+  style: hut-to-hut
+  accommodation: [refuge, hut]
+  pack_weight: light
+  length_km: 46
+  length_days: 5
+  elevation_gain_m: 3800
+  difficulty: hard
+  best_seasons: [December, January, February, March]
+  highlights:
+    - Links Refugios Frey, Jakob, Laguna Negra and Lopez through Nahuel Huapi NP
+    - Granite spires above Toncek lagoon at Refugio Frey rival the Dolomites
+    - Easy access from Bariloche — no expedition logistics
+    - Wine, pizza and cold beer at the refugios at the end of every day
+  downsides:
+    - Brecha Negra and Cancha de Tenis crossings involve loose rock and exposure
+    - Only Refugio Frey is reservable; others are first-come basis
+    - Weather windows on the high traverses are short and unpredictable
+  guide_links:
+    - title: Trek Bariloche - Nahuel Huapi Traverse stage-by-stage
+      url: https://trekbariloche.com/nahuel-huapi-traverse.php
+    - title: Sol Salute - local's guide to the four Bariloche refugios
+      url: https://solsalute.com/blog/bariloche-refugios/
+    - title: Bariloche Tourism - official Refugio Frey route page
+      url: https://barilocheturismo.gob.ar/en/frey-hut
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: quilotoa-loop
+  name: Quilotoa Loop
+  country: Ecuador
+  region: Cotopaxi Province (Andean highlands)
+  coordinates: [-0.85, -78.90]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Finishes at the turquoise crater lake of Laguna Quilotoa
+    - Llullu Llama in Isinlivi and Black Sheep Inn in Chugchilán are destinations in themselves
+    - Cheap, social guesthouses with home-cooked dinners every night
+    - Indigenous Kichwa villages, agave terraces and cloud forest in three short days
+  downsides:
+    - Trail signage is famously unreliable; offline GPS map essential
+    - Steep canyon descents and re-ascents on every stage
+    - High altitude (3000-3900 m) — needs a couple of days in Quito or Latacunga first
+  guide_links:
+    - title: Amanda Outside - ultimate guide with daily stages
+      url: https://amandaoutside.com/quilotoa-loop-ecuador/
+    - title: Laidback Trip - independent trekker's planning guide
+      url: https://www.laidbacktrip.com/posts/hiking-quilotoa-loop-ecuador
+    - title: Travel Outlandish - hostel-by-hostel where to stay guide
+      url: https://traveloutlandish.com/blog/where-to-stay-quilotoa-loop-hostels-hotels/
+    - title: Practical Wanderlust - "what NOT to do" trip report
+      url: https://practicalwanderlust.com/hiking-the-quilotoa-loop-ecuador/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: salkantay-lodge-to-lodge
+  name: Salkantay Lodge-to-Lodge to Machu Picchu
+  country: Peru
+  region: Cordillera Vilcabamba (Cusco)
+  coordinates: [-13.33, -72.55]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 63
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Salkantay, Wayra, Colpa and Lucma lodges with hot tubs, fireplaces and wine
+    - Crosses the 4630 m Salkantay Pass beneath glaciers
+    - Permit-free alternative to the bottlenecked classic Inca Trail
+    - Ends at Machu Picchu via the Llactapata viewpoint
+  downsides:
+    - Single-operator route (Mountain Lodges of Peru) — pricey and not bookable independently
+    - High-altitude pass requires real acclimatization in Cusco first
+    - Last day to Machu Picchu involves a train, not a continuous hike
+  guide_links:
+    - title: Mountain Lodges of Peru - official Salkantay lodge route
+      url: https://www.mountainlodgesofperu.com/
+    - title: Aracari - independent travel-advisor's writeup
+      url: https://www.aracari.com/travel-wisdom/peru-treks/lodge-to-lodge-salkantay-trek-to-machu-picchu/
+    - title: Zest in a Tote - first-person trip report with daily stages
+      url: https://zestinatote.com/salkantay-trek-mountain-lodges-peru/
+    - title: The Better Beyond - 7-day luxury trek trip report
+      url: https://thebetterbeyond.com/lodge-to-lodge-peru/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: ausangate-lodge-to-lodge
+  name: Ausangate Lodge-to-Lodge (Camino del Apu)
+  country: Peru
+  region: Cordillera Vilcanota (Cusco)
+  coordinates: [-13.78, -71.22]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 50
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: hard
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Four community-run tambos at 4350-4830 m — the highest lodge chain in the Andes
+    - Circles Apu Ausangate (6384 m) past glacial lakes and red-rock passes
+    - Quieter approach to Vinicunca (Rainbow Mountain) without the day-tripper crowd
+    - Lodges are managed by Chillca and Osefina herding communities
+  downsides:
+    - Altitude is genuinely serious — every overnight is above 4300 m
+    - Single operator (Andean Lodges) controls all four tambos
+    - No heating beyond fireplaces; nights are punishingly cold
+  guide_links:
+    - title: Andean Lodges - official 5-day Ausangate itinerary
+      url: https://andeanlodges.com/ausangate-5-day-route-best-itinerary/
+    - title: Switchback Travel - independent guide to the Ausangate Trek
+      url: https://www.switchbacktravel.com/ausangate-trek-peru
+    - title: The Road Les Traveled - Andean Lodges trip report
+      url: https://theroadlestraveled.com/andean-lodges-ausangate-trek-rainbow-mountain/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: lares-lodge-to-lodge
+  name: Lares Valley Lodge-to-Lodge to Machu Picchu
+  country: Peru
+  region: Cordillera Urubamba (Cusco)
+  coordinates: [-13.18, -72.04]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 30
+  length_days: 6
+  elevation_gain_m: 2000
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Huacahuasi Lodge co-owned with the local Quechua community
+    - Visits weaving villages of Cancha Cancha, Quishuarani and Huacahuasi
+    - Far quieter than the classic Inca Trail or Salkantay corridors
+    - Hot tubs at every lodge after long days at 4000+ m
+  downsides:
+    - Single-operator (Mountain Lodges of Peru) trip — not a DIY route
+    - Daily distances are short; this is a cultural/comfort trek, not an athletic one
+    - Like Salkantay, the final approach to Machu Picchu uses train transfers
+  guide_links:
+    - title: TrXperience - ultimate guide to the Lares Trek
+      url: https://trexperienceperu.com/blog/lares-trek
+    - title: Here and There Club - Mountain Lodges of Peru Lares trip report
+      url: https://www.hereandthere.club/p/mountain-lodges-of-peru-lares-adventure
+    - title: Chimu Adventures - 6-day Lares MLP itinerary
+      url: https://www.chimuadventures.com/en-us/peru/mountain-lodges-peru-lares-6-day
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: colca-canyon
+  name: Colca Canyon Trek (Cabanaconde to Sangalle)
+  country: Peru
+  region: Arequipa (Colca Canyon)
+  coordinates: [-15.62, -71.97]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, hut]
+  pack_weight: light
+  length_km: 22
+  length_days: 3
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October, November]
+  highlights:
+    - Sangalle Oasis at the canyon floor — palm trees and natural pools
+    - Andean condors riding morning thermals at Cruz del Condor
+    - Stone-and-thatch villages of San Juan de Chuccho and Cosñirhua
+    - Colca is roughly twice as deep as the Grand Canyon
+  downsides:
+    - Day 3 is a brutal 1100 m switchback climb out of the canyon at altitude
+    - Cabanaconde is a long bus ride from Arequipa
+    - Sangalle ecolodges are basic — cold-water rinses and dorm-style rooms
+  guide_links:
+    - title: Worldly Adventurer - complete 2026 Colca Canyon hiking guide
+      url: https://worldlyadventurer.com/hiking-the-colca-canyon-peru/
+    - title: 90 Summers - independent trekker's Colca Canyon trip report
+      url: https://90summers.com/colca-canyon-trek/
+    - title: Awaygowe - detailed Colca Canyon trek with what to expect
+      url: https://www.awaygowe.com/colca-canyon-trek/
+    - title: Places Without Doors - 3-day self-guided itinerary
+      url: https://www.placeswithoutdoors.com/en/peru/three-day-hike-colca-canyon/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: vale-do-pati
+  name: Vale do Pati
+  country: Brazil
+  region: Chapada Diamantina (Bahia)
+  coordinates: [-12.97, -41.50]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Homestays with the eleven remaining Pati Valley families — full board, no hotels
+    - Cachoeirão waterfall plunging hundreds of metres into the valley
+    - Morro do Castelo viewpoint at sunrise above a sea of cloud
+    - One of the few South American hut-to-hut hikes in the Brazilian sertão, not the Andes
+  downsides:
+    - Trail is muddy and leech-prone in the wet season (Nov-Apr)
+    - Some river crossings can run high after rain
+    - Cold-water bucket showers and shared dorm beds at most homestays
+  guide_links:
+    - title: Take Your Backpack - independent Vale do Pati hike guide
+      url: https://www.takeyourbackpack.com/backpacking-in-brazil/hike-vale-do-pati/
+    - title: Mi Mundo es Tu Mundo - first-person 4-day trip report
+      url: https://www.mimundoestumundo.com/new-blog-1/2018/11/12/vale-do-pat-trek
+    - title: Much Better Adventures - Vale do Pati hiking guide
+      url: https://www.muchbetteradventures.com/magazine/vale-do-pati-valley-treks/
+    - title: Vale do Pati Experience - local trekking association portal
+      url: https://valedopatiexperience.com.br/trekking-vale-do-pati-english/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: iruya-camino-del-inca
+  name: Iruya to Nazareno (El Otro Camino del Inca)
+  country: Argentina
+  region: Salta / Jujuy (NW Argentine Andes)
+  coordinates: [-22.75, -65.21]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 70
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Homestays with Kolla communities in San Juan, Chiyayoc and San Isidro
+    - Crosses Abra del Colorado and Abra del Cóndor (over 4000 m)
+    - Iruya itself is a cobbled cliff-edge village reached by a single 4x4 road
+    - Quechua-speaking valleys few foreign hikers ever set foot in
+  downsides:
+    - Multi-day stages with no English-language guidance — Spanish is essential
+    - Homestays are pre-arranged through Iruya operators, not walk-in
+    - Severe altitude with passes above 4000 m on most stages
+  guide_links:
+    - title: Andes Challenge - 4-day Iruya hiking tour itinerary
+      url: https://andeschallenge.com/en/hiking-tour-iruya/
+    - title: La Nación - Iruya a Nazareno travesía feature
+      url: https://www.lanacion.com.ar/turismo/el-otro-camino-del-inca-travesia-de-iruya-a-nazareno-en-salta-nid2317323/
+    - title: America Latina Travel - Iruya to La Quiaca circuit overview
+      url: https://americalatina.travel/esp/tourist-circuits-attractions/11-trekking-de-iruya-a-la-quiaca
+    - title: Poncho Tours - Inca trail in Argentina background
+      url: https://ponchotours.com/the-inca-trail-in-argentina/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: ciudad-perdida
+  name: Ciudad Perdida (Lost City) Trek
+  country: Colombia
+  region: Sierra Nevada de Santa Marta
+  coordinates: [11.04, -73.92]
+  style: hut-to-hut
+  accommodation: [hut, camping]
+  pack_weight: light
+  length_km: 46
+  length_days: 4
+  elevation_gain_m: 2300
+  difficulty: hard
+  best_seasons: [December, January, February, March]
+  highlights:
+    - 1200-step ascent to the Tairona terraces of Teyuna, predating Machu Picchu by 650 years
+    - Trailside camps with bunks, mosquito nets and full board — no tent required
+    - Visits Kogui and Wiwa indigenous villages along the Buritaca river
+    - Jungle, river swims and pre-Columbian terraces in one continuous walk
+  downsides:
+    - Must be done with a licensed operator — independent trekking is prohibited
+    - Humid, muddy and genuinely sweaty; clothes never dry
+    - Camps are dorm-style and pack out at peak season
+  guide_links:
+    - title: The World Travel Guy - independent blogger's 4-day trip report
+      url: https://theworldtravelguy.com/lost-city-trek-colombia/
+    - title: Wiwa Tour - operator run by indigenous Wiwa families
+      url: https://wiwatour.com/en/tours/lost-city-trek-colombia/
+    - title: Expedition Colombia - Lost City trek operator overview
+      url: https://expeditioncolombia.com/lost-city-trek/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: el-cocuy
+  name: El Cocuy National Park (Three-Trail Cabaña Tour)
+  country: Colombia
+  region: Boyacá (Sierra Nevada del Cocuy)
+  coordinates: [6.41, -72.30]
+  style: hut-to-hut
+  accommodation: [guesthouse, hut]
+  pack_weight: light
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [December, January, February, July, August]
+  highlights:
+    - Cabañas Kanwara, Guaicany and El Pulpito as trailhead bases for three day-hikes
+    - Glaciated peaks of Ritacuba Blanco and Pulpito del Diablo above 5000 m
+    - One of the last places in the tropical Andes to see real glaciers
+    - U'wa indigenous high-altitude páramo with frailejón forests
+  downsides:
+    - Park rules now forbid camping inside — you must base from trailhead cabañas
+    - Three separate out-and-back day hikes rather than a continuous traverse
+    - Park access has been intermittently closed for U'wa/government disputes
+  guide_links:
+    - title: Fun Life Crisis - guide to hiking El Cocuy National Park
+      url: https://funlifecrisis.com/el-cocuy-national-park-trek-colombia/
+    - title: Hike Bike Travel - 6-day Sierra Nevada del Cocuy trip report
+      url: https://hikebiketravel.com/the-fabulous-6-day-sierra-nevada-del-cocuy-trek/
+    - title: Thinking Nomads - El Cocuy independent trekker guide
+      url: https://thinkingnomads.com/elcocuy/
+  obscurity: 3
+  status: researching
+  notes: ""
