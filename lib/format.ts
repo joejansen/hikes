@@ -20,6 +20,7 @@ const FLAGS: Record<string, string> = {
   Kyrgyzstan: "🇰🇬",
   Pakistan: "🇵🇰",
   India: "🇮🇳",
+  China: "🇨🇳",
   Bhutan: "🇧🇹",
   "New Zealand": "🇳🇿",
   Canada: "🇨🇦",

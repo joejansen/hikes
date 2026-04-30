@@ -327,7 +327,7 @@
   region: Ladakh
   coordinates: [33.9167, 77.4333]
   style: hut-to-hut
-  accommodation: [homestay, camping]
+  accommodation: [homestay, guesthouse, camping]
   pack_weight: light
   length_km: 70
   length_days: 7
@@ -348,8 +348,12 @@
       url: https://www.muchbetteradventures.com/magazine/markha-valley-trek-guide/
     - title: Against the Compass - independent Markha Valley trekking guide
       url: https://againstthecompass.com/en/markha-valley-trek-ultimate-guide/
+    - title: Homestays of Leh - Markha Valley Homestay Trail
+      url: https://jullehladakh.com/markha-valley-homestay-trail-a-handpicked-circuit-of-culture-trekking-rural-hospitality/
+    - title: Mountain Homestays - Markha Valley Wildlife Trek
+      url: https://www.mountainhomestays.com/tour/markha-valley-trek/
   obscurity: 3
-  status: researching
+  status: shortlisted
   notes: |
     Closest Ladakh analogue to the Mestia-Ushguli homestay format.
     Would pair well with a week in Leh for acclimatization.
@@ -1240,41 +1244,6 @@
     walking in Yunnan, with guesthouses and dramatic sacred-mountain
     scenery but fewer Tibet permit constraints.
 
-- slug: markha-valley-ladakh
-  name: Markha Valley Homestay Trek
-  country: India
-  region: Ladakh
-  coordinates: [33.9900, 77.7800]
-  style: hut-to-hut
-  accommodation: [homestay, guesthouse, camping]
-  pack_weight: light
-  length_km: 65
-  length_days: 6
-  elevation_gain_m: 4000
-  difficulty: hard
-  best_seasons: [June, July, August, September]
-  highlights:
-    - Classic Ladakh gorge and village trek through Skyu, Sara, Markha and Hankar
-    - Traditional homestays make a high Himalayan route possible without a tent most nights
-    - Mani walls, monasteries, barley fields and Hemis National Park wildlife habitat
-    - More committing and mountainous than Sham Valley
-  downsides:
-    - Higher passes and river crossings make it much more serious than Sham Valley
-    - Nimaling or approach variants may still involve camping depending on itinerary
-    - Popular by Ladakh standards during the short summer season
-  guide_links:
-    - title: Much Better Adventures - Markha Valley Trek guide
-      url: https://www.muchbetteradventures.com/magazine/markha-valley-trek-guide/
-    - title: Homestays of Leh - Markha Valley Homestay Trail
-      url: https://jullehladakh.com/markha-valley-homestay-trail-a-handpicked-circuit-of-culture-trekking-rural-hospitality/
-    - title: Mountain Homestays - Markha Valley Wildlife Trek
-      url: https://www.mountainhomestays.com/tour/markha-valley-trek/
-  obscurity: 3
-  status: shortlisted
-  notes: |
-    The more athletic Ladakh option. If Sham Valley is the cultural walk,
-    Markha is the real trek with homestay support.
-
 - slug: kailash-kora-tibet
   name: Kailash Kora
   country: China
@@ -1310,6 +1279,1039 @@
     Included because it is too interesting to ignore, not because it is
     the most pleasant fit. Treat as a high-altitude pilgrimage with beds,
     permits and serious acclimatization needs.
+- slug: jeju-olle-trail
+  name: Jeju Olle Trail
+  country: South Korea
+  region: Jeju Island
+  coordinates: [33.38, 126.53]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb, hotel]
+  pack_weight: light
+  length_km: 437
+  length_days: 18
+  elevation_gain_m: 7000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Marked coastal and village routes circling Jeju, with frequent buses and bailout points
+    - Fishing ports, lava coastline, tangerine groves, oreum cones and quiet farm lanes
+    - Guesthouses, pensions and small hotels make a light-pack itinerary realistic
+    - More cultural walking journey than wilderness trek, which is exactly the appeal
+  downsides:
+    - Some road-walking and urban edges are unavoidable on a full circuit
+    - Summer is hot, humid and typhoon-prone; winter can be windy and raw
+    - Lodging research usually requires Naver or Kakao Maps rather than western booking sites
+  guide_links:
+    - title: Jeju Olle Trail Official English Guide - accommodation
+      url: https://jejuolletrailguide.net/accommodation/
+    - title: Visit Jeju - Jeju Olle overview
+      url: https://www.visitjeju.net/en/themtour/view?contentsid=CNTS_200000000009571&menuId=DOM_000001832000000000
+    - title: Going the Whole Hogg - Jeju Olle routes 18 to 1
+      url: https://www.goingthewholehogg.com/jeju-olle-trail-part-1-routes-18-to-1/
+  obscurity: 3
+  status: researching
+  notes: |
+    Probably the cleanest East Asia match for "hut-to-hut" if interpreted
+    as guesthouse-to-guesthouse walking. The full circuit is long, but a
+    one-week arc around Seogwipo or the quieter northeast coast could be
+    enough.
+
+- slug: michinoku-coastal-trail
+  name: Michinoku Coastal Trail
+  country: Japan
+  region: Tohoku Pacific Coast
+  coordinates: [39.65, 141.97]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, camping]
+  pack_weight: light
+  length_km: 1025
+  length_days: 45
+  elevation_gain_m: 18000
+  difficulty: hard
+  best_seasons: [April, May, June, September, October, November]
+  highlights:
+    - Long coastal walk from Hachinohe to Soma through fishing towns and rias coastline
+    - Tanesashi Coast, Jodogahama, Kitayamazaki cliffs and countless small ports
+    - Business hotels, ryokan, minshuku and campgrounds create flexible stage options
+    - Deep post-2011 reconstruction context gives the route more weight than a scenic trail
+  downsides:
+    - Very long as a thru-hike; best approached as a section-hiking project
+    - Lodging density varies, and some reservations require Japanese phone calls
+    - Tsunami evacuation awareness and weather planning are part of the route
+  guide_links:
+    - title: Ministry of the Environment - Michinoku Coastal Trail
+      url: https://tohoku.env.go.jp/mct/english/
+    - title: Michinoku Trail Club - accommodation guide
+      url: https://www.michinokutrail.com/accommodation
+    - title: Japan Travel - Michinoku Coastal Trail overview
+      url: https://www.japan.travel/en/sports/hiking/courses/michinoku-coastal-trail/
+  obscurity: 4
+  status: researching
+  notes: |
+    Strong candidate for a creative "hut-to-hut" trip: pick a 7-10 day
+    Sanriku Coast section and sleep in fishing-town inns rather than
+    mountain huts. More local texture than the famous Japan pilgrimage routes.
+
+- slug: danlan-tamsui-kavalan
+  name: Danlan / Tamsui-Kavalan Historic Trails
+  country: Taiwan
+  region: Taipei / New Taipei / Keelung / Yilan
+  coordinates: [25.03, 121.86]
+  style: mixed
+  accommodation: [guesthouse, bnb, hotel]
+  pack_weight: light
+  length_km: 250
+  length_days: 10
+  elevation_gain_m: 8000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November, December]
+  highlights:
+    - Old trade routes over subtropical hills from the Taipei basin toward Yilan
+    - Stone paths, mining towns, tea roads, forest temples and rail-connected villages
+    - Easy to build stages around Ruifang, Shuangxi, Fulong, Pingxi, Jiaoxi and Taipei
+    - Feels exploratory while still having excellent transport and food infrastructure
+  downsides:
+    - More a trail network than one simple signed thru-route
+    - Humidity, mud and slick stone steps can make short stages feel harder
+    - Accommodation sometimes sits just off the trail, requiring transit stitches
+  guide_links:
+    - title: Danlan National-level Green Hiking Trail - official site
+      url: https://danlantrail.necoast-nsa.gov.tw/Introduction.aspx?a=2860&l=2&r=80141185
+    - title: Danlan Trail - accommodation search
+      url: https://danlantrail.necoast-nsa.gov.tw/Articles.aspx?a=2870&l=2
+    - title: Taiwan Thousand Miles Trail Association - national greenways
+      url: https://www.tmitrail.org.tw/en/greenway
+  obscurity: 5
+  status: researching
+  notes: |
+    This may be the most interesting Taiwan option for walking between
+    towns. The right itinerary probably mixes continuous hiking days with
+    short train hops, making it more "inn-to-inn cultural traverse" than
+    purist thru-hike.
+
+- slug: hagi-okan
+  name: Hagi Okan
+  country: Japan
+  region: Yamaguchi
+  coordinates: [34.22, 131.48]
+  style: hut-to-hut
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 53
+  length_days: 3
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Edo-period highway connecting Hagi, Yamaguchi and Hofu
+    - Castle town, samurai history, stone-paved passes and quiet rural hamlets
+    - Compact enough for a 2-3 day walking-history trip with city lodging at both ends
+    - Much less obvious internationally than Nakasendo or Kumano Kodo
+  downsides:
+    - Not a mountain hut route; overnight stops are towns and city hotels
+    - Some sections use paved lanes or roads rather than forest path
+    - English planning information is thinner than for Japan's marquee trails
+  guide_links:
+    - title: Hagi Okan - official guided walking tour portal
+      url: https://yamaguchi-city.jp/hagiokan-qr/portal/
+    - title: Visit Yamaguchi - Hagi Okan
+      url: https://www.visit-jy.com/en/spots/14462
+    - title: Hagi Okan - Itado Pass
+      url: https://yamaguchi-city.jp/hagiokan-qr/spot-g/
+  obscurity: 5
+  status: researching
+  notes: |
+    Appealing because it is small, culturally specific and easy to pair
+    with a broader western Honshu trip. More samurai highway than trek.
+
+- slug: nakasendo-kiso-road
+  name: Nakasendo Kiso Road
+  country: Japan
+  region: Nagano / Gifu
+  coordinates: [35.73, 137.65]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb, hotel]
+  pack_weight: light
+  length_km: 85
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October, November]
+  highlights:
+    - Edo-period post towns including Narai, Kiso-Fukushima, Tsumago and Magome
+    - Ryokan and minshuku stays turn it into the classic Japanese inn-to-inn walk
+    - Cedar forest, preserved townscapes, old teahouse sites and mountain passes
+    - Easy rail access makes it simple to shorten or extend
+  downsides:
+    - Magome-Tsumago is famous and can feel crowded in peak hours
+    - Lodging in preserved post towns is limited and books early
+    - Some modern-road walking is necessary outside the best-preserved stretches
+  guide_links:
+    - title: Kiso Ontake Tourism - Kiso Valley accommodation
+      url: https://en.visitkiso.com/accommodation
+    - title: Go Nagano - where to stay while traveling the Nakasendo
+      url: https://www.go-nagano.net/en/trip-idea/where-to-stay-while-traveling-the-nakasendo
+    - title: Japan Guide - Nakasendo Magome to Tsumago
+      url: https://www.japan-guide.com/e/e6078.html
+  obscurity: 2
+  status: researching
+  notes: |
+    Obvious but still valuable as a benchmark for Japanese village-to-village
+    walking. To keep it interesting, avoid only doing the famous day-hike
+    segment and build a longer Kiso Valley itinerary.
+
+- slug: kumano-kodo-iseji
+  name: Kumano Kodo Iseji
+  country: Japan
+  region: Mie / Wakayama
+  coordinates: [34.08, 136.15]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, bnb]
+  pack_weight: light
+  length_km: 170
+  length_days: 10
+  elevation_gain_m: 6500
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Coastal and mountain pilgrimage route from Ise toward the Kumano shrines
+    - Stone-paved passes, fishing towns, cypress forest and quiet Pacific coastline
+    - Less internationally saturated than the Nakahechi section of Kumano Kodo
+    - Japanese-style inns and small hotels make a no-tent itinerary possible
+  downsides:
+    - Long road and town sections compared with the forested Nakahechi route
+    - Some stages need careful lodging reservations or train/bus positioning
+    - Rain can make old stone paths slippery
+  guide_links:
+    - title: Kumano Travel - Kumano Kodo Iseji route maps
+      url: https://www2.tb-kumano.jp/en/kumano-kodo/pdf/kumano-kodo-iseji-north-route-maps-complete.pdf
+    - title: Japan Travel - trekking along the Kumano Kodo
+      url: https://www.japan.travel/en/itineraries/trekking-along-the-kumano-kodo/
+    - title: Kumano Kodo Travel - official accommodation booking
+      url: https://www.kumano-travel.com/en/accommodations
+  obscurity: 3
+  status: researching
+  notes: |
+    Iseji is the better fit than the default Nakahechi if the goal is a
+    quieter, town-linked route. Still has enough Kumano infrastructure to
+    be practical for a first Japan pilgrimage walk.
+
+- slug: shikoku-henro
+  name: Shikoku Henro Pilgrimage
+  country: Japan
+  region: Shikoku
+  coordinates: [33.74, 133.58]
+  style: mixed
+  accommodation: [guesthouse, hotel, homestay]
+  pack_weight: light
+  length_km: 1200
+  length_days: 45
+  elevation_gain_m: 25000
+  difficulty: hard
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Living 88-temple pilgrimage through coast, farms, suburbs, hills and old towns
+    - Dense lodging ecosystem of minshuku, ryokan, business hotels and temple stays
+    - Strong cultural framework, pilgrim customs and stamped nokyocho progression
+    - Can be section-hiked in focused 5-10 day arcs rather than completed all at once
+  downsides:
+    - A full walking circuit is a major time commitment
+    - Considerable pavement and roadside walking
+    - English is limited at many traditional inns; booking can be manual
+  guide_links:
+    - title: Shikoku Henro - official pilgrimage site
+      url: https://www.shikoku-henro.jp/
+    - title: Shikoku Henro - lodging guide
+      url: https://shikokuhenro.jp/en/join-en/lodging/
+    - title: Henro.org - where to stay along the Shikoku Pilgrimage
+      url: https://www.henro.org/shikoku-pilgrimage/where-to-stay
+  obscurity: 2
+  status: researching
+  notes: |
+    Better treated as a cultural walking project than a scenic trek.
+    The most interesting version may be a selective section around Kochi
+    or the Iya-adjacent mountain temples.
+
+- slug: korea-dulle-trail
+  name: Korea Dulle Trail
+  country: South Korea
+  region: Korean Peninsula coast and DMZ borderlands
+  coordinates: [36.2, 127.9]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 4500
+  length_days: 180
+  elevation_gain_m: 50000
+  difficulty: hard
+  best_seasons: [April, May, June, September, October, November]
+  highlights:
+    - Massive perimeter trail made of Haeparang, Namparang, Seohaerang and DMZ Peace Trail sections
+    - East and south coast stretches link ports, beaches, seafood towns and low mountains
+    - Frequent buses, motels and pensions make section-walking logistically forgiving
+    - Domestic walking infrastructure, stamps and route apps create a strong local-travel feel
+  downsides:
+    - The whole trail is too large for a normal trip; section selection is everything
+    - Some stretches are urban, industrial or road-heavy
+    - Best planning tools are Korean-first, even when English summaries exist
+  guide_links:
+    - title: Visit Korea - Korea Dulle Trail overview
+      url: https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=215803
+    - title: Durunubi - official Korea Dulle Trail platform
+      url: https://www.durunubi.kr/eng/main.do
+    - title: Ministry of Culture, Sports and Tourism - Korea Dulle Trail news
+      url: https://www.mcst.go.kr/english/policy/kocis/newsView.jsp?pSeq=285
+  obscurity: 4
+  status: researching
+  notes: |
+    The best fit is probably not the entire network, but a hand-picked
+    Haeparang or Namparang week. Think seafood-town-to-seafood-town, not
+    alpine hut-to-hut.
+
+- slug: kyushu-olle
+  name: Kyushu Olle
+  country: Japan
+  region: Kyushu
+  coordinates: [32.2, 130.6]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 220
+  length_days: 8
+  elevation_gain_m: 5000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Jeju-inspired walking courses across Kyushu, usually ending near towns or onsen areas
+    - Easy to combine Takeo, Ureshino, Karatsu, Okubungo, Amakusa or Saiki with rail travel
+    - Hot springs, castle towns, islands, forests and coastal villages without a heavy pack
+    - Good option for a creative slow-travel itinerary rather than a single thru-hike
+  downsides:
+    - Courses are mostly discrete day walks, so transit stitching is required
+    - Some route pages have limited lodging integration
+    - Not remote enough if the goal is mountain solitude
+  guide_links:
+    - title: Kyushu Olle - official course site
+      url: https://kyushuolle.welcomekyushu.jp/en/
+    - title: Kyushu Olle - what is Olle?
+      url: https://kyushuolle.welcomekyushu.jp/en/about/
+    - title: Japan Tourism Agency - Kyushu Olle overview
+      url: https://www.mlit.go.jp/tagengo-db/en/R2-02006.html
+  obscurity: 4
+  status: researching
+  notes: |
+    This is a modular answer to hut-to-hut: build a week around small
+    hotels and onsen towns, then walk a different well-marked Olle course
+    most days.
+
+- slug: miyagi-olle
+  name: Miyagi Olle
+  country: Japan
+  region: Miyagi
+  coordinates: [38.55, 141.05]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 50
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October, November]
+  highlights:
+    - Jeju-inspired day routes through Naruko Onsen, Zao/Togatta, Oku-Matsushima and Kesennuma
+    - Strong pairing of coastal walking, hot springs and Tohoku small towns
+    - Easier and more local-feeling than marquee Japan long-distance trails
+    - Works well as a stitched itinerary with trains, buses and ryokan nights
+  downsides:
+    - Not a continuous route; it needs deliberate itinerary design
+    - Winter snow affects inland/onsen routes, especially Naruko and Zao
+    - English information exists but is not as deep as for Kumano or Nakasendo
+  guide_links:
+    - title: Miyagi Olle - official English site
+      url: https://www.miyagiolle.jp/en/
+    - title: Miyagi Prefecture - hiking on the Olle PDF
+      url: https://www.pref.miyagi.jp/documents/10660/3hikingontheolle.pdf
+    - title: Visit Miyagi - official tourism site
+      url: https://visitmiyagi.com/
+  obscurity: 5
+  status: researching
+  notes: |
+    Excellent "off the beaten path but still comfortable" candidate.
+    It is more likely to feel like discovering regional Japan than
+    joining an international trekking circuit.
+
+- slug: raknus-selu-trail
+  name: Raknus Selu Trail
+  country: Taiwan
+  region: Hakka Romantic Route 3
+  coordinates: [24.65, 120.95]
+  style: mixed
+  accommodation: [guesthouse, bnb, hotel]
+  pack_weight: light
+  length_km: 220
+  length_days: 10
+  elevation_gain_m: 9000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November, December]
+  highlights:
+    - Hakka cultural greenway through foothill towns, camphor history and old market streets
+    - Tea, tung blossom, forest paths, rural roads and small-town food culture
+    - More obscure internationally than Danlan, but still tied to national greenway investment
+    - Good candidate for mixing walking days with rail or local taxi transfers
+  downsides:
+    - Lodging is not always exactly on route, so purist continuous walking may be awkward
+    - Summer heat and afternoon storms are a poor fit
+    - English resources are still patchy compared with Taiwan's more famous hikes
+  guide_links:
+    - title: Taiwan Trails and Tales - Raknus Selu Trail guide
+      url: https://taiwantrailsandtales.com/raknus-selu-trail/
+    - title: Hakka Affairs Council - Raknus Selu Trail background
+      url: https://english.hakka.gov.tw/Content/Content?LanguageType=ENG&NodeID=463&PageID=43628
+    - title: Taiwan Thousand Miles Trail Association - national greenways
+      url: https://www.tmitrail.org.tw/en/greenway
+  obscurity: 5
+  status: researching
+  notes: |
+    More creative than obvious. Needs itinerary work, but the payoff is a
+    walk through Hakka towns and foothills that most foreign hikers will
+    never consider.
+
+- slug: alishan-tea-villages
+  name: Alishan Tea Villages Walk
+  country: Taiwan
+  region: Chiayi / Alishan
+  coordinates: [23.47, 120.7]
+  style: mixed
+  accommodation: [homestay, guesthouse, bnb]
+  pack_weight: light
+  length_km: 40
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November, December]
+  highlights:
+    - Tea terraces, cedar forest, Tsou villages and mountain homestays around Shizhuo and Leye
+    - Forest railway and buses make flexible starts and exits possible
+    - Short walks like Mist Trail, Tea Trail, Cloud Trail and Eryanping can be stitched into a base-to-base trip
+    - Comfortable, atmospheric and food-forward rather than expeditionary
+  downsides:
+    - Not a formal long-distance trail, so route design is custom
+    - Roads and local transport connections fill gaps between footpaths
+    - Heavy fog and rain can erase the famous views
+  guide_links:
+    - title: Alishan National Scenic Area - official site
+      url: https://www.ali-nsa.net/en
+    - title: Round Taiwan Round - Alishan tea culture and trails
+      url: https://www.rtaiwanr.com/en/blog/taiwan-chiayi-alishan-tea-experience
+    - title: Taiwan Everything - Alishan tea garden homestay
+      url: https://taiwaneverything.cc/2020/03/16/tea-garden-homestay/
+  obscurity: 4
+  status: researching
+  notes: |
+    This is not a traditional trek, which is the point. It could become a
+    very pleasant homestay-to-homestay tea-country walking itinerary with
+    some transit stitching.
+
+- slug: lantau-island-village-walk
+  name: Lantau Island Village Walk
+  country: Hong Kong
+  region: Lantau Island
+  coordinates: [22.26, 113.95]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 70
+  length_days: 4
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Mui Wo, Pui O, Ngong Ping, Tai O and Discovery Bay can anchor village-to-village stages
+    - Lantau Peak, Sunset Peak, beaches, monasteries, ferries and old fishing villages in one compact island
+    - Dense transport makes it easy to improvise without carrying camping gear
+    - Urban-rural hybrid with real hiking but almost no wilderness logistics
+  downsides:
+    - Hot, humid summers are a bad idea
+    - Some trail sections get busy on weekends and public holidays
+    - Accommodation is plentiful for Hong Kong, but not cheap
+  guide_links:
+    - title: Hong Kong Tourism Board - hiking on Lantau Island
+      url: https://www.discoverhongkong.com/eng/neighbourhoods/islands/hiking-on-lantau-island.html
+    - title: Trek'n'Trails - Lantau Trail guide
+      url: https://trekntrails.com/treks/lantau-trail/
+    - title: Lantau Island - complete Lantau Trail guide
+      url: https://www.lantau-island.com/lantau-trail-hiking-guide
+  obscurity: 4
+  status: researching
+  notes: |
+    A surprisingly good short option if treated as "walk across a lived-in
+    island" rather than as a wilderness trail. The Tung O Ancient Trail
+    plus Lantau Trail sections may be the best backbone.
+
+- slug: yunnan-tea-horse-road
+  name: Yunnan Tea Horse Road Sampler
+  country: China
+  region: Yunnan
+  coordinates: [26.88, 100.23]
+  style: mixed
+  accommodation: [guesthouse, hotel, homestay]
+  pack_weight: light
+  length_km: 120
+  length_days: 7
+  elevation_gain_m: 5000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Ancient caravan-road theme linking Shaxi, Lijiang, Tiger Leaping Gorge and Shangri-La-area villages
+    - Naxi and Tibetan cultural landscapes, market towns, gorge walking and family guesthouses
+    - Tiger Leaping Gorge high trail has established guesthouse stops with huge scenery
+    - More open-ended and creative than a packaged classic trek
+  downsides:
+    - The Tea Horse Road is a network, not one clean continuous signed hiking trail
+    - Some pieces require road transfers, local guides or custom planning
+    - China travel logistics, language and mapping tools add friction
+  guide_links:
+    - title: Visit Yunnan - Ancient Tea Horse Road
+      url: https://www.visityunnanchina.com/media-trade-media/press-releases/explore-beauty-yunnan-along-ancient-tea-horse-road
+    - title: Travel China With Me - Tea Horse Road guide
+      url: https://travelchinawith.me/tea-horse-road/
+    - title: China Xian Tour - Tiger Leaping Gorge hike route
+      url: https://www.chinaxiantour.com/yunnan-travel-guide/tiger-leaping-gorge-hike
+  obscurity: 4
+  status: researching
+  notes: |
+    Best handled as a custom cultural walking route, not a mapped thru-hike.
+    Tiger Leaping Gorge provides the reliable guesthouse-to-guesthouse core;
+    Shaxi and Lijiang-area old roads add the caravan-road texture.
+
+- slug: zhaoxing-tangan-dong-villages
+  name: Zhaoxing to Tang'an Dong Villages
+  country: China
+  region: Guizhou
+  coordinates: [26.14, 109.18]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, hotel]
+  pack_weight: light
+  length_km: 25
+  length_days: 3
+  elevation_gain_m: 1200
+  difficulty: easy
+  best_seasons: [April, May, September, October, November]
+  highlights:
+    - Dong drum towers, wooden villages, rice terraces and footpaths above Zhaoxing
+    - Tang'an and nearby hamlets create a compact village-to-village walking cluster
+    - Guesthouses and homestays make this easy to do with a tiny pack
+    - Short but culturally dense; expandable with nearby Dong and Miao villages by shuttle
+  downsides:
+    - Too short to be a standalone long trek
+    - Trails are local paths and village roads rather than a formal long-distance route
+    - Domestic tourism can make Zhaoxing feel less offbeat during Chinese holidays
+  guide_links:
+    - title: West China Tours - Zhaoxing village trekking
+      url: https://towestchina.com/trip/zhaoxing-village-trekking/
+    - title: Asia Odyssey Travel - Zhaoxing Dong Village guide
+      url: https://www.asiaodysseytravel.com/guizhou/zhaoxing-dong-village.html
+    - title: Go Western China - Tang'an Dong Village
+      url: https://gowesternchina.com/attractions/tangan-dong-village-liping-guizhou
+  obscurity: 5
+  status: researching
+  notes: |
+    More of a micro-trek than a route, but it fits the "not traditional"
+    brief well: walk between minority villages, sleep locally, and use
+    shuttles to widen the radius.
+- slug: high-atlas-berber-villages
+  name: High Atlas Berber Villages Circuit
+  country: Morocco
+  region: High Atlas (Toubkal National Park)
+  coordinates: [31.13, -7.92]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 70
+  length_days: 6
+  elevation_gain_m: 4500
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - Sleep in family-run gîtes d'étape in walnut-shaded Berber villages most travellers never see
+    - Tagines and mint tea cooked by host families, not on a camp stove
+    - Crosses high passes (Tizi n'Tacheddirt, Tizi n'Ououraine) with full Toubkal massif views
+    - Optional Toubkal summit (4,167 m) bolts on cleanly without changing the village rhythm
+    - Mules carry the bags, so you walk light even on the long days
+  downsides:
+    - Lower-elevation villages can feel crowded with day-trippers from Marrakech
+    - Hiring a qualified mountain guide is effectively mandatory and adds real cost
+    - Gîte food is repetitive (tagine, omelette, bread) over a week
+  guide_links:
+    - title: The Hiking Life - independent hiker's guide to the Toubkal Circuit
+      url: https://www.thehikinglife.com/2018/03/toubkal-circuit-independent-hikers-guide/
+    - title: Then We Walked - Berber Villages Trek first-person trip report
+      url: https://thenwewalked.com/berber-villages-trek-marrakech/
+    - title: Planet of Adventures - 7-day unguided Toubkal Circuit with daily stages and photos
+      url: https://planetofadventures.com/7-day-trekking-mount-toubkal-circuit/
+    - title: Tourdust - trekker's tale of the 6-day Toubkal Circuit
+      url: https://www.tourdust.com/blog/posts/trekkers-tale-6-day-toubkal-circuit-review
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mgoun-traverse
+  name: M'Goun Traverse
+  country: Morocco
+  region: Central High Atlas (Aït Bouguemez)
+  coordinates: [31.65, -6.43]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, camping]
+  pack_weight: light
+  length_km: 80
+  length_days: 6
+  elevation_gain_m: 4200
+  difficulty: hard
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Starts in the Aït Bouguemez "Happy Valley" - mud-brick villages, terraced fields, almost no foreign trekkers
+    - Wading the M'Goun river gorges, hopping between canyon walls in ankle-deep water
+    - Optional summit of Jebel M'Goun (4,068 m), North Africa's second-highest peak
+    - Genuine homestay nights with Amazigh families on the entry/exit days
+    - Encounters with seasonal nomadic shepherds on the Tarkedit plateau
+  downsides:
+    - Higher passes mean more nights in camp tents than under a homestay roof
+    - Logistics (transfer to Aït Bouguemez, finding a muleteer) are harder than the Toubkal area
+    - Gorge wading is impassable after summer storms or in early season
+  guide_links:
+    - title: Journey Beyond Travel - first-person M'Goun and Ait Bouguemez trek report
+      url: https://www.journeybeyondtravel.com/blog/mgoun-ait-bouguemez-valley.html
+    - title: Walkopedia - M'Goun massif route description and walker reviews
+      url: https://www.walkopedia.net/best-world-walks/Morocco/M'goun-Massif
+    - title: MoroCult blog - M'Goun and Ait Bouguemez Valley personal account
+      url: http://morocult.blogspot.com/2012/12/mgoun-ait-bouguemez-valley.html
+    - title: Journey Beyond Travel - Ait Bougmez trekking overview and stages
+      url: https://www.journeybeyondtravel.com/morocco/trekking/ait-bougmez
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: sinai-trail
+  name: Sinai Trail (Nuweiba to St Katherine)
+  country: Egypt
+  region: South Sinai
+  coordinates: [28.85, 34.10]
+  style: hut-to-hut
+  accommodation: [homestay, camping, bivy]
+  pack_weight: light
+  length_km: 220
+  length_days: 12
+  elevation_gain_m: 6000
+  difficulty: hard
+  best_seasons: [March, April, October, November]
+  highlights:
+    - Walked exclusively on Bedouin-owned land with Bedouin guides from three (now eight) tribes
+    - Camels carry water and gear, so trekking is light over otherwise punishing desert terrain
+    - Sea-to-summit arc finishing on Jebel Katherine (2,629 m), Egypt's highest peak
+    - Sleeping under the stars in remote wadis with no light pollution and no other hikers
+    - Profits go directly to the Bedouin cooperative - rare community-tourism model that actually works
+  downsides:
+    - Long, hot, exposed walking days with very little shade and water rationed from camels
+    - South Sinai still carries travel-advisory caveats from some governments
+    - Food is simple (bread, beans, rice) for nearly two weeks straight
+  guide_links:
+    - title: Sinai Trail - official cooperative site, sections and booking
+      url: https://sinaitrail.net/
+    - title: National Geographic - hiking with Bedouin on Egypt's Sinai Trail
+      url: https://www.nationalgeographic.com/travel/article/egypt-trekking-with-bedouin-sinai-trail
+    - title: Adventures of Venus - 220km/12-day Nuweiba to St Katherine trip report
+      url: https://venusadventures.net/2016/12/20/the-sinai-trail-a-220km-hiking-odyssey-across-the-desert/
+    - title: Wanderlust of Dill - first-person Sinai Trail account with photos
+      url: https://wanderlustofdill.com/2018/01/12/the-sinai-trail/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: simien-mountains-trek
+  name: Simien Mountains Trek (Sankaber–Geech–Chenek)
+  country: Ethiopia
+  region: Amhara / Simien Mountains National Park
+  coordinates: [13.22, 38.07]
+  style: hut-to-hut
+  accommodation: [camping, hut, hotel]
+  pack_weight: light
+  length_km: 65
+  length_days: 4
+  elevation_gain_m: 2400
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March]
+  highlights:
+    - Troops of gelada monkeys grazing within feet of the trail
+    - Imet Gogo (3,926 m) viewpoint over the Simien escarpment
+    - Chance to spot endemic Walia ibex and Ethiopian wolf near Chenek
+    - Jinbar Falls plunging into the Geech Abyss
+    - Simien Lodge / community lodges break up the standard tented nights
+  downsides:
+    - Mostly tented camps; "lodge" nights require detours and add cost
+    - Mandatory armed scout, guide, cook, and mules add bureaucracy and expense
+    - Debark park-office logistics and rough road in/out eat a full day each side
+  guide_links:
+    - title: Uncharted Backpacker - independent trekking guide with stages and costs
+      url: https://www.unchartedbackpacker.com/trekking-guide-simien-mountains-national-park-ethiopia/
+    - title: Atlas & Boots - first-person Simien trek with photos and itinerary
+      url: https://www.atlasandboots.com/travel-blog/simien-mountains-trek/
+    - title: Brilliant Ethiopia - reference guide to Simien camps and routes
+      url: https://www.brilliant-ethiopia.com/national-parks/simien-mountains/trekking
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: tigray-gheralta-churches-trek
+  name: Tigray Rock-Hewn Churches Trek (Gheralta)
+  country: Ethiopia
+  region: Tigray / Gheralta
+  coordinates: [13.97, 39.18]
+  style: mixed
+  accommodation: [guesthouse, homestay, hotel]
+  pack_weight: light
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [October, November, December, January, February, March]
+  highlights:
+    - Vertiginous free-climb to Abuna Yemata Guh, painted onto a sandstone pinnacle
+    - Maryam and Daniel Korkor cut into a cliff ledge above the Hawzen plain
+    - Sandstone tower scenery comparable to Monument Valley
+    - Sleeping in TESFA-style community guesthouses on cliff edges
+    - Coffee ceremonies and injera with Tigrayan farming families
+  downsides:
+    - Travel safety in Tigray remains volatile post-2020 conflict; check status
+    - Several church climbs require head for heights and bare-foot scrambles
+    - Walking is broken up by jeep transfers; not a continuous wilderness route
+  guide_links:
+    - title: Atlas & Boots - hiking the Tigray churches with daily detail
+      url: https://www.atlasandboots.com/travel-blog/tigray-churches-ethiopia/
+    - title: Travel Wiser - 3-day Tigray rock-hewn churches itinerary
+      url: https://travelwiser.co/2018/04/08/tigray-ethiopia-3-day-guide/
+    - title: Leave Your Daily Hell - Abuna Yemata Guh first-person account
+      url: https://leaveyourdailyhell.com/2024/01/05/abuna-yemata-guh/
+    - title: TESFA Tours blog - community guesthouse trekking model
+      url: https://www.tesfatours.com/blog
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: rwenzori-central-circuit
+  name: Rwenzori Central Circuit
+  country: Uganda
+  region: Rwenzori Mountains National Park
+  coordinates: [0.37, 29.95]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 65
+  length_days: 7
+  elevation_gain_m: 4200
+  difficulty: very-hard
+  best_seasons: [June, July, August, December, January, February]
+  highlights:
+    - Margherita Peak (5,109 m) summit on Mount Stanley with glacier crossing
+    - Five distinct ecological zones from rainforest to Afro-alpine
+    - Surreal forests of giant lobelia and groundsel above Bujuku
+    - Wooden mountain huts (Nyabitaba, John Matte, Bujuku, Elena, Kitandara, Guy Yeoman)
+    - True wilderness; you may not see another foreign trekker for days
+  downsides:
+    - Notoriously muddy, knee-deep bog terrain even in "dry" months
+    - Summit day requires crampons, harness, and rope; not a pure hike
+    - Huts are basic, damp, and often crowded with porter teams
+    - High cost (USD 1,500+ park/operator fees) for a 7-day trek
+  guide_links:
+    - title: The Wanderlust - first-person summit day trip report
+      url: https://the-wanderlust.com/2022/06/rwenzori-mountains-summit-day-margherita-peak-5109-m-asl/
+    - title: Karisia Walking Safaris - 8-day trek trip report with daily stages
+      url: https://www.karisia.com/about-karisia/karisia-blog/2023/8/21/a-rwenzori-adventure-trip-report-8-days-up-to-margharita-peak-rwenzori-mountains-uganda
+    - title: Rwenzori Mountains National Park - official Central Circuit reference
+      url: https://www.rwenzorimountainsnationalpark.com/rwenzori-central-circuit-trail/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: usambara-village-walk
+  name: Usambara Mountains Village Walk (Lushoto–Mambo–Mtae)
+  country: Tanzania
+  region: West Usambara Mountains / Tanga
+  coordinates: [-4.62, 38.30]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 80
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [June, July, August, September, January, February]
+  highlights:
+    - Mambo Viewpoint cliff-edge over Mkomazi plain 1,000 m below
+    - Walking village-to-village through Wasambaa farms and pine forests
+    - Local-run cultural-tourism program; income stays in mountain villages
+    - Magamba rainforest with colobus monkeys and chameleons
+    - Daily 5-6 hr stages on dirt tracks; doable with a daypack
+  downsides:
+    - Guesthouses are simple; cold-bucket showers and intermittent power
+    - Trail follows roads and farm tracks more than singletrack
+    - Crowds of curious children can make solo solitude impossible
+  guide_links:
+    - title: Journey Era - solo Lushoto-to-Mtae 82.5 km trek with daily journals
+      url: https://www.journeyera.com/usambara-mountains-lushoto-to-mtae/
+    - title: Pin Your Footsteps - Lushoto to Mambo trek trip report
+      url: https://www.pinyourfootsteps.com/usambara-mountains-hiking-from-lushoto-to-mambo/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: mount-mulanje-circuit
+  name: Mount Mulanje Forestry Huts Circuit
+  country: Malawi
+  region: Mulanje Massif, Southern Region
+  coordinates: [-15.95, 35.6]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: hard
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Sky-island granite massif rising from Malawi's plains, with peaks like Sapitwa (3002m)
+    - Network of ten basic forestry huts (Chambe, Lichenya, Sombani, Madzeka, Chinzama, Thuchila) lets you string together flexible 4-7 day routes
+    - Wood fires, mattresses, and cooking gear at each hut so you only need a sleeping bag and food
+    - Guides and porters are mandatory and inexpensive, supporting the local economy directly
+    - Almost no other foreigners on trail outside peak weeks
+  downsides:
+    - Huts are very basic with hole-in-floor toilets and no electricity
+    - Sapitwa summit scramble and weather can turn dangerous fast (people have died lost in mist)
+    - Logistics rely on porter/guide booking through the Forestry Department in Likhubula
+  guide_links:
+    - title: Wandering Woods - Mt Mulanje trip report with porter logistics
+      url: https://www.wanderingwoods.org/blog/2015/5/17/climbing-mt-mulanje-malawi
+    - title: Nomadic by Nature - 4-day Mulanje trek with hut details and photos
+      url: https://nomadic-by-nature.com/trekking-mount-mulanje-swimming-holes-alpine-chalets/
+    - title: Realworld Adventures - Mulanje hut maps and route facts
+      url: https://realworldadventures.com/mulanje-maps-facts/
+    - title: That Travel - independent hiking guide to climbing Mulanje
+      url: https://thattravel.co.uk/climbing-mount-mulanje-in-malawi/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: otter-trail
+  name: Otter Trail
+  country: South Africa
+  region: Garden Route, Tsitsikamma
+  coordinates: [-34.04, 23.36]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: full
+  length_km: 45
+  length_days: 5
+  elevation_gain_m: 1700
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Five-day coastal traverse from Storms River Mouth to Nature's Valley with constant ocean views
+    - Four well-spaced overnight huts (Ngubu, Scott, Oakhurst, Andre) right on the coast
+    - Bloukrans River crossing timed to low tide is the iconic crux of the trail
+    - Afromontane forest, fynbos, dolphins, whales (in season), and otter sightings
+    - Strict 12-hiker-per-day cap keeps the trail feeling wild
+  downsides:
+    - Books out roughly a year in advance through SANParks
+    - You carry full pack including all five days of food; daily distances are short but undulating with relentless ascent/descent
+    - Bloukrans crossing requires accurate tide timing and can be hazardous in heavy seas
+  guide_links:
+    - title: Stingy Nomads - detailed independent guide and day-by-day breakdown
+      url: https://stingynomads.com/otter-hiking-trail-guide/
+    - title: A Backyard Hiker - first-person trip report with the rough bits
+      url: https://www.abackyardhiker.com/the-otter-trail-i-got-more-than-i-bargained-for/
+    - title: Conservation Mag - day-by-day account with photos
+      url: https://conservationmag.org/en/hiking/hiking-the-otter-trail-a-day-by-day-account-of-south-africa-s-most-iconic-trail
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: whale-trail
+  name: Whale Trail
+  country: South Africa
+  region: De Hoop Nature Reserve, Western Cape
+  coordinates: [-34.45, 20.45]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [June, July, August, September, October, November]
+  highlights:
+    - Land-based southern right whale watching from cliff-tops July-October
+    - Slackpacking format - gear is shuttled between cottages so you walk with a daypack
+    - Four well-equipped overnight cottages with hot showers, beds, and kitchens
+    - Diverse terrain from Potberg fynbos to limestone coast and beach walking at Koppie Alleen
+    - Bookings open well in advance and the trail is capped at 12 hikers, keeping it quiet
+  downsides:
+    - Day 1 over Potberg and the long beach day are still genuinely tiring (~16 km)
+    - One-way logistics requires a vehicle shuttle or pre-arrangement with the reserve
+    - Whales only present in winter/spring, so summer hikers miss the headline attraction
+  guide_links:
+    - title: Wanderlust Movement - 5-day Whale Trail trip report (Sept 2022)
+      url: https://www.wanderlustmovement.org/whale-trail-hike/
+    - title: Wanderlust Movement - everything-you-need-to-know planning guide
+      url: https://www.wanderlustmovement.org/whale-trail-hike-in-south-africa/
+    - title: CapeNature - official Whale Trail booking and route info
+      url: https://www.capenature.co.za/reserves/the-whale-trail
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: drakensberg-mnweni-circuit
+  name: Mnweni Circuit (Northern Drakensberg)
+  country: South Africa
+  region: uKhahlamba-Drakensberg, KwaZulu-Natal / Lesotho border
+  coordinates: [-28.85, 29.05]
+  style: full-pack
+  accommodation: [bivy, camping]
+  pack_weight: full
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 2400
+  difficulty: very-hard
+  best_seasons: [April, May, September, October, November]
+  highlights:
+    - Wildest, least-regulated section of the Drakensberg - no permits beyond the Mnweni Cultural Centre fee
+    - Sleeping caves like Mponjwane (Rockeries), Shepherd's, and Ledgers right under the escarpment spires
+    - Pinnacles of Mnweni and the Rockeries are some of the most dramatic rock scenery in southern Africa
+    - Big-pass days up Rockeries and down Mnweni Pass gain/lose ~1000 m of escarpment in a single push
+    - Genuine wilderness feel - you can go days without seeing other hikers
+  downsides:
+    - Caves are exposed rock shelters - you carry a sleeping pad, bag, stove, and all food
+    - Weather on the escarpment can flip from sun to lightning, snow, or thick mist within an hour
+    - Navigation is on you (no marked trail above the contour path); a 1:50,000 map and prior Berg experience strongly recommended
+  guide_links:
+    - title: DrakensbergHiker - Mnweni Circuit full route description
+      url: https://www.drakensberghiker.co.za/mnweni-drakensberg-circuit-route-description/
+    - title: DrakensbergHiker - Northern Traverse route description (extended option)
+      url: https://www.drakensberghiker.co.za/drakensberg-northern-traverse-route-description/
+    - title: Wanderlust Movement - 3-day Mnweni Circuit trip report
+      url: https://www.wanderlustmovement.org/mnweni-hike-drakensberg/
+    - title: Hiking South Africa - introduction to Mnweni and cave logistics
+      url: https://hikingsouthafrica.co.za/blogs/trails/drakensberg-introduction-to-mnweni
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: santo-antao-village-trek
+  name: Santo Antão Village Trek
+  country: Cape Verde
+  region: Santo Antão
+  coordinates: [17.07, -25.13]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March, April, May, June]
+  highlights:
+    - Cova crater rim descent into the lush Paúl Valley terraces
+    - Fontainhas perched on a knife-edge ridge above the Atlantic
+    - Coastal cliff path Ponta do Sol to Cruzinha through tiny fishing hamlets
+    - Home-cooked cachupa and grogue hospitality in family-run pensões
+    - Dramatic mountain-meets-ocean scenery unlike anywhere else in West Africa
+  downsides:
+    - Steep cobblestone trails are knee-punishing on long descents
+    - Ferry from São Vicente can be cancelled in rough seas
+    - Limited English; Portuguese or Cape Verdean Creole helps a lot
+  guide_links:
+    - title: Indie Traveller - Santo Antão hiker's travel guide
+      url: https://www.indietraveller.co/santo-antao-travel-guide/
+    - title: Jan Adventures - first-person hiking Santo Antão trip report
+      url: https://janadventures.com/hiking-santo-antao-in-cabo-verde/
+    - title: My Travel Journal - favourite spots and hikes on Santo Antão
+      url: https://mytraveljournal-blog.com/spots-and-hikes-santo-antao/
+    - title: Cape Verde Islands - walking and relaxing in Santo Antão trip report
+      url: https://www.capeverdeislands.org/travelreports/walking-relaxing-santo-antao-sao-vicente/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: gr-r2-reunion-traverse
+  name: GR R2 Réunion Traverse
+  country: Réunion (France)
+  region: Indian Ocean - Mascarene Islands
+  coordinates: [-21.1, 55.5]
+  style: hut-to-hut
+  accommodation: [refuge, guesthouse]
+  pack_weight: light
+  length_km: 130
+  length_days: 11
+  elevation_gain_m: 9000
+  difficulty: very-hard
+  best_seasons: [May, June, July, August, September, October, November]
+  highlights:
+    - Dawn summit of Piton des Neiges (3070m), the highest peak in the Indian Ocean
+    - Crossing all three cirques - Mafate, Cilaos and Salazie - on a single line
+    - Roadless Mafate village gîtes accessible only on foot or by helicopter
+    - Active volcano Piton de la Fournaise crater views near journey's end
+    - Wild swings between rainforest, alpine ridge and lava field in a few days
+  downsides:
+    - 8,000-10,000m of cumulative climbing punishes the legs
+    - Gîtes book up months ahead in July-August French school holidays
+    - Cyclone-season weather (Dec-Apr) can shut the high passes for days
+  guide_links:
+    - title: Much Better Adventures - 100km GR-R2 first-person account
+      url: https://www.muchbetteradventures.com/magazine/reunion-island-gr-r2/
+    - title: Ze Caillou - detailed GR R2 itinerary and gîte logistics
+      url: https://zecaillou.com/en/grr2-trek-hike-in-la-reunion/
+    - title: Summit Cairn - 10-day Réunion crossing trip report
+      url: https://www.summitcairn.com/en/reunion-island-crossing/
+    - title: Coddiwomple Chronicles - multi-day hike through the cirques
+      url: https://www.coddichronicles.com/hike-reunion-island/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: cirque-de-mafate-loop
+  name: Cirque de Mafate Loop
+  country: Réunion (France)
+  region: Indian Ocean - Mascarene Islands
+  coordinates: [-21.05, 55.43]
+  style: hut-to-hut
+  accommodation: [guesthouse, refuge]
+  pack_weight: light
+  length_km: 50
+  length_days: 5
+  elevation_gain_m: 4000
+  difficulty: hard
+  best_seasons: [May, June, July, August, September, October, November]
+  highlights:
+    - Sleeping in eight roadless îlets (La Nouvelle, Marla, Roche Plate, Aurère, Grand Place, Îlet à Bourse, Îlet à Malheur, Îlet des Lataniers)
+    - Trois Roches waterfall and the Rivière des Galets canyon
+    - Half-board family-run gîtes serving cari and rougail by lamplight
+    - Helicopter resupply flights overhead - the cirque has zero road access
+    - Walls of the cirque rising 1,500m above the village rooftops
+  downsides:
+    - Relentless up-and-down between îlets; few flat sections
+    - Gîtes must be booked weeks to months ahead, especially in summer
+    - Most independent route info is in French, not English
+  guide_links:
+    - title: Ze Caillou - GR R3 tour of Cirque de Mafate detailed itinerary
+      url: https://zecaillou.com/en/grr3-trek-reunion-hike-mafate/
+    - title: Wanderlust Ale - first-person Mafate trek trip report
+      url: https://wanderlustale.com/en/a-trek-to-mafate-the-most-remote-cirque-on-reunion-island/
+    - title: Ngalawa Sailing - planning a multi-day hike in Mafate
+      url: https://ngalawasailing.wordpress.com/2017/10/31/planning-a-multi-day-hike-in-mafate/
+    - title: Wandertheke - 7-day Mafate cirque crossing with photos
+      url: http://www.wandertheke.de/Reunion/Mafate.html
+  obscurity: 3
+  status: researching
+  notes: ""
+
 - slug: camino-del-mayab
   name: Camino del Mayab
   country: Mexico
