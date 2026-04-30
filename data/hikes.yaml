@@ -598,3 +598,217 @@
     The "TMB but quiet" pitch — much less trafficked than the
     namesake route next door. Glacier stretch pushes it toward the
     harder end of what I'd want hut-to-hut.
+
+- slug: hoga-kusten-leden
+  name: Höga Kusten Leden (High Coast Trail)
+  country: Sweden
+  region: Västernorrland (UNESCO High Coast)
+  coordinates: [63.0500, 18.3500]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse, hut]
+  pack_weight: light
+  length_km: 129
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - World's highest post-glacial rebound coastline (UNESCO World Heritage)
+    - Skuleskogen National Park with the Slåttdalsskrevan crevasse
+    - Mix of Baltic sea cliffs, pine forest and red-painted fishing hamlets
+    - Light-pack realistic — village B&Bs, hotels and free overnight cabins along the route
+  downsides:
+    - Some long forest-road and gravel stretches between scenic sections
+    - Black flies and mosquitoes in early summer
+    - Free trail huts cannot be booked and fill up on summer weekends
+  guide_links:
+    - title: hogakusten.com - official High Coast Trail route and stages
+      url: https://www.hogakusten.com/en/highcoasttrail
+    - title: hogakusten.com - accommodation along the trail
+      url: https://www.hogakusten.com/en/highcoasttrail/accommodation
+    - title: Hiking in Finland - thru-hiker trip report and gear notes
+      url: https://hikinginfinland.com/2015/01/hogakustenleden-the-high-coast-trail.html
+    - title: Dockstahavet - "don't plan by one perfect number" stage breakdown
+      url: https://dockstahavet.se/blog/how-long-is-hoga-kustenleden
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: kullaleden
+  name: Kullaleden (Skåneleden SL5)
+  country: Sweden
+  region: Skåne (Kullen Peninsula)
+  coordinates: [56.3000, 12.5333]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 70
+  length_days: 5
+  elevation_gain_m: 1200
+  difficulty: easy
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Hotel-to-hotel coastal walking with B&Bs in Mölle, Arild and Helsingborg
+    - Kullaberg cliffs and the Nimis driftwood sculpture by Lars Vilks
+    - Mild south-Swedish climate extends the season into spring and autumn
+    - Easy rail access — Helsingborg is a 35-minute train from Copenhagen
+  downsides:
+    - Easier and flatter than the rest of the list, possibly too gentle
+    - Some stages share roads with car traffic
+    - Mölle and Arild fill up in July; book B&Bs early
+  guide_links:
+    - title: skaneleden.se - official SL5 Öresund route page
+      url: https://www.skaneleden.se/en/delled/sl5-oresund
+    - title: kullahalvon.com - Kullaleden six-stage overview
+      url: https://www.kullahalvon.com/upptacka--uppleva/friluftsliv--natur/vandra-pa-kullahalvon.html
+    - title: Katiesaway - first-person Mölle and Kullaberg trip notes
+      url: https://www.katiesaway.com/molle-and-kullaberg-nature-reserve-things-to-do/
+    - title: Inntravel - self-guided Kulla Trail itinerary with luggage transfer
+      url: https://www.innwalking.com/hiking-tour/kulla-trail-self-guided-walking-sweden/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: jamtland-triangle
+  name: Jämtland Triangle (Jämtlandstriangeln)
+  country: Sweden
+  region: Jämtland (Scandinavian Mountains)
+  coordinates: [63.1167, 12.3000]
+  style: hut-to-hut
+  accommodation: [hut, refuge]
+  pack_weight: light
+  length_km: 47
+  length_days: 3
+  elevation_gain_m: 1300
+  difficulty: moderate
+  best_seasons: [July, August, September]
+  highlights:
+    - Three STF mountain stations (Storulvån, Sylarna, Blåhammaren) with restaurants and breakfast
+    - Open fjäll terrain, treeless plateaus and the Sylarna massif on the Norwegian border
+    - Short enough for a long weekend yet feels like the proper Swedish high country
+    - Self-catering kitchens and shops between stations let you skip a heavy pack
+  downsides:
+    - Above treeline, exposed to weather; afternoon storms common
+    - Mosquitoes and black flies brutal in July
+    - Mountain stations sell out for peak summer weekends — book months ahead
+  guide_links:
+    - title: STF - official Jämtland Triangle trail page
+      url: https://www.swedishtouristassociation.com/trails/trail-jamtland-triangle/
+    - title: Stars & Wildflowers - August Jämtland Triangle trip report
+      url: https://starsandwildflowers.com/hiking-jamtland-triangle/
+    - title: We12Travel - "best short multi-day hike in Sweden" trip report
+      url: https://www.we12travel.com/jamtlandstriangeln-the-best-short-multi-day-hike-in-sweden/
+    - title: Stunning Outdoors - Jämtland Triangle wilderness write-up
+      url: https://stunningoutdoors.com/jamtland-triangle-sweden/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: st-olavsleden
+  name: St Olavsleden (Selånger to Trondheim)
+  country: Sweden
+  region: Jämtland / Trøndelag (SE/NO)
+  coordinates: [63.4000, 14.6500]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb, hotel, hut]
+  pack_weight: light
+  length_km: 580
+  length_days: 32
+  elevation_gain_m: 6500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Northernmost pilgrim route in the world — Baltic to Atlantic in one walk
+    - Pilgrim hostels, farmhouse B&Bs and small hotels almost every night
+    - Crosses the Scandinavian Mountains via the Skalstugan pass with reindeer country
+    - Ends at Nidaros Cathedral in Trondheim with a stamped pilgrim passport
+  downsides:
+    - Long — typically 30+ days, harder to do as a vacation than a sabbatical
+    - Some stages follow rural asphalt and gravel rather than singletrack
+    - Private accommodation often cash-only and books up fast in July
+  guide_links:
+    - title: stolavsleden.com - official trail and accommodation portal
+      url: https://stolavsleden.com/hiking/
+    - title: STF - S:t Olavsleden trail overview
+      url: https://www.swedishtouristassociation.com/trails/the-st-olavsleden-trail/
+    - title: Travel Past 50 - couple's trip report from a section walk
+      url: https://travelpast50.com/st-olavs-way-hiking-sweden-norway/
+    - title: Pilegrimsleden - Norwegian-side official route info
+      url: https://www.pilegrimsleden.no/en/trails/st-olavsleden
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: sormlandsleden
+  name: Sörmlandsleden (Stockholm to Järna)
+  country: Sweden
+  region: Södermanland
+  coordinates: [59.0500, 17.5500]
+  style: hut-to-hut
+  accommodation: [bnb, guesthouse, hotel]
+  pack_weight: light
+  length_km: 130
+  length_days: 6
+  elevation_gain_m: 1500
+  difficulty: easy
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Trailhead is a Stockholm metro station — zero logistics to start
+    - Forests, 80+ lakes and Sörmland manor houses as overnight stops
+    - Quiet enough that thru-hikers report meeting fewer than 10 people in 4 days
+    - Long shoulder season works when the Alps and the Swedish fjäll are still snowbound
+  downsides:
+    - Gentle terrain — no big views, mostly low rolling forest and lake country
+    - Resupply points are sparse between villages; plan picnic lunches
+    - Some stages follow forest roads and gravel rather than singletrack
+  guide_links:
+    - title: sormlandsleden.se - official trail association site
+      url: https://www.sormlandsleden.se/
+    - title: Aardvarchaeology - 4-day solo Sörmlandsleden trip report
+      url: https://aardvarchaeology.wordpress.com/2025/07/07/four-days-hiking-the-sormlandsleden-trail/
+    - title: Runway to Adventures - section 5 weekend trip report
+      url: https://runwaytoadventures.com/2020/07/26/hiking-at-sormlandsleden/
+    - title: The Natural Adventure - self-guided Stockholm-to-Järna 6-day itinerary
+      url: https://www.thenaturaladventure.com/tours/sweden/walking-the-sormlandsleden-trail-stockholm-to-jarna/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: bohuskusten-kuststigen
+  name: Bohuskusten / Kuststigen (incl. Sote Leden)
+  country: Sweden
+  region: Bohuslän (West Coast)
+  coordinates: [58.4500, 11.4000]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 65
+  length_days: 5
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Pink granite headlands, fishing villages and the Bohuslän archipelago in view
+    - Light-pack hut-to-hut — coastal B&Bs and hotels at the end of every stage
+    - STF "Sweden's answer to Cinque Terre" signature trail from Brodalen to Västra Rörvik
+    - Connects to the broader 380 km Kuststigen network if you want to extend
+  downsides:
+    - Some scrambly cliff sections, especially on the Ramsvik Loop
+    - Gets busy in July when Swedes take the västkust holiday
+    - Stages mix true coast path with road and inland forest sections
+  guide_links:
+    - title: STF - Bohuskusten signature trail (5-day Brodalen to Västra Rörvik)
+      url: https://www.swedishtouristassociation.com/trails/bohuskusten/
+    - title: Kuststigen West Sweden Trails - full coast network
+      url: https://kuststigen.westswedentrails.se/
+    - title: Katiesaway - Bohus Malmön Sote Leden / Kuststigen trip report
+      url: https://www.katiesaway.com/bohus-malmon-hiking-the-beautiful-soteleden-kuststigen/
+    - title: Pathfinder Travels - weekend Bohuslän hike trip report
+      url: https://pathfindertravels.eu/trip/from-fjord-to-sea-horizon-a-weekend-hike-through-the-heart-of-bohuslan/
+  obscurity: 3
+  status: done
+  notes: |
+    Cheryl and I walked a big portion of Sote Leden, the southernmost
+    section of Kuststigen. Set the bar for the kind of light-pack
+    village-to-village hiking we now look for: small B&Bs, breakfast
+    included, almost nothing on our backs.
