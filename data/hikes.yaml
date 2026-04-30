@@ -2769,15 +2769,15 @@
   coordinates: [-41.85, 146.1]
   style: hut-to-hut
   accommodation: [hut, camping]
-  pack_weight: either
+  pack_weight: full
   length_km: 65
   length_days: 7
-  elevation_gain_m: 4500
+  elevation_gain_m: 1500
   difficulty: hard
   best_seasons: [November, December, January, February, March, April]
   highlights:
     - Cradle Mountain's iconic dolerite peaks and Dove Lake at the northern trailhead — one of Australia's most-photographed landscapes
-    - Well-spaced hut network (Waterfall Valley, Windermere, Pelion, Kia Ora) lets you walk without a tent if huts are booked
+    - Well-spaced hut network (Waterfall Valley, Windermere, Pelion, Kia Ora) — Parks Tasmania mandates all walkers carry a tent regardless of hut bookings
     - Ancient pencil pine forests, buttongrass moorlands, alpine tarns, and glacial valleys in rapid succession
     - Optional Cradle Mountain summit (1545m) adds a spectacular high point on Day 1
     - Lake St Clair — Australia's deepest lake — at the southern finish, with a ferry option to close the loop in style
@@ -3070,7 +3070,7 @@
   pack_weight: light
   length_km: 61
   length_days: 3
-  elevation_gain_m: 3700
+  elevation_gain_m: 1100
   difficulty: hard
   best_seasons: [November, December, January, February, March, April]
   highlights:
@@ -3078,7 +3078,7 @@
     - Ridge-top traverse above the treeline with panoramic views over Te Waewae Bay and the Fiordland edge
     - Well-equipped DOC Great Walk huts (Okaka Lodge and Port Craig Historic Village) with hot showers and gas cooking
     - Subalpine tussock, old-growth beech forest, and a remote Southland coast all in a single three-day loop
-    - One of NZ's newest Great Walks (2022) — crowd levels remain modest by Great Walk standards
+    - One of NZ's newest Great Walks (2024) — crowd levels remain modest by Great Walk standards
   downsides:
     - The ridge ascent on Day 1 is 1300m of sustained climbing — a hard day regardless of conditions
     - Tuatapere is the nearest town, requiring a significant drive from Queenstown or Te Anau
@@ -3132,7 +3132,7 @@
   pack_weight: light
   length_km: 82
   length_days: 5
-  elevation_gain_m: 3800
+  elevation_gain_m: 1200
   difficulty: moderate
   best_seasons: [November, December, January, February, March, April]
   highlights:

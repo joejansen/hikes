@@ -21,6 +21,7 @@ const FLAGS: Record<string, string> = {
   Pakistan: "🇵🇰",
   India: "🇮🇳",
   Bhutan: "🇧🇹",
+  Australia: "🇦🇺",
   "New Zealand": "🇳🇿",
   Canada: "🇨🇦",
   "United States": "🇺🇸",
