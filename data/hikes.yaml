@@ -960,7 +960,7 @@
   country: Ethiopia
   region: Tigray / Gheralta
   coordinates: [13.97, 39.18]
-  style: hut-to-hut
+  style: mixed
   accommodation: [guesthouse, homestay, hotel]
   pack_weight: light
   length_km: 45
@@ -1167,7 +1167,7 @@
   country: South Africa
   region: uKhahlamba-Drakensberg, KwaZulu-Natal / Lesotho border
   coordinates: [-28.85, 29.05]
-  style: hut-to-hut
+  style: full-pack
   accommodation: [bivy, camping]
   pack_weight: full
   length_km: 45
