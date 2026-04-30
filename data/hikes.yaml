@@ -812,3 +812,545 @@
     section of Kuststigen. Set the bar for the kind of light-pack
     village-to-village hiking we now look for: small B&Bs, breakfast
     included, almost nothing on our backs.
+
+- slug: camino-del-mayab
+  name: Camino del Mayab
+  country: Mexico
+  region: Yucatán (Cenotes & Haciendas)
+  coordinates: [20.6500, -89.4500]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, camping]
+  pack_weight: light
+  length_km: 130
+  length_days: 5
+  elevation_gain_m: 600
+  difficulty: moderate
+  best_seasons: [January, February, March, November, December]
+  highlights:
+    - Maya community-to-community walking close to Mérida but far from the beach circuit
+    - Cenotes, hacienda ruins, old rail beds and milpa paths in one lowland route
+    - Community meals and local guides make it feel culturally rooted rather than packaged
+    - Hot-climate hut-to-hut option when mountain routes are snowed in elsewhere
+  downsides:
+    - Heat and sun exposure are the main difficulty, not elevation
+    - Accommodation and meals are community-coordinated; not a show-up-and-wing-it route
+    - Some road and farm-track walking between the prettier jungle/cenote sections
+  guide_links:
+    - title: Yucatán Travel - Mayab Pathway overview
+      url: https://yucatan.travel/en/experience/018-mayab-pathway/
+    - title: National Geographic - Camino del Mayab community trail feature
+      url: https://www.nationalgeographic.com/travel/article/yucatan-jungle-hike-maya-communities-mexico
+    - title: Yucatán Magazine - Hacienda Trail route background
+      url: https://yucatanmagazine.com/yucatan-hacienda-trail/
+  obscurity: 4
+  status: researching
+  notes: |
+    Strong candidate if "hut-to-hut" can mean homestays and arranged
+    community meals rather than mountain refuges. Likely best with the
+    local route organization instead of trying to independently book
+    every village stop.
+
+- slug: pueblos-mancomunados-oaxaca
+  name: Pueblos Mancomunados
+  country: Mexico
+  region: Sierra Norte de Oaxaca
+  coordinates: [17.1700, -96.3900]
+  style: hut-to-hut
+  accommodation: [hut, guesthouse, homestay]
+  pack_weight: light
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Zapotec village-to-village hiking with one of Mexico's clearest hut-to-hut setups
+    - Community cabins, local guides, shared meals and forest conservation in the same model
+    - Pine forest, cloud forest, mushrooms, medicinal plants and ridge viewpoints above Oaxaca
+    - Easy access from Oaxaca City while still feeling well off the standard tourist loop
+  downsides:
+    - Guided/community-managed logistics are part of the model; independent wandering is limited
+    - Cabins are comfortable but rustic, especially on cold high-elevation nights
+    - Some villages have sparse services outside the arranged ecotourism network
+  guide_links:
+    - title: ATMEX - Expediciones Sierra Norte profile
+      url: https://atmex.org/proveedor/expediciones-sierra-norte/
+    - title: Outdoor Project - Sierra Norte of Oaxaca route overview
+      url: https://www.outdoorproject.com/adventures/mexico/hikes/sierra-norte-oaxaca
+    - title: Two Wandering Soles - Pueblos Mancomunados hiking guide
+      url: https://www.twowanderingsoles.com/blog/hiking-oaxaca-mexico-sierra-norte-pueblos-mancomunados
+  obscurity: 4
+  status: researching
+  notes: |
+    Probably the best pure Mexico answer to this research prompt. The
+    infrastructure exists, the villages are the point of the walk, and
+    the route is short enough to pair with a longer Oaxaca trip.
+
+- slug: camino-iniciatico-sierra-gorda
+  name: Camino Iniciático de Santiago
+  country: Mexico
+  region: Sierra Gorda, Querétaro
+  coordinates: [21.1900, -99.4700]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, hut]
+  pack_weight: light
+  length_km: 127
+  length_days: 7
+  elevation_gain_m: 3300
+  difficulty: moderate
+  best_seasons: [January, February, March, April, October, November, December]
+  highlights:
+    - New pilgrim-style route through Pinal de Amoles, Landa de Matamoros and Jalpan de Serra
+    - Franciscan missions, waterfalls, community museums and Sierra Gorda village food
+    - Low-to-moderate daily stages with official tourism promotion and guide recommendations
+    - Querétaro has enough hotels/cabins to make this feel more practical than many Mexican mountain ideas
+  downsides:
+    - Still emerging; expect less on-the-ground trail culture than the Camino de Santiago name implies
+    - A certified guide is recommended, which may reduce spontaneity
+    - Some stages may include road or rural-track walking rather than dedicated trail
+  guide_links:
+    - title: Querétaro Travel - Camino Iniciático route brochure
+      url: https://queretaro.travel/wp-content/uploads/2026/01/Folleto-Camino-Iniciatico-v2_baja.pdf
+    - title: Querétaro Travel - Sierra Gorda ecotourism lodging guide
+      url: https://queretaro.travel/lugares/sierra-gorda-ecotourism-guide/?lang=en
+    - title: Puerto del Zopilote - Initiatory Path of St. James
+      url: https://puertodelzopilote.travel/en/theinitiatorypathofstjames
+  obscurity: 5
+  status: researching
+  notes: |
+    Intriguing because it is explicitly trying to be a Mexican Camino,
+    but in a region with real ecotourism lodging and attractive towns.
+    Needs a ground-truth check on waymarking before treating it as an
+    independent walk.
+
+- slug: ruta-del-cafe-chiapas
+  name: Ruta del Café del Soconusco
+  country: Mexico
+  region: Soconusco, Chiapas
+  coordinates: [15.0500, -92.1800]
+  style: mixed
+  accommodation: [hotel, guesthouse, hut]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [January, February, March, November, December]
+  highlights:
+    - Finca-to-finca coffee country on the green Pacific slope near Guatemala
+    - Historic estates such as Argovia, Hamburgo, Santo Domingo, San Francisco and La Chiripa
+    - Lodging, restaurants, coffee tours, birding and plantation trails already exist
+    - Tacaná views and a very different Chiapas experience from San Cristóbal or Palenque
+  downsides:
+    - Not a formal continuous walking route; would need a guide, custom transfers or careful route design
+    - Chiapas security and road conditions need a fresh check before committing
+    - Lower elevations can be hot and humid even in the dry season
+  guide_links:
+    - title: Destinos México - Ruta del Café in Chiapas
+      url: https://programadestinosmexico.com/en/ruta-del-cafe-en-chiapas/
+    - title: Viaja Bonito - Soconusco coffee haciendas route
+      url: https://www.viajabonito.mx/mexico/ruta-haciendas-cafe-cafetaleras-soconusco-chiapas/
+    - title: El Universal - coffee route overview
+      url: https://www.eluniversal.com.mx/articulo/english/2015/07/12/coffee-route-chiapas/
+  obscurity: 5
+  status: researching
+  notes: |
+    Creative rather than canonical: the right version is probably a
+    custom lodge-to-lodge itinerary using finca roads and local guides,
+    with short transfers where roads are unsafe or unpleasant to walk.
+
+- slug: los-tuxtlas-veracruz
+  name: Los Tuxtlas Biocultural Route
+  country: Mexico
+  region: Veracruz
+  coordinates: [18.4200, -95.0800]
+  style: mixed
+  accommodation: [hotel, guesthouse, hut]
+  pack_weight: light
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Tropical forest, Catemaco lagoon, Sontecomapan mangroves and Gulf beaches in one compact area
+    - Community ecotourism projects such as Selva del Marinero add real overnight potential
+    - Boat-assisted walking between Catemaco, Sontecomapan, Montepío and Roca Partida could be excellent
+    - Feels culturally and ecologically distinct from the usual Mexico hiking shortlist
+  downsides:
+    - Needs careful curation; some connections are roads or boat legs rather than pleasant footpaths
+    - Humidity, insects and mud can be intense outside the driest months
+    - Tourist infrastructure exists but is uneven, with some informal operators around Catemaco
+  guide_links:
+    - title: Rutas de Veracruz - Ruta de Los Tuxtlas
+      url: https://www.rutasdeveracruz.com.mx/ruta-de-los-tuxtlas/
+    - title: Enlace Ecológico - Selva de Los Tuxtlas and Catemaco itinerary
+      url: https://enlaceecologico.org/viajes/selva-de-los-tuxtlas-catemaco/
+    - title: Mexico Travel and Leisure - Sontecomapan mangroves guide
+      url: https://www.mexicotravelandleisure.com/blog/sontecomapan-mangroves/
+  obscurity: 5
+  status: researching
+  notes: |
+    The most improvised Mexico idea: not a "trek" yet, but the mix of
+    rainforest, water transport, small towns and eco-cabins could make
+    a memorable 3-5 day walking route with the right local operator.
+
+- slug: copper-canyon-villages
+  name: Copper Canyon Village Traverse
+  country: Mexico
+  region: Chihuahua
+  coordinates: [27.5000, -107.7500]
+  style: mixed
+  accommodation: [hotel, guesthouse, hut]
+  pack_weight: light
+  length_km: 75
+  length_days: 6
+  elevation_gain_m: 3600
+  difficulty: hard
+  best_seasons: [March, April, October, November]
+  highlights:
+    - Link Creel, Divisadero, Cerocahui, Urique and/or Batopilas with canyon hikes and train segments
+    - Massive elevation contrast between pine highlands and subtropical canyon bottoms
+    - Rarámuri cultural landscape, missions and old mining towns rather than a pure wilderness trek
+    - Lodges and hotels exist in the key villages, so a light-pack version is possible
+  downsides:
+    - Not suitable as an improvised solo independent trek; security and local access need expert handling
+    - Long transfers or Chepe train hops are part of the realistic itinerary
+    - Heat in canyon bottoms and cold at the rim can overlap in shoulder season
+  guide_links:
+    - title: Adventure Life - Copper Canyon lodging towns overview
+      url: https://www.adventure-life.com/travel/stories/copper-canyon
+    - title: Copper Canyon Lodges - Batopilas hiking experiences
+      url: https://coppercanyonlodges.com/experiencias-veredas-riverside/
+    - title: Copper Canyon Adventures - guided hiking and village excursions
+      url: https://www.coppercanyonadventures.com/great-day-hiking
+  obscurity: 3
+  status: researching
+  notes: |
+    Huge upside, but this only belongs on the list if treated as a guided
+    lodge-and-train traverse. The route should be planned around current
+    local advice, not just map curiosity.
+
+- slug: xela-to-lake-atitlan
+  name: Xela to Lake Atitlán
+  country: Guatemala
+  region: Western Highlands
+  coordinates: [14.7800, -91.3000]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 46
+  length_days: 3
+  elevation_gain_m: 1600
+  difficulty: moderate
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Walk from Quetzaltenango to Lake Atitlán instead of taking the shuttle
+    - Cloud forest, coffee groves, steep cornfields, villages and a sunrise finish above the lake
+    - Homestays, temascal, meals, guides and luggage drop are already organized by Quetzaltrekkers
+    - Short, high-reward introduction to Guatemalan town-to-town trekking
+  downsides:
+    - Popular by Guatemala trekking standards, especially with backpackers in Xela
+    - Route can be affected by local protests or road-access disruptions
+    - Sleeping is indoors but basic; trekkers still carry sleeping bag and mat
+  guide_links:
+    - title: Quetzaltrekkers - Xela to Lake Atitlán 3-day hike
+      url: https://www.quetzaltrekkers.com/xela/xela-lago-atitlan/
+    - title: Mayan Gateway - Trek Xela to Lake Atitlán
+      url: https://mayangateway.com/trek-xela-lake-atitlan/
+    - title: 5 Lost Together - Quetzaltrekkers trip report
+      url: https://www.5losttogether.com/xela-to-lake-atitlan-3-day-trek-with-quetzaltrekkers-in-2023/
+  obscurity: 2
+  status: researching
+  notes: |
+    The safest Guatemala recommendation because the logistics are proven.
+    Not obscure, but it cleanly satisfies the walk-between-communities
+    brief and ends somewhere worth lingering.
+
+- slug: nebaj-to-todos-santos
+  name: Nebaj to Todos Santos
+  country: Guatemala
+  region: Cuchumatanes
+  coordinates: [15.5000, -91.3600]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hotel]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 4000
+  difficulty: hard
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Remote Ixil and Mam highland walking across the highest non-volcanic range in Central America
+    - Community hostels, rustic huts, boutique hotels and family meals on organized versions
+    - Open altiplano, pine forest, cheese farms, Todos Santos textiles and serious cultural texture
+    - Far less trafficked than the Atitlán trek
+  downsides:
+    - Higher, colder and more committing than most Central America village walks
+    - Some vehicle hops are used between trailheads on standard itineraries
+    - Best with a specialist guide because remote communities and route access are sensitive
+  guide_links:
+    - title: Old Town Outfitters - Nebaj to Todos Santos Hut-to-Hotel Trek
+      url: https://adventureguatemala.com/tour/nebaj-todos-santos-hut-to-hotel
+    - title: Qué Pasa - trekking the Guatemalan Highlands
+      url: https://quepasa.gt/trekking-the-guatemalan-highlands-from-nebaj-to-todos-santos/
+    - title: Explorevia - 3-day Nebaj to Todos Santos homestay option
+      url: https://www.explorevia.com/guatemala/nebaj-to-todos-santos-3-day-trekking-adventure-homestays_p-19898
+  obscurity: 4
+  status: researching
+  notes: |
+    Best "next level" Guatemala option after Xela-Atitlán. More effort,
+    more altitude and more cultural depth, with enough hosted lodging to
+    stay in the hut-to-hut family.
+
+- slug: toledo-maya-villages
+  name: Toledo Maya Villages Walk
+  country: Belize
+  region: Toledo District
+  coordinates: [16.1800, -88.8000]
+  style: mixed
+  accommodation: [homestay, guesthouse, hut]
+  pack_weight: light
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Maya village homestays and guesthouses around Punta Gorda rather than resort Belize
+    - Forest trails, gravel village roads, caves, waterfalls and small archaeological sites
+    - Toledo Ecotourism Association and host-family networks give the idea a community base
+    - Easy to pair inland walking with Lubaantun, Nim Li Punit or Blue Creek
+  downsides:
+    - Public buses are sparse; a realistic route needs local coordination
+    - Humidity, mud and river crossings can complicate walking in the wet season
+    - Some village links are roads, so route quality will depend heavily on guide choice
+  guide_links:
+    - title: Toledo Ecotourism Association - community tourism program
+      url: https://belizemayatourism.org/
+    - title: My Guide Belize - Maya villages and host-family networks
+      url: https://www.myguidebelize.com/belize/culture-art/maya-village
+    - title: TIDE Tours - Toledo conservation and community tourism
+      url: https://tidetours.org/
+  obscurity: 5
+  status: researching
+  notes: |
+    A cultural walking circuit more than a signed trail. Worth pursuing
+    if the goal is creative, community-based travel with some hiking
+    each day and a real bed each night.
+
+- slug: miraflor-moropotente
+  name: Miraflor-Moropotente Reserve
+  country: Nicaragua
+  region: Estelí
+  coordinates: [13.2500, -86.2500]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hut]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Community-based cloud forest walking through coffee farms, orchids, viewpoints and waterfalls
+    - Homestays and finca lodges keep money close to the reserve communities
+    - Cooler northern highlands make this feel very different from Nicaragua's hotter volcano circuit
+    - Flexible 2-4 day format from Estelí with local guides
+  downsides:
+    - Trails can be muddy and informal; guide quality matters
+    - Lodging is rural and simple, often with limited electricity or hot water
+    - Less of a linear thru-hike than a stitched-together farm and forest circuit
+  guide_links:
+    - title: Visit Nicaragua - community-based rural tourism listings
+      url: https://www.visitanicaragua.com/en/community-based-rural-tourism/
+    - title: Info-Nicaragua - Miraflor-Moropotente Reserve guide
+      url: https://info-nicaragua.com/esteli/miraflor-moroponte-nature-reserve/
+    - title: Hola Hola Tours - Miraflor trekking homestay
+      url: https://www.holaholatours.com/services/esteli/miraflor-trekking-homestay
+  obscurity: 4
+  status: researching
+  notes: |
+    Very aligned with the brief: pleasant rural walking, coffee culture,
+    plenty of hosted stays, and still off the standard Granada/Ometepe
+    backpacker axis.
+
+- slug: pueblos-blancos-apoyo
+  name: Pueblos Blancos and Laguna de Apoyo
+  country: Nicaragua
+  region: Masaya / Granada
+  coordinates: [11.9200, -86.0600]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 40
+  length_days: 3
+  elevation_gain_m: 900
+  difficulty: easy
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Walkable craft towns, crater-rim viewpoints and Laguna de Apoyo swims close to Granada
+    - Catarina, San Juan de Oriente, Diriá, Diriomo, Niquinohomo and Masatepe offer varied village stops
+    - Pottery workshops, nurseries, markets and mirador cafes make the walking feel social and local
+    - Easy logistics and many guesthouses make this a gentle town-to-town experiment
+  downsides:
+    - More cultural ramble than trek; some links are paved roads with traffic
+    - Low challenge if the goal is a proper mountain route
+    - Needs careful routing around quieter back roads and crater paths to avoid busy roads
+  guide_links:
+    - title: Nicaragua Travels - Pueblos Blancos and Apoyo Lagoon
+      url: https://nicaragua-travels.com/granada-region/pueblos-blancos
+    - title: Visit Nicaragua - Apoyo and rural tourism context
+      url: https://www.visitanicaragua.com/en/community-based-rural-tourism/
+    - title: ViaNica - Laguna de Apoyo destination guide
+      url: https://vianica.com/go/specials/25-apoyo-lagoon-nicaragua
+  obscurity: 4
+  status: researching
+  notes: |
+    Included because the user asked for creative options. This is the
+    "pleasant walking between towns with swims and crafts" version, not
+    a wilderness hiking trip.
+
+- slug: ruta-de-las-flores
+  name: Ruta de las Flores
+  country: El Salvador
+  region: Apaneca-Ilamatepec Highlands
+  coordinates: [13.8700, -89.8000]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1100
+  difficulty: easy
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Coffee towns close enough for a village-to-village walking itinerary
+    - Nahuizalco, Salcoatitán, Juayúa, Apaneca, Ataco and Ahuachapán each have a distinct feel
+    - Waterfall hikes, weekend food fair, murals, coffee farms, hot springs and boutique guesthouses
+    - Good infrastructure but still more regional and grounded than the surf/volcano tourist circuit
+  downsides:
+    - The main road is not the point; use side paths, local trails and short bus hops where needed
+    - Weekends can be busy with domestic visitors
+    - Hiking is mostly day-walk add-ons rather than a single signed footpath
+  guide_links:
+    - title: Visit Centroamerica - Route of the Flowers
+      url: https://www.visitcentroamerica.com/en/visit/route-of-the-flowers/
+    - title: Visit El Salvador - Ruta de las Flores village guide
+      url: https://www.visitelsalvador.ai/blog/ruta-de-las-flores-guide-complet-villages
+    - title: Sally Sees - Ruta de las Flores travel guide
+      url: https://sallysees.com/ruta-de-las-flores-el-salvador/
+  obscurity: 3
+  status: researching
+  notes: |
+    Best framed as "slow travel on foot" rather than a thru-hike. The
+    payoff is towns, coffee and waterfalls, with buses available if a
+    road segment is dull or unsafe to walk.
+
+- slug: ruta-lenca-honduras
+  name: Ruta Lenca Highlands
+  country: Honduras
+  region: Lempira / Intibucá / La Paz
+  coordinates: [14.5000, -88.7000]
+  style: mixed
+  accommodation: [hotel, guesthouse, homestay]
+  pack_weight: light
+  length_km: 70
+  length_days: 5
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, November, December]
+  highlights:
+    - Gracias, La Campa, San Manuel Colohete, Yamaranguila, La Esperanza and Marcala as highland anchors
+    - Lenca pottery, markets, colonial churches, pine forest and coffee country
+    - Celaque National Park can add a serious mountain day above Gracias
+    - More authentic and less touristed than most Central America highland circuits
+  downsides:
+    - Not a formal walking trail; needs local guides and selective transfers
+    - Road conditions and Honduras safety context need a current check before planning
+    - Lodging clusters around towns, so daily stages may not naturally line up
+  guide_links:
+    - title: Honduras Travel - The Lenca Route
+      url: https://hondurastravel.com/the-lenca-route/
+    - title: Honduras Travel - La Esperanza travel guide
+      url: https://hondurastravel.com/la-esperanza-travel-guide/
+    - title: Hostelworld - Ecolodge Guancascos near Celaque
+      url: https://www.hostelworld.com/hostels/p/305434/ecolodge-guancascos/
+  obscurity: 5
+  status: researching
+  notes: |
+    Worth keeping because it has the exact cultural ingredients the
+    prompt asked for, but it is a custom guided itinerary rather than
+    a route to download and follow.
+
+- slug: camino-de-costa-rica
+  name: El Camino de Costa Rica
+  country: Costa Rica
+  region: Caribbean to Pacific
+  coordinates: [9.8000, -83.7000]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hotel, camping]
+  pack_weight: light
+  length_km: 280
+  length_days: 16
+  elevation_gain_m: 8500
+  difficulty: hard
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Established coast-to-coast route from the Caribbean side to Quepos on the Pacific
+    - Sixteen stages through banana lowlands, rainforest, coffee regions and rural communities
+    - Community homes, small hostels and campsites make it a true Central American hut-to-hut analogue
+    - Waymarking, stage information and lodging resources are unusually mature for the region
+  downsides:
+    - Long and physically sustained; not a casual village-walk vacation
+    - Some accommodations require advance reservations and indigenous-guide coordination
+    - Wet-season mud and river conditions can make this much harder
+  guide_links:
+    - title: El Camino de Costa Rica - official home
+      url: https://caminodecostarica.org/
+    - title: El Camino de Costa Rica - trail stages
+      url: https://caminodecostarica.org/discover/trail-stages/
+    - title: Camino de Costa Rica Lodging - accommodation planner
+      url: https://www.caminodecostaricalodging.com/accommodations/
+  obscurity: 2
+  status: researching
+  notes: |
+    The most developed Central America answer. It may be less "off the
+    beaten path" than the improvised routes, but the community lodging
+    and coast-to-coast structure make it a benchmark candidate.
+
+- slug: chiriqui-highlands-quetzales
+  name: Chiriquí Highlands via Los Quetzales
+  country: Panama
+  region: Boquete / Volcán / Cerro Punta
+  coordinates: [8.8200, -82.5300]
+  style: hut-to-hut
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [January, February, March, April, December]
+  highlights:
+    - Los Quetzales Trail links Boquete and Cerro Punta through Barú Volcano National Park
+    - Cloud forest, coffee estates, cool highland towns and strong lodging infrastructure
+    - Volcán and Cerro Punta are quieter and more local than Boquete's expat/backpacker scene
+    - Easy to build a 3-5 day light-pack itinerary with short transfers at the trailheads
+  downsides:
+    - The core Los Quetzales crossing is a day hike, so extra town-to-town days are custom additions
+    - Trails around Boquete have a real getting-lost history; use guides for anything beyond marked routes
+    - Rain and mud are common even in better months
+  guide_links:
+    - title: Anywhere - Los Quetzales Trail guide
+      url: https://www.anywhere.com/panama/attractions/los-quetzales-trail-hike
+    - title: Valle Escondido - Boquete and Cerro Punta Quetzal Trail
+      url: https://www.valleescondidoboquete.com/es/boquete/sendero-de-los-quetzalez-boquete/
+    - title: Take Your Backpack - Chiriquí Highlands travel guide
+      url: https://www.takeyourbackpack.com/backpacking-in-panama/visit-chiriqui-highlands/
+  obscurity: 3
+  status: researching
+  notes: |
+    Use the famous Boquete-Cerro Punta crossing as the spine, then make
+    the trip more hut-to-hut by sleeping in Cerro Punta, Volcán and
+    Boquete with coffee/highland side walks between.
