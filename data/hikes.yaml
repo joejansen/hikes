@@ -327,7 +327,7 @@
   region: Ladakh
   coordinates: [33.9167, 77.4333]
   style: hut-to-hut
-  accommodation: [homestay, camping]
+  accommodation: [homestay, guesthouse, camping]
   pack_weight: light
   length_km: 70
   length_days: 7
@@ -348,8 +348,12 @@
       url: https://www.muchbetteradventures.com/magazine/markha-valley-trek-guide/
     - title: Against the Compass - independent Markha Valley trekking guide
       url: https://againstthecompass.com/en/markha-valley-trek-ultimate-guide/
+    - title: Homestays of Leh - Markha Valley Homestay Trail
+      url: https://jullehladakh.com/markha-valley-homestay-trail-a-handpicked-circuit-of-culture-trekking-rural-hospitality/
+    - title: Mountain Homestays - Markha Valley Wildlife Trek
+      url: https://www.mountainhomestays.com/tour/markha-valley-trek/
   obscurity: 3
-  status: researching
+  status: shortlisted
   notes: |
     Closest Ladakh analogue to the Mestia-Ushguli homestay format.
     Would pair well with a week in Leh for acclimatization.
@@ -813,6 +817,468 @@
     village-to-village hiking we now look for: small B&Bs, breakfast
     included, almost nothing on our backs.
 
+- slug: sham-valley-ladakh
+  name: Sham Valley Homestay Trek
+  country: India
+  region: Ladakh
+  coordinates: [34.2500, 77.3500]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Village-to-village walking through Likir, Yangthang, Hemis Shukpachan and Ang
+    - Ladakhi homestays make this one of the cleanest Himalayan hut-to-hut fits
+    - Buddhist monasteries, mani walls and apricot villages without expedition logistics
+    - Lower altitude than Markha Valley, so it works as a gentler Ladakh acclimatization trek
+  downsides:
+    - Short and relatively gentle; may feel more like cultural walking than a full trek
+    - Summer heat can be strong in exposed sections
+    - Homestays are simple and can fill during peak Ladakh travel weeks
+  guide_links:
+    - title: Snow Leopard Conservancy India - Sham trekking and homestay villages
+      url: https://snowleopardindia.org/sham-trekking.php
+    - title: Ladakh Travel Co - Sham Valley Trek overview
+      url: https://www.ladakhtravelco.com/sham-valley-trek.html
+    - title: Ladakh Eco Tour and Trek - Ladakh Himalayan homestays
+      url: https://www.ladakhecotourandtrek.com/ladakh-himalaya-homestay-trek
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    Probably the purest match from the Himalaya research: light-pack,
+    village-to-village, cultural, and logistically sane. Best paired with
+    a few days in Leh first for altitude.
+
+- slug: spiti-high-village-circuit
+  name: Spiti High Village Homestay Circuit
+  country: India
+  region: Himachal Pradesh
+  coordinates: [32.2400, 78.0600]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 45
+  length_days: 6
+  elevation_gain_m: 1800
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Links Langza, Hikkim, Komic, Demul, Lhalung and Dhankar on foot
+    - Fossil fields, high-altitude villages, old monasteries and cold-desert scenery
+    - Demul and nearby villages have a real homestay culture rather than a token lodge stop
+    - Feels exploratory while still having roads nearby as bailouts
+  downsides:
+    - Several nights sit around or above 4000 m; acclimatization in Kaza is mandatory
+    - Road access makes some sections feel less remote if vehicles pass
+    - Short season and monsoon-road disruptions can complicate getting in or out
+  guide_links:
+    - title: Spiti Valley Tours - Homestay Trek
+      url: https://spitivalleytours.com/package/homestay-trek/
+    - title: Himalaya Trekkers - Spiti Valley homestay trek
+      url: https://himalayatrekker.com/tours/spiti-homestay-trek/
+    - title: Discover with Dheeraj - Demul homestay hub guide
+      url: https://discoverwithdheeraj.com/demul-village-trip-homestay-hub-spiti-valley/
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    Less a classic trek than a thread through Tibetan-style villages on
+    the edge of the Indian Himalaya. The altitude is the main seriousness,
+    not the daily mileage.
+
+- slug: upper-hunza-gojal
+  name: Upper Hunza / Gojal Village Walks
+  country: Pakistan
+  region: Gilgit-Baltistan
+  coordinates: [36.3800, 74.8700]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, hotel]
+  pack_weight: light
+  length_km: 45
+  length_days: 5
+  elevation_gain_m: 1600
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Creative non-trek linking Gulmit, Ghulkin, Borith Lake, Hussaini and Passu
+    - Wakhi villages, irrigation-channel walks, glacier viewpoints and the Passu Cones
+    - Plenty of guesthouses along the Karakoram Highway corridor
+    - Side trips to Ondra Fort, Borith Lake, Passu Glacier and suspension bridges
+  downsides:
+    - Not a formal signed hut-to-hut route; requires local route planning and taxis for gaps
+    - Some walking is near roads unless deliberately routed through village paths
+    - Pakistan travel logistics, permits and road disruptions need current checking
+  guide_links:
+    - title: Gulmit Continental Hotel - day hikes and treks
+      url: https://gulmitcontinentalhotel.com/day-hikes-and-treks/
+    - title: Pakistan tourism brochure - Gilgit-Baltistan hiking routes
+      url: https://tourism.gov.pk/publications/Brochure.pdf
+    - title: Global Visa Corp - Gojal Valley Gulmit and Ghulkin itinerary
+      url: https://www.globalvisacorp.com/blog/pakistan/gojal-valley-gulmit-ghulkin-itinerary
+  obscurity: 5
+  status: shortlisted
+  notes: |
+    Best treated as a self-designed walking holiday rather than a booked
+    trek. That is the appeal: village stays, Karakoram scenery and lots
+    of optional day hikes without a heavy pack.
+
+- slug: tamang-heritage-trail
+  name: Tamang Heritage Trail
+  country: Nepal
+  region: Langtang
+  coordinates: [28.1700, 85.3700]
+  style: hut-to-hut
+  accommodation: [homestay, teahouse]
+  pack_weight: light
+  length_km: 58
+  length_days: 6
+  elevation_gain_m: 3000
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Community homestays in Gatlang, Thuman, Briddim and nearby Tamang villages
+    - Culture-forward alternative to the busier Langtang Valley main route
+    - Nagthali viewpoint gives broad Langtang and Ganesh Himal views
+    - Easy to combine with Langtang or Ruby Valley for a longer trip
+  downsides:
+    - Road construction has changed the feel of some lower sections
+    - Hot spring and village infrastructure can shift after floods or earthquakes
+    - Less dramatic high-mountain payoff than Langtang or Annapurna classics
+  guide_links:
+    - title: Great Himalaya Trail - Tamang Heritage Trail
+      url: https://www.greathimalayatrail.com/tour-item/tamang-heritage-trail/
+    - title: Trek and Tour Nepal - Tamang Heritage Trail route guide
+      url: https://www.trekandtournepal.com/routes/tamang-heritage-trail
+    - title: Nepal Hiking Team - Tamang Heritage Trail
+      url: https://www.nepalhikingteam.com/package/tamang-heritage-trail
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    A strong Nepal option because the accommodation network and cultural
+    premise are aligned. Better for village rhythm than for maximal
+    altitude drama.
+
+- slug: sikkim-monastery-trail
+  name: Sikkim Monastery Homestay Trail
+  country: India
+  region: West Sikkim
+  coordinates: [27.3100, 88.2300]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 40
+  length_days: 5
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Walks between Khecheopalri, Yuksom, Dubdi, Hongri, Sunon and Tashiding
+    - Monastery-to-monastery structure makes it more interesting than a generic village stay
+    - Forested, humid eastern-Himalayan atmosphere contrasts with Ladakh and Spiti
+    - Homestays are common around Yuksom, Khecheopalri and nearby villages
+  downsides:
+    - Sikkim permits and local rules need checking before committing
+    - Views can be clouded out outside the clearest autumn windows
+    - Less standardized than the famous Dzongri / Goecha La trek
+  guide_links:
+    - title: Himalaya Trekkers - Sikkim monastery trail homestay trek
+      url: https://himalayatrekker.com/tours/sikkim-monastery-trail-homestay-trek/
+    - title: Homestays Sikkim - village homestays in Sikkim
+      url: https://homestayssikkim.com/village-homestays-in-sikkim/
+    - title: Nomadic Weekends - Yuksom homestay
+      url: https://www.nomadicweekends.com/listings/yuksom-homestay-west-sikkim/
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    Good creative alternative to the usual Sikkim high trek. The hook is
+    monasteries, forests and homestays, not pushing to a pass.
+
+- slug: panchase-trek
+  name: Panchase Trek
+  country: Nepal
+  region: Annapurna foothills
+  coordinates: [28.2200, 83.8200]
+  style: hut-to-hut
+  accommodation: [homestay, teahouse]
+  pack_weight: light
+  length_km: 42
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: easy
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Starts near Pokhara but quickly moves into quiet forest and village country
+    - Annapurna, Dhaulagiri and Machapuchare views from Panchase Ridge
+    - Homestay and teahouse logistics without high-altitude risk
+    - Works as a short add-on before or after a bigger Nepal trek
+  downsides:
+    - Too short and low if the goal is a major Himalayan adventure
+    - Trail conditions and lodging density vary by exact variant
+    - Leeches and mud are likely in monsoon months
+  guide_links:
+    - title: Panchase Biodiversity and Eco Tourism Nepal
+      url: https://www.panchase.com/
+    - title: The Longest Way Home - Panchase Trek 2026 guide
+      url: https://www.thelongestwayhome.com/travel-resources/trekking/panchase-trek.html
+    - title: Northabroad - Panchase Trek travel guide
+      url: https://northabroad.com/panchase-trek-in-nepal-pokhara-complete-travel-guide/
+  obscurity: 3
+  status: shortlisted
+  notes: |
+    Not remote enough to be the whole reason for a trip, but excellent
+    as a pleasant, low-risk village walk from Pokhara.
+
+- slug: pikey-peak-lower-solu
+  name: Pikey Peak / Lower Solu Trek
+  country: Nepal
+  region: Solukhumbu
+  coordinates: [27.4700, 86.6000]
+  style: hut-to-hut
+  accommodation: [teahouse, homestay, guesthouse]
+  pack_weight: light
+  length_km: 65
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Everest views from Pikey Peak without joining the Everest Base Camp corridor
+    - Sherpa villages, monasteries and rhododendron forests in lower Solukhumbu
+    - Junbesi and Phaplu make natural village overnight anchors
+    - Teahouse logistics are improving while crowds remain relatively low
+  downsides:
+    - Some operators still describe mixed lodge/homestay coverage; check current beds
+    - Road approaches can make the first or last day less elegant
+    - Weather must cooperate for the famous Everest panorama
+  guide_links:
+    - title: Nepal Treks and Tour - Pikey Peak Trek guide
+      url: https://nepaltreksandtour.com/tour/pikey-peak-trek
+    - title: High Valley Treks - Pikey Peak in Lower Solu
+      url: https://highvalleytreks.com/trekking/pikey-peak-trek-in-lower-khumbhu-region-solu/
+    - title: Dolpo Caravan Treks - Pikey Peak PDF itinerary
+      url: https://www.dolpocaravantreks.com/pikey-peak-trek/pdf
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    Strong candidate if the goal is "Everest region but not the Everest
+    Base Camp treadmill." More mountain payoff than Panchase or Tamang
+    Heritage.
+
+- slug: ruby-valley-ganesh-himal
+  name: Ruby Valley / Ganesh Himal Trek
+  country: Nepal
+  region: Ganesh Himal
+  coordinates: [28.1800, 85.0800]
+  style: hut-to-hut
+  accommodation: [homestay, teahouse, guesthouse]
+  pack_weight: light
+  length_km: 75
+  length_days: 7
+  elevation_gain_m: 4200
+  difficulty: hard
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Less-visited Ganesh Himal villages between Langtang and Manaslu
+    - Homestay-heavy route with Tamang and Gurung cultural texture
+    - Big views toward Ganesh Himal, Langtang, Manaslu and sometimes Annapurna
+    - Can link conceptually with Tamang Heritage for a longer, quieter Nepal traverse
+  downsides:
+    - Rougher logistics and less predictable accommodation than marquee Nepal routes
+    - Trails can be muddy, damaged or confusing after monsoon
+    - A local guide is strongly preferable even if doing it light-pack
+  guide_links:
+    - title: Trekking to Everest - Ruby Valley homestay trek
+      url: https://www.trekkingtoeverest.com/trip/ruby-valley-trek/
+    - title: Kamzang Journeys - Manaslu Circuit and Ruby Valley lodge trek
+      url: https://www.kamzangjourneys.com/nepal-journeys/manaslu-circuit-ruby-valley-ganesh-himal-lodge-trek-nepal/
+    - title: Himalaya Guide Nepal - Ruby Valley Trek PDF
+      url: https://himalayaguidenepal.com/ruby-valley-trek/?print=pdf
+  obscurity: 5
+  status: shortlisted
+  notes: |
+    The Nepal pick with the most "still a little raw" energy. Worth
+    more research on current trail condition before booking flights.
+
+- slug: singalila-ridge
+  name: Singalila Ridge / Sandakphu-Phalut
+  country: India
+  region: Darjeeling / Nepal border
+  coordinates: [27.1000, 88.0000]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hut]
+  pack_weight: light
+  length_km: 78
+  length_days: 6
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Ridge views of Kangchenjunga plus distant Everest, Lhotse and Makalu
+    - Trekkers' huts, lodges and homestays make it a true teahouse-style route
+    - Rhododendron and magnolia bloom can be excellent in spring
+    - Descents through Gorkhey and Samanden add quieter village texture
+  downsides:
+    - More established than the other creative Himalaya options
+    - Border-adjacent lodging rules can be awkward for foreign hikers
+    - Weather can erase the whole mountain-view premise
+  guide_links:
+    - title: Farout Trek - Singalila Ridge Trek accommodation notes
+      url: https://www.farouttrek.com/product/singalila-ridge-trek/
+    - title: Himalaya Trekkers - Sandakphu trek
+      url: https://himalayatrekker.com/tours/sandakphu-trek/
+    - title: Darjeeling Tourism - offbeat Sandakphu and Phalut route
+      url: https://www.darjeeling-tourism.com/darj_00023e.htm
+  obscurity: 3
+  status: shortlisted
+  notes: |
+    The most classic eastern-Himalaya lodge trek on the list. Not hidden,
+    but the village descent variants keep it from feeling like a pure
+    checklist trek.
+
+- slug: kumaon-village-walk
+  name: Kumaon Village Walk
+  country: India
+  region: Uttarakhand
+  coordinates: [29.6200, 79.6700]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, hotel]
+  pack_weight: light
+  length_km: 55
+  length_days: 6
+  elevation_gain_m: 2500
+  difficulty: moderate
+  best_seasons: [March, April, May, June, September, October, November]
+  highlights:
+    - Terraced Kumaoni villages, cedar forests, temples and long Nanda Devi views
+    - Can be done as humble homestays or upgraded restored-village-house walking
+    - Lower-altitude Himalayan experience with a long season and less altitude stress
+    - Flexible routes around Almora, Binsar and the Saryu valley
+  downsides:
+    - Less wild and less high than Ladakh, Spiti or Nepal's bigger treks
+    - Exact itinerary depends heavily on operator or local homestay network
+    - Some sections may use village roads rather than old footpaths
+  guide_links:
+    - title: Kumaon Village Trek - route overview
+      url: https://kumaonvillagetrek.in/kumaon-village-trek/
+    - title: Kumaon Village Trek - detailed itinerary
+      url: https://kumaonvillagetrek.in/detail-tour/
+    - title: The Week - Shakti Himalaya Kumaon walking review
+      url: https://theweek.com/culture-life/travel/hiking-in-the-indian-himalayas-shakti-tour-review
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    Good for a civilized walking holiday in the Himalaya: cultural,
+    scenic and food-forward rather than remote or athletic.
+
+- slug: trans-bhutan-trail-sections
+  name: Trans Bhutan Trail Sections
+  country: Bhutan
+  region: Haa / Paro / Thimphu / Punakha
+  coordinates: [27.4700, 89.6400]
+  style: hut-to-hut
+  accommodation: [hotel, homestay, camping]
+  pack_weight: light
+  length_km: 80
+  length_days: 6
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Restored historic cross-Bhutan route once used by pilgrims, messengers and traders
+    - Western and central sections can combine day stages with hotels and homestays
+    - Bhutanese villages, dzongs, forests and high passes without committing to the Snowman Trek
+    - Trail organization supports maintenance and communities along the route
+  downsides:
+    - Bhutan is expensive because of the Sustainable Development Fee and guided travel structure
+    - Some multi-day sections still use signature campsites rather than village lodging
+    - Independent improvisation is much less possible than in Nepal or India
+  guide_links:
+    - title: Trans Bhutan Trail - accommodation on the trail
+      url: https://www.transbhutantrail.bt/about-bhutan/accommodation-in-bhutan
+    - title: Bhutan and Beyond - Trans Bhutan Trail overview
+      url: https://bhutan.com.au/trans-bhutan-trail-tbt/
+    - title: U.S. State Department - Bhutan travel information
+      url: https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Bhutan.html
+  obscurity: 3
+  status: shortlisted
+  notes: |
+    Logistically formal but culturally special. Best framed as a custom
+    set of high-quality sections rather than the entire 400 km trail.
+
+- slug: yubeng-meili-snow-mountain
+  name: Yubeng / Meili Snow Mountain Trek
+  country: China
+  region: Diqing, Yunnan
+  coordinates: [28.4100, 98.8400]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, hotel]
+  pack_weight: light
+  length_km: 36
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: hard
+  best_seasons: [April, May, June, September, October, November]
+  highlights:
+    - Tibetan village base below sacred Kawagebo / Meili Snow Mountain
+    - Hike in via Xidang and out via Ninong for a real village-to-village shape
+    - Day hikes to Sacred Waterfall and Ice Lake add big alpine drama
+    - Guesthouses in Upper and Lower Yubeng avoid camping
+  downsides:
+    - Not in the Tibet Autonomous Region, but still requires China travel logistics and Mandarin support
+    - Popular with domestic hikers during Chinese holidays
+    - Ice Lake and higher routes can be slippery, snowy or unsafe outside good windows
+  guide_links:
+    - title: China Trekking - Yubeng Village guide
+      url: https://chinatrekking.com/destinations/yunnan/yubeng-village
+    - title: Easy Tour China - Yubeng trekking tips
+      url: https://www.easytourchina.com/tip-v1523-trekking-yubeng-village-yunnan
+    - title: TrekChina - Meili Snow Mountain and Yubeng trek
+      url: https://trekchina.com/trip/meili-snow-mountain-yubeng-trek/
+  obscurity: 4
+  status: shortlisted
+  notes: |
+    One of the most creative finds: Himalayan-feeling Tibetan village
+    walking in Yunnan, with guesthouses and dramatic sacred-mountain
+    scenery but fewer Tibet permit constraints.
+
+- slug: kailash-kora-tibet
+  name: Kailash Kora
+  country: China
+  region: Tibet Autonomous Region
+  coordinates: [31.0700, 81.3100]
+  style: hut-to-hut
+  accommodation: [guesthouse]
+  pack_weight: light
+  length_km: 52
+  length_days: 3
+  elevation_gain_m: 1600
+  difficulty: hard
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Sacred circumambulation of Mount Kailash with intense Tibetan pilgrimage atmosphere
+    - Guesthouses at Darchen, Dirapuk and Zutulpuk make it possible without camping
+    - Dramatic high-plateau scenery and the Dolma La crossing above 5600 m
+    - Completely different cultural frame from ordinary trekking
+  downsides:
+    - Very high altitude, remote medical access and basic dorm-style lodging
+    - Foreign travelers need a Tibet Travel Permit and agency-arranged logistics
+    - More pilgrimage than pleasant village-to-village walking
+  guide_links:
+    - title: Travel Kailash - 2026 Kailash Kora infrastructure guide
+      url: https://www.travelkailash.com/tibet-guide/kailash-kora-infrastructure-guide.html
+    - title: Tibet Tourism - Kailash trek guesthouse accommodation
+      url: https://www.tibettourism.com/kailash-hotel.html
+    - title: Kailash Tibet - Tibet travel permit guide for Kailash
+      url: https://www.kailashtibet.com/en/tibet-travel-permit-for-kailash
+  obscurity: 2
+  status: shortlisted
+  notes: |
+    Included because it is too interesting to ignore, not because it is
+    the most pleasant fit. Treat as a high-altitude pilgrimage with beds,
+    permits and serious acclimatization needs.
 - slug: jeju-olle-trail
   name: Jeju Olle Trail
   country: South Korea
