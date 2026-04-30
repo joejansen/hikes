@@ -274,6 +274,53 @@
     Rare shoulder-season hut-to-hut candidate — could fit a spring or
     autumn window when the Alpine refuges are still shut.
 
+- slug: rothaarsteig
+  name: Rothaarsteig
+  country: Germany
+  region: Sauerland / Rothaar Mountains
+  coordinates: [51.05, 8.28]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 154
+  length_days: 8
+  elevation_gain_m: 3900
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Well-marked ridgeway from Brilon to Dillenburg through the Rothaar Mountains
+    - B&Bs, pensions, hotels and quality hiking hosts make a light-pack itinerary realistic
+    - Hochheide, Kahler Asten, the Ruhr source and the Kühhude suspension bridge
+    - Good public transport at both termini and optional luggage transfer packages
+  downsides:
+    - Not a true alpine refuge route; huts are mostly refreshment stops rather than overnight dorms
+    - Some stages include long gravel, forest-road or asphalt sections
+    - Later stages have fewer refreshment stops, so water and food planning matters
+  guide_links:
+    - title: Rothaarsteig - official route and signposting
+      url: https://www.rothaarsteig.de/en/the-rothaarsteig/the-way
+    - title: Rothaarsteig - accommodation and route packages
+      url: https://www.rothaarsteig.de/en/hosts-hiking-packages/hiking-packages-route
+    - title: AllTrails - Rothaarsteig reviews and stages
+      url: https://www.alltrails.com/lists/rothaarsteig
+    - title: Tatonka - 3-day Rothaarsteig trip report
+      url: https://blog.tatonka.com/en/long-distance-hiking-trail-rothaarsteig-3-stages/
+  obscurity: 2
+  status: researching
+  notes: |
+    Research read: yes for bed-and-breakfast / pension / hotel stages,
+    no for a continuous refuge chain in the Alpine sense. Official
+    Rothaarsteig quality hosts can help with reservations, shuttles and
+    luggage transfer, and the host map lists B&Bs such as Isidorus and
+    VINEU plus many hotels and pensions. Huts like Hochheide Hütte and
+    Hiebammen Hütte look better treated as meal stops unless a specific
+    overnight offer is confirmed.
+
+    Reviews are broadly positive on signage, views and variety; AllTrails
+    is around 4.4/5 from 125 reviews. Caveats are that some stages are
+    tougher than the "moderate" label suggests, parts are gravel/asphalt,
+    and forest damage / maintenance issues show up in older reviews.
+
 - slug: markha-valley
   name: Markha Valley Homestay Trek
   country: India
