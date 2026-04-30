@@ -1075,7 +1075,7 @@
   accommodation: [hotel, guesthouse, bnb]
   pack_weight: light
   length_km: 4500
-  length_days: 90
+  length_days: 180
   elevation_gain_m: 50000
   difficulty: hard
   best_seasons: [April, May, June, September, October, November]
@@ -1158,7 +1158,7 @@
     - Works well as a stitched itinerary with trains, buses and ryokan nights
   downsides:
     - Not a continuous route; it needs deliberate itinerary design
-    - Winter snow affects inland/onset routes, especially Naruko and Zao
+    - Winter snow affects inland/onsen routes, especially Naruko and Zao
     - English information exists but is not as deep as for Kumano or Nakasendo
   guide_links:
     - title: Miyagi Olle - official English site
@@ -1330,7 +1330,7 @@
   length_days: 3
   elevation_gain_m: 1200
   difficulty: easy
-  best_seasons: [April, May, June, September, October, November]
+  best_seasons: [April, May, September, October, November]
   highlights:
     - Dong drum towers, wooden villages, rice terraces and footpaths above Zhaoxing
     - Tang'an and nearby hamlets create a compact village-to-village walking cluster
