@@ -4027,3 +4027,565 @@
   obscurity: 5
   status: researching
   notes: ""
+
+- slug: kalaw-inle-lake-trek
+  name: Kalaw to Inle Lake Trek
+  country: Myanmar
+  region: Shan State
+  coordinates: [20.6357, 96.8731]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 60
+  length_days: 3
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Pa-O, Danu, and Palaung village homestays with home-cooked Shan curries
+    - Rolling Shan Plateau scenery — tea plantations, ginger fields, and dry rice terraces
+    - Stilt-house monastery sleep on the trail's middle night
+    - Boat finish across Inle Lake to leg-rowing fishermen and floating gardens
+  downsides:
+    - 2026 security situation — Shan State has active conflict and landmine risk; UK/US advisories warn against all travel
+    - Flagship route is busy in shoulder season once it reopens
+    - Drinking water and bathing facilities basic in homestays
+  guide_links:
+    - title: Two Wandering Soles — Kalaw to Inle homestay trek with daily breakdown
+      url: https://www.twowanderingsoles.com/blog/myanmar-kalaw-to-inle-lake-trek-amazing-hiking-homestay-experience
+    - title: Erika's Travelventures — independent unguided trek with maps.me navigation tips
+      url: https://www.erikastravelventures.com/kalaw-to-inle-lake-trek-unguided/
+    - title: NOMADasaurus — three-day, two-night trek photo essay
+      url: https://www.nomadasaurus.com/trekking-kalaw-to-inle-lake-myanmar/
+    - title: Monkey's Tale — three-day Kalaw-Inle trek with Palaung/Danu/Pa-O cultural notes
+      url: https://monkeystale.ca/2021/03/31/myanmar-inle-lake/
+  obscurity: 2
+  status: passed
+  notes: ""
+
+- slug: hsipaw-palaung-trek
+  name: Hsipaw to Palaung Villages Trek
+  country: Myanmar
+  region: Shan State (northern)
+  coordinates: [22.6167, 97.3000]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Palaung tea-farming villages of Pankam and Pannan
+    - Sleep in lofts above barns at the Palaung chief's house
+    - Less commercialised feel than Kalaw — fewer foreign trekkers
+    - Train approach over the Goteik Viaduct
+    - Dokhtawady River bamboo-raft return option
+  downsides:
+    - 2026 conflict zone — Shan State actively contested between junta and ethnic armies
+    - Northern Shan State sees more fighting than central Shan; nearby Lashio fell to resistance forces in 2024
+    - Tatmadaw checkpoints unreliable; routes change without notice
+  guide_links:
+    - title: Honey Trek — Hsipaw safe & affordable trekking guide with stage details
+      url: https://www.honeytrek.com/hsipaw-myanmar/
+    - title: Time Travel Turtle — Hsipaw village trek photo essay
+      url: https://www.timetravelturtle.com/myanmar/trekking-in-hsipaw/
+    - title: Where Sidewalks End — Palaung hill-tribe trek narrative
+      url: https://www.wheresidewalksend.com/trekking-hsipaw-shan-state-myanmar/
+    - title: A Social Nomad — Hsipaw 2-day trek with logistics
+      url: https://asocialnomad.com/myanmar/trek-shan-state/
+  obscurity: 3
+  status: passed
+  notes: ""
+
+- slug: sapa-muong-hoa-homestay-trek
+  name: Sapa Muong Hoa Valley Homestay Trek
+  country: Vietnam
+  region: Lao Cai Province
+  coordinates: [22.3361, 103.8439]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 700
+  difficulty: easy
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Black Hmong homestay in Lao Chai with home-cooked thang co and rice wine
+    - Ta Van Giay village rice-paddy panoramas with Fansipan backdrop
+    - Optional Ta Phin loop with Red Dao herbal-bath finish
+    - Cooperative-owned guides (Sapa O'Chau) walk with you instead of leading from the front
+    - Shoulder-season terraces in flooded silver (May) or golden harvest (September)
+  downsides:
+    - Sapa town is heavily commercialised; first 30 minutes feel touristy
+    - Trails muddy and slippery in summer monsoon
+    - Aggressive souvenir selling in lower Lao Chai
+  guide_links:
+    - title: Colorado Saram — 3-day independent DIY Sapa itinerary with permit info
+      url: https://coloradosaram.com/sapa-3-day-itinerary/
+    - title: The Blonde Abroad — 3-day homestay tour with cultural detail
+      url: https://www.theblondeabroad.com/3-day-homestay-tour-sapa-vietnam/
+    - title: Bucketlist 2 Life — honest 2-day overnight Ta Van homestay review
+      url: https://bucketlist2life.com/blog/travel-guides/sapa-trekking-vietnam
+    - title: Dizzy Traveler — Y Linh Ho/Lao Chai/Ta Van long trek with photos
+      url: https://www.dztraveler.com/long-trek-sapa-y-linh-ho-lao-chai-ta-van-village-sapa/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: pu-luong-nature-reserve
+  name: Pu Luong Nature Reserve Eco-Lodge Trek
+  country: Vietnam
+  region: Thanh Hoa Province
+  coordinates: [20.4500, 105.1500]
+  style: hut-to-hut
+  accommodation: [homestay, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1100
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Bamboo waterwheel rice irrigation in Don, Hieu, and Kho Muong villages
+    - Stilt-house Thai homestays with sticky-rice and grilled-fish dinners
+    - Pu Luong Retreat infinity-pool eco-lodge optional finish
+    - Kho Muong bat cave scramble en route
+    - Rice paddies less photographed than Sapa; few touts
+  downsides:
+    - Hot and humid May-August
+    - Trail finding tricky without local guide
+    - Some lodges drift toward upscale "boutique" pricing
+  guide_links:
+    - title: Vietnam Coracle — independent Pu Luong homestay deep-dive guide
+      url: https://www.vietnamcoracle.com/homestays-pu-luong-nature-reserve/
+    - title: Hiking Vietnam — full Pu Luong route descriptions with maps
+      url: https://hikingvietnam.com/vietnam-hiking-trails/pu-luong-nature-reserve/
+    - title: Colorful Journeys — Pu Luong destination guide with logistics
+      url: https://www.colorfuljourneys.com/articles/pu-luong-nature-reserve
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: ha-giang-karst-walks
+  name: Dong Van Karst Plateau Village Walks
+  country: Vietnam
+  region: Ha Giang Province
+  coordinates: [23.2667, 105.3667]
+  style: mixed
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 40
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [March, April, September, October, November]
+  highlights:
+    - Lung Cu, Sa Phin H'mong King's Palace, and Pho Bang stone villages
+    - Trail fragments through the Ma Pi Leng pass karst from Du Gia toward Meo Vac
+    - H'mong, Lo Lo, and Tay homestays with corn whisky
+    - Triangular buckwheat fields in October-November bloom
+    - UNESCO Global Geopark with limestone fang scenery
+  downsides:
+    - Most travellers do this by motorbike — pure walking section requires cherry-picking trails
+    - Cold and foggy December-February
+    - Border-zone permit needed for some northern villages
+  guide_links:
+    - title: Miss Filatelista — Dong Van loop journey with stops and homestays
+      url: https://www.missfilatelista.com/ha-giang-dong-van-loop/
+    - title: Vietnam Tourism — official Ha Giang loop itinerary with walking sections
+      url: https://vietnam.travel/things-to-do/ha-giang-loop-four-day-road-trip
+    - title: Veronika's Adventure — Ha Giang Mama homestay 4D3N route
+      url: https://veronikasadventure.com/ha-giang-loop-4d3n-mama-homestay/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: bario-kelabit-highlands-loop
+  name: Bario Loop — Kelabit Highlands Longhouse Trek
+  country: Malaysia
+  region: Sarawak (Kelabit Highlands, Borneo)
+  coordinates: [3.7333, 115.4667]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 1400
+  difficulty: moderate
+  best_seasons: [March, April, May, June, July, August, September]
+  highlights:
+    - Pa Lungan, Pa Ukat, and Pa Umor longhouse stays with Kelabit hosts
+    - Salt springs near Pa Umor — Kelabit traditional industry still active
+    - Megaliths (Batu Ritong) and ancient burial jar sites along the trail
+    - Bario rice — famous heirloom variety, dinner staple in homestays
+    - 19-seat MAS Wings Twin Otter approach over the rainforest canopy
+  downsides:
+    - Logistics serious — only access is the small Bario airstrip (weather-dependent)
+    - Leeches in any wet stretch
+    - Independent walking possible but most people hire a Kelabit guide
+  guide_links:
+    - title: Nel Finberg — Pa Lungan hike trip report with photos and stages
+      url: https://nelfinberg.com/southeast-asia-2/malaysia/sarawak/kelabit/hike-to-pa-lungan/
+    - title: Southeast Asia Backpacker — Kelabit Highlands independent travel guide
+      url: https://southeastasiabackpacker.com/destinations/malaysia/borneo-malaysia/the-kelabit-highlands/
+    - title: The BeauTraveler — 3D2N Bario itinerary with homestay details
+      url: https://thebeautraveler.com/what-to-do-in-bario-sarawak/
+    - title: Matador Network — Sarawak/Kelabit trekking narrative
+      url: https://matadornetwork.com/trips/sarawak-trekking-in-the-kelabit-highlands/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: cordillera-rice-terrace-villages
+  name: Banaue–Batad–Bangaan–Cambulo Rice Terrace Walk
+  country: Philippines
+  region: Ifugao Province (Cordillera, Luzon)
+  coordinates: [16.9333, 121.1333]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [February, March, April, May, October, November]
+  highlights:
+    - 2,000-year-old UNESCO Ifugao rice terraces — "stairway to the sky"
+    - Batad amphitheatre village (no road access) and Tappiyah waterfall
+    - Cambulo and Bangaan stage villages with family-run inns
+    - Sagada hanging coffins and Echo Valley extension
+    - English widely spoken — easy independent travel
+  downsides:
+    - Trail can be slippery on terrace stone-walls in rain
+    - Some sections include road walking between Banaue and Sagada
+    - Land transfer (Manila bus) is long
+  guide_links:
+    - title: Will Fly for Food — Batad/Banaue first-timer trekking guide
+      url: https://www.willflyforfood.net/the-first-timers-travel-guide-to-batad-rice-terraces-banaue-ifugao-philippines/
+    - title: Alex in Wanderland — Batad rice-terrace hiking trip report
+      url: https://www.alexinwanderland.com/rice-terraces-of-batad/
+    - title: Phenomenal Globe — Batad/Banaue trail-by-trail hiking notes
+      url: https://www.phenomenalglobe.com/batad-rice-terraces-hiking-banaue/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mt-pulag-akiki-ambangeg-traverse
+  name: Mt Pulag Akiki–Ambangeg Traverse
+  country: Philippines
+  region: Benguet Province (Cordillera, Luzon)
+  coordinates: [16.5961, 120.8889]
+  style: mixed
+  accommodation: [bnb, camping]
+  pack_weight: either
+  length_km: 24
+  length_days: 3
+  elevation_gain_m: 2300
+  difficulty: hard
+  best_seasons: [December, January, February, March]
+  highlights:
+    - Sea-of-clouds sunrise at the 2,922m grassland summit
+    - Mossy forest "Killer Slope" of the Akiki trail
+    - Bunkhouse stay at the DENR ranger station (no tent needed)
+    - Dwarf bamboo summit ridge — Philippines' "Playground of the Gods"
+    - Combine with Sagada/Baguio for a cultural extension
+  downsides:
+    - Requires DENR permit and a registered guide (cap on daily visitors)
+    - Cold nights — 0°C possible in January
+    - Akiki side is steep and exposed; not for unfit hikers
+  guide_links:
+    - title: Lakwatsero — Akiki traverse trail tale with stages and timing
+      url: https://www.lakwatsero.com/trail-tale/mount-pulag-ambaguio-akiki-overnight-traverse/
+    - title: Ambot-ah! — Akiki-Ambangeg 3D2N itinerary with budget
+      url: https://ambot-ah.com/mt-pulag-akiki-ambangeg-3-day-itinerary/
+    - title: Tara Lets Anywhere — updated Mt Pulag full guide with permits
+      url: https://www.taraletsanywhere.com/mount-pulag-philippines/
+    - title: Laagsparkles — Akiki-Ambangeg traverse personal trip report
+      url: https://laagsparkles.wordpress.com/2020/04/22/mt-pulag-akiki-ambangeg-traverse-3d2n-conquering-luzons-highest-and-magnificent-peak-budget-itinerary/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: nong-khiaw-muang-ngoi-villages
+  name: Nong Khiaw–Muang Ngoi–Ban Na Village Walk
+  country: Laos
+  region: Luang Prabang Province (Nam Ou Valley)
+  coordinates: [20.5667, 102.6167]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 25
+  length_days: 3
+  elevation_gain_m: 600
+  difficulty: easy
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Limestone karst sunrise from Pha Daeng viewpoint above Nong Khiaw
+    - Boat or walk to the car-free Muang Ngoi village
+    - Walk through rice paddies to Lao Loum villages of Ban Na and Ban Huay Bo
+    - Tham Kang and Tham Pha Kaew caves en route
+    - Sunset on the Nam Ou River from a longboat
+  downsides:
+    - Mostly easy paths between villages — more village strolling than trekking
+    - Hot in March-April
+    - Wet-season trails muddy and leech-prone
+  guide_links:
+    - title: Adventures of Jellie — complete Nong Khiaw guide with hiking and homestay info
+      url: https://www.adventuresofjellie.com/laos/nong-khiaw-the-complete-guide
+    - title: Off to Get Lost — Nong Khiaw 3-day itinerary with sunrise hikes
+      url: https://offtogetlost.com/nong-khiaw-laos-itinerary-sunrise-hike/
+    - title: Take Your Backpack — Nong Khiaw to Muang Ngoi backpacking guide
+      url: https://www.takeyourbackpack.com/backpacking-in-laos/hike-nong-khiaw-to-muang-ngoi-trek/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: nam-ha-akha-trek
+  name: Nam Ha NPA Hill-Tribe Trek
+  country: Laos
+  region: Luang Namtha Province
+  coordinates: [20.9500, 101.4000]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Akha, Khmu, and Lanten village homestays in the Nam Ha protected area
+    - See how upland Lao live — slash-and-burn rice farming windows visible
+    - UNESCO ecotourism model — proceeds go directly to villages
+    - Old-growth jungle sections with gibbons and hornbills
+    - Cooperative guiding via the Nam Ha Ecotourism Project
+  downsides:
+    - Homestays very basic — sleep on a floor mat, no hot water
+    - Heavy slash-and-burn smoke March-April makes some valleys hazy
+    - Operator quality varies; choose carefully
+  guide_links:
+    - title: Mog and Dog Travels — what trekking in Luang Namtha is really like
+      url: https://www.moganddogtravels.com/blogs/trekking-in-luang-namtha-in-northern-laos
+    - title: Loren's Wanderlust — Luang Namtha jungle hill-tribe trek report
+      url: https://www.lorenswanderlust.net/northern-laos/trekking-hill-tribes
+    - title: The Hiker Laos — Akha homestay experience with itinerary
+      url: https://thehikerlaos.com/tours/akha-homestay-experience/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: phongsali-akha-trek
+  name: Phongsali Akha Hill-Tribe Trek
+  country: Laos
+  region: Phongsali Province (far north)
+  coordinates: [21.6833, 102.1000]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1600
+  difficulty: hard
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Authentic Akha villages (Ban Paicho, Ban Peryenxangkao) where traditional headdresses are still daily wear
+    - Sleep in unaltered Akha chief's house — dirt floor, smoky fire, no tourist concessions
+    - Nam Ou River boat approach from Hatsa
+    - Old-growth forest along the China border
+    - Some villagers have never left their valley
+  downsides:
+    - Genuinely hard — long uphill stages, no English-speaking villagers
+    - Homestays extremely basic; no toilets in some hamlets
+    - Hard to reach (20-hour overland from Chiang Mai or Cessna flight from Vientiane)
+    - Cultural sensitivity required — animist rituals, spirit gates
+  guide_links:
+    - title: Loren's Wanderlust — Phongsali far-north trekking guide with operators
+      url: https://www.lorenswanderlust.net/northern-laos/phongsali
+    - title: Brunette at Sunset — 3-day Phongsaly mountain-tribes hike trip report
+      url: https://brunetteatsunset.com/laos/trekking-in-northern-laos-a-3-day-hike-through-phongsalys-mountain-tribes/
+    - title: Venture the Planet — Akha hill-tribe Phongsaly trekking journal
+      url: https://venturetheplanet.com/akha-hill-tribe-trekking-in-northern-laos-phongsaly-region-and-my-new-favorite-city-in-southeast-asia-luang-prabang/
+    - title: We Are Lao — Phongsaly trekking practical info
+      url: https://wearelao.com/standard-page/trekking-in-phongsaly/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: munduk-sidemen-bali-villages
+  name: Munduk and Sidemen Village Walks
+  country: Indonesia
+  region: Bali (Buleleng & Karangasem)
+  coordinates: [-8.2500, 115.0600]
+  style: mixed
+  accommodation: [homestay, bnb, hotel]
+  pack_weight: light
+  length_km: 40
+  length_days: 4
+  elevation_gain_m: 1200
+  difficulty: easy
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Munduk waterfalls (Melanting, Banyumala) and clove/coffee plantations
+    - Sidemen rice terraces with Mt Agung as backdrop
+    - Bali-Hindu temple stops at Pura Lempuyang and Pura Ulun Danu Bratan
+    - Family-run warung food en route — all mid-walk lunches sorted
+    - Pelaga / Plaga villages add a less-touristed extension
+  downsides:
+    - Not a continuous trail — needs scooter or transport links between sections
+    - Bali's overall tourist load means Sidemen now has upscale resorts alongside homestays
+    - Hot lowland sections
+  guide_links:
+    - title: Torn Tackies — Sidemen travel guide with walking routes
+      url: https://www.torntackies.com/sidemen-bali/
+    - title: Torn Tackies — Munduk things-to-do with hiking trails
+      url: https://www.torntackies.com/things-to-do-in-munduk-bali/
+    - title: Girl Gone Coconuts — Munduk ultimate travel guide
+      url: https://www.girlgonecoconuts.com/asia-travel/bali-munduk
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: cameron-highlands-trails
+  name: Cameron Highlands Trail Network
+  country: Malaysia
+  region: Pahang
+  coordinates: [4.4833, 101.3833]
+  style: mixed
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [February, March, April, May, June, July, August]
+  highlights:
+    - 14-trail numbered network through cloud forest around Tanah Rata
+    - BOH and Cameron Valley tea-plantation traverses
+    - Orang Asli (Semai) village paths on Trails 9 and 14
+    - Cool 18-22°C upland air, mossy forest sections
+    - Strawberry farms and night-market dinners back in town
+  downsides:
+    - Town base — you sleep in B&Bs/hotels, not jungle huts (not "true" hut-to-hut)
+    - Some trails poorly maintained or closed; signage inconsistent
+    - Tanah Rata itself is built-up
+  guide_links:
+    - title: Bucketlistly — complete Cameron Highlands hiking trail guide
+      url: https://www.bucketlistly.blog/posts/cameron-highlands-jungle-hiking-trail-guide
+    - title: The World Trippers — all 14 Cameron trails with descriptions
+      url: https://www.theworldtrippers.com/asia/malaysia/hiking-in-the-cameron-highlands/
+    - title: Time Travel Turtle — Cameron Highlands hiking overview
+      url: https://www.timetravelturtle.com/malaysia/hiking-in-cameron-highlands/
+    - title: SE Asia Backpacker — Cameron Highlands hiking practical guide
+      url: https://southeastasiabackpacker.com/hiking-cameron-highlands/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mae-hong-son-hilltribe-trek
+  name: Mae Hong Son Karen and Lahu Hill-Tribe Trek
+  country: Thailand
+  region: Mae Hong Son Province
+  coordinates: [19.3000, 97.9667]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Red Lahu Ban Pha Mon and White Karen Ban Muang Pam village homestays
+    - Tham Lod limestone cave with bamboo-raft passage
+    - Soppong/Pang Mapha valley with traditional rice-paddy cultivation
+    - Pai's bohemian valley as start/end point
+    - Cooler, drier climate than southern Thailand
+  downsides:
+    - Some hill-tribe village visits feel staged when booked through commercial operators
+    - Dry-burn season (March-April) makes the air smoky
+    - Independent walking difficult — most travelers go with a guide
+  guide_links:
+    - title: Bucketlistly — 10-day Mae Hong Son loop backpacking itinerary
+      url: https://www.bucketlistly.blog/posts/mae-hong-son-loop-itinerary-backpacking-guide
+    - title: Drillin Journeys — Mae Hong Son loop backpacker view
+      url: https://www.drillinjourneys.com/blog/best-things-to-do-in-thailand-for-backpackers-mae-hong-son-loop
+    - title: Andaman Discoveries — Mae Hong Son hill-tribe trek with homestay logistics
+      url: https://andamandiscoveries.com/tours/mae-hong-son-hill-tribe-trek/
+    - title: Together to Unknown — Mae Hong Son loop itinerary with stops
+      url: https://togethertounknown.com/en/blog/mae-hong-son-loop-itinerary/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: doi-inthanon-karen-trek
+  name: Doi Inthanon to Mae Wang Karen Village Trek
+  country: Thailand
+  region: Chiang Mai Province
+  coordinates: [18.5894, 98.4867]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Pha Dok Siew waterfall trail with ten cascades
+    - Karen homestays in Ban Mae Klang Luang and Ban Pratu Muang
+    - Doi Inthanon summit (2,565m) — Thailand's highest peak
+    - Karen-grown coffee tasted at the source
+    - Twin Royal Pagodas summit ridge cloud-forest
+  downsides:
+    - Doi Inthanon summit area itself is touristy
+    - Independent walking hard — operators control trail access
+    - Trails outside the national park can be poorly marked
+  guide_links:
+    - title: Green Trails — Mae Klang Luang village stay with multi-day routes
+      url: https://www.green-trails.com/ban-mae-klang-luang-on-doi-inthanon/
+    - title: Green Trails — village homestays Doi Inthanon trekking overview
+      url: https://www.green-trails.com/the-green-trails-village-homestays/
+    - title: Chris in Namibia — Mae Wang area trek personal report
+      url: https://chris-in-namibia.com/southeast-asia-2023-thailand-mae-wang-area/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: wae-rebo-flores
+  name: Wae Rebo Traditional Village Trek
+  country: Indonesia
+  region: Flores (East Nusa Tenggara)
+  coordinates: [-8.7639, 120.2589]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 18
+  length_days: 2
+  elevation_gain_m: 700
+  difficulty: easy
+  best_seasons: [April, May, June, July, August, September]
+  highlights:
+    - Sleep inside one of seven cone-shaped Mbaru Niang houses with Manggarai families
+    - 9km jungle climb from Denge village to a misty mountain hamlet
+    - Welcome ceremony (pa'u wa'u) on arrival — non-skippable, sets the tone
+    - No electricity, no phone signal — radical disconnect
+    - Spider-web rice fields of Cancar en route
+  downsides:
+    - Short hike — only one day actually walking (~3-4hr each way)
+    - Single-village experience, not a multi-village traverse
+    - Logistics from Labuan Bajo are long (10-11 hours round trip)
+  guide_links:
+    - title: The World Travel Guy — how to visit Wae Rebo, full logistics
+      url: https://theworldtravelguy.com/wae-rebo-village/
+    - title: Londoner in Sydney — 13 tips for visiting Wae Rebo with photos
+      url: https://londonerinsydney.com/13-tips-for-visiting-wae-rebo-village-in-flores-indonesia/
+    - title: Discover Your Indonesia — Wae Rebo highlands cultural guide
+      url: https://discoveryourindonesia.com/wae-rebo/
+    - title: Local Guides — 3D2N Wae Rebo itinerary
+      url: https://www.local-guides.org/indonesia/flores/3d2n-wae-rebo/
+  obscurity: 4
+  status: researching
+  notes: ""
