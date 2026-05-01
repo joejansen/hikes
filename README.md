@@ -28,7 +28,26 @@ truth for allowed fields and enum values.
 
 ## Deploy
 
-Push to GitHub and import the repo in Vercel. No env vars, no config.
-Every `git push` to `main` triggers a rebuild and deploy.
+Push to GitHub and import the repo in Vercel. Every `git push` to `main`
+triggers a rebuild and deploy.
 
 The repo and live site are public, so treat `notes` as world-readable.
+
+### Map tiles (optional)
+
+The `/map` page uses MapLibre GL. With no configuration it falls back to
+[OpenFreeMap](https://openfreemap.org) (streets only, no key required).
+
+To enable Outdoor and Satellite layers, sign up for a free
+[MapTiler](https://www.maptiler.com) account and set:
+
+```
+NEXT_PUBLIC_MAPTILER_KEY=your_key_here
+```
+
+In Vercel, add it under Project Settings → Environment Variables. Locally,
+put it in `.env.local`.
+
+The key is exposed to the browser (the `NEXT_PUBLIC_` prefix is required for
+client-side use), so restrict it to your deployment domain in the MapTiler
+dashboard under Account → Keys → Allowed origins.
