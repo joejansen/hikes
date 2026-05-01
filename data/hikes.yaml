@@ -3677,7 +3677,7 @@
   downsides:
     - Some stages have long stretches without water or villages
     - Waymarking quality varies; GPX track strongly recommended
-    - Datça-Marmaris transport is slow and indirect
+    - Marmaris-Bozburun transport (the only road in) is slow and indirect
   guide_links:
     - title: Notes on Slow Travel — first-person Bozburun trip report
       url: https://notesonslowtravel.com/hiking-the-bozburun-peninsula/
@@ -3711,6 +3711,7 @@
     - Long stages with thin accommodation between Datça and Knidos
     - Some sections require camping or a pre-arranged transfer back to a pension
     - Strong meltemi wind in summer; exposed terrain
+    - Datça-Marmaris transport on the winding D400 is slow (3+ hours)
   guide_links:
     - title: Carian Trail — official Datça Peninsula section pages
       url: https://www.cariantrail.com/datca-peninsula/
@@ -3728,8 +3729,8 @@
   region: Western Taurus (Isparta)
   coordinates: [37.8700, 30.8500]
   style: hut-to-hut
-  accommodation: [guesthouse, hotel, homestay]
-  pack_weight: light
+  accommodation: [guesthouse, hotel, homestay, camping]
+  pack_weight: either
   length_km: 220
   length_days: 12
   elevation_gain_m: 9500
@@ -3894,7 +3895,7 @@
   country: Turkey
   region: Southern Aegean (Aydın/Muğla)
   coordinates: [37.5000, 27.5000]
-  style: hut-to-hut
+  style: mixed
   accommodation: [guesthouse, bnb]
   pack_weight: light
   length_km: 50
