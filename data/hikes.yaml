@@ -3620,7 +3620,7 @@
   status: researching
   notes: ""
 
-- slug: amc-presidential-traverse
+- slug: amc-white-mountain-hut-traverse
   name: AMC White Mountain Hut Traverse
   country: United States
   region: White Mountains, New Hampshire
@@ -3663,16 +3663,16 @@
   style: hut-to-hut
   accommodation: [hut]
   pack_weight: light
-  length_km: 160
+  length_km: 100
   length_days: 6
   elevation_gain_m: 6000
   difficulty: hard
   best_seasons: [July, August, September]
   highlights:
-    - 40 backcountry huts linked by 300 miles of singletrack across the Sawatch and Gore ranges
+    - 40 backcountry huts linked by 480 km of trails across the Sawatch and Gore ranges
     - Built to commemorate the 10th Mountain Division ski troopers; each hut has its own history
     - A hut a day from Aspen toward Red Cliff/Vail is realistic with light packs and pre-loaded staples
-    - Above 10,000 ft for most of the traverse — lakes, wildflowers, and aspen everywhere
+    - Above 3,000 m for most of the traverse — lakes, wildflowers, and aspen everywhere
   downsides:
     - Summer use is much less established than winter ski use; route-finding off the obvious ridges is on you
     - Huts are not staffed and meals are not provided — you cook with what you carry in
@@ -3704,14 +3704,14 @@
   difficulty: moderate
   best_seasons: [July, August, September]
   highlights:
-    - Five canvas-tent camps spaced 6-10 miles apart in Yosemite's high country (Glen Aulin, May Lake, Sunrise, Merced Lake, Vogelsang)
+    - Five canvas-tent camps spaced 10-16 km apart in Yosemite's high country (Glen Aulin, May Lake, Sunrise, Merced Lake, Vogelsang)
     - Hot showers, breakfast, and dinner included at each camp — no pack, no tent, no stove
     - Half-loop and unguided itineraries available, not just the full guided trip
     - Quiet alpine basins above the Tuolumne Meadows day-hiker hordes
   downsides:
     - Lottery in September-November of the prior year; demand far exceeds supply
     - Camp seasons have been disrupted by recent fires and budget years
-    - Daily hikes are short but altitude (8,000-10,000 ft) hits unacclimatized hikers hard
+    - Daily hikes are short but altitude (2,400-3,000 m) hits unacclimatized hikers hard
   guide_links:
     - title: Travel Yosemite - official High Sierra Camps page
       url: https://www.travelyosemite.com/lodging/high-sierra-camps
@@ -3731,13 +3731,13 @@
   style: hut-to-hut
   accommodation: [hut]
   pack_weight: light
-  length_km: 80
+  length_km: 60
   length_days: 4
   elevation_gain_m: 1500
   difficulty: moderate
   best_seasons: [June, July, August, September, October]
   highlights:
-    - Four off-grid eco-lodges (Stratton Brook, Poplar, Flagstaff, Grand Falls) linked by 80+ miles of trail
+    - Four off-grid eco-lodges (Stratton Brook, Poplar, Flagstaff, Grand Falls) linked by 130+ km of trails
     - Three meals a day, hot showers, woodstoves and bunkrooms — a true light-pack hut chain in New England
     - Optional gear shuttles let you walk between lodges with just a daypack
     - Quieter than the AMC system; Bigelow Range and Flagstaff Lake views to yourself
@@ -3777,7 +3777,7 @@
     - The San Juans are the most rugged subrange of the Rockies — alpine basins, wildflowers, old mining remnants
     - Telluride and Ouray bookend the route; both are excellent towns to spend a rest day in
   downsides:
-    - Summer afternoon thunderstorms above 12,000 ft are a serious daily concern
+    - Summer afternoon thunderstorms above 3,700 m are a serious daily concern
     - You haul in your own food and fuel; the huts don't cater
     - Stretches involve cross-country travel and route-finding above treeline
   guide_links:
@@ -3847,7 +3847,7 @@
     - Stages between Brandon, Goshen, Chittenden, Mendon and Killington — antique New England villages between Long Trail spurs
     - Easy to extend or shorten; spring-and-fall walking when alpine routes are still snowed in or already snowed under
   downsides:
-    - More walking-vacation than serious mountain trek; daily mileage is 7-12 miles on rolling terrain
+    - More walking-vacation than serious mountain trek; daily stages are 11-19 km on rolling terrain
     - Some forest connecting trails are muddy and root-strewn even in summer
     - Inn cost is much higher than refuge or hut equivalents
   guide_links:
@@ -3869,13 +3869,13 @@
   style: hut-to-hut
   accommodation: [bnb, guesthouse]
   pack_weight: light
-  length_km: 336
+  length_km: 150
   length_days: 7
   elevation_gain_m: 3500
   difficulty: hard
   best_seasons: [June, July, August, September]
   highlights:
-    - 336 km of coastal trail linking 30 outport villages from Topsail Beach to Cappahayden
+    - 336 km of coastal trail in total linking 30 outport villages; a 7-day B&B itinerary covers the best northern highlights (~150 km)
     - Sea-stack and fjord coastline, puffins, icebergs in early summer, whales in July-August
     - B&Bs and family guesthouses in fishing villages; hosts often shuttle hikers to and from trailheads
     - Pure Newfoundland culture — kitchen parties, music, and screech-ins as part of the deal
