@@ -5434,3 +5434,427 @@
   obscurity: 4
   status: researching
   notes: ""
+
+- slug: tatranska-magistrala
+  name: Tatranská Magistrála
+  country: Slovakia
+  region: High Tatras (Vysoké Tatry)
+  coordinates: [49.1639, 20.1339]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 65
+  length_days: 5
+  elevation_gain_m: 4500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Granite cirques and tarns above Téryho chata, one of Slovakia's classic stone-built huts where porters still hike supplies up daily
+    - Sunrise at Skalnaté pleso with the spiky Lomnický štít (2634 m) directly overhead
+    - The exposed Priečne sedlo chained pass linking Téryho and Zbojnícka chatas — short ladders and one-way traffic
+    - Sliezsky dom, the hotel-refuge perched at 1670 m below Gerlachovský štít (highest peak in the Carpathians)
+    - Wildflower meadows above Štrbské pleso lake, with the cog railway as an easy exit
+  downsides:
+    - Wild camping is forbidden inside the national park; chatas book out months ahead for July and August
+    - The post-storm rerouted "official" Magistrála skips the highest huts — reaching Téryho/Zbojnícka requires detours
+    - Afternoon thunderstorms are routine and the chained passes become genuinely dangerous when wet
+  guide_links:
+    - title: Cicerone — The High Tatras (Saunders & Nárožná guidebook)
+      url: https://www.cicerone.co.uk/the-high-tatras
+    - title: HikingMania — Tatranská Magistrála trip report with stage-by-stage notes
+      url: https://hikingmania.com/tatranska-magistrala/
+    - title: Outdooractive — Magistrála section 2 GPX track
+      url: https://www.outdooractive.com/en/track/175-section-2/130928442/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: rila-traverse
+  name: Rila Mountains Traverse
+  country: Bulgaria
+  region: Rila (Sofia / Blagoevgrad oblasts)
+  coordinates: [42.1833, 23.4667]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 75
+  length_days: 6
+  elevation_gain_m: 4200
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Sunrise summit of Musala (2925 m), the highest peak in the Balkans, with views deep into Macedonia and Greece
+    - The Seven Rila Lakes cirque (Tear, Eye, Kidney, Twin, Trefoil, Fish, Lower) seen from the Haramiyata ridge above Sedemte Ezera hizha
+    - Soviet-era Ivan Vazov hizha — wood-paneled, banitsa for breakfast, the warden still rings a bell for meals
+    - Kobilino Branishte ridge linking Maliovitsa to the southern Rila with marmots and edelweiss
+    - Finishing at the 10th-century Rila Monastery (UNESCO) with painted exterior frescoes and the relics of Ivan of Rila
+  downsides:
+    - Hut quality is uneven — some are spotless, others dilapidated and cash-only; reservations are by phone in Bulgarian
+    - Trail blazes fade in the alpine zone and the Borovets-side ski-piste sections are confusing in fog
+    - Sedemte Ezera area gets day-tripper waves from the Pionerska chairlift — go midweek and stay overnight to escape it
+  guide_links:
+    - title: HikingMania — Rila Traverse 6-day trip report with stages and hut details
+      url: https://hikingmania.com/rila-traverse/
+    - title: Wikipedia — Musala (highest Balkan peak, on-route)
+      url: https://en.wikipedia.org/wiki/Musala
+    - title: Wikipedia — Rila Monastery (the traverse endpoint)
+      url: https://en.wikipedia.org/wiki/Rila_Monastery
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: pirin-traverse
+  name: Pirin Mountains Traverse
+  country: Bulgaria
+  region: Pirin (Blagoevgrad oblast, near Bansko)
+  coordinates: [41.7667, 23.4167]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 4000
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Marble-white Vihren (2914 m), Bulgaria's third-highest, climbed via the Kazanite cirque scramble from Vihren hizha
+    - Koncheto knife-edge ridge between Vihren and Kutelo — a 400 m exposed traverse with a steel cable, no harness needed but airy
+    - Bezbog Lake and the chairlift-served Bezbog hizha sitting above a glacial cirque of black pines
+    - Banderitsa and Demyanitsa valleys with stands of Baikushev's pine — Bulgaria's oldest tree at roughly 1300 years
+    - Finishing in Bansko's 18th-century stone-and-wood Old Quarter with mehana dinners of katino meze and Melnik wine
+  downsides:
+    - Even less English-friendly than Rila — wardens may speak only Bulgarian or Russian, signs are Cyrillic-only
+    - Vihren and Koncheto stay dangerous in lingering snow (often into early July); descend before noon storms
+    - Pirin huts are spread out — long water-carry days and a couple of stages exceed 8 hours
+  guide_links:
+    - title: HikingMania — Pirin Traverse 5-day trip report with hut and ridge notes
+      url: https://hikingmania.com/pirin-traverse/
+    - title: Wikipedia — Pirin National Park (UNESCO context, geology, flora)
+      url: https://en.wikipedia.org/wiki/Pirin_National_Park
+    - title: Wikipedia — Vihren (route, history, marble geology)
+      url: https://en.wikipedia.org/wiki/Vihren
+    - title: Wikivoyage — Pirin (huts list, access, Bulgarian phrases)
+      url: https://en.wikivoyage.org/wiki/Pirin
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: bieszczady-bacowki
+  name: Bieszczady Bacówki Traverse
+  country: Poland
+  region: Bieszczady Mountains (Podkarpackie, SE corner near Ukraine/Slovakia)
+  coordinates: [49.1000, 22.6500]
+  style: hut-to-hut
+  accommodation: [hut, guesthouse]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 2800
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Tarnica (1346 m) — the symbolic peak of the range, with a metal cross at the summit; the young priest who became Pope John Paul II hiked here
+    - The "połoniny" — high open grasslands above the treeline unique to the Eastern Carpathians; Połonina Wetlińska and Caryńska are the classics
+    - Bacówka PTTK Pod Małą Rawką — wooden A-frame hut with tile stoves, kielbasa-and-bigos dinners, pierogi for breakfast
+    - Lemko/Boyko ghost villages — wayside cemeteries and ruined Greek Catholic tserkvas marking communities deported in Operation Vistula (1947)
+    - Sunset on Połonina Wetlińska with the silhouette of Chatka Puchatka (the "Winnie-the-Pooh hut") on the ridge
+  downsides:
+    - National park closes the high połoniny trails at dusk (typically 20:00) — getting caught above is fined
+    - Bears, wolves, and bison are genuinely present; food storage and noise on trail matter
+    - Public transport into Ustrzyki Górne and Wetlina is sparse; bacówki fill on summer weekends with Polish hikers
+  guide_links:
+    - title: Eternal Expedition — Bieszczady Mountains hiking guide (independent trip report)
+      url: https://eternalexpedition.com/bieszczady-mountains-poland-hiking-guide/
+    - title: HikingMania — Bieszczady Traverse stage-by-stage with bacówki
+      url: https://hikingmania.com/bieszczady-traverse/
+    - title: Wikivoyage — Bieszczady (huts, bus access, park rules)
+      url: https://en.wikivoyage.org/wiki/Bieszczady
+    - title: Wikipedia — Bieszczady Mountains (geography, history, Lemko depopulation)
+      url: https://en.wikipedia.org/wiki/Bieszczady_Mountains
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: triglav-hut-circuit
+  name: Triglav National Park Hut Circuit
+  country: Slovenia
+  region: Julian Alps (Triglav National Park)
+  coordinates: [46.3789, 13.8367]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 55
+  length_days: 6
+  elevation_gain_m: 4500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Summit of Mount Triglav (2864 m), Slovenia's national peak, via the cabled Mali Triglav ridge from Dom Planika
+    - Triglav Lakes Valley (Dolina Triglavskih jezer) past seven glacial lakes and Koča pri Triglavskih jezerih
+    - Sunrise from Vodnikov dom na Velem Polju over the Velo Polje karst meadow
+    - Krn ridge with views down to the turquoise Soča river headwaters
+    - Hearty Slovenian hut suppers (jota, ričet, blueberry strudel) in PZS-run koče
+  downsides:
+    - Triglav summit day is a serious cabled scramble — helmet and via-ferrata set required, with crowds bottlenecking in August
+    - Huts must be booked weeks ahead in peak season; water on Velo Polje and Kredarica is rationed and sold per liter
+    - The PZS booking system (pzs.si) is clunky and partly Slovenian-only
+  guide_links:
+    - title: Cicerone — Walking the Julian Alps of Slovenia (Carey & Clark guidebook)
+      url: https://www.cicerone.co.uk/walking-the-julian-alps-of-slovenia
+    - title: Moon & Honey Travel — Triglav National Park hut-to-hut hike (independent itinerary)
+      url: https://www.moonhoneytravel.com/triglav-national-park-slovenia/
+    - title: Travel Outlandish — How to book huts in Triglav National Park
+      url: https://traveloutlandish.com/blog/hut-to-hut-hiking-slovenia/
+    - title: Moon & Honey Travel — Slovenian mountain hut essentials
+      url: https://www.moonhoneytravel.com/slovenian-mountain-huts/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: premuzic-trail-velebit
+  name: Premužić Trail (Premužićeva staza)
+  country: Croatia
+  region: Northern Velebit & Velebit National Parks
+  coordinates: [44.8000, 15.0333]
+  style: hut-to-hut
+  accommodation: [hut, bivy]
+  pack_weight: light
+  length_km: 57
+  length_days: 4
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - The 1930s dry-stone engineered path itself — Ante Premužić's contour-hugging masterpiece blasted across karst pinnacles
+    - Sunrise from Zavižan hut (Croatia's oldest meteorological station, staffed year-round) over the Adriatic islands of Krk and Rab
+    - Rožanski and Hajdučki kukovi — surreal limestone "tower" karst that looks like a stone forest
+    - Alan mountain hut and the wild Lika hinterland with brown-bear and lynx country
+    - Finishing at Baške Oštarije and dropping to the Adriatic for a swim the same day
+  downsides:
+    - Several middle huts (Škorpovac, Roš'ev dolac) are unstaffed shelters — bring food and a sleeping bag for those nights
+    - Almost no surface water along the ridge; you carry 3-4 L between huts and rainwater cisterns can be empty in dry summers
+    - Public transport to the Zavižan trailhead is essentially nonexistent — taxi from Senj or a pre-arranged shuttle
+  guide_links:
+    - title: Beat the Trail — Premužić Trail 4-day independent trip report
+      url: https://beatthetrail.com/2021/12/21/the-premuzic-trail-perfect-guide-to-the-velebit-mountains/
+    - title: Digihike — Premužić Trail walk-through with photos
+      url: https://www.digihike.eu/2022/10/12/premuzic-trail/
+    - title: Croatian Mountaineering Federation — Velebit hiking trail
+      url: https://www.hps.hr/english/velebit-hiking-trail/
+    - title: Northern Velebit National Park — official site (EN)
+      url: https://np-sjeverni-velebit.hr/www/en/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: via-dinarica-bosnia
+  name: Via Dinarica White Trail — Bosnia (Sutjeska to Lukomir)
+  country: Bosnia and Herzegovina
+  region: Sutjeska NP, Zelengora, Volujak, Maglić, Bjelašnica
+  coordinates: [43.3167, 18.7000]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 130
+  length_days: 7
+  elevation_gain_m: 6500
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Summit of Maglić (2386 m), Bosnia's highest peak, via the cabled ridge with Montenegro's Durmitor laid out below
+    - Trnovačko jezero — a perfectly heart-shaped glacial lake on the BiH/Montenegro border, often empty of other people
+    - Perućica primeval forest in Sutjeska NP, one of Europe's last old-growth beech-fir stands with 300-year-old trees
+    - Sleeping in Lukomir, Bosnia's highest and most remote shepherds' village (1469 m), where women still wear traditional dimije and weave kilims
+    - Katuns (shepherds' summer huts) on the Zelengora plateau with home-made kajmak, cicvara cornmeal, and Bosnian coffee for breakfast
+  downsides:
+    - Trail marking on Zelengora and Volujak is patchy; you need GPX files and ideally a local guide for the Maglić ridge
+    - Unmarked World War II minefields persist in pockets of Herzegovina — stay on marked trails religiously
+    - Accommodation is sparse and rarely bookable online; you call katun owners or arrange via a Sarajevo agency a few weeks out
+  guide_links:
+    - title: For Something More — Via Dinarica trail itinerary (10-day Bosnia/Montenegro trip report)
+      url: https://www.forsomethingmore.com/via-dinarica-trail-itinerary/
+    - title: Treeline Review — Thru-hiking the Via Dinarica White Trail (independent long-form guide)
+      url: https://www.treelinereview.com/where-to-go/via-dinarica-white-trail
+    - title: Via Dinarica Alliance — official trail organization
+      url: https://www.via-dinarica.org/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: high-scardus-trail
+  name: High Scardus Trail
+  country: North Macedonia
+  region: Šar Planina, Korab and Galičica (MK / XK / AL)
+  coordinates: [42.0167, 20.8333]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, bivy]
+  pack_weight: light
+  length_days: 18
+  length_km: 365
+  elevation_gain_m: 18000
+  difficulty: very-hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Summit of Titov Vrv (2747 m) on the Macedonian-Kosovan border, often climbed straight from Ljuboten village
+    - Nights in Brod and Restelica — Gorani-speaking Slavic Muslim villages where shepherds still herd up to bačila (summer dairy huts)
+    - Crossing into Albania to bag Mount Korab (2764 m), the highest point of all three countries, on a long border-ridge day
+    - Lake Ohrid and Lake Prespa visible from the Galičica ridge as you descend toward the trail's southern end
+    - Seven national parks linked on one route — Šar Planina (newly designated 2021), Mavrovo, Korab-Koritnik, Galičica, Pelister
+  downsides:
+    - The full 20-stage route is genuinely raw — several stages have no village stay and require a bivy, a taxi back to a guesthouse, or split stages
+    - Border crossings happen on remote ridges with no formal post; carry passports and check current entry rules
+    - English signage is essentially zero outside the official trailhead boards; older locals speak Albanian, Macedonian, Gorani or Turkish
+  guide_links:
+    - title: The Wildlinger — High Scardus Trail 108 km section trip report
+      url: https://thewildlinger.com/en/high-scardus-trail/
+    - title: EVAdinarica Blog — Section hike of the High Scardus Trail (early thru-hike report)
+      url: https://evadinaricablog.wordpress.com/2019/07/20/section-hike-high-scardus-trail/
+    - title: National Geographic — Untouched wilderness in the Western Balkans
+      url: https://www.nationalgeographic.com/travel/article/high-scardus-hiking-trail-west-balkans
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: transylvanian-saxon-villages
+  name: Transylvanian Saxon Villages Walk
+  country: Romania
+  region: Transylvania (Brașov & Sibiu counties; Târnava Mare)
+  coordinates: [46.0540, 24.9180]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 75
+  length_days: 5
+  elevation_gain_m: 1500
+  difficulty: easy
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Viscri's whitewashed UNESCO fortified church and the Mihai Eminescu Trust-restored guesthouses
+    - Saschiz's clock tower and 14th-century citadel ruin on the hill above the village
+    - Mălâncrav Saxon church frescoes and the Apafi manor restored by the Mihai Eminescu Trust
+    - Walking through hay meadows still scythed by hand, with shepherds and water-buffalo herds
+    - Crit and Meșendorf — sleepy villages with Saxon "burg" houses and storks nesting on chimneys
+  downsides:
+    - No single signed long-distance trail; you stitch together farm tracks, old Saxon Hohlwege and forest roads with a GPX
+    - Most original Saxon families left in 1990; villages are now mostly Roma and Romanian, which surprises some visitors
+    - Aggressive shepherd dogs around sheepfolds — carry a stick and stand your ground
+  guide_links:
+    - title: Mihai Eminescu Trust — restoration NGO behind the guesthouses
+      url: https://www.mihaieminescutrust.ro/
+    - title: Viscri 125 guesthouse — anchor stay in Viscri
+      url: https://www.viscri125.ro/
+    - title: Balkan Trails — guide to visiting the Saxon villages of Romania
+      url: https://www.balkantrails.com/the-ultimate-travel-guide-to-visiting-the-saxon-villages-in-romania/
+    - title: Wikipedia — Viscri (UNESCO fortified church background)
+      url: https://en.wikipedia.org/wiki/Viscri
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: maramures-wooden-churches
+  name: Maramureș Wooden-Church Villages Walk
+  country: Romania
+  region: Maramureș (Iza and Mara valleys)
+  coordinates: [47.7500, 24.1500]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 70
+  length_days: 5
+  elevation_gain_m: 2000
+  difficulty: moderate
+  best_seasons: [May, June, July, September]
+  highlights:
+    - Eight UNESCO wooden churches with shingled spires — Bârsana, Ieud Deal, Poienile Izei, Surdești, Budești
+    - Hay-making by hand with wooden rakes; men still wearing the straw "clop" hat and women in headscarves
+    - The Merry Cemetery at Săpânța with painted blue grave markers (worth a side trip)
+    - Bârsana Monastery — modern but built entirely in vernacular wooden architecture
+    - The Mocăniță steam-logging railway up the Vaser valley near Vișeu de Sus
+  downsides:
+    - No formal long-distance route — you walk village-to-village on lanes and forest tracks; a local guide makes a real difference
+    - Via Transilvanica only clips the southern edge of Maramureș (Săcel area), not the heart of the wooden-church country
+    - Stray dogs and unsignposted forks; OSM and Komoot tracks here are sparse
+  guide_links:
+    - title: Two Small Potatoes — Wooden Churches of Maramureș (independent trip report)
+      url: https://www.twosmallpotatoes.com/the-wooden-churches-of-maramures/
+    - title: Wikipedia — Wooden churches of Maramureș (UNESCO list)
+      url: https://en.wikipedia.org/wiki/Wooden_churches_of_Maramure%C8%99
+    - title: Wikipedia — Maramureș region (geography, culture)
+      url: https://en.wikipedia.org/wiki/Maramure%C8%99
+    - title: Wild Frontiers — The meadows and churches of Maramureș (operator background piece)
+      url: https://www.wildfrontierstravel.com/en_US/blog/the-meadows-and-churches-of-maramures
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: apuseni-padis
+  name: Apuseni / Padiș Plateau Walk
+  country: Romania
+  region: Apuseni Mountains (Bihor & Alba counties; Țara Moților)
+  coordinates: [46.5800, 22.7200]
+  style: hut-to-hut
+  accommodation: [guesthouse, hut]
+  pack_weight: light
+  length_km: 80
+  length_days: 5
+  elevation_gain_m: 3500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Cetățile Ponorului — three monstrous limestone collapse-dolines with cave portals, the karst centerpiece of the Apuseni
+    - Scărișoara Ice Cave near Gârda de Sus — a perennial underground glacier accessed by wooden stairs
+    - Cheile Galbenei (Galbena Gorge) with chained ladders, waterfalls and the Evantai cascade
+    - Moț villages of Gârda de Sus, Arieșeni and Albac — scattered hill hamlets with whirling-blade water-mills (vâltori) still in use
+    - Glăvoi meadow as the natural plateau hub for short loops and longer stages
+  downsides:
+    - Padiș itself is pension-thin; better lodging is in Gârda or Arieșeni so daily distances stretch
+    - Trails are color-blazed but markings fade; Cheile Galbenei is genuinely scrambly with cables and not for nervous walkers
+    - Summer weekends draw heavy Romanian crowds at Scărișoara and Cetățile Ponorului — go midweek
+  guide_links:
+    - title: Our Wanders — 4 great hikes in the Apuseni Mountains
+      url: https://ourwanders.com/4-great-hikes-apuseni-mountains-transylvania/
+    - title: FinnsAway — Hiking in the Apuseni Mountains, Romania (multi-day trip report)
+      url: https://www.finnsaway.com/hiking-in-romania-sep-2017-part-1/
+    - title: Wikipedia — Apuseni Natural Park
+      url: https://en.wikipedia.org/wiki/Apuseni_Natural_Park
+    - title: Wikipedia — Scărișoara Cave
+      url: https://en.wikipedia.org/wiki/Sc%C4%83ri%C8%99oara_Cave
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: via-transilvanica-saxon-land
+  name: Via Transilvanica — Terra Saxonum section
+  country: Romania
+  region: Transylvania (Sighișoara to Sibiu corridor)
+  coordinates: [46.1500, 24.6500]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 200
+  length_days: 10
+  elevation_gain_m: 4500
+  difficulty: moderate
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Widely cited as the most scenic and culturally rich segment of the 1400 km Via Transilvanica
+    - Sighișoara's UNESCO citadel as the start, with the clock tower, Church on the Hill and Saxon burgher houses
+    - Daily fortified-church villages — Saschiz, Cloașterf, Viscri, Mălâncrav, Biertan (UNESCO), Richiș
+    - Hand-carved andesite kilometer markers ("bornele de andezit"), one every km, a signature of the trail
+    - Finishing through the Sibiu hills near Hosman and Cisnădie with Carpathian views to the south
+  downsides:
+    - Real daily distances of 18-25 km on a dirt-track and asphalt mix; not a refuge-spaced TMB-style itinerary
+    - Sheepdog encounters are routine — Via Transilvanica's own briefings warn about them
+    - Some segments shift annually as the Tășuleasa Social NGO refines the route; carry the latest GPX from the official site
+  guide_links:
+    - title: Via Transilvanica — official site (EN)
+      url: https://www.viatransilvanica.com/en/
+    - title: Romanian Friend — complete guide to Via Transilvanica
+      url: https://www.romanianfriend.com/blog/via-transilvanica-complete-guide
+    - title: Eat Walk Learn — Hiking Via Transilvanica for 3 incredible days, including costs
+      url: https://eatwalklearn.com/hiking-via-transilvanica-romania-for-3-incredible-days-including-costs/
+    - title: Wikipedia — Via Transilvanica (route overview)
+      url: https://en.wikipedia.org/wiki/Via_Transilvanica
+  obscurity: 3
+  status: researching
+  notes: ""
