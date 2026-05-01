@@ -1,43 +1,32 @@
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
 import { geoEqualEarth, geoPath } from "d3-geo";
 import { feature, mesh } from "topojson-client";
 import type { FeatureCollection, Geometry } from "geojson";
 import type { Topology, GeometryCollection } from "topojson-specification";
+import landTopo from "world-atlas/land-110m.json";
+import countriesTopo from "world-atlas/countries-110m.json";
 import type { Hike } from "@/lib/schema";
 import { WorldMapInteractive } from "./world-map-interactive";
 
 const WIDTH = 960;
 const HEIGHT = 500;
 
-function loadTopo(file: string): Topology {
-  const path = join(process.cwd(), "node_modules", "world-atlas", file);
-  return JSON.parse(readFileSync(path, "utf8")) as Topology;
-}
+const land = feature(
+  landTopo as unknown as Topology,
+  (landTopo as unknown as Topology).objects.land as GeometryCollection,
+) as unknown as FeatureCollection<Geometry>;
+
+const countryBorders = mesh(
+  countriesTopo as unknown as Topology,
+  (countriesTopo as unknown as Topology).objects.countries as GeometryCollection,
+  (a, b) => a !== b,
+);
+
+const projection = geoEqualEarth().fitSize([WIDTH, HEIGHT], land).precision(0.1);
+const pathFn = geoPath(projection);
+const LAND_PATH = pathFn(land) ?? "";
+const BORDERS_PATH = pathFn(countryBorders) ?? "";
 
 export function WorldMap({ hikes }: { hikes: Hike[] }) {
-  const landTopo = loadTopo("land-110m.json");
-  const countriesTopo = loadTopo("countries-110m.json");
-
-  const land = feature(
-    landTopo,
-    landTopo.objects.land as GeometryCollection,
-  ) as unknown as FeatureCollection<Geometry>;
-
-  const countryBorders = mesh(
-    countriesTopo,
-    countriesTopo.objects.countries as GeometryCollection,
-    (a, b) => a !== b,
-  );
-
-  const projection = geoEqualEarth()
-    .fitSize([WIDTH, HEIGHT], land)
-    .precision(0.1);
-  const pathFn = geoPath(projection);
-
-  const landPath = pathFn(land) ?? "";
-  const bordersPath = pathFn(countryBorders) ?? "";
-
   const pins = hikes
     .map((h) => {
       const projected = projection([h.coordinates[1], h.coordinates[0]]);
@@ -56,8 +45,8 @@ export function WorldMap({ hikes }: { hikes: Hike[] }) {
     <WorldMapInteractive
       width={WIDTH}
       height={HEIGHT}
-      landPath={landPath}
-      bordersPath={bordersPath}
+      landPath={LAND_PATH}
+      bordersPath={BORDERS_PATH}
       pins={pins}
     />
   );

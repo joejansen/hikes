@@ -31,10 +31,14 @@ const MIN_SCALE = 1;
 const MAX_SCALE = 12;
 const ZOOM_STEP = 1.6;
 const DRAG_CLICK_THRESHOLD = 4;
+const SCALE_EPSILON = 1e-6;
 const INITIAL_VIEW: View = { scale: 1, tx: 0, ty: 0 };
 
 function clampView(width: number, height: number, view: View): View {
-  const scale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, view.scale));
+  let scale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, view.scale));
+  // Snap to MIN_SCALE when within epsilon so accumulated float drift from
+  // repeated wheel/button zooms doesn't leave the view "almost reset".
+  if (scale - MIN_SCALE < SCALE_EPSILON) scale = MIN_SCALE;
   const maxTx = width * (scale - 1);
   const maxTy = height * (scale - 1);
   return {
@@ -61,6 +65,8 @@ export function WorldMapInteractive({
     startY: number;
     startTx: number;
     startTy: number;
+    rectWidth: number;
+    rectHeight: number;
     moved: boolean;
   } | null>(null);
   const suppressClickRef = useRef(false);
@@ -116,16 +122,24 @@ export function WorldMapInteractive({
       if (e.pointerType === "mouse" && e.button !== 0) return;
       const svg = svgRef.current;
       if (!svg) return;
-      svg.setPointerCapture(e.pointerId);
+      // Reset on every interaction so an interrupted drag can't suppress
+      // a subsequent legitimate click.
+      suppressClickRef.current = false;
+      const rect = svg.getBoundingClientRect();
       dragState.current = {
         pointerId: e.pointerId,
         startX: e.clientX,
         startY: e.clientY,
         startTx: view.tx,
         startTy: view.ty,
+        rectWidth: rect.width,
+        rectHeight: rect.height,
         moved: false,
       };
-      setIsDragging(true);
+      // Note: pointer capture is deferred until movement crosses the drag
+      // threshold (see handlePointerMove). Capturing eagerly would retarget
+      // the subsequent `click` event to the SVG, preventing nested <Link>
+      // pins from receiving clicks.
     },
     [view.tx, view.ty],
   );
@@ -134,18 +148,21 @@ export function WorldMapInteractive({
     (e: PointerEvent<SVGSVGElement>) => {
       const drag = dragState.current;
       if (!drag || drag.pointerId !== e.pointerId) return;
-      const svg = svgRef.current;
-      if (!svg) return;
-      const rect = svg.getBoundingClientRect();
-      const dx = ((e.clientX - drag.startX) / rect.width) * width;
-      const dy = ((e.clientY - drag.startY) / rect.height) * height;
       if (
         !drag.moved &&
         Math.hypot(e.clientX - drag.startX, e.clientY - drag.startY) >
           DRAG_CLICK_THRESHOLD
       ) {
         drag.moved = true;
+        const svg = svgRef.current;
+        if (svg && !svg.hasPointerCapture(e.pointerId)) {
+          svg.setPointerCapture(e.pointerId);
+        }
+        setIsDragging(true);
       }
+      if (!drag.moved) return;
+      const dx = ((e.clientX - drag.startX) / drag.rectWidth) * width;
+      const dy = ((e.clientY - drag.startY) / drag.rectHeight) * height;
       setView((prev) =>
         clampView(width, height, {
           scale: prev.scale,
@@ -157,17 +174,32 @@ export function WorldMapInteractive({
     [width, height],
   );
 
-  const handlePointerUp = useCallback((e: PointerEvent<SVGSVGElement>) => {
-    const drag = dragState.current;
-    if (!drag || drag.pointerId !== e.pointerId) return;
-    const svg = svgRef.current;
-    if (svg && svg.hasPointerCapture(e.pointerId)) {
-      svg.releasePointerCapture(e.pointerId);
-    }
-    suppressClickRef.current = drag.moved;
-    dragState.current = null;
-    setIsDragging(false);
-  }, []);
+  const endDrag = useCallback(
+    (e: PointerEvent<SVGSVGElement>, suppressNextClick: boolean) => {
+      const drag = dragState.current;
+      if (!drag || drag.pointerId !== e.pointerId) return;
+      const svg = svgRef.current;
+      if (svg && svg.hasPointerCapture(e.pointerId)) {
+        svg.releasePointerCapture(e.pointerId);
+      }
+      suppressClickRef.current = suppressNextClick && drag.moved;
+      dragState.current = null;
+      if (drag.moved) setIsDragging(false);
+    },
+    [],
+  );
+
+  const handlePointerUp = useCallback(
+    (e: PointerEvent<SVGSVGElement>) => endDrag(e, true),
+    [endDrag],
+  );
+
+  // On cancel there's no following click event to clear suppressClickRef,
+  // so don't arm it.
+  const handlePointerCancel = useCallback(
+    (e: PointerEvent<SVGSVGElement>) => endDrag(e, false),
+    [endDrag],
+  );
 
   const zoomFromButton = useCallback(
     (factor: number) => zoomAt(factor, width / 2, height / 2),
@@ -193,7 +225,7 @@ export function WorldMapInteractive({
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
-        onPointerCancel={handlePointerUp}
+        onPointerCancel={handlePointerCancel}
         onClickCapture={(e) => {
           if (suppressClickRef.current) {
             e.preventDefault();
