@@ -3619,3 +3619,433 @@
   obscurity: 2
   status: researching
   notes: ""
+
+- slug: nevis-plantation-inn-walk
+  name: Nevis Plantation-Inn Walk
+  country: Saint Kitts and Nevis
+  region: Nevis
+  coordinates: [17.155, -62.578]
+  style: hut-to-hut
+  accommodation: [hotel, bnb, guesthouse]
+  pack_weight: light
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 1400
+  difficulty: moderate
+  best_seasons: [December, January, February, March, April]
+  highlights:
+    - Stitching together the Upper Round Road / Nevis Heritage Trail past 17th–18th-century sugar mill ruins
+    - Sleeping in historic plantation-house inns (Montpelier, Hermitage, Golden Rock, Nisbet) with afternoon tea
+    - Side-trip up Nevis Peak — a steep, rope-assisted climb through cloud forest with vervet monkeys
+    - Pinney's Beach and Nelson's Springs walking sections along the leeward coast
+    - Vervet monkey troops in the rainforest fringe above the Heritage Trail
+  downsides:
+    - Small island means short daily distances; this is a slow-cultural-paced walk, not a long-mileage hike
+    - Plantation inns are pricey and require advance booking
+    - Nevis Peak is genuinely steep and muddy with fixed ropes — not suitable in wet weather
+  guide_links:
+    - title: Nevis Heritage Trail — official Nevis Historical & Conservation Society overview
+      url: https://www.nevisheritage.org/heritage-trail
+    - title: Hiking Nevis — Mountravers loop trail report on the Upper Round Road
+      url: https://hikingnevis.wordpress.com/mountravers-loop-from-four-seasons-villas-moderate/
+    - title: Active Caribbean Travel — first-person Nevis Peak climb account
+      url: https://activecaribbeantravel.com/hiking-climbing-nevis-peak-blog/
+    - title: Uncommon Caribbean — Golden Rock Inn stay and trails write-up
+      url: https://www.uncommoncaribbean.com/nevis/golden-rock-inn/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: pitons-soufriere-walks
+  name: Pitons & Soufrière Walks
+  country: Saint Lucia
+  region: Soufrière
+  coordinates: [13.85, -61.05]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 5
+  elevation_gain_m: 2000
+  difficulty: moderate
+  best_seasons: [December, January, February, March, April, May]
+  highlights:
+    - Gros Piton summit climb (798 m) — UNESCO Pitons views down to the Caribbean
+    - Tet Paul Nature Trail's "stairway to heaven" panoramic ridge over both Pitons
+    - Edmund Rainforest Reserve / En Bas Saut — endemic St. Lucia parrot habitat with twin waterfalls
+    - Anse Chastanet to Anse Mamin coastal/jungle walking past 18th-century estate ruins
+    - Sulfur Springs — the world's only "drive-in" volcano, walkable from Soufrière inns
+  downsides:
+    - Cruise day-trippers swarm the main sites between 10am and 2pm
+    - Trailheads are scattered — you'll taxi between them rather than walking village-to-village
+    - Soufrière inns and certified guides are expensive by Caribbean standards
+  guide_links:
+    - title: See Her Travel — Gros Piton hike trip report with practical tips
+      url: https://www.seehertravel.com/hiking-gros-piton-in-soufriers-st-lucia/
+    - title: Hike Bike Travel — Gros Piton distance, difficulty, cost, season guide
+      url: https://hikebiketravel.com/gros-piton-hike-st-lucia/
+    - title: Am I In The Country — first-person Gros Piton trail breakdown
+      url: https://www.amiinthecountry.com/blog/gros-piton-hike
+    - title: Tet Paul Nature Trail — official trail site with directions
+      url: https://www.tetpaulnaturetrail.com/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: statia-quill-trails
+  name: The Quill & Statia Village Walks
+  country: Caribbean Netherlands
+  region: Sint Eustatius
+  coordinates: [17.49, -62.97]
+  style: mixed
+  accommodation: [hotel, bnb, guesthouse]
+  pack_weight: light
+  length_km: 25
+  length_days: 3
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [January, February, March, April, May]
+  highlights:
+    - The Quill summit and crater rainforest — strangler figs, 17+ orchid species, cloud-forest interior of a dormant volcano
+    - Mazinga peak rim walk (601 m) for views across to Saba, St. Kitts, and St. Barths
+    - Boven National Park's Venus Bay Trail and Gilboa ridges through dry tropical forest to the Atlantic
+    - Walking the ruins of 18th-century "Golden Rock" warehouses, Fort Oranje, and the lower town
+    - Almost no other hikers — Statia is dive-tourism territory, the trails feel private
+  downsides:
+    - Tiny island (21 km²) means short daily distances; 3 days is the natural cap
+    - Hiking infrastructure beyond the main Quill trail is minimal, with overgrown sections and loose-rock scrambles
+    - Summer heat is brutal; lodging is limited and dive-oriented
+  guide_links:
+    - title: St. Eustatius National Parks — official hiking trail directory
+      url: https://statiapark.org/hiking-2/
+    - title: Uncommon Caribbean — Quill volcano hike trip report with photos
+      url: https://www.uncommoncaribbean.com/st-eustatius/quill-volcano-hike/
+    - title: Caribbean Birding Trail — Quill/Boven National Park ecology and access
+      url: https://caribbeanbirdingtrail.org/sites/sint-eustatius/quillboven-national-park/
+    - title: Lonely Planet — first-time guide to Sint Eustatius
+      url: https://www.lonelyplanet.com/articles/guide-to-st-eustatius-the-caribbean
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: martinique-trace-walks
+  name: Northern Martinique Trace Walks
+  country: France
+  region: Martinique
+  coordinates: [14.83, -61.20]
+  style: mixed
+  accommodation: [guesthouse, bnb, hotel]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 2800
+  difficulty: hard
+  best_seasons: [December, January, February, March, April]
+  highlights:
+    - Prêcheur to Grand'Rivière coastal trace — dense rainforest descending to black-sand coves
+    - Trace des Jésuites — wide, well-trodden 17th-century clergy path through primary rainforest with suspension bridge
+    - Mt. Pelée's Aileron and Grande Savane flanks above the 1902 ruins of Saint-Pierre
+    - Atlantic surf beaches on the Trace des Caps (Anse Trabaud, Cap Macré, Savane des Pétrifications)
+    - Creole fishing-village cuisine in Grand'Rivière, Macouba, and Le Prêcheur — gîtes/chambres d'hôtes with table d'hôtes dinners
+  downsides:
+    - Trail signage and most accommodation websites are French-only
+    - Wild north-coast trace is regularly closed by landslides and storm damage; check status before going
+    - Gîtes in Grand'Rivière and Macouba are tiny — book months ahead
+  guide_links:
+    - title: Visorando — Prêcheur to Grand'Rivière route with map and stage notes
+      url: https://www.visorando.com/en/walk-precheur-grand-riviere/
+    - title: Clairexplore — first-person Prêcheur–Grand'Rivière trip report with logistics
+      url: https://clairexplore.com/randonnee-precheur-grand-riviere-martinique/
+    - title: ONF — official Trace des Caps coastal trail description
+      url: https://www.onf.fr/vivre-la-foret/activites-et-loisirs-en-foret/+/1737::trace-des-caps.html
+    - title: Active Caribbean Travel — Mt. Pelée Aileron trail trip report
+      url: https://activecaribbeantravel.com/martinique-hiking/martinique-hiking-mount-pelee-laileron-trail/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: waitukubuli-national-trail
+  name: Waitukubuli National Trail
+  country: Dominica
+  region: Dominica
+  coordinates: [15.42, -61.35]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, bnb]
+  pack_weight: light
+  length_km: 184
+  length_days: 12
+  elevation_gain_m: 7500
+  difficulty: hard
+  best_seasons: [January, February, March, April]
+  highlights:
+    - Caribbean's first long-distance trail crossing 14 distinct segments coast to coast
+    - Boiling Lake, Middleham Falls, and the volcanic sulfur springs of the Valley of Desolation
+    - Walks through the Kalinago (Carib) Territory with overnight homestays
+    - Dense rainforest, hummingbirds, parrots, and a pace set by river crossings rather than km
+    - Ends at remote Capuchin or Scotts Head with classic ridgeline ocean views
+  downsides:
+    - Hurricane Maria damage still affects some segments; check Forestry Office status before each leg
+    - Humidity and mud are relentless even in dry season; navigation can be tricky where blazes faded
+    - Logistics between segments require taxis, buses, or pre-arranged guesthouse pickups
+  guide_links:
+    - title: The Oceanpreneur — long-form trip report with segment-by-segment notes
+      url: https://www.theoceanpreneur.com/nomadlife/waitukubuli-national-trail-longdistance-hike-jungle/
+    - title: Kevin's Travel Blog — planning guide covering permits, transport, and lodging
+      url: https://kevinstravelblog.com/waitukubuli-national-trail-planning
+    - title: Paradise Dominica — segment difficulty breakdown and post-Maria status
+      url: https://paradisedominica.com/waitukubuli-national-trail-guide/
+    - title: Much Better Adventures — 115-mile trek overview with logistics
+      url: https://www.muchbetteradventures.com/magazine/waitukubuli-national-trail-dominica/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: saba-village-trails
+  name: Saba Village Trails
+  country: Caribbean Netherlands
+  region: Saba
+  coordinates: [17.63, -63.23]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 25
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [December, January, February, March, April, May]
+  highlights:
+    - Mount Scenery summit (877m) via the 1,064 stone steps through cloud forest
+    - Historic donkey trails connecting Windwardside, The Bottom, St. Johns, and Hell's Gate
+    - Sandy Cruz Trail through old-growth rainforest on the wet windward side
+    - Sulphur Mine Trail to abandoned shafts above the Atlantic cliffs
+    - Tiny villages with gingerbread cottages and family-run B&Bs — no chain hotels on the island
+  downsides:
+    - Few true village-to-village distances (the island is 13 km²); itinerary works by stitching loops between villages
+    - Trails can be slick and steep year-round; Mount Scenery summit is often socked in cloud
+    - Getting to Saba requires a small-plane or ferry hop from Sint Maarten
+  guide_links:
+    - title: Saba Conservation Foundation — official trail planning and conditions
+      url: https://sabapark.org/mount-scenery-national-park/plan-your-hike/
+    - title: Untold Morsels — first-person guide to the main Saba hikes
+      url: https://www.untoldmorsels.com/saba-hiking/
+    - title: Enriching Pursuits — personal trail-by-trail comparison
+      url: https://enrichingpursuits.com/saba-hiking-trails/
+    - title: Worldwidemike — Sandy Cruz Trail trip report
+      url: https://world-wide-mike.travellerspoint.com/362/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: pico-duarte
+  name: Pico Duarte
+  country: Dominican Republic
+  region: Cordillera Central
+  coordinates: [19.02, -70.99]
+  style: hut-to-hut
+  accommodation: [refuge]
+  pack_weight: light
+  length_km: 46
+  length_days: 3
+  elevation_gain_m: 2400
+  difficulty: hard
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Highest peak in the Caribbean at 3,098m with a panoramic summit
+    - Sunrise from the Duarte cross above a sea of clouds and Hispaniolan pine
+    - Basic but warm refuges at La Compartición and Aguita Fría — no tent needed
+    - Mules carry food and gear, freeing you to walk with a daypack
+    - Caribbean alpine zone with frost most nights and palma criolla forests
+  downsides:
+    - Park rules require a guide and (usually) mules — costs add up for solo hikers
+    - Refuge floors get crowded in peak season; bring a warm sleeping bag
+    - Long, monotonous final ridge to the summit if weather turns in
+  guide_links:
+    - title: Mark Horrell — 2025 first-person ascent with refuge and warden notes
+      url: https://www.markhorrell.com/blog/2025/an-ascent-of-pico-duarte-the-highest-mountain-in-the-dominican-republic/
+    - title: Dominicana Abroad — comprehensive 3-day La Ciénaga route guide
+      url: https://www.dominicanabroad.com/hiking-pico-duarte-dominican-republic/
+    - title: Moon Travel Guides — Pico Duarte planning chapter
+      url: https://www.moontravelguides.com/travel/outdoors/hiking-pico-duarte-dominican-republic/
+    - title: Hiking Project — La Ciénaga route map and stats
+      url: https://www.hikingproject.com/trail/7041196/pico-duarte-la-cienaga
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: pico-turquino-traverse
+  name: Pico Turquino Traverse
+  country: Cuba
+  region: Sierra Maestra
+  coordinates: [19.99, -76.83]
+  style: hut-to-hut
+  accommodation: [refuge]
+  pack_weight: light
+  length_km: 26
+  length_days: 3
+  elevation_gain_m: 2400
+  difficulty: hard
+  best_seasons: [November, December, January, February, March, April]
+  highlights:
+    - Cuba's highest peak (1,974m) traversed coast-to-coast from Las Cuevas on the Caribbean to Alto del Naranjo
+    - Overnight at Aguada del Joaquín refuge in cloud forest
+    - Comandancia de la Plata — Castro's preserved revolutionary command post hidden in the sierra
+    - Genuinely off-the-tourist-track corner of Cuba; almost no other hikers
+    - Endemic Cuban tody, parrots, and tree ferns along the ridge
+  downsides:
+    - Mandatory licensed guide and park permits; itineraries are rigid
+    - Refuges are rustic — bunks or floor space, limited water, basic food
+    - Knee-busting 1,974m descent (or ascent) on the Las Cuevas side
+  guide_links:
+    - title: Steven Song — 2024 north-to-south traverse trip report with photos
+      url: https://stevensong.com/international/cuba/pico-turquino/
+    - title: Two Year Trip — combined Turquino and Comandancia de la Plata account
+      url: https://twoyeartrip.com/blog/2016/06/hiking-pico-turquino-and-the-comandancia-de-la-plata-cuba/
+    - title: Cuba Research Trip — detailed 2-day itinerary from Las Cuevas
+      url: http://cuba-turquino.blogspot.com/2012/04/trekking-to-pico-turquino-cubas-highest.html
+    - title: Take Your Backpack — logistics, permits, and refuge breakdown
+      url: https://www.takeyourbackpack.com/backpacking-in-cuba/hike-pico-turquino/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: blue-mountain-peak-jamaica
+  name: Blue Mountains Coffee Trail (Blue Mountain Peak)
+  country: Jamaica
+  region: Blue Mountains
+  coordinates: [18.05, -76.58]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 28
+  length_days: 3
+  elevation_gain_m: 1900
+  difficulty: moderate
+  best_seasons: [December, January, February, March, April]
+  highlights:
+    - Pre-dawn summit of Blue Mountain Peak (2,256m) for sunrise above the cloud line
+    - Walking through working Blue Mountain coffee estates around Penlyne Castle and Mavis Bank
+    - Cloud-forest at Hollywell Recreational Park with endemic Jamaican tody, streamertail, and orangequit
+    - Lodge-to-lodge stitching of Strawberry Hill, Mount Edge, Whitfield Hall, and Forres Park
+    - Coffee tastings and farm visits at Old Tavern and Lime Tree Farm
+  downsides:
+    - Standard summit push leaves Whitfield Hall around 1-2am to catch sunrise
+    - Peak is often clouded over even in dry season; no view guaranteed
+    - Road from Mavis Bank to Penlyne Castle is rough; 4WD shuttle usually needed
+  guide_links:
+    - title: Adventures from Elle — first-person multi-part Blue Mountain Peak trip report
+      url: https://adventuresfromelle.com/2017/04/06/blue-mountain-peak-part-1/
+    - title: Whitfield Hall — Blue Mountains hiking and lodging logistics
+      url: https://www.whitfieldhall.com/blue-mountains-jamaica
+    - title: Visit Jamaica — Hiking the Blue Mountain Peak overview
+      url: https://www.visitjamaica.com/blog/post/hiking-the-blue-mountain-peak/
+    - title: UNESCO — Blue and John Crow Mountains National Park listing
+      url: https://whc.unesco.org/en/list/1356/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: vinales-mogote-walk
+  name: Viñales Valley Casa-to-Casa Walk
+  country: Cuba
+  region: Pinar del Río
+  coordinates: [22.62, -83.71]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 45
+  length_days: 4
+  elevation_gain_m: 800
+  difficulty: easy
+  best_seasons: [December, January, February, March, April]
+  highlights:
+    - Walking between casas particulares in El Cuajaní, Los Aquáticos, and Palmarito communities
+    - Tobacco-farm hospitality, drying-house visits, and cigar-rolling demos with farmers
+    - Mogote (limestone karst) landscapes of the Sierra de los Órganos UNESCO valley
+    - Swimming in the underground river at Cueva del Palmarito or Cueva de San Miguel
+    - Ox-plough farming, palm-thatch bohíos, and roadside mojito stops
+  downsides:
+    - No formal long-distance trail; the route stitches together farm tracks and small roads
+    - Functional Spanish helps a lot; few English speakers outside Viñales town
+    - Cash-only, patchy connectivity, hurricane risk May through November
+  guide_links:
+    - title: My Adventures Across the World — Viñales guide covering Los Aquáticos, Palmarito, and casa logistics
+      url: https://myadventuresacrosstheworld.com/vinales-cuba-guide/
+    - title: Drink Tea & Travel — first-person guide to visiting Viñales, casa particular focus
+      url: https://drinkteatravel.com/guide-visit-vinales-cuba/
+    - title: Cuba's Best — independent multi-day walking ideas around Viñales
+      url: https://cubasbest.com/things-to-do-in-vinales-cuba/
+    - title: UNESCO — Viñales Valley World Heritage listing
+      url: https://whc.unesco.org/en/list/840/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: brasso-seco-paria
+  name: Brasso Seco to Paria Bay
+  country: Trinidad and Tobago
+  region: Northern Range, Trinidad
+  coordinates: [10.74, -61.22]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1100
+  difficulty: moderate
+  best_seasons: [January, February, March, April, May]
+  highlights:
+    - Hyper-biodiverse Northern Range rainforest from Asa Wright / Brasso Seco to the north coast
+    - Paria Bay — one of Trinidad's most remote beaches, with a natural rock arch
+    - Paria Waterfall, a short side-trip from the beach into the bush
+    - Leatherback turtle nesting on Madamas and Paria beaches (March through July)
+    - Stays with the Brasso Seco Paria Tourism Action Committee community guesthouses
+  downsides:
+    - Bookings are by phone/email through the community TAC; thin tourism infrastructure
+    - Connector trails are unmarked — a local guide is effectively required
+    - River crossings can be impassable for a day or two after heavy rain
+  guide_links:
+    - title: Hiking Association of Trinidad & Tobago — Brasso Seco to Paria Bay route description
+      url: https://hikingassociationtt.org/trail/brasso-seco-to-paria-bay/
+    - title: Past the Potholes — first-person trip report on hiking to Paria Bay
+      url: https://pastthepotholes.com/hike-paria-bay-trinidad/
+    - title: Caribbean Birding Trail — Brasso Seco Paria Village profile
+      url: https://caribbeanbirdingtrail.org/sites/trinidad-and-tobago/trinidad/brasso-seco-paria-village/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: tobago-main-ridge-villages
+  name: Tobago Main Ridge Village Traverse
+  country: Trinidad and Tobago
+  region: Main Ridge Forest Reserve, Tobago
+  coordinates: [11.28, -60.62]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [January, February, March, April, May]
+  highlights:
+    - Traverse along the Main Ridge Forest Reserve, the oldest legally protected rainforest (est. 1776)
+    - Gilpin Trace through cloud forest with white-tailed sabrewing hummingbird and motmots
+    - Fishing-village stays at Speyside, Charlotteville, Parlatuvier, and Castara
+    - Pirates Bay near Charlotteville and Englishman's Bay near Castara
+    - Three-tier Argyle Falls and snorkelling at Speyside (Little Tobago)
+  downsides:
+    - Some sections are road walking on the lightly trafficked Roxborough–Parlatuvier road
+    - Gilpin Trace is slick and leech-y after rain; a local guide is recommended
+    - Public transit between fishing villages is sparse — some shuttles needed
+  guide_links:
+    - title: Visit Tobago — five best trails in the oldest protected rainforest
+      url: https://visittobago.gov.tt/blog/five-best-trails-oldest-protected-rainforest-western-hemisphere
+    - title: Visit Tobago — Gilpin Trace official trail page
+      url: https://visittobago.gov.tt/gilpin-trace
+    - title: Wild Tobago — first-person Main Ridge trip report
+      url: https://wildtobago.blogspot.com/2021/01/follow-water.html
+    - title: AFAR — Speyside Tobago travel guide
+      url: https://www.afar.com/magazine/travel-guide-speyside-tobago-island
+  obscurity: 4
+  status: researching
+  notes: ""
