@@ -3690,6 +3690,76 @@
   status: researching
   notes: ""
 
+- slug: fann-mountains-lakes
+  name: Fann Mountains Lakes Trek
+  country: Tajikistan
+  region: Sughd / Fann Mountains
+  coordinates: [39.0800, 68.3700]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, camping]
+  pack_weight: either
+  length_km: 70
+  length_days: 7
+  elevation_gain_m: 4000
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Turquoise lakes — Iskanderkul, Kulikalon, Alauddin — linked by high passes
+    - Sarytag village homestays anchor the eastern end at Iskanderkul
+    - Artuch alplager and yurt camps cover the trickier middle passes
+    - Tien Shan-meets-Pamir scenery without Pamir-grade altitude
+  downsides:
+    - A few sections still require a tent and basic supplies
+    - Several 4000 m passes; weather can pin you for a day
+    - Logistics from Penjikent or Dushanbe take patience
+  guide_links:
+    - title: Going The Whole Hogg — independent trekking practicalities
+      url: https://www.goingthewholehogg.com/independent-trekking-fann-mountains/
+    - title: Adventures of Nicole — Fann Mountains trekking guide
+      url: https://adventuresoflilnicki.com/fann-mountains-guide/
+    - title: Journal of Nomads — Fann Mountains complete guide
+      url: https://www.journalofnomads.com/fann-mountains-tajikistan/
+    - title: Trek Tajikistan — 9-day Iskanderkul to Alauddin route
+      url: https://trektajikistan.com/treks/iskanderkul-alauddin-trek/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: marguzor-haft-kul
+  name: Marguzor Seven Lakes (Haft Kul)
+  country: Tajikistan
+  region: Sughd / western Fann Mountains
+  coordinates: [39.2050, 68.1350]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 800
+  difficulty: easy
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Seven valley lakes from black to turquoise lined up along a single track
+    - Padrud and Najmaddin homestays make this a real lake-to-lake village walk
+    - Easy entry to the Fann Mountains for anyone not ready for high passes
+    - Most days finish on a homestay terrace in time for plov and apricots
+  downsides:
+    - Walking is largely on a dirt road, not a wilderness trail
+    - Short for a major trip — usually paired with Penjikent or Iskanderkul
+    - Mogiyon-to-Padrud variant adds a real pass for stronger walkers
+  guide_links:
+    - title: Adventures of Nicole — Haft Kul homestay-to-homestay guide
+      url: https://adventuresoflilnicki.com/haft-kul/
+    - title: Asia Hikes — Mogiyon to Haft Kul over the Komichora Pass
+      url: https://www.asia-hikes.com/tajikistan-mogiyon-to-haft-kul-trek/
+    - title: Time Travel Turtle — Seven Lakes trip report
+      url: https://www.timetravelturtle.com/tajikistan/seven-lakes-haft-kul/
+    - title: Central Asia Guide — Haft Kul logistics overview
+      url: https://central-asia.guide/tajikistan/destinations-tj/seven-lakes/
+  obscurity: 3
+  status: researching
+  notes: ""
+
 - slug: yosemite-high-sierra-camps
   name: High Sierra Camps Loop
   country: United States
@@ -3966,6 +4036,39 @@
   status: researching
   notes: ""
 
+- slug: bartang-jizeu
+  name: Bartang Valley & Jizeu Lakes
+  country: Tajikistan
+  region: Gorno-Badakhshan (Pamir)
+  coordinates: [38.2400, 71.6300]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 40
+  length_days: 5
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Adobe village of Jizeu set on a string of forest lakes — half the homes are homestays
+    - Bartangi people are widely cited as the most hospitable in the Pamirs
+    - Combine Jizeu with side hikes from Bardara, Pasor, or Roshorv
+    - One of the few places to walk between Pamiri villages without a vehicle
+  downsides:
+    - Bartang road access is fragile — flash floods and rockfalls are routine
+    - GBAO permit and current border-zone rules need checking before travel
+    - Limited English; bring a translator app or local fixer from Khorog
+  guide_links:
+    - title: Adventures of Nicole — Bartang Valley travel guide
+      url: https://adventuresoflilnicki.com/bartang-valley-tajikistan/
+    - title: Adventures of Nicole — Jizeu trek day-by-day
+      url: https://adventuresoflilnicki.com/jizeu-trek-tajikistan/
+    - title: Central Asia Guide — Bartang Valley logistics overview
+      url: https://central-asia.guide/tajikistan/destinations-tj/pamir/bartang-valley/
+  obscurity: 5
+  status: researching
+  notes: ""
+
 - slug: skoki-lodge-loop
   name: Skoki Lodge Loop
   country: Canada
@@ -3997,6 +4100,177 @@
       url: https://happiestoutdoors.ca/skoki-loop/
     - title: Canadian Rockies Hiking - guided Skoki Circuit programme
       url: https://canadianrockieshiking.com/backpacking-trips/easiest-programs/skoki-circuit-hiking/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: wakhan-tajikistan-villages
+  name: Tajik Wakhan Village Walk
+  country: Tajikistan
+  region: Gorno-Badakhshan / Wakhan Corridor
+  coordinates: [37.0300, 72.6900]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 60
+  length_days: 7
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Self-routed walk between Pamiri villages from Ishkashim through Yamg and Vrang to Langar
+    - Bibi Fatima hot springs, Yamchun fort and Vrang Buddhist stupa right on the path
+    - Pik Engels Meadows day hike from Langar with 6,000 petroglyphs en route
+    - Rare close-up views across the river into the Afghan Wakhan
+  downsides:
+    - Some legs are dirt-road walking — a couple of taxi hops keep it sane
+    - GBAO permit required and the zone politics shift; check current advice
+    - Altitude already at 2,500–3,200 m before any side hike
+  guide_links:
+    - title: Against the Compass — Wakhan Valley first-person guide
+      url: https://againstthecompass.com/en/wakhan-valley-tajikistan/
+    - title: Adventures of Nicole — Tajik Wakhan travel guide
+      url: https://adventuresoflilnicki.com/tajik-wakhan-valley-travel-guide/
+    - title: Adventures of Nicole — Pik Engels Meadow trek from Langar
+      url: https://adventuresoflilnicki.com/pik-engles-meadow-wakhan-tajikistan/
+    - title: Sunrise Odyssey — Langar to Khorog village stops
+      url: https://sunriseodyssey.com/part-2-journey-along-the-wakhan-valley-in-tajikistan-langar-ishkashim-khorog
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: yagnob-valley
+  name: Yagnob Valley Sogdian Trail
+  country: Tajikistan
+  region: Sughd / Zarafshan Range
+  coordinates: [39.2000, 68.9500]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 50
+  length_days: 6
+  elevation_gain_m: 2000
+  difficulty: moderate
+  best_seasons: [June, July, August, September, October]
+  highlights:
+    - Last villages on Earth where ancient Sogdian descendants still speak Yaghnobi
+    - Margib, Pskon and Dehbaland linked by shepherd paths above the Yagnob river
+    - Pre-Islamic shrines and customs sit alongside quiet homestay hospitality
+    - Pairs naturally with Iskanderkul or the Fann lakes on the same trip
+  downsides:
+    - Homestays are very simple — a mat on the floor, kerosene light, outdoor toilet
+    - Soviet-era forced-relocation history is still raw; be respectful
+    - Margib access road closes after early snow in October
+  guide_links:
+    - title: Asia Hikes — Yagnob Valley loop trek route
+      url: https://www.asia-hikes.com/tajikistan-yagnob-valley-loop-trek/
+    - title: Adventures of Nicole — Yagnob homestay logistics
+      url: https://adventuresoflilnicki.com/yagnob-valley-trekking-travel-guide/
+    - title: Paramount Journey — Yagnob Sogdian cultural context
+      url: https://paramountjourney.com/sogdian-legacy-yagnob-timeless-tales/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: nuratau-village-trek
+  name: Nuratau Mountains Village Trek
+  country: Uzbekistan
+  region: Nurata / Jizzakh
+  coordinates: [40.6100, 66.8900]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 72
+  length_days: 6
+  elevation_gain_m: 2800
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - Sentob, Hayat, Uhum, Asraf, Eski Forish — homestay in each, donkeys carry your bag
+    - Western Tien Shan foothills offer real walking between Bukhara and Samarkand
+    - Long-running community-based tourism program; families rotate the hosting
+    - Spring fields and autumn pomegranates are equally photogenic
+  downsides:
+    - Summer heat is brutal; shoulder seasons only
+    - Trails follow donkey tracks — mostly clear but a guide is sensible
+    - Days can feel short on a hot afternoon; pace is gentle by design
+  guide_links:
+    - title: Much Better Adventures — the 72km Nuratau village trail
+      url: https://www.muchbetteradventures.com/magazine/nuratau-mountains-uzbekistan/
+    - title: Asia Hikes — Nuratau Mountains hiking guide
+      url: https://www.asia-hikes.com/uzbekistan-nuratau-mountains-hiking-guide/
+    - title: Caravanistan — Nuratau Mountains independent travel
+      url: https://caravanistan.com/uzbekistan/center/nuratau-mountains/
+    - title: Nuratau Travel — 7-day village-to-village operator itinerary
+      url: https://nuratau.com/tour/7-day-village-to-village-hiking-tour-nuratau-mountains/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: boysun-heritage-walks
+  name: Boysun Heritage Walks
+  country: Uzbekistan
+  region: Surkhandarya / Boysuntau
+  coordinates: [38.2100, 67.2000]
+  style: mixed
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 40
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - UNESCO-listed intangible cultural heritage town as your base
+    - Day hikes to Teshik Tash Cave (a Neanderthal site), Kyzyl Canyon and Uzundara fortress
+    - Sayrob officially designated a "tourist village" — homestays and crafts on tap
+    - Almost no foreign visitors despite easy rail and road access from Termez
+  downsides:
+    - Not a continuous waymarked trek — you stitch day hikes together with a guide
+    - Border zones close by; don't wander toward the Afghan or Tajik frontiers
+    - Trail signage is minimal and English limited
+  guide_links:
+    - title: Westwards — day hikes around Boysun trip report
+      url: https://westwards.de/2025/12/day-hikes-around-boysun/
+    - title: Uzbek Travel — Boysun town and cultural heritage overview
+      url: https://uzbek-travel.com/about-uzbekistan/places/boysun/
+    - title: Advantour — Baysun travel logistics
+      url: https://www.advantour.com/uzbekistan/baysun.htm
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: song-kol-yurt-circuit
+  name: Song-Köl Yurt-to-Yurt Circuit
+  country: Kyrgyzstan
+  region: Naryn (Tien Shan)
+  coordinates: [41.8500, 75.1000]
+  style: hut-to-hut
+  accommodation: [homestay, camping]
+  pack_weight: light
+  length_km: 50
+  length_days: 3
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Sleep in shepherd yurts on the jailoo at 3,000 m above the lake
+    - Three-day route from Kyzart over Jalgyz-Karagai and Chaar-Archa passes
+    - Genuine working summer pastures — kumis, fresh bread, eagle hunters
+    - Horse-supported variants are easy to arrange via CBT Kochkor
+  downsides:
+    - Only open mid-June to early September while shepherds are at altitude
+    - Weather flips fast at altitude; afternoon storms are common
+    - Yurts are full board but very basic; outhouse a polite walk away
+  guide_links:
+    - title: Journal of Nomads — independent Song-Köl itineraries
+      url: https://www.journalofnomads.com/hiking-to-song-kul-lake-itineraries/
+    - title: Asia Hikes — Kyzart Pass to Song-Köl route detail
+      url: https://www.asia-hikes.com/kyrgyzstan-song-kol-lake-kyzart-pass/
+    - title: That Backpacker — Song Kol horse trek and yurt stay
+      url: https://thatbackpacker.com/horse-trekking-yurt-stay-song-kol-lake-kyrgyzstan/
+    - title: El Prisma de Fer — 3-day Song Kul guide from Kochkor
+      url: https://elprismadefer.com/en/trekking-al-lago-song-kul-guia-completa-desde-kochkor-en-3-dias/
   obscurity: 3
   status: researching
   notes: ""
@@ -4033,5 +4307,701 @@
     - title: Wild About BC - Assiniboine backpacking guide
       url: https://www.wildaboutbc.com/hiking-mount-assiniboine-provincial-park/
   obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: tash-rabat-kel-suu
+  name: Tash Rabat & Kel-Suu Yurt Loop
+  country: Kyrgyzstan
+  region: Naryn / At-Bashy
+  coordinates: [40.8200, 75.2800]
+  style: hut-to-hut
+  accommodation: [homestay, camping]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Sleep in yurts beside a 15th-century Silk Road caravanserai at Tash Rabat
+    - Side hike to Chatyr-Köl and the Panda Pass at 4,000 m
+    - Drivable extension to Kel-Suu Lake yurt camps in the Kok-Kiya valley
+    - Nearly empty country — At-Bashy gets a tiny fraction of Issyk-Kul's traffic
+  downsides:
+    - Border-zone permit needed for Kel-Suu and the Panda Pass area
+    - No fixed marked route between yurts — hire a local horseman
+    - Cold nights even in August; -5 C is not unusual at 3,500 m
+  guide_links:
+    - title: Journal of Nomads — Tash Rabat caravanserai travel guide
+      url: https://www.journalofnomads.com/tash-rabat-caravanserai-kyrgyzstan/
+    - title: Take Your Backpack — Tash Rabat to Panda Pass hike
+      url: https://www.takeyourbackpack.com/backpacking-in-kyrgyzstan/hike-tash-rabat-caravanserai/
+    - title: Snoezels on the Road — complete Tash Rabat travel guide
+      url: https://www.snoezelsontheroad.com/en/kyrgyzstan/tash-rabat-kyrgyzstan/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: arslanbob-walnut-forest
+  name: Arslanbob Walnut Forest Walks
+  country: Kyrgyzstan
+  region: Jalal-Abad / Babash-Ata Mountains
+  coordinates: [41.3400, 72.9300]
+  style: mixed
+  accommodation: [homestay, camping]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [May, June, September, October]
+  highlights:
+    - World's largest walnut forest, possibly the genetic origin of cultivated walnuts
+    - CBT Arslanbob rotates homestays — eat in a different family's kitchen each night
+    - Holy Lake 4-day loop is the standout multi-day option from town
+    - Uzbek-majority village in Kyrgyzstan adds a different cultural register
+  downsides:
+    - Best in spring or harvest (October) — midsummer is hot in the lower forest
+    - Trails lightly marked; the CBT guide pays for itself on the longer loops
+    - Reaching it from Bishkek is a long day on shared transport
+  guide_links:
+    - title: Journal of Nomads — Arslanbob travel guide
+      url: https://www.journalofnomads.com/arslanbob-kyrgyzstan-travel-guide/
+    - title: Beyond Wild Places — Arslanbob and walnut forest guide
+      url: https://beyondwildplaces.com/guide-for-arslanbob-and-walnut-forest/
+    - title: Caravanistan — Arslanbob logistics overview
+      url: https://caravanistan.com/kyrgyzstan/center/arslanbob/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: sary-chelek-lakes
+  name: Sary-Chelek Lakes Loop
+  country: Kyrgyzstan
+  region: Jalal-Abad / Chatkal Range
+  coordinates: [41.8300, 71.9300]
+  style: hut-to-hut
+  accommodation: [homestay, camping]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 800
+  difficulty: easy
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - UNESCO biosphere — seven alpine lakes amid walnut and fruit forest
+    - Arkit village homestays are the base; a 3-day loop visits all the lakes
+    - Easy enough for shoulder seasons when high routes are out of bounds
+    - Wildlife — bears, lynx, wild boar — actually present in the forest
+  downsides:
+    - Reserve fees and gate hours can disrupt independent itineraries
+    - The "easy" label is true but the road in is long
+    - More day-trippers than overnighters; aim for Arkit dawn starts
+  guide_links:
+    - title: Journal of Nomads — Sary Chelek travel guide
+      url: https://www.journalofnomads.com/sary-chelek-lake-kyrgyzstan/
+    - title: Asia Hikes — Sary-Chelek Lakes loop route detail
+      url: https://www.asia-hikes.com/kyrgyzstan-sary-chelek-lakes-loop-jalalabad/
+    - title: Central Asia Guide — Sary-Chelek logistics overview
+      url: https://central-asia.guide/kyrgyzstan/destinations-kg/jalalabad/sary-chelek/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: sayram-ugam-zhabagly
+  name: Sayram-Ugam to Aksu-Zhabagly Traverse
+  country: Kazakhstan
+  region: Western Tien Shan / South Kazakhstan
+  coordinates: [42.4200, 70.4600]
+  style: hut-to-hut
+  accommodation: [homestay, camping]
+  pack_weight: light
+  length_km: 60
+  length_days: 6
+  elevation_gain_m: 3000
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Zhabagly–Tonkeris–Kaskasu interregional route across the Western Tien Shan
+    - Crosses two protected areas including the UNESCO Western Tien Shan inscription
+    - Homestays in Zhabagly, Tonkeris and Kaskasu link the long days
+    - Snow-leopard country — a fact backed by camera-trap data, not just brochure talk
+  downsides:
+    - Reserve permits and a guide are required for the full traverse
+    - Logistics from Shymkent or Almaty involve trains and arranged transfers
+    - Shoulder-season weather can be dramatic; June–July is the safest window
+  guide_links:
+    - title: Journal of Nomads — Sayram-Ugam hiking guide
+      url: https://www.journalofnomads.com/sayram-ugam-national-park-kazakhstan/
+    - title: Backpack Adventures — Aksu-Zhabagly travel guide
+      url: https://www.backpackadventures.org/aksu-zhabagly/
+    - title: Caravanistan — Aksu-Zhabagly logistics
+      url: https://caravanistan.com/places/aksu-zhabagly/
+    - title: Central Asia Guide — Sayram-Ugam logistics overview
+      url: https://central-asia.guide/kazakhstan/destinations-kz/sayram-ugam-national-park/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: kalaw-inle-lake-trek
+  name: Kalaw to Inle Lake Trek
+  country: Myanmar
+  region: Shan State
+  coordinates: [20.6357, 96.8731]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 60
+  length_days: 3
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Pa-O, Danu, and Palaung village homestays with home-cooked Shan curries
+    - Rolling Shan Plateau scenery — tea plantations, ginger fields, and dry rice terraces
+    - Stilt-house monastery sleep on the trail's middle night
+    - Boat finish across Inle Lake to leg-rowing fishermen and floating gardens
+  downsides:
+    - 2026 security situation — Shan State has active conflict and landmine risk; UK/US advisories warn against all travel
+    - Flagship route is busy in shoulder season once it reopens
+    - Drinking water and bathing facilities basic in homestays
+  guide_links:
+    - title: Two Wandering Soles — Kalaw to Inle homestay trek with daily breakdown
+      url: https://www.twowanderingsoles.com/blog/myanmar-kalaw-to-inle-lake-trek-amazing-hiking-homestay-experience
+    - title: Erika's Travelventures — independent unguided trek with maps.me navigation tips
+      url: https://www.erikastravelventures.com/kalaw-to-inle-lake-trek-unguided/
+    - title: NOMADasaurus — three-day, two-night trek photo essay
+      url: https://www.nomadasaurus.com/trekking-kalaw-to-inle-lake-myanmar/
+    - title: Monkey's Tale — three-day Kalaw-Inle trek with Palaung/Danu/Pa-O cultural notes
+      url: https://monkeystale.ca/2021/03/31/myanmar-inle-lake/
+  obscurity: 2
+  status: passed
+  notes: ""
+
+- slug: hsipaw-palaung-trek
+  name: Hsipaw to Palaung Villages Trek
+  country: Myanmar
+  region: Shan State (northern)
+  coordinates: [22.6167, 97.3000]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 900
+  difficulty: moderate
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Palaung tea-farming villages of Pankam and Pannan
+    - Sleep in lofts above barns at the Palaung chief's house
+    - Less commercialised feel than Kalaw — fewer foreign trekkers
+    - Train approach over the Goteik Viaduct
+    - Dokhtawady River bamboo-raft return option
+  downsides:
+    - 2026 conflict zone — Shan State actively contested between junta and ethnic armies
+    - Northern Shan State sees more fighting than central Shan; nearby Lashio fell to resistance forces in 2024
+    - Tatmadaw checkpoints unreliable; routes change without notice
+  guide_links:
+    - title: Honey Trek — Hsipaw safe & affordable trekking guide with stage details
+      url: https://www.honeytrek.com/hsipaw-myanmar/
+    - title: Time Travel Turtle — Hsipaw village trek photo essay
+      url: https://www.timetravelturtle.com/myanmar/trekking-in-hsipaw/
+    - title: Where Sidewalks End — Palaung hill-tribe trek narrative
+      url: https://www.wheresidewalksend.com/trekking-hsipaw-shan-state-myanmar/
+    - title: A Social Nomad — Hsipaw 2-day trek with logistics
+      url: https://asocialnomad.com/myanmar/trek-shan-state/
+  obscurity: 3
+  status: passed
+  notes: ""
+
+- slug: sapa-muong-hoa-homestay-trek
+  name: Sapa Muong Hoa Valley Homestay Trek
+  country: Vietnam
+  region: Lao Cai Province
+  coordinates: [22.3361, 103.8439]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 700
+  difficulty: easy
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Black Hmong homestay in Lao Chai with home-cooked thang co and rice wine
+    - Ta Van Giay village rice-paddy panoramas with Fansipan backdrop
+    - Optional Ta Phin loop with Red Dao herbal-bath finish
+    - Cooperative-owned guides (Sapa O'Chau) walk with you instead of leading from the front
+    - Shoulder-season terraces in flooded silver (May) or golden harvest (September)
+  downsides:
+    - Sapa town is heavily commercialised; first 30 minutes feel touristy
+    - Trails muddy and slippery in summer monsoon
+    - Aggressive souvenir selling in lower Lao Chai
+  guide_links:
+    - title: Colorado Saram — 3-day independent DIY Sapa itinerary with permit info
+      url: https://coloradosaram.com/sapa-3-day-itinerary/
+    - title: The Blonde Abroad — 3-day homestay tour with cultural detail
+      url: https://www.theblondeabroad.com/3-day-homestay-tour-sapa-vietnam/
+    - title: Bucketlist 2 Life — honest 2-day overnight Ta Van homestay review
+      url: https://bucketlist2life.com/blog/travel-guides/sapa-trekking-vietnam
+    - title: Dizzy Traveler — Y Linh Ho/Lao Chai/Ta Van long trek with photos
+      url: https://www.dztraveler.com/long-trek-sapa-y-linh-ho-lao-chai-ta-van-village-sapa/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: pu-luong-nature-reserve
+  name: Pu Luong Nature Reserve Eco-Lodge Trek
+  country: Vietnam
+  region: Thanh Hoa Province
+  coordinates: [20.4500, 105.1500]
+  style: hut-to-hut
+  accommodation: [homestay, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1100
+  difficulty: moderate
+  best_seasons: [March, April, May, September, October, November]
+  highlights:
+    - Bamboo waterwheel rice irrigation in Don, Hieu, and Kho Muong villages
+    - Stilt-house Thai homestays with sticky-rice and grilled-fish dinners
+    - Pu Luong Retreat infinity-pool eco-lodge optional finish
+    - Kho Muong bat cave scramble en route
+    - Rice paddies less photographed than Sapa; few touts
+  downsides:
+    - Hot and humid May-August
+    - Trail finding tricky without local guide
+    - Some lodges drift toward upscale "boutique" pricing
+  guide_links:
+    - title: Vietnam Coracle — independent Pu Luong homestay deep-dive guide
+      url: https://www.vietnamcoracle.com/homestays-pu-luong-nature-reserve/
+    - title: Hiking Vietnam — full Pu Luong route descriptions with maps
+      url: https://hikingvietnam.com/vietnam-hiking-trails/pu-luong-nature-reserve/
+    - title: Colorful Journeys — Pu Luong destination guide with logistics
+      url: https://www.colorfuljourneys.com/articles/pu-luong-nature-reserve
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: ha-giang-karst-walks
+  name: Dong Van Karst Plateau Village Walks
+  country: Vietnam
+  region: Ha Giang Province
+  coordinates: [23.2667, 105.3667]
+  style: mixed
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 40
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [March, April, September, October, November]
+  highlights:
+    - Lung Cu, Sa Phin H'mong King's Palace, and Pho Bang stone villages
+    - Trail fragments through the Ma Pi Leng pass karst from Du Gia toward Meo Vac
+    - H'mong, Lo Lo, and Tay homestays with corn whisky
+    - Triangular buckwheat fields in October-November bloom
+    - UNESCO Global Geopark with limestone fang scenery
+  downsides:
+    - Most travellers do this by motorbike — pure walking section requires cherry-picking trails
+    - Cold and foggy December-February
+    - Border-zone permit needed for some northern villages
+  guide_links:
+    - title: Miss Filatelista — Dong Van loop journey with stops and homestays
+      url: https://www.missfilatelista.com/ha-giang-dong-van-loop/
+    - title: Vietnam Tourism — official Ha Giang loop itinerary with walking sections
+      url: https://vietnam.travel/things-to-do/ha-giang-loop-four-day-road-trip
+    - title: Veronika's Adventure — Ha Giang Mama homestay 4D3N route
+      url: https://veronikasadventure.com/ha-giang-loop-4d3n-mama-homestay/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: bario-kelabit-highlands-loop
+  name: Bario Loop — Kelabit Highlands Longhouse Trek
+  country: Malaysia
+  region: Sarawak (Kelabit Highlands, Borneo)
+  coordinates: [3.7333, 115.4667]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 1400
+  difficulty: moderate
+  best_seasons: [March, April, May, June, July, August, September]
+  highlights:
+    - Pa Lungan, Pa Ukat, and Pa Umor longhouse stays with Kelabit hosts
+    - Salt springs near Pa Umor — Kelabit traditional industry still active
+    - Megaliths (Batu Ritong) and ancient burial jar sites along the trail
+    - Bario rice — famous heirloom variety, dinner staple in homestays
+    - 19-seat MAS Wings Twin Otter approach over the rainforest canopy
+  downsides:
+    - Logistics serious — only access is the small Bario airstrip (weather-dependent)
+    - Leeches in any wet stretch
+    - Independent walking possible but most people hire a Kelabit guide
+  guide_links:
+    - title: Nel Finberg — Pa Lungan hike trip report with photos and stages
+      url: https://nelfinberg.com/southeast-asia-2/malaysia/sarawak/kelabit/hike-to-pa-lungan/
+    - title: Southeast Asia Backpacker — Kelabit Highlands independent travel guide
+      url: https://southeastasiabackpacker.com/destinations/malaysia/borneo-malaysia/the-kelabit-highlands/
+    - title: The BeauTraveler — 3D2N Bario itinerary with homestay details
+      url: https://thebeautraveler.com/what-to-do-in-bario-sarawak/
+    - title: Matador Network — Sarawak/Kelabit trekking narrative
+      url: https://matadornetwork.com/trips/sarawak-trekking-in-the-kelabit-highlands/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: cordillera-rice-terrace-villages
+  name: Banaue–Batad–Bangaan–Cambulo Rice Terrace Walk
+  country: Philippines
+  region: Ifugao Province (Cordillera, Luzon)
+  coordinates: [16.9333, 121.1333]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse, bnb]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [February, March, April, May, October, November]
+  highlights:
+    - 2,000-year-old UNESCO Ifugao rice terraces — "stairway to the sky"
+    - Batad amphitheatre village (no road access) and Tappiyah waterfall
+    - Cambulo and Bangaan stage villages with family-run inns
+    - Sagada hanging coffins and Echo Valley extension
+    - English widely spoken — easy independent travel
+  downsides:
+    - Trail can be slippery on terrace stone-walls in rain
+    - Some sections include road walking between Banaue and Sagada
+    - Land transfer (Manila bus) is long
+  guide_links:
+    - title: Will Fly for Food — Batad/Banaue first-timer trekking guide
+      url: https://www.willflyforfood.net/the-first-timers-travel-guide-to-batad-rice-terraces-banaue-ifugao-philippines/
+    - title: Alex in Wanderland — Batad rice-terrace hiking trip report
+      url: https://www.alexinwanderland.com/rice-terraces-of-batad/
+    - title: Phenomenal Globe — Batad/Banaue trail-by-trail hiking notes
+      url: https://www.phenomenalglobe.com/batad-rice-terraces-hiking-banaue/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mt-pulag-akiki-ambangeg-traverse
+  name: Mt Pulag Akiki–Ambangeg Traverse
+  country: Philippines
+  region: Benguet Province (Cordillera, Luzon)
+  coordinates: [16.5961, 120.8889]
+  style: mixed
+  accommodation: [bnb, camping]
+  pack_weight: either
+  length_km: 24
+  length_days: 3
+  elevation_gain_m: 2300
+  difficulty: hard
+  best_seasons: [December, January, February, March]
+  highlights:
+    - Sea-of-clouds sunrise at the 2,922m grassland summit
+    - Mossy forest "Killer Slope" of the Akiki trail
+    - Bunkhouse stay at the DENR ranger station (no tent needed)
+    - Dwarf bamboo summit ridge — Philippines' "Playground of the Gods"
+    - Combine with Sagada/Baguio for a cultural extension
+  downsides:
+    - Requires DENR permit and a registered guide (cap on daily visitors)
+    - Cold nights — 0°C possible in January
+    - Akiki side is steep and exposed; not for unfit hikers
+  guide_links:
+    - title: Lakwatsero — Akiki traverse trail tale with stages and timing
+      url: https://www.lakwatsero.com/trail-tale/mount-pulag-ambaguio-akiki-overnight-traverse/
+    - title: Ambot-ah! — Akiki-Ambangeg 3D2N itinerary with budget
+      url: https://ambot-ah.com/mt-pulag-akiki-ambangeg-3-day-itinerary/
+    - title: Tara Lets Anywhere — updated Mt Pulag full guide with permits
+      url: https://www.taraletsanywhere.com/mount-pulag-philippines/
+    - title: Laagsparkles — Akiki-Ambangeg traverse personal trip report
+      url: https://laagsparkles.wordpress.com/2020/04/22/mt-pulag-akiki-ambangeg-traverse-3d2n-conquering-luzons-highest-and-magnificent-peak-budget-itinerary/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: nong-khiaw-muang-ngoi-villages
+  name: Nong Khiaw–Muang Ngoi–Ban Na Village Walk
+  country: Laos
+  region: Luang Prabang Province (Nam Ou Valley)
+  coordinates: [20.5667, 102.6167]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 25
+  length_days: 3
+  elevation_gain_m: 600
+  difficulty: easy
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Limestone karst sunrise from Pha Daeng viewpoint above Nong Khiaw
+    - Boat or walk to the car-free Muang Ngoi village
+    - Walk through rice paddies to Lao Loum villages of Ban Na and Ban Huay Bo
+    - Tham Kang and Tham Pha Kaew caves en route
+    - Sunset on the Nam Ou River from a longboat
+  downsides:
+    - Mostly easy paths between villages — more village strolling than trekking
+    - Hot in March-April
+    - Wet-season trails muddy and leech-prone
+  guide_links:
+    - title: Adventures of Jellie — complete Nong Khiaw guide with hiking and homestay info
+      url: https://www.adventuresofjellie.com/laos/nong-khiaw-the-complete-guide
+    - title: Off to Get Lost — Nong Khiaw 3-day itinerary with sunrise hikes
+      url: https://offtogetlost.com/nong-khiaw-laos-itinerary-sunrise-hike/
+    - title: Take Your Backpack — Nong Khiaw to Muang Ngoi backpacking guide
+      url: https://www.takeyourbackpack.com/backpacking-in-laos/hike-nong-khiaw-to-muang-ngoi-trek/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: nam-ha-akha-trek
+  name: Nam Ha NPA Hill-Tribe Trek
+  country: Laos
+  region: Luang Namtha Province
+  coordinates: [20.9500, 101.4000]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [November, December, January, February, March]
+  highlights:
+    - Akha, Khmu, and Lanten village homestays in the Nam Ha protected area
+    - See how upland Lao live — slash-and-burn rice farming windows visible
+    - UNESCO ecotourism model — proceeds go directly to villages
+    - Old-growth jungle sections with gibbons and hornbills
+    - Cooperative guiding via the Nam Ha Ecotourism Project
+  downsides:
+    - Homestays very basic — sleep on a floor mat, no hot water
+    - Heavy slash-and-burn smoke March-April makes some valleys hazy
+    - Operator quality varies; choose carefully
+  guide_links:
+    - title: Mog and Dog Travels — what trekking in Luang Namtha is really like
+      url: https://www.moganddogtravels.com/blogs/trekking-in-luang-namtha-in-northern-laos
+    - title: Loren's Wanderlust — Luang Namtha jungle hill-tribe trek report
+      url: https://www.lorenswanderlust.net/northern-laos/trekking-hill-tribes
+    - title: The Hiker Laos — Akha homestay experience with itinerary
+      url: https://thehikerlaos.com/tours/akha-homestay-experience/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: phongsali-akha-trek
+  name: Phongsali Akha Hill-Tribe Trek
+  country: Laos
+  region: Phongsali Province (far north)
+  coordinates: [21.6833, 102.1000]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1600
+  difficulty: hard
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Authentic Akha villages (Ban Paicho, Ban Peryenxangkao) where traditional headdresses are still daily wear
+    - Sleep in unaltered Akha chief's house — dirt floor, smoky fire, no tourist concessions
+    - Nam Ou River boat approach from Hatsa
+    - Old-growth forest along the China border
+    - Some villagers have never left their valley
+  downsides:
+    - Genuinely hard — long uphill stages, no English-speaking villagers
+    - Homestays extremely basic; no toilets in some hamlets
+    - Hard to reach (20-hour overland from Chiang Mai or Cessna flight from Vientiane)
+    - Cultural sensitivity required — animist rituals, spirit gates
+  guide_links:
+    - title: Loren's Wanderlust — Phongsali far-north trekking guide with operators
+      url: https://www.lorenswanderlust.net/northern-laos/phongsali
+    - title: Brunette at Sunset — 3-day Phongsaly mountain-tribes hike trip report
+      url: https://brunetteatsunset.com/laos/trekking-in-northern-laos-a-3-day-hike-through-phongsalys-mountain-tribes/
+    - title: Venture the Planet — Akha hill-tribe Phongsaly trekking journal
+      url: https://venturetheplanet.com/akha-hill-tribe-trekking-in-northern-laos-phongsaly-region-and-my-new-favorite-city-in-southeast-asia-luang-prabang/
+    - title: We Are Lao — Phongsaly trekking practical info
+      url: https://wearelao.com/standard-page/trekking-in-phongsaly/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: munduk-sidemen-bali-villages
+  name: Munduk and Sidemen Village Walks
+  country: Indonesia
+  region: Bali (Buleleng & Karangasem)
+  coordinates: [-8.2500, 115.0600]
+  style: mixed
+  accommodation: [homestay, bnb, hotel]
+  pack_weight: light
+  length_km: 40
+  length_days: 4
+  elevation_gain_m: 1200
+  difficulty: easy
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Munduk waterfalls (Melanting, Banyumala) and clove/coffee plantations
+    - Sidemen rice terraces with Mt Agung as backdrop
+    - Bali-Hindu temple stops at Pura Lempuyang and Pura Ulun Danu Bratan
+    - Family-run warung food en route — all mid-walk lunches sorted
+    - Pelaga / Plaga villages add a less-touristed extension
+  downsides:
+    - Not a continuous trail — needs scooter or transport links between sections
+    - Bali's overall tourist load means Sidemen now has upscale resorts alongside homestays
+    - Hot lowland sections
+  guide_links:
+    - title: Torn Tackies — Sidemen travel guide with walking routes
+      url: https://www.torntackies.com/sidemen-bali/
+    - title: Torn Tackies — Munduk things-to-do with hiking trails
+      url: https://www.torntackies.com/things-to-do-in-munduk-bali/
+    - title: Girl Gone Coconuts — Munduk ultimate travel guide
+      url: https://www.girlgonecoconuts.com/asia-travel/bali-munduk
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: cameron-highlands-trails
+  name: Cameron Highlands Trail Network
+  country: Malaysia
+  region: Pahang
+  coordinates: [4.4833, 101.3833]
+  style: mixed
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [February, March, April, May, June, July, August]
+  highlights:
+    - 14-trail numbered network through cloud forest around Tanah Rata
+    - BOH and Cameron Valley tea-plantation traverses
+    - Orang Asli (Semai) village paths on Trails 9 and 14
+    - Cool 18-22°C upland air, mossy forest sections
+    - Strawberry farms and night-market dinners back in town
+  downsides:
+    - Town base — you sleep in B&Bs/hotels, not jungle huts (not "true" hut-to-hut)
+    - Some trails poorly maintained or closed; signage inconsistent
+    - Tanah Rata itself is built-up
+  guide_links:
+    - title: Bucketlistly — complete Cameron Highlands hiking trail guide
+      url: https://www.bucketlistly.blog/posts/cameron-highlands-jungle-hiking-trail-guide
+    - title: The World Trippers — all 14 Cameron trails with descriptions
+      url: https://www.theworldtrippers.com/asia/malaysia/hiking-in-the-cameron-highlands/
+    - title: Time Travel Turtle — Cameron Highlands hiking overview
+      url: https://www.timetravelturtle.com/malaysia/hiking-in-cameron-highlands/
+    - title: SE Asia Backpacker — Cameron Highlands hiking practical guide
+      url: https://southeastasiabackpacker.com/hiking-cameron-highlands/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mae-hong-son-hilltribe-trek
+  name: Mae Hong Son Karen and Lahu Hill-Tribe Trek
+  country: Thailand
+  region: Mae Hong Son Province
+  coordinates: [19.3000, 97.9667]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 35
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Red Lahu Ban Pha Mon and White Karen Ban Muang Pam village homestays
+    - Tham Lod limestone cave with bamboo-raft passage
+    - Soppong/Pang Mapha valley with traditional rice-paddy cultivation
+    - Pai's bohemian valley as start/end point
+    - Cooler, drier climate than southern Thailand
+  downsides:
+    - Some hill-tribe village visits feel staged when booked through commercial operators
+    - Dry-burn season (March-April) makes the air smoky
+    - Independent walking difficult — most travelers go with a guide
+  guide_links:
+    - title: Bucketlistly — 10-day Mae Hong Son loop backpacking itinerary
+      url: https://www.bucketlistly.blog/posts/mae-hong-son-loop-itinerary-backpacking-guide
+    - title: Drillin Journeys — Mae Hong Son loop backpacker view
+      url: https://www.drillinjourneys.com/blog/best-things-to-do-in-thailand-for-backpackers-mae-hong-son-loop
+    - title: Andaman Discoveries — Mae Hong Son hill-tribe trek with homestay logistics
+      url: https://andamandiscoveries.com/tours/mae-hong-son-hill-tribe-trek/
+    - title: Together to Unknown — Mae Hong Son loop itinerary with stops
+      url: https://togethertounknown.com/en/blog/mae-hong-son-loop-itinerary/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: doi-inthanon-karen-trek
+  name: Doi Inthanon to Mae Wang Karen Village Trek
+  country: Thailand
+  region: Chiang Mai Province
+  coordinates: [18.5894, 98.4867]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 30
+  length_days: 3
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [November, December, January, February]
+  highlights:
+    - Pha Dok Siew waterfall trail with ten cascades
+    - Karen homestays in Ban Mae Klang Luang and Ban Pratu Muang
+    - Doi Inthanon summit (2,565m) — Thailand's highest peak
+    - Karen-grown coffee tasted at the source
+    - Twin Royal Pagodas summit ridge cloud-forest
+  downsides:
+    - Doi Inthanon summit area itself is touristy
+    - Independent walking hard — operators control trail access
+    - Trails outside the national park can be poorly marked
+  guide_links:
+    - title: Green Trails — Mae Klang Luang village stay with multi-day routes
+      url: https://www.green-trails.com/ban-mae-klang-luang-on-doi-inthanon/
+    - title: Green Trails — village homestays Doi Inthanon trekking overview
+      url: https://www.green-trails.com/the-green-trails-village-homestays/
+    - title: Chris in Namibia — Mae Wang area trek personal report
+      url: https://chris-in-namibia.com/southeast-asia-2023-thailand-mae-wang-area/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: wae-rebo-flores
+  name: Wae Rebo Traditional Village Trek
+  country: Indonesia
+  region: Flores (East Nusa Tenggara)
+  coordinates: [-8.7639, 120.2589]
+  style: hut-to-hut
+  accommodation: [homestay]
+  pack_weight: light
+  length_km: 18
+  length_days: 2
+  elevation_gain_m: 700
+  difficulty: easy
+  best_seasons: [April, May, June, July, August, September]
+  highlights:
+    - Sleep inside one of seven cone-shaped Mbaru Niang houses with Manggarai families
+    - 9km jungle climb from Denge village to a misty mountain hamlet
+    - Welcome ceremony (pa'u wa'u) on arrival — non-skippable, sets the tone
+    - No electricity, no phone signal — radical disconnect
+    - Spider-web rice fields of Cancar en route
+  downsides:
+    - Short hike — only one day actually walking (~3-4hr each way)
+    - Single-village experience, not a multi-village traverse
+    - Logistics from Labuan Bajo are long (10-11 hours round trip)
+  guide_links:
+    - title: The World Travel Guy — how to visit Wae Rebo, full logistics
+      url: https://theworldtravelguy.com/wae-rebo-village/
+    - title: Londoner in Sydney — 13 tips for visiting Wae Rebo with photos
+      url: https://londonerinsydney.com/13-tips-for-visiting-wae-rebo-village-in-flores-indonesia/
+    - title: Discover Your Indonesia — Wae Rebo highlands cultural guide
+      url: https://discoveryourindonesia.com/wae-rebo/
+    - title: Local Guides — 3D2N Wae Rebo itinerary
+      url: https://www.local-guides.org/indonesia/flores/3d2n-wae-rebo/
+  obscurity: 4
   status: researching
   notes: ""
