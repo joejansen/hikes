@@ -3773,7 +3773,7 @@
   best_seasons: [June, July, August, September, October]
   highlights:
     - Last villages on Earth where ancient Sogdian descendants still speak Yaghnobi
-    - Margib, Pskon, Pskan and Dehbaland linked by shepherd paths above the Yagnob river
+    - Margib, Pskon and Dehbaland linked by shepherd paths above the Yagnob river
     - Pre-Islamic shrines and customs sit alongside quiet homestay hospitality
     - Pairs naturally with Iskanderkul or the Fann lakes on the same trip
   downsides:
@@ -3933,7 +3933,7 @@
   region: Jalal-Abad / Babash-Ata Mountains
   coordinates: [41.3400, 72.9300]
   style: mixed
-  accommodation: [homestay]
+  accommodation: [homestay, camping]
   pack_weight: light
   length_km: 35
   length_days: 4
