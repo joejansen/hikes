@@ -3619,3 +3619,419 @@
   obscurity: 2
   status: researching
   notes: ""
+
+- slug: amc-presidential-traverse
+  name: AMC White Mountain Hut Traverse
+  country: United States
+  region: White Mountains, New Hampshire
+  coordinates: [44.2706, -71.3033]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 80
+  length_days: 5
+  elevation_gain_m: 5500
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Eight AMC high huts strung along the Appalachian Trail across New Hampshire's highest peaks
+    - Family-style dinners and bunks at Lakes of the Clouds, Madison Spring, and the rest — meals included
+    - Above-treeline ridge walking on the Presidential Range with no full pack required
+    - Croo culture (resident hut staff packing in food on their backs) is a uniquely American hut tradition
+  downsides:
+    - Mt Washington weather is notoriously bad and the huts can fill weeks ahead in summer
+    - Some huts (Madison, Lakes) are noisy and overbooked at peak season
+    - The full traverse involves serious daily elevation gain on rocky, exposed terrain
+  guide_links:
+    - title: AMC - official high mountain huts page
+      url: https://www.outdoors.org/destinations/huts/
+    - title: Section Hiker - AMC huts pack list and stay tips
+      url: https://sectionhiker.com/appalachian-mountain-club-huts/
+    - title: NH Magazine - guide to all eight AMC huts
+      url: https://www.nhmagazine.com/above-it-all-a-guide-to-the-white-mountains-amc-huts/
+    - title: Wildland Trekking - hut traverse logistics writeup
+      url: https://wildlandtrekking.com/blog/all-about-new-hampshires-amc-huts/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: tenth-mountain-huts-aspen-vail
+  name: 10th Mountain Division Hut Traverse
+  country: United States
+  region: Colorado Rockies (Aspen-Vail)
+  coordinates: [39.4500, -106.5500]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 160
+  length_days: 6
+  elevation_gain_m: 6000
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - 40 backcountry huts linked by 300 miles of singletrack across the Sawatch and Gore ranges
+    - Built to commemorate the 10th Mountain Division ski troopers; each hut has its own history
+    - A hut a day from Aspen toward Red Cliff/Vail is realistic with light packs and pre-loaded staples
+    - Above 10,000 ft for most of the traverse — lakes, wildflowers, and aspen everywhere
+  downsides:
+    - Summer use is much less established than winter ski use; route-finding off the obvious ridges is on you
+    - Huts are not staffed and meals are not provided — you cook with what you carry in
+    - Booking and shuttle logistics across multiple huts can be a puzzle
+  guide_links:
+    - title: 10th Mountain Division Hut Association - official site
+      url: https://huts.org/
+    - title: Aspen Expeditions - guided summer hut-to-hut hiking trip
+      url: https://aspenexpeditions.com/trips/hiking-hut-trip/
+    - title: Get There From Anywhere - independent Aspen-Vail traverse trip report
+      url: https://www.gettherefromanywhere.com/10th-mountain-hut-to-hut
+    - title: Sierra Club - In the Footsteps of the 10th Mountain Division
+      url: https://www.sierraclub.org/sierra/footsteps-10th-mountain-division
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: yosemite-high-sierra-camps
+  name: High Sierra Camps Loop
+  country: United States
+  region: Yosemite, California
+  coordinates: [37.8800, -119.3500]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 78
+  length_days: 6
+  elevation_gain_m: 3000
+  difficulty: moderate
+  best_seasons: [July, August, September]
+  highlights:
+    - Five canvas-tent camps spaced 6-10 miles apart in Yosemite's high country (Glen Aulin, May Lake, Sunrise, Merced Lake, Vogelsang)
+    - Hot showers, breakfast, and dinner included at each camp — no pack, no tent, no stove
+    - Half-loop and unguided itineraries available, not just the full guided trip
+    - Quiet alpine basins above the Tuolumne Meadows day-hiker hordes
+  downsides:
+    - Lottery in September-November of the prior year; demand far exceeds supply
+    - Camp seasons have been disrupted by recent fires and budget years
+    - Daily hikes are short but altitude (8,000-10,000 ft) hits unacclimatized hikers hard
+  guide_links:
+    - title: Travel Yosemite - official High Sierra Camps page
+      url: https://www.travelyosemite.com/lodging/high-sierra-camps
+    - title: My Yosemite Park - in-depth visitor guide
+      url: https://www.myyosemitepark.com/where-to-stay-camp-eat/hotels-cabins/high-sierra-camp/
+    - title: Vivian Chen - first-person 6-day camp loop trip report
+      url: https://www.vivianchen.com/blog/yosemite-high-sierra-camps
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: maine-huts-trails
+  name: Maine Huts & Trails
+  country: United States
+  region: Western Maine (Carrabassett Valley)
+  coordinates: [45.1000, -70.4000]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 80
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [June, July, August, September, October]
+  highlights:
+    - Four off-grid eco-lodges (Stratton Brook, Poplar, Flagstaff, Grand Falls) linked by 80+ miles of trail
+    - Three meals a day, hot showers, woodstoves and bunkrooms — a true light-pack hut chain in New England
+    - Optional gear shuttles let you walk between lodges with just a daypack
+    - Quieter than the AMC system; Bigelow Range and Flagstaff Lake views to yourself
+  downsides:
+    - The system has had funding and operating-season uncertainty in recent years; check current status before booking
+    - Low-elevation rolling terrain — pretty rather than dramatic
+    - Bug season (June into early July) can be punishing
+  guide_links:
+    - title: Maine Huts & Trails - official site
+      url: https://mainehuts.org/
+    - title: Wikipedia - Maine Huts and Trails system overview
+      url: https://en.wikipedia.org/wiki/Maine_Huts_and_Trails
+    - title: Northern Outdoors - multi-day hut hiking writeup
+      url: https://www.northernoutdoors.com/multi-day-hut-to-hut-hiking-in-maine/
+    - title: Hiking in Maine - hut-to-hut trip report
+      url: https://hikinginmaine.blog/2018/08/12/maine-huts-and-trails/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: sneffels-traverse
+  name: Sneffels Traverse
+  country: United States
+  region: San Juan Mountains, Colorado
+  coordinates: [37.9853, -107.7842]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 47
+  length_days: 4
+  elevation_gain_m: 2500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Four San Juan Hut Systems cabins linking Last Dollar Pass (near Telluride) to Ouray
+    - Each hut sleeps eight, with bunks, sleeping bags, propane stove and cookware provided
+    - The San Juans are the most rugged subrange of the Rockies — alpine basins, wildflowers, old mining remnants
+    - Telluride and Ouray bookend the route; both are excellent towns to spend a rest day in
+  downsides:
+    - Summer afternoon thunderstorms above 12,000 ft are a serious daily concern
+    - You haul in your own food and fuel; the huts don't cater
+    - Stretches involve cross-country travel and route-finding above treeline
+  guide_links:
+    - title: San Juan Hut Systems - official Sneffels Traverse page
+      url: https://sanjuanhuts.com/backcountry-hiking-hut-trips/the-sneffels-traverse/
+    - title: 5280 Magazine - feature on the Sneffels Traverse
+      url: https://5280.com/high-country-hut-trips-the-sneffels-traverse/
+    - title: Dismal Wilderness - detailed first-person 4-day trip report
+      url: https://dismalwilderness.com/the-sneffels-traverse-hut-to-hut-through-the-san-juans/
+    - title: ETB Travel Photography - Sneffels Traverse Day 1 photo report
+      url: https://etbtravelphotography.com/the-sneffels-traverse-day-1/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: glacier-chalets-loop
+  name: Glacier National Park Chalets (Sperry & Granite Park)
+  country: United States
+  region: Glacier National Park, Montana
+  coordinates: [48.7000, -113.7500]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 48
+  length_days: 4
+  elevation_gain_m: 2400
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - Two surviving Great Northern Railway chalets from the 1910s — among the only true backcountry lodges left in any US national park
+    - Sperry has full meal service; Granite Park is bring-your-own-food but sleeps 30 in the alpine
+    - Linkable via the off-trail Floral Park Traverse for an unforgettable two-chalet circuit
+    - Highline Trail access to Granite Park is one of the most scenic ridge walks in North America
+  downsides:
+    - Sperry's lottery sells out instantly each spring; Granite Park books months ahead
+    - Floral Park is unmaintained — not a route for hikers without scrambling experience
+    - Grizzly country; food storage protocols are strict
+  guide_links:
+    - title: Sperry Chalet - official site and reservation page
+      url: https://www.sperrychalet.com/
+    - title: Granite Park Chalet - official site
+      url: https://www.graniteparkchalet.com/
+    - title: Hiking in Glacier - chalets and routes overview
+      url: https://www.hikinginglacier.com/glacier-backcountry-chalets.htm
+    - title: Glacier Guides - guided two-chalet itinerary
+      url: https://glacierguides.com/stay/chalets/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: vermont-inn-to-inn
+  name: Vermont Inn-to-Inn (Country Inns Along the Trail)
+  country: United States
+  region: Green Mountains, Vermont
+  coordinates: [43.8000, -73.0800]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 80
+  length_days: 5
+  elevation_gain_m: 2200
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Network of historic Vermont country inns linked by Green Mountain footpaths since 1975 — the original American "inn-to-inn" walk
+    - Daily luggage transfer, breakfast and dinner at the inns, packed lunches arranged
+    - Stages between Brandon, Goshen, Chittenden, Mendon and Killington — antique New England villages between Long Trail spurs
+    - Easy to extend or shorten; spring-and-fall walking when alpine routes are still snowed in or already snowed under
+  downsides:
+    - More walking-vacation than serious mountain trek; daily mileage is 7-12 miles on rolling terrain
+    - Some forest connecting trails are muddy and root-strewn even in summer
+    - Inn cost is much higher than refuge or hut equivalents
+  guide_links:
+    - title: Inn to Inn - official Vermont hiking program
+      url: https://inntoinn.com/vermont-hiking-walking/
+    - title: Trips to Walkabout - feature on the Vermont inn-to-inn pioneers
+      url: https://tripstowalkabout.com/inn-to-inn-vermont/
+    - title: Gather and Go Travel - personal trip report
+      url: https://gatherandgotravel.com/vermont-inn-to-inn-walking/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: east-coast-trail-newfoundland
+  name: East Coast Trail (B&B-supported)
+  country: Canada
+  region: Avalon Peninsula, Newfoundland
+  coordinates: [47.3000, -52.8500]
+  style: hut-to-hut
+  accommodation: [bnb, guesthouse]
+  pack_weight: light
+  length_km: 336
+  length_days: 7
+  elevation_gain_m: 3500
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - 336 km of coastal trail linking 30 outport villages from Topsail Beach to Cappahayden
+    - Sea-stack and fjord coastline, puffins, icebergs in early summer, whales in July-August
+    - B&Bs and family guesthouses in fishing villages; hosts often shuttle hikers to and from trailheads
+    - Pure Newfoundland culture — kitchen parties, music, and screech-ins as part of the deal
+  downsides:
+    - Not a true thru-hike; you base out of villages and string day sections together with shuttles
+    - Weather is wildly variable — fog, wind, and sideways rain even in July
+    - Guesthouse availability in smaller villages is genuinely limited; book ahead
+  guide_links:
+    - title: East Coast Trail Association - official trail site
+      url: https://eastcoasttrail.com/
+    - title: Hike Bike Travel - 2026 East Coast Trail hiking guide
+      url: https://hikebiketravel.com/east-coast-trail/
+    - title: Otts World - long-form B&B-based trip report
+      url: https://www.ottsworld.com/blogs/east-coast-trail-newfoundland-hiking/
+    - title: Out & Across - thru-hiker logistics guide
+      url: https://outandacross.com/east-coast-trail-guide/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: sunshine-coast-trail
+  name: Sunshine Coast Trail
+  country: Canada
+  region: Powell River, British Columbia
+  coordinates: [50.0000, -124.5500]
+  style: hut-to-hut
+  accommodation: [hut, camping]
+  pack_weight: light
+  length_km: 180
+  length_days: 10
+  elevation_gain_m: 5500
+  difficulty: hard
+  best_seasons: [May, June, July, August, September, October]
+  highlights:
+    - Canada's longest hut-to-hut trail — 14 free huts roughly a day apart, no permits or reservations
+    - Ridge walks above Desolation Sound and the Salish Sea with the Coast Mountains as the backdrop
+    - Volunteer-built and maintained; the Powell River community has a cult-like devotion to the trail
+    - First-come first-served huts plus tent space; a real wilderness experience without a booking system
+  downsides:
+    - Huts are basic — some are open-sided lean-tos; sleep on a wooden floor with your own bag
+    - First-come/first-served means no guarantee of a spot in peak summer
+    - Powell River is a ferry-only access town from Vancouver; getting there is a half-day affair
+  guide_links:
+    - title: Sunshine Coast Trail - official trail site
+      url: https://sunshinecoasttrail.com/
+    - title: Hike Bike Travel - complete hiking and backpacking guide
+      url: https://hikebiketravel.com/sunshine-coast-trail/
+    - title: Off-Track Travel - independent hiker's full trail guide
+      url: https://offtracktravel.ca/hiking-the-sunshine-coast-trail/
+    - title: Washington Trails Association - WTA feature on the trail
+      url: https://www.wta.org/news/magazine/northwest-weekends/hike-hut-to-hut-sunshine-coast
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: chic-chocs-traverse
+  name: Chic-Chocs Traverse (IAT Gaspésie)
+  country: Canada
+  region: Gaspésie, Quebec
+  coordinates: [48.9700, -66.1000]
+  style: hut-to-hut
+  accommodation: [hut, camping]
+  pack_weight: either
+  length_km: 100
+  length_days: 6
+  elevation_gain_m: 4500
+  difficulty: hard
+  best_seasons: [July, August, September]
+  highlights:
+    - International Appalachian Trail through Quebec's highest peaks — Mont Logan and Mont Jacques-Cartier
+    - Sépaq-managed wood-stove huts spaced along the route; Auberge Gîte du Mont-Albert and Auberge de montagne des Chic-Chocs anchor the route
+    - One of the only places south of the Arctic to see free-ranging woodland caribou in eastern North America
+    - Above-treeline alpine tundra and Appalachian summits unlike anything else east of the Rockies
+  downsides:
+    - Some legs require camping platforms or shelter beds; not every stage has a true hut
+    - Notoriously cold and damp even in midsummer; weather closes the high ridges regularly
+    - Reservations open in winter and the huts/platforms book out fast
+  guide_links:
+    - title: Adventuresome Jo - 8-day Chic-Chocs traverse trip report
+      url: https://www.adventuresomejo.com/chic-chocs-traverse/
+    - title: Hike Bike Travel - Mont Albert hike and Gaspésie context
+      url: https://hikebiketravel.com/hiking-summit-mont-albert-quebec/
+    - title: Quebec Maritime - Auberge de montagne des Chic-Chocs lodge feature
+      url: https://www.quebecmaritime.ca/en/blog/auberge-de-montagne-des-chic-chocs-a-must-for-hiking-enthusiasts
+    - title: Tourisme Gaspésie - 5 highest peaks to hike (route context)
+      url: https://www.tourisme-gaspesie.com/en/blog/5-highest-peaks-to-hike-in-gaspesie/
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: skoki-lodge-loop
+  name: Skoki Lodge Loop
+  country: Canada
+  region: Banff National Park, Alberta
+  coordinates: [51.5500, -116.1000]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 40
+  length_days: 3
+  elevation_gain_m: 1300
+  difficulty: moderate
+  best_seasons: [July, August, September]
+  highlights:
+    - Stay at Skoki Lodge — a 1930s log lodge accessible only on foot, three meals included, in the heart of the Banff backcountry
+    - Boulder Pass, Deception Pass, alpine lakes (Ptarmigan, Baker, Merlin) and grizzly habitat
+    - Pair the lodge night with Hidden Lake or Halfway Hut for a true point-to-point hut chain
+    - Closer to Lake Louise than any other backcountry lodge in the Rockies
+  downsides:
+    - Skoki Lodge books a year out and isn't cheap — closer to a luxury experience than a refuge
+    - The opening road walk along Temple Fire Road is dull
+    - Real grizzly territory; bear spray and route awareness mandatory
+  guide_links:
+    - title: Hike Bike Travel - Skoki Loop multi-day overview
+      url: https://hikebiketravel.com/skoki-loop/
+    - title: Banff Lake Louise - fall trip on the Skoki Loop
+      url: https://www.banfflakelouise.com/blog/backpacking-banff-fall-trip-skoki-loop
+    - title: Happiest Outdoors - detailed Skoki Loop hiking and backpacking guide
+      url: https://happiestoutdoors.ca/skoki-loop/
+    - title: Canadian Rockies Hiking - guided Skoki Circuit programme
+      url: https://canadianrockieshiking.com/backpacking-trips/easiest-programs/skoki-circuit-hiking/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: mount-assiniboine-lodge
+  name: Mount Assiniboine Lodge
+  country: Canada
+  region: Mount Assiniboine Provincial Park, British Columbia
+  coordinates: [50.8700, -115.6200]
+  style: hut-to-hut
+  accommodation: [hut, hotel]
+  pack_weight: light
+  length_km: 55
+  length_days: 5
+  elevation_gain_m: 1400
+  difficulty: moderate
+  best_seasons: [July, August, September]
+  highlights:
+    - Hike 27 km in over Assiniboine Pass to a 1928 backcountry lodge under the "Matterhorn of the Rockies"
+    - All meals and guided day hikes included at the lodge; Naiset Huts next door if you want a cheaper bunk
+    - Larch season in late September turns the alpine basins gold
+    - Optional helicopter in or out (and gear ferry) means you can keep your packs light
+  downsides:
+    - Lodge nights run several hundred dollars per person; Naiset Huts more affordable but spartan
+    - The 27 km approach is a long day with steady elevation
+    - Park is open only July to October; weather still wintry on either edge of the season
+  guide_links:
+    - title: Mount Assiniboine Lodge - official site
+      url: https://assiniboinelodge.com/
+    - title: Mount Assiniboine Lodge - hiking-in routes detail
+      url: https://assiniboinelodge.com/hiking-and-assiniboine
+    - title: Off-Track Travel - complete 2026 Mount Assiniboine hiking guide
+      url: https://offtracktravel.ca/mount-assiniboine-hiking-guide/
+    - title: Wild About BC - Assiniboine backpacking guide
+      url: https://www.wildaboutbc.com/hiking-mount-assiniboine-provincial-park/
+  obscurity: 3
+  status: researching
+  notes: ""
