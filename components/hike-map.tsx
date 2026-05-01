@@ -1,7 +1,7 @@
 "use client";
 
 import { memo, useCallback, useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Map, {
   Marker,
   NavigationControl,
@@ -56,21 +56,23 @@ type Props = {
 export function HikeMap({ hikes, apiKey }: Props) {
   const [styleId, setStyleId] = useState<StyleId>("outdoor");
   const [hovered, setHovered] = useState<Hike | null>(null);
-  const router = useRouter();
 
   const mapStyle = useMemo(
     () => (apiKey ? styleUrl(styleId, apiKey) : FALLBACK_STYLE),
     [styleId, apiKey],
   );
 
+  // If filters drop the currently-hovered hike, hide the popup. The state
+  // itself stays set; the next hover/leave will overwrite it.
+  const activeHover = useMemo(() => {
+    if (!hovered) return null;
+    return hikes.some((h) => h.slug === hovered.slug) ? hovered : null;
+  }, [hikes, hovered]);
+
   const handleEnter = useCallback((h: Hike) => setHovered(h), []);
   const handleLeave = useCallback(
     (h: Hike) => setHovered((cur) => (cur === h ? null : cur)),
     [],
-  );
-  const handleNavigate = useCallback(
-    (slug: string) => router.push(`/hikes/${slug}`),
-    [router],
   );
 
   return (
@@ -91,19 +93,18 @@ export function HikeMap({ hikes, apiKey }: Props) {
           hikes={hikes}
           onEnter={handleEnter}
           onLeave={handleLeave}
-          onNavigate={handleNavigate}
         />
 
-        {hovered && (
+        {activeHover && (
           <Popup
-            longitude={hovered.coordinates[1]}
-            latitude={hovered.coordinates[0]}
+            longitude={activeHover.coordinates[1]}
+            latitude={activeHover.coordinates[0]}
             anchor="bottom"
             offset={14}
             closeButton={false}
             closeOnClick={false}
           >
-            <PopupContents hike={hovered} />
+            <PopupContents hike={activeHover} />
           </Popup>
         )}
       </Map>
@@ -153,14 +154,12 @@ type MarkerListProps = {
   hikes: Hike[];
   onEnter: (h: Hike) => void;
   onLeave: (h: Hike) => void;
-  onNavigate: (slug: string) => void;
 };
 
 const MarkerList = memo(function MarkerList({
   hikes,
   onEnter,
   onLeave,
-  onNavigate,
 }: MarkerListProps) {
   return (
     <>
@@ -171,19 +170,21 @@ const MarkerList = memo(function MarkerList({
           latitude={h.coordinates[0]}
           anchor="center"
         >
-          <button
-            type="button"
+          <Link
+            href={`/hikes/${h.slug}`}
             aria-label={`Open ${h.name}`}
             onMouseEnter={() => onEnter(h)}
             onMouseLeave={() => onLeave(h)}
             onFocus={() => onEnter(h)}
             onBlur={() => onLeave(h)}
-            onClick={(e) => {
-              e.stopPropagation();
-              onNavigate(h.slug);
-            }}
-            className="block w-3 h-3 rounded-full bg-sky-600 ring-2 ring-sky-300/70 hover:bg-sky-500 hover:ring-sky-200 hover:scale-125 focus:outline-none focus:ring-sky-400 transition cursor-pointer"
-          />
+            onClick={(e) => e.stopPropagation()}
+            // 32x32 transparent hit area (touch-friendly) wrapping the
+            // 12x12 visible dot. Keeps the dot small without making the
+            // marker hard to tap on mobile.
+            className="group flex items-center justify-center w-8 h-8 -m-2.5 focus:outline-none cursor-pointer"
+          >
+            <span className="block w-3 h-3 rounded-full bg-sky-600 ring-2 ring-sky-300/70 group-hover:bg-sky-500 group-hover:ring-sky-200 group-hover:scale-125 group-focus-visible:ring-sky-400 transition" />
+          </Link>
         </Marker>
       ))}
     </>
