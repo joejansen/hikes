@@ -10,7 +10,8 @@ export default function MapPage() {
       <section className="mb-6">
         <h1 className="text-3xl font-semibold tracking-tight mb-2">Map</h1>
         <p className="text-neutral-600 dark:text-neutral-400">
-          One pin per hike. Hover for the name, click to open the detail page.
+          One pin per hike. Scroll or use the controls to zoom; drag to pan.
+          Hover a pin for the name, click to open the detail page.
         </p>
       </section>
       <WorldMap hikes={hikes} />
