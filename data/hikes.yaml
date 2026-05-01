@@ -3620,6 +3620,437 @@
   status: researching
   notes: ""
 
+- slug: lycian-way-western
+  name: Lycian Way (Western Section)
+  country: Turkey
+  region: Mediterranean Coast (Fethiye to Patara)
+  coordinates: [36.5000, 29.1300]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, bnb]
+  pack_weight: light
+  length_km: 110
+  length_days: 7
+  elevation_gain_m: 4500
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Seven Capes coastline plunging into the Mediterranean
+    - Family-run pensions in Faralya, Kabak, and Alınca include home-cooked dinners
+    - Abandoned Greek stone village of Kayaköy at the start
+    - Lycian rock tombs and ruins at Sidyma and Patara
+    - Detours down to hidden coves like Butterfly Valley for a swim
+  downsides:
+    - The most popular Turkish trail; pensions in Kabak fill in spring shoulder
+    - Trail is steep and rocky with poor switchbacks; ankle-twisters
+    - Summer (June-September) is brutally hot and dry
+  guide_links:
+    - title: Field Trip Notebook — DIY inn-to-inn guide with daily stages
+      url: https://fieldtripnotebook.com/the-diy-guide-to-hiking-inn-to-inn-on-the-lycian-way/
+    - title: Novo-Monde — Fethiye to Kabak independent trip report
+      url: https://www.novo-monde.com/en/lycian-way-fethiye-kabak/
+    - title: A Wee Walk — 2025 thru-hike trip report with pension costs
+      url: https://aweewalk.blog/2025/03/07/2025-turkey-lycian-way/
+    - title: Culture Routes Society — official Lycian Way route info
+      url: https://cultureroutesinturkey.com/the-lycian-way/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: carian-trail-bozburun
+  name: Carian Trail — Bozburun Peninsula
+  country: Turkey
+  region: Southern Aegean (Muğla)
+  coordinates: [36.6800, 28.0700]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, bnb]
+  pack_weight: light
+  length_km: 180
+  length_days: 8
+  elevation_gain_m: 6000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Quietest waymarked coastal trail in Turkey, far less trafficked than Lycian
+    - Boutique stone-house pensions in Selimiye, Bayır, and Söğüt
+    - Rhodian and Carian ruins (Loryma, Phoenix) directly on the trail
+    - Goat tracks through pine and frankincense forests above turquoise bays
+  downsides:
+    - Some stages have long stretches without water or villages
+    - Waymarking quality varies; GPX track strongly recommended
+    - Marmaris-Bozburun transport (the only road in) is slow and indirect
+  guide_links:
+    - title: Notes on Slow Travel — first-person Bozburun trip report
+      url: https://notesonslowtravel.com/hiking-the-bozburun-peninsula/
+    - title: Carian Trail — official Bozburun section pages
+      url: https://www.cariantrail.com/bozburun-peninsula/
+    - title: Culture Routes Society — Carian Trail route overview
+      url: https://cultureroutesinturkey.com/carian-trail/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: carian-trail-datca
+  name: Carian Trail — Datça Peninsula
+  country: Turkey
+  region: Southern Aegean (Muğla)
+  coordinates: [36.7300, 27.6900]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, camping]
+  pack_weight: either
+  length_km: 145
+  length_days: 7
+  elevation_gain_m: 4800
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Knidos ruins on the windswept tip of the peninsula
+    - More than 50 mostly empty beaches strung along the south coast
+    - Almond groves and old Datça village stone houses
+    - Genuinely remote feel despite proximity to Bodrum
+  downsides:
+    - Long stages with thin accommodation between Datça and Knidos
+    - Some sections require camping or a pre-arranged transfer back to a pension
+    - Strong meltemi wind in summer; exposed terrain
+    - Datça-Marmaris transport on the winding D400 is slow (3+ hours)
+  guide_links:
+    - title: Carian Trail — official Datça Peninsula section pages
+      url: https://www.cariantrail.com/datca-peninsula/
+    - title: Self-Guided TR — 4-day Datça itinerary with pension list
+      url: https://www.selfguided-tr.com/hiking-in-turkey/carian-trail/hiking-datca-peninsula/
+    - title: Wikipedia — Carian Trail overview and stages
+      url: https://en.wikipedia.org/wiki/Carian_Trail
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: st-paul-trail-egirdir
+  name: St Paul Trail (Eastern Half — Sütçüler to Yalvaç)
+  country: Turkey
+  region: Western Taurus (Isparta)
+  coordinates: [37.8700, 30.8500]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, homestay, camping]
+  pack_weight: either
+  length_km: 220
+  length_days: 12
+  elevation_gain_m: 9500
+  difficulty: hard
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Wilder and higher than the Lycian Way, with optional 2635 m Davraz summit
+    - Lake Eğirdir hub town with Charly's, Lale, and Fulya pensions
+    - Pisidian ruins at Adada and Antioch in Pisidia at Yalvaç
+    - Boat crossing of Lake Eğirdir arranged through pension owners
+  downsides:
+    - Some stages have no village; need to coordinate transfers or camp
+    - Trail markings less consistent than the Lycian Way
+    - Single homestay at Kasımlar must be booked ahead
+  guide_links:
+    - title: Exploration Journal — Eğirdir to Yalvaç section trip report
+      url: https://www.explorationjournal.co.uk/travel/walking-the-st-paul-trail-in-turkey-egirdir-to-yalvac/
+    - title: Exploration Journal — Sütçüler to Eğirdir trip report
+      url: https://www.explorationjournal.co.uk/travel/walking-the-st-paul-trail-in-turkey-sutculer-to-egirdir/
+    - title: Culture Routes Society — official St Paul Trail pages
+      url: https://cultureroutesinturkey.com/st-paul-trail/
+    - title: Doing Miles — independent St Paul trek log
+      url: https://doingmiles.com/2011-04-turkey-saint-paul/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: cappadocia-valley-traverse
+  name: Cappadocia Valley Traverse
+  country: Turkey
+  region: Central Anatolia (Nevşehir)
+  coordinates: [38.6431, 34.8289]
+  style: hut-to-hut
+  accommodation: [hotel, guesthouse]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 1500
+  difficulty: easy
+  best_seasons: [April, May, June, September, October, November]
+  highlights:
+    - Sleep in cave hotels in Göreme, Çavuşin, Uçhisar, and Ortahisar
+    - Pigeon, Rose, Red, Love, and Meskendir valleys link on foot
+    - Sunrise hot-air balloon armada visible on every clear morning
+    - Rock-cut Byzantine churches with frescoes scattered along the trails
+  downsides:
+    - Not a marked long-distance route; navigation by GPX or visible landmarks
+    - Tour bus crowds at trailheads (early starts solve this)
+    - Summer heat in the open valleys is punishing
+  guide_links:
+    - title: Novo-Monde — 4 Cappadocia hikes off the beaten track with maps
+      url: https://www.novo-monde.com/en/cappadocia-hikes-turkey/
+    - title: Journey Era — 8 Cappadocia hikes with photos and trail notes
+      url: https://www.journeyera.com/hiking-in-cappadocia/
+    - title: The Turkey Traveler — 11 Cappadocia hikes with route detail
+      url: https://theturkeytraveler.com/hikes-in-cappadocia/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: phrygian-way
+  name: Phrygian Way (Frig Yolu)
+  country: Turkey
+  region: Aegean / Central Anatolia
+  coordinates: [39.0250, 30.5350]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, camping]
+  pack_weight: either
+  length_km: 506
+  length_days: 25
+  elevation_gain_m: 8000
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - Yazılıkaya and the rock-cut Phrygian monuments at the trail's heart
+    - Three branches converge — pick a 5-7 day section for a sampler
+    - Volcanic tuff valleys near Ayazini that rival Cappadocia without crowds
+    - Village homestays in Ihsaniye and Döğer arranged through Frig Yolu network
+  downsides:
+    - Accommodation thin in some 44 villages; book ahead via the trail association
+    - Almost no English-language signage or guidebook coverage
+    - Long road-walking sections in places
+  guide_links:
+    - title: Art of Wayfaring — Phrygian Way overview and route notes
+      url: https://artofwayfaring.com/destinations/the-phrygian-way-hiking-trail/
+    - title: Culture Routes Society — official Phrygian Way pages
+      url: https://cultureroutesinturkey.com/phrygian-way/
+    - title: Wikipedia — Phrygian Way stages and access points
+      url: https://en.wikipedia.org/wiki/Phrygian_Way
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: evliya-celebi-way
+  name: Evliya Çelebi Way
+  country: Turkey
+  region: Marmara to Western Anatolia
+  coordinates: [39.4200, 29.9900]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, hotel]
+  pack_weight: light
+  length_km: 600
+  length_days: 22
+  elevation_gain_m: 7500
+  difficulty: moderate
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Retraces the 1671 Hajj caravan route of Ottoman travel writer Evliya Çelebi
+    - Designed for both walkers and horse-riders; gentle terrain
+    - Iznik, Inegöl, Kütahya — Ottoman heritage towns on a single thread
+    - Frequent invitations to stay in village homes (couches, bed, dinner)
+  downsides:
+    - Some villages have no formal lodging; you rely on village hospitality
+    - Almost no foreign hikers; basically zero English speakers en route
+    - Best-known guidebook is out of print; planning takes effort
+  guide_links:
+    - title: Culture Routes Society — official Evliya Çelebi Way pages
+      url: https://cultureroutesinturkey.com/evliya-celebi-way/
+    - title: Best Hike — Evliya Çelebi Way overview and itinerary
+      url: https://besthike.com/2017/07/28/evliya-celebi-way-turkey/
+    - title: Wikipedia — Evliya Çelebi Way history and route
+      url: https://en.wikipedia.org/wiki/Evliya_%C3%87elebi_Way
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: sufi-trail
+  name: Sufi Trail (Istanbul to Konya)
+  country: Turkey
+  region: Marmara to Central Anatolia
+  coordinates: [39.8000, 31.5000]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, homestay, camping]
+  pack_weight: either
+  length_km: 801
+  length_days: 40
+  elevation_gain_m: 13000
+  difficulty: hard
+  best_seasons: [April, May, September, October]
+  highlights:
+    - Newly waymarked pilgrimage route ending at Rumi's tomb in Konya
+    - Trail passport collects stamps and discounts at affiliated lodgings
+    - Crosses Bursa, Eskişehir, Afyonkarahisar — full slice of inland Turkey
+    - Strong narrative arc gives the long days a purpose beyond miles
+  downsides:
+    - Forty stages is a real commitment; few do the whole thing
+    - Some nights are camping or basic village arrangements
+    - Newer trail; expect occasional waymark gaps
+  guide_links:
+    - title: Sufi Trail — official route, stages, and accommodation list
+      url: https://sufitrail.com/route/
+    - title: Culture Routes Society — Natalia's Sufi Trail trip report
+      url: https://cultureroutesinturkey.com/adventure/natalia-on-sufi-trail-from-istanbul-to-konya/
+    - title: Wikipedia — Sufi Trail history and overview
+      url: https://en.wikipedia.org/wiki/Sufi_Trail
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: latmos-bafa-lake
+  name: Latmos Mountains & Lake Bafa Village Walks
+  country: Turkey
+  region: Southern Aegean (Aydın/Muğla)
+  coordinates: [37.5000, 27.5000]
+  style: mixed
+  accommodation: [guesthouse, bnb]
+  pack_weight: light
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 1800
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Ancient Heraclea ruins right inside lakeside Kapıkırı village
+    - Prehistoric rock paintings and Byzantine hermit monasteries in the boulders
+    - Family-run lakeside pensions cook the day's catch from Lake Bafa
+    - Dramatic Beşparmak ('Five Finger') granite skyline above the lake
+  downsides:
+    - Linking villages is more day-walks-from-base than thru-hike
+    - Trail markings sparse; a local guide unlocks the best routes
+    - Mosquitoes near the lake at dusk
+  guide_links:
+    - title: Latmos Travel — Bafa Lake destination and lodging guide
+      url: https://www.latmos-travel.com/en/destinations/bafa-lake/
+    - title: Art of Wayfaring — Bafa, Latmos monasteries, and Heraklia
+      url: https://artofwayfaring.com/destinations/bafa-lake-monasteries-of-mount-latmos-and-ancient-herakleion/
+    - title: Latmos Travel — Latmos Mountains hiking experience overview
+      url: https://www.latmos-travel.com/en/destinations/latmos-mountains/
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: abrahams-path-turkey
+  name: Abraham's Path (Turkey Section)
+  country: Turkey
+  region: Southeastern Anatolia (Şanlıurfa)
+  coordinates: [37.0700, 38.9500]
+  style: hut-to-hut
+  accommodation: [homestay, guesthouse]
+  pack_weight: light
+  length_km: 170
+  length_days: 10
+  elevation_gain_m: 2000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Walks past Göbekli Tepe, the world's oldest monumental temple
+    - Beehive mudbrick houses of Harran, basically unchanged for centuries
+    - Village homestays where you may be the only foreigners that month
+    - Pistachio and almond orchards in bloom in early spring
+  downsides:
+    - Southeast Turkey requires checking current security advisories
+    - Summer heat is extreme; route is essentially un-walkable June-September
+    - Logistics depend on local fixers; not a turn-up-and-walk trail
+  guide_links:
+    - title: Turkey Travel Centre — Şanlıurfa, Abraham, and beehive houses
+      url: https://www.turkeytravelcentre.com/blog/sanliurfa-abraham-beehive-houses-ancient-settlements/
+    - title: Emel Magazine — long-form trip report walking the Turkish section
+      url: https://www.emel.com/article?a_id=2523
+  obscurity: 5
+  status: researching
+  notes: ""
+
+- slug: mount-ida-stone-villages
+  name: Mount Ida Stone Village Circuit
+  country: Turkey
+  region: Northern Aegean (Çanakkale/Balıkesir)
+  coordinates: [39.5500, 26.6500]
+  style: hut-to-hut
+  accommodation: [guesthouse, bnb, hotel]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 2200
+  difficulty: easy
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - Restored stone-and-wood village houses converted to boutique pensions
+    - Adatepe, Yeşilyurt, and Behramkale (Assos) link via olive-grove footpaths
+    - Zeus Altar viewpoint over the Aegean toward Lesbos
+    - Olive oil cooperatives and Aegean cooking at every dinner table
+  downsides:
+    - Village-to-village links require some road walking
+    - Adatepe pensions are pricey by Turkish standards
+    - National park summit area requires guide and permit
+  guide_links:
+    - title: Travel Atelier — journey through the Kaz Dağı foothills
+      url: https://travelatelier.com/blog/journey-foothills-kaz-dagi-mt-ida/
+    - title: Daily Sabah — off the beaten path Mount Ida feature
+      url: https://www.dailysabah.com/expat-corner/2019/07/19/off-the-beaten-path-magnificent-mount-ida
+    - title: Orion Adatepe — Ida Mountains and surrounding villages overview
+      url: https://orionadatepe.com/en/discover-the-northern-aegean/ida-mountains-kaz-daglari
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: pokut-sal-yayla-loop
+  name: Pokut & Sal Yayla Loop
+  country: Turkey
+  region: Eastern Black Sea (Rize / Çamlıhemşin)
+  coordinates: [40.9500, 41.0000]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay]
+  pack_weight: light
+  length_km: 35
+  length_days: 3
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Wooden Hemshin highland chalets above 2000 m, often above the clouds
+    - Pokut and Sal yaylas link via a classic ridge walk over Hazindak
+    - Fırtına Valley views toward the Kaçkar peaks
+    - Dawn fog dispersing to reveal cow pastures and tea fields below
+  downsides:
+    - Weekend yayla traffic from Turkish day-trippers in July-August
+    - Persistent cloud and rain even in midsummer; bring waterproofs
+    - Road approach via Çamlıhemşin is rough and slow
+  guide_links:
+    - title: Art of Wayfaring — Pokut Yaylası first-person visit
+      url: https://artofwayfaring.com/destinations/pokut-yaylasi-highland/
+    - title: CNN Travel — Rize hidden mountain hideaways feature
+      url: https://www.cnn.com/2023/07/03/travel/turkey-rize-hidden-mountain-hideaways/index.html
+    - title: GoTürkiye — five yayla plateaus including Pokut and Sal
+      url: https://goturkiye.com/blog/5-yayla-plateaus-that-you-just-have-to-see
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: kure-mountains-yenice
+  name: Küre Mountains & Yenice Forest Traverse
+  country: Turkey
+  region: Western Black Sea (Kastamonu / Karabük)
+  coordinates: [41.8300, 33.0000]
+  style: hut-to-hut
+  accommodation: [guesthouse, homestay, camping]
+  pack_weight: either
+  length_km: 80
+  length_days: 6
+  elevation_gain_m: 3000
+  difficulty: moderate
+  best_seasons: [May, June, September, October]
+  highlights:
+    - One of Europe's last large intact temperate rainforests
+    - Pınarbaşı ecotourism network of village guesthouses with trained local guides
+    - Limestone canyons (Valla, Horma) cut deep through the karst
+    - Ottoman timber villages and Safranbolu UNESCO town as bookends
+  downsides:
+    - Damp, leech-prone undergrowth in early summer
+    - Trails poorly waymarked; a Pınarbaşı guide unlocks the route
+    - No public transport between most villages
+  guide_links:
+    - title: Take Your Backpack — Yenice Forest Trail hike guide
+      url: https://www.takeyourbackpack.com/backpacking-in-turkiye/hike-yenice-forest-trail/
+    - title: Wikipedia — Küre Mountains National Park overview
+      url: https://en.wikipedia.org/wiki/K%C3%BCre_Mountains_National_Park
+  obscurity: 5
+  status: researching
+  notes: ""
+
 - slug: amc-white-mountain-hut-traverse
   name: AMC White Mountain Hut Traverse
   country: United States
