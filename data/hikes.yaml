@@ -6325,3 +6325,358 @@
   obscurity: 2
   status: researching
   notes: ""
+
+- slug: laugavegur-trail
+  name: Laugavegur Trail
+  country: Iceland
+  region: Southern Highlands (Fjallabak Nature Reserve, Landmannalaugar to Þórsmörk)
+  coordinates: [63.85, -19.06]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 55
+  length_days: 4
+  elevation_gain_m: 1200
+  difficulty: moderate
+  best_seasons: [July, August, September]
+  highlights:
+    - Rhyolite mountains of Landmannalaugar painted red, yellow, and green, with natural hot springs at the trailhead
+    - Obsidian lava fields and steaming fumaroles around Hrafntinnusker, the highest hut on the route (~1050 m)
+    - Plunge from Álftavatn down to the green birch forests of Þórsmörk between Mýrdalsjökull and Eyjafjallajökull glaciers
+    - Cold, unbridged glacial river crossings (Bláfjallakvísl, Innri-Emstruá, Þröngá) that define the trek's character
+    - Optional Fimmvörðuháls extension to Skógar over the 2010 Eyjafjallajökull eruption site, adding ~25 km and the Skógá river's chain of more than 20 waterfalls ending at Skógafoss
+  downsides:
+    - Huts (run by Ferðafélag Íslands) sell out months in advance; the January booking opening is a scramble
+    - Notoriously volatile weather — snow, fog, and sub-freezing temps possible in midsummer, with full whiteouts on the Hrafntinnusker plateau
+    - Heavily trafficked in peak season; solitude is scarce and the trail can feel like a conga line in August
+  guide_links:
+    - title: Wikipedia — Laugavegur route overview, stages, and huts
+      url: https://en.wikipedia.org/wiki/Laugavegur
+    - title: Fjallabak.is — stage-by-stage Icelandic operator guide (Landmannalaugar to Þórsmörk)
+      url: https://www.fjallabak.is/iceland/laugavegur/
+    - title: Hike Iceland — route description, huts, river crossings, and logistics
+      url: https://hike-iceland.com/laugavegur/
+  obscurity: 1
+  status: researching
+  notes: ""
+
+- slug: jotunheimen-dnt-hut-traverse
+  name: Jotunheimen DNT Hut Traverse
+  country: Norway
+  region: Jotunheimen National Park (Innlandet)
+  coordinates: [61.6, 8.3]
+  style: hut-to-hut
+  accommodation: [hut]
+  pack_weight: light
+  length_km: 90
+  length_days: 6
+  elevation_gain_m: 5200
+  difficulty: hard
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Besseggen Ridge knife-edge traverse between turquoise Gjende and deep-blue Bessvatnet
+    - Optional summit of Galdhøpiggen (2469 m), Norway's and Northern Europe's highest peak
+    - Staffed DNT huts (Memurubu, Glitterheim, Spiterstulen, Leirvassbu, Gjendebu) with cooked meals and beds
+    - Wild Memurudalen valley and glacier views around Styggebrean and Smørstabbreen
+    - Classic high-alpine tundra terrain with reindeer, ptarmigan, and 24-hour summer daylight
+  downsides:
+    - Besseggen day is heavily crowded in July-August; expect queues at the scrambling sections
+    - Weather is volatile and fully exposed above treeline — whiteouts and freezing rain possible any month
+    - Norway is expensive; DNT membership strongly recommended to roughly halve hut rates
+    - Some link stages (e.g., Spiterstulen–Glitterheim via Styggebrean) cross live glaciers and need a guide or roped team
+  guide_links:
+    - title: Wikipedia — Jotunheimen National Park overview
+      url: https://en.wikipedia.org/wiki/Jotunheimen_National_Park
+    - title: Wikipedia — Besseggen ridge route notes
+      url: https://en.wikipedia.org/wiki/Besseggen
+    - title: DNT — official cabin network and booking
+      url: https://www.dnt.no/en/cabins/
+    - title: Cicerone — Hiking in Norway South guidebook (Jotunheimen chapter)
+      url: https://www.cicerone.co.uk/hiking-in-norway-south
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: west-highland-way-inn-to-inn
+  name: West Highland Way (Inn-to-Inn)
+  country: United Kingdom
+  region: Scottish Highlands (Loch Lomond & Trossachs / Lochaber)
+  coordinates: [56.5, -4.7]
+  style: hut-to-hut
+  accommodation: [bnb, hotel, guesthouse]
+  pack_weight: light
+  length_km: 154
+  length_days: 8
+  elevation_gain_m: 3150
+  difficulty: moderate
+  best_seasons: [April, May, June, September]
+  highlights:
+    - Walking the length of Loch Lomond's wooded eastern shore on a drovers' road
+    - Crossing the vast, empty expanse of Rannoch Moor on the old military road
+    - The Devil's Staircase climb out of Glencoe to the highest point of the trail
+    - Dramatic Glencoe and Buachaille Etive Mòr views on the long descent to Kinlochleven
+    - Finishing in Fort William beneath Ben Nevis, with baggage-transfer inns and Highland hotels nightly
+  downsides:
+    - Highland midges can be brutal from June through August along Loch Lomond and Kinlochleven
+    - Notoriously fickle weather; expect rain even in summer and full hill-fog on Rannoch Moor
+    - Very popular in peak season — busy paths and booked-out inns require months of advance planning
+  guide_links:
+    - title: West Highland Way — official trail association site
+      url: https://www.westhighlandway.org/
+    - title: Wikipedia — West Highland Way route overview and history
+      url: https://en.wikipedia.org/wiki/West_Highland_Way
+    - title: Cameron Travels — independent thru-hike trip report
+      url: https://camerontravels.com/west-highland-way-thru-hike-guide/
+    - title: Contours Walking Holidays — inn-to-inn itinerary with baggage transfer
+      url: https://www.contours.co.uk/west-highland-way
+  obscurity: 1
+  status: researching
+  notes: ""
+
+- slug: wicklow-way-bnb-supported
+  name: Wicklow Way (B&B-supported)
+  country: Ireland
+  region: County Wicklow / Carlow (Wicklow Mountains)
+  coordinates: [53.0, -6.4]
+  style: hut-to-hut
+  accommodation: [bnb, guesthouse, hotel]
+  pack_weight: light
+  length_km: 129
+  length_days: 7
+  elevation_gain_m: 3000
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Glendalough early-monastic site with round tower, twin lakes, and St Kevin's hermitage
+    - High open moorland between Glenmacnass and Glenmalure with views to Lugnaquilla
+    - Sally Gap and the J.B. Malone memorial above Lough Tay
+    - Forested descents into Aughavannagh and the quiet southern Wicklow uplands
+    - Finish in Clonegal, a tiny stone village on the River Derry far from Dublin
+  downsides:
+    - Long sections of forestry-road and tarmac walking, especially on southern stages
+    - Boggy, exposed moorland that becomes serious in wind or low cloud
+    - Atlantic weather — rain and mist likely on any stage, even in midsummer
+  guide_links:
+    - title: Sport Ireland — official Wicklow Way trail information
+      url: https://www.sportireland.ie/outdoors/walking/trails/wicklow-way
+    - title: The Irish Road Trip — independent Wicklow Way walk guide
+      url: https://www.theirishroadtrip.com/wicklow-way-walk/
+    - title: Wikipedia — Wicklow Way route overview and history
+      url: https://en.wikipedia.org/wiki/Wicklow_Way
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: madeira-levada-network
+  name: Madeira Levada Network
+  country: Portugal
+  region: Madeira (Macaronesia)
+  coordinates: [32.75, -16.95]
+  style: mixed
+  accommodation: [hotel, guesthouse, bnb]
+  pack_weight: light
+  length_km: 80
+  length_days: 7
+  elevation_gain_m: 3800
+  difficulty: moderate
+  best_seasons: [April, May, June, September, October]
+  highlights:
+    - PR1 Pico do Arieiro to Pico Ruivo ridge with staircases and tunnels above the clouds
+    - PR9 Caldeirão Verde levada walk into a hidden amphitheater waterfall
+    - PR6 Levada das 25 Fontes and Risco waterfall in the laurissilva
+    - UNESCO laurissilva (laurel forest) — the largest remnant in the world
+    - North coast cliffs and sea-view trails from São Vicente / Porto Moniz
+  downsides:
+    - Exposed levada edges and ridge drop-offs are vertiginous in places
+    - Several tunnels require a head torch and can be wet underfoot
+    - Popular PRs (Arieiro-Ruivo, 25 Fontes) get crowded mid-day in peak season
+  guide_links:
+    - title: Earth Trekkers — best hikes in Madeira with trip-report photos
+      url: https://www.earthtrekkers.com/best-hikes-in-madeira/
+    - title: WalkMe Guide — locally-written trail catalog for the PR network
+      url: https://walkmeguide.com/madeira-hiking-guide
+    - title: Wikipedia — Levada background and engineering history
+      url: https://en.wikipedia.org/wiki/Levada
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: mare-a-mare-nord
+  name: Mare a Mare Nord
+  country: France
+  region: Corsica
+  coordinates: [42.2, 9.1]
+  style: hut-to-hut
+  accommodation: [guesthouse, refuge]
+  pack_weight: light
+  length_km: 140
+  length_days: 11
+  elevation_gain_m: 6500
+  difficulty: moderate
+  best_seasons: [May, June, September, October]
+  highlights:
+    - Sea-to-sea village walk from Cargèse (west) to Moriani-Plage (east)
+    - Chestnut groves and old stone hamlets of the Castagniccia
+    - Lac de Creno and the hilltop village of Soccia
+    - Tavignano gorges and the Niolu plateau under Monte Cinto's shadow
+    - Gîte d'étape half-board nights with Corsican charcuterie and brocciu cheese
+  downsides:
+    - Less spectacular high-mountain scenery than the parallel GR20
+    - Waymarking variable in places; some stages follow quiet paved roads
+    - Low-elevation sections get hot and dusty in midsummer
+  guide_links:
+    - title: gr-infos — stage-by-stage Mare a Mare Nord reference
+      url: https://www.gr-infos.com/en/grp-corse-mareamare-nord.htm
+    - title: An Aimless Hitchhiker — candid 2022 solo trip report with dog
+      url: https://anaimlesshitchhiker.wordpress.com/2023/02/01/a-terrible-trail-on-a-beautiful-island-hiking-corsicas-mare-a-mare-nord/
+    - title: Visit Corsica — official trail overview and stages
+      url: https://www.visit-corsica.com/en/Mon-sejour/Itineraires/Tous-les-itineraires/MARE-A-MARE-NORD
+    - title: Cicerone Press — Short Treks on Corsica guidebook page
+      url: https://www.cicerone.co.uk/short-treks-on-corsica
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: jordan-trail-dana-to-petra
+  name: Jordan Trail — Dana to Petra
+  country: Jordan
+  region: Tafilah to Ma'an (Dana Biosphere Reserve to Petra)
+  coordinates: [30.5, 35.5]
+  style: hut-to-hut
+  accommodation: [camping, guesthouse, homestay]
+  pack_weight: light
+  length_km: 80
+  length_days: 6
+  elevation_gain_m: 3000
+  difficulty: moderate
+  best_seasons: [March, April, May, October, November]
+  highlights:
+    - Feynan Ecolodge in a Dark Sky-class wadi, candlelit and off-grid
+    - Sandstone narrows and pools of Wadi Ghuweir / Shaq al-Reesh
+    - Bedouin camps and sweet tea with Bdoul and Ammarin hosts
+    - Back-door arrival at Petra's Monastery (Ad-Deir) above the crowds
+    - Dropping 1,500 m from Dana's juniper rim into the Wadi Araba desert
+  downsides:
+    - Brutally hot outside the short spring and autumn windows
+    - Water resupply between Feynan and Petra requires planning or a guide
+    - Some sections (Wadi Ghuweir, route-finding to Little Petra) effectively need a local guide
+  guide_links:
+    - title: Jordan Trail Association — official Dana to Petra section guide
+      url: https://www.jordantrail.org/dana-to-petra/
+    - title: Wikipedia — Jordan Trail overview and section breakdown
+      url: https://en.wikipedia.org/wiki/Jordan_Trail
+    - title: Wikipedia — Dana Biosphere Reserve (start point context)
+      url: https://en.wikipedia.org/wiki/Dana_Biosphere_Reserve
+    - title: Terhaal — independent operator's Dana to Petra trek notes
+      url: https://terhaal.com/jordan-trail/
+  obscurity: 2
+  status: researching
+  notes: ""
+
+- slug: el-choro-trek
+  name: El Choro Trek
+  country: Bolivia
+  region: La Paz Department / Cordillera Real (La Cumbre to Chairo)
+  coordinates: [-16.28, -68.0]
+  style: mixed
+  accommodation: [camping, guesthouse]
+  pack_weight: either
+  length_km: 50
+  length_days: 4
+  elevation_gain_m: 1100
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Pre-Columbian Inca flagstone road, intact for long stretches across the Cordillera Real
+    - 3,500 m descent from the 4,859 m Apacheta pass to the Yungas cloud forest at Chairo (~1,270 m)
+    - Ecosystem transition from puna and glaciated peaks to subtropical jungle in a few days
+    - Rustic Aymara village posadas at Chucura, Choro, and Sandillani for a roof-over-head light-pack option
+    - Tomás Sakai's Japanese garden refuge at Sandillani — a quirky landmark on day three
+  downsides:
+    - Sustained, knee-punishing descent on uneven flagstones; trekking poles essential
+    - La Paz altitude (3,650 m) and 4,725 m trailhead demand prior acclimatization
+    - Posada quality and availability are inconsistent; many trekkers still tent it
+  guide_links:
+    - title: Una Noche Más — self-guided 4-day trip report with daily distances and camps
+      url: https://www.una-noche-mas.com/el-choro-trek-bolivia/
+    - title: Desk to Glory — unguided trek account, La Cumbre to Chairo
+      url: https://www.desktoglory.com/panam-blog-201315-1/el-choro-trek-unguided-bolivia
+    - title: Czick on the Road — independent trip report and trail-condition warnings
+      url: https://www.czickontheroad.com/el-choro-trek-the-most-popular-bolivian-hiking-trail
+    - title: Ganas de Mundo — 3-day route with logistics from La Paz (Spanish)
+      url: https://www.ganasdemundo.com/choro-trek/
+  obscurity: 3
+  status: researching
+  notes: ""
+
+- slug: andringitra-massif-trek
+  name: Andringitra Massif Trek — Pic Boby & Tsaranoro
+  country: Madagascar
+  region: Andringitra National Park (Haute Matsiatra, Fianarantsoa)
+  coordinates: [-22.16, 46.93]
+  style: hut-to-hut
+  accommodation: [camping, guesthouse, homestay]
+  pack_weight: light
+  length_km: 60
+  length_days: 5
+  elevation_gain_m: 2500
+  difficulty: hard
+  best_seasons: [April, May, June, July, August, September, October, November]
+  highlights:
+    - Summit of Pic Boby (Imarivolanitra, 2658 m) — Madagascar's highest accessible peak, with sunrise over the central highlands
+    - Tsaranoro Valley's vertical granite walls (some of the tallest big-wall faces in Africa) and ring-tailed lemur troops around Camp Catta
+    - Betsileo and Antanosy village sleeps with terraced rice paddies on the descent toward Namoly
+    - Endemic forest belts (Pachypodium, Aloe, Helichrysum) and the Manambolo waterfall and natural pools
+    - Camp Catta and Tsara Camp tented lodges as gentle bookends to rough park camping
+  downsides:
+    - Remote logistics — roughly a 10-12 hour drive south from Antananarivo via Ambalavao, often split over two days
+    - Mandatory MNP guide and (in practice) porter team; permits, cook, and porter fees add meaningful cost vs. self-supported hikes
+    - Lower-elevation approaches sit in a malaria zone; nights at altitude can drop below freezing in June-August
+  guide_links:
+    - title: Wikipedia — Andringitra National Park
+      url: https://en.wikipedia.org/wiki/Andringitra_National_Park
+    - title: Wikipedia — Andringitra Massif
+      url: https://en.wikipedia.org/wiki/Andringitra_Massif
+    - title: MadaCamp — Andringitra National Park (logistics and route notes)
+      url: https://www.madacamp.com/Andringitra_National_Park
+    - title: Wikivoyage — Andringitra National Park travel guide
+      url: https://en.wikivoyage.org/wiki/Andringitra_National_Park
+  obscurity: 4
+  status: researching
+  notes: ""
+
+- slug: khovsgol-ger-to-ger
+  name: Khövsgöl Lake Ger-to-Ger Trek
+  country: Mongolia
+  region: Khövsgöl Province / Khövsgöl Nuur National Park
+  coordinates: [51.0, 100.5]
+  style: hut-to-hut
+  accommodation: [homestay, camping]
+  pack_weight: either
+  length_km: 100
+  length_days: 6
+  elevation_gain_m: 1500
+  difficulty: moderate
+  best_seasons: [June, July, August, September]
+  highlights:
+    - Khövsgöl Nuur ("blue pearl") — one of the world's clearest, deepest ancient lakes
+    - Sleeping in nomadic family gers arranged via the Ger to Ger NGO
+    - Khoridol Saridag range and taiga forest along the western shore
+    - Horse or yak pack support keeps daily loads light
+    - Shamanic ovoos and some of the darkest night skies in Asia
+  downsides:
+    - Brutal mosquitoes and horseflies in June and early July
+    - Long approach from Ulaanbaatar (domestic flight to Mörön plus road to Hatgal, or 24h bus)
+    - Minimal trail infrastructure; weather can flip fast even in summer
+  guide_links:
+    - title: Wikipedia — Lake Khövsgöl overview and geography
+      url: https://en.wikipedia.org/wiki/Khuvsgul_Lake
+    - title: Wikipedia — Khoridol Saridag range bordering the trek
+      url: https://en.wikipedia.org/wiki/Khoridol_Saridag
+    - title: Wikipedia — Dukha (Tsaatan) reindeer herders of the northern taiga
+      url: https://en.wikipedia.org/wiki/Dukha_people
+    - title: Ger to Ger NGO — community-based ger-stay trek logistics
+      url: https://www.gertoger.org/
+  obscurity: 4
+  status: researching
+  notes: ""
