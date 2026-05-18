@@ -6289,3 +6289,39 @@
   obscurity: 3
   status: researching
   notes: ""
+
+- slug: cumbria-way
+  name: Cumbria Way
+  country: United Kingdom
+  region: Lake District, Cumbria
+  coordinates: [54.5, -3.0]
+  style: hut-to-hut
+  accommodation: [bnb, guesthouse, hotel, camping]
+  pack_weight: either
+  length_km: 112
+  length_days: 6
+  elevation_gain_m: 3000
+  difficulty: moderate
+  best_seasons: [May, June, July, August, September]
+  highlights:
+    - Compact south-to-north traverse of the Lake District from Ulverston to Carlisle
+    - Low-level route threads the classic dales (Coniston, Langdale, Borrowdale) without big summit days
+    - Lakeshore walking along Coniston Water and into Derwentwater/Keswick
+    - Easy to mix YHA hostels, village pubs, B&Bs, and wild camps — sociable but flexible
+    - Short enough to fit in a week off work, unlike the Pennine Way
+  downsides:
+    - Lake District weather is grim and unpredictable in any season
+    - Stake Pass and the High Pike crossing are boggy and exposed
+    - Accommodation thins out in the northern half; the Caldbeck-to-Carlisle leg is a long day
+  guide_links:
+    - title: Cicerone - Walking the Cumbria Way guidebook page
+      url: https://www.cicerone.co.uk/walking-the-cumbria-way
+    - title: Rambling Man - Cumbria Way planning writeup
+      url: https://ramblingman.org.uk/planningatrip/planning_a_cumbria_way_trip/
+    - title: A Wee Walk - 4-day wild-camping trip report (August 2022)
+      url: https://aweewalk.blog/2022/08/28/cumbria-way-august-2022/
+    - title: Becky the Traveller - Cumbria Way wild-camping guide
+      url: https://www.beckythetraveller.com/cumbria-way-walk-wild-camping/
+  obscurity: 2
+  status: researching
+  notes: ""
