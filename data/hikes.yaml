@@ -6680,3 +6680,39 @@
   obscurity: 4
   status: researching
   notes: ""
+
+- slug: mosel-camino
+  name: Mosel-Camino
+  country: Germany
+  region: Mosel valley, Rhineland-Palatinate
+  coordinates: [50.05, 7.10]
+  style: hut-to-hut
+  accommodation: [guesthouse, hotel, bnb]
+  pack_weight: light
+  length_km: 160
+  length_days: 8
+  elevation_gain_m: 4500
+  difficulty: moderate
+  best_seasons: [April, May, June, July, August, September, October]
+  highlights:
+    - Vineyard pilgrim route from Koblenz-Stolzenfels to St. Matthias Abbey in Trier — the only apostle's tomb north of the Alps
+    - Burg Eltz, Burg Thurant, the Grevenburg ruins and a chain of medieval castles within steps of the trail
+    - Riesling wine villages — Beilstein, Zell, Traben-Trarbach, Bernkastel-Kues — strung along the daily stages
+    - Yellow-scallop waymarking on a quiet alternative to the Spanish caminos; few foreign pilgrims even in high season
+    - Strong public transit along the Mosel makes it easy to walk a few stages without committing to the full thru-hike
+  downsides:
+    - No Spain-style albergue network; most nights are in hotels or guesthouses at hotel prices
+    - Repeated steep vineyard ascents add up to ~4000+ m of cumulative climb over only 160 km
+    - A few stages stretch to 24-28 km with limited food options between villages
+  guide_links:
+    - title: Mosel-Camino - official route site with stage descriptions and pilgrim passport info
+      url: https://www.mosel-camino.info/
+    - title: Audrey im Wanderland - 7-day first-person trip report with stage times and lodging
+      url: https://audreyimwanderland.com/2021/04/18/mosel-camino_pilgern-in-deutschland/
+    - title: Jakobsweg-Küstenweg - stage breakdown, accommodation notes and elevation profile
+      url: https://jakobsweg-kuestenweg.com/laenge/deutschland/mosel-camino/
+    - title: National Geographic - Germany's quieter alternative to the Camino de Santiago
+      url: https://www.nationalgeographic.com/travel/article/germany-camino-de-santiago-alternative
+  obscurity: 3
+  status: researching
+  notes: ""
