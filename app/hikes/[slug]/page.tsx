@@ -201,8 +201,8 @@ export default async function HikePage({
           />
         </Suspense>
         <p className="mt-2 text-xs text-neutral-500">
-          Approximate center of the route. Blue pins are the nearest other
-          hikes in the catalog.
+          Approximate center of the route (red). Blue pins are the nearest
+          other hikes in the catalog; zoom in where they overlap.
         </p>
       </Section>
 

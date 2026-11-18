@@ -195,37 +195,51 @@ const MarkerList = memo(function MarkerList({
 }: MarkerListProps) {
   return (
     <>
-      {hikes.map((h) => (
-        <Marker
-          key={h.slug}
-          longitude={h.coordinates[1]}
-          latitude={h.coordinates[0]}
-          anchor="center"
-          style={h.slug === focusSlug ? { zIndex: 1 } : undefined}
-        >
-          <Link
-            href={withQuery(`/hikes/${h.slug}`, linkQuery)}
-            aria-label={`Open ${h.name}`}
-            onMouseEnter={() => onEnter(h)}
-            onMouseLeave={() => onLeave(h)}
-            onFocus={() => onEnter(h)}
-            onBlur={() => onLeave(h)}
-            onClick={(e) => e.stopPropagation()}
-            // 32x32 transparent hit area (touch-friendly) wrapping the
-            // 12x12 visible dot. Keeps the dot small without making the
-            // marker hard to tap on mobile.
-            className="group flex items-center justify-center w-8 h-8 -m-2.5 focus:outline-none cursor-pointer"
-          >
-            <span
-              className={
-                h.slug === focusSlug
-                  ? "block w-4 h-4 rounded-full bg-rose-600 ring-2 ring-white shadow group-hover:scale-110 transition"
-                  : "block w-3 h-3 rounded-full bg-sky-600 ring-2 ring-sky-300/70 group-hover:bg-sky-500 group-hover:ring-sky-200 group-hover:scale-125 group-focus-visible:ring-sky-400 transition"
-              }
-            />
-          </Link>
-        </Marker>
-      ))}
+      {hikes.map((h) => {
+        const position = {
+          longitude: h.coordinates[1],
+          latitude: h.coordinates[0],
+          anchor: "center" as const,
+        };
+        if (h.slug === focusSlug) {
+          // The page's own hike: a marker, not a link. It ignores pointer
+          // events so it cannot swallow clicks meant for a neighbor it
+          // overlaps at this zoom.
+          return (
+            <Marker
+              key={h.slug}
+              {...position}
+              style={{ zIndex: 1, pointerEvents: "none" }}
+            >
+              <span
+                aria-hidden
+                className="block w-4 h-4 rounded-full bg-rose-600 ring-2 ring-white shadow"
+              />
+            </Marker>
+          );
+        }
+        return (
+          <Marker key={h.slug} {...position}>
+            <Link
+              href={withQuery(`/hikes/${h.slug}`, linkQuery)}
+              aria-label={`Open ${h.name}`}
+              onMouseEnter={() => onEnter(h)}
+              onMouseLeave={() => onLeave(h)}
+              onFocus={() => onEnter(h)}
+              onBlur={() => onLeave(h)}
+              onClick={(e) => e.stopPropagation()}
+              // World map: 32x32 transparent hit area (touch-friendly) around
+              // the 12x12 dot. Locator map: neighbors sit a few pixels apart,
+              // so the hit area shrinks to the dot to keep each one clickable.
+              className={`group flex items-center justify-center focus:outline-none cursor-pointer ${
+                focusSlug ? "w-4 h-4" : "w-8 h-8 -m-2.5"
+              }`}
+            >
+              <span className="block w-3 h-3 rounded-full bg-sky-600 ring-2 ring-sky-300/70 group-hover:bg-sky-500 group-hover:ring-sky-200 group-hover:scale-125 group-focus-visible:ring-sky-400 transition" />
+            </Link>
+          </Marker>
+        );
+      })}
     </>
   );
 });
