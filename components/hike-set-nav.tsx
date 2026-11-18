@@ -10,6 +10,7 @@ import {
   countActiveFilters,
   parseQuery,
   serializeQuery,
+  toggleCompare,
   withQuery,
 } from "@/lib/hike-filters";
 
@@ -37,9 +38,14 @@ function loadIndex(): Promise<HikeSummary[]> {
 // shortcut into the comparison.
 export function HikeSetNav({ slug }: { slug: string }) {
   const params = useSearchParams();
-  const query = useMemo(() => parseQuery(params), [params]);
-  const qs = serializeQuery(query);
   const [index, setIndex] = useState<HikeSummary[] | null>(null);
+  // Resolved against the catalog once it has loaded, so unknown slugs do not
+  // count towards the compare cap.
+  const query = useMemo(
+    () => parseQuery(params, index ?? undefined),
+    [params, index],
+  );
+  const qs = serializeQuery(query);
 
   useEffect(() => {
     let cancelled = false;
@@ -62,11 +68,13 @@ export function HikeSetNav({ slug }: { slug: string }) {
   const filtered = countActiveFilters(query.filters) > 0;
 
   const inCompare = query.compare.includes(slug);
+  // Same rule as the list's checkboxes: a full comparison is never silently
+  // changed; the link then just opens it.
+  const compareFull = !inCompare && query.compare.length >= MAX_COMPARE;
   const compareQs = serializeQuery({
     ...query,
-    compare: inCompare
-      ? query.compare
-      : [...query.compare, slug].slice(-MAX_COMPARE),
+    // toggleCompare is a no-op when the selection is already full.
+    compare: inCompare ? query.compare : toggleCompare(query.compare, slug),
   });
 
   return (
@@ -75,7 +83,11 @@ export function HikeSetNav({ slug }: { slug: string }) {
         ← {filtered ? "back to results" : "all hikes"}
       </Link>
       <Link href={withQuery("/compare", compareQs)} className={LINK_CLASS}>
-        {inCompare ? "in comparison →" : "+ compare"}
+        {inCompare
+          ? "in comparison →"
+          : compareFull
+            ? "comparison full →"
+            : "+ compare"}
       </Link>
       {position >= 0 && (
         <div className="ml-auto flex items-center gap-3 min-w-0">

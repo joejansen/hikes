@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useSearchParams } from "next/navigation";
-import { parseQuery, serializeQuery, withQuery } from "@/lib/hike-filters";
+import { usePathname } from "next/navigation";
+import { withQuery } from "@/lib/hike-filters";
+import { useCarriedQuery } from "./use-hike-query";
 
 const LINKS = [
   { href: "/", label: "List" },
@@ -16,7 +17,7 @@ const LINK_CLASS = "hover:text-neutral-900 dark:hover:text-neutral-100";
 // from list to map (or back from a hike) keeps the same view.
 export function NavLinks() {
   const pathname = usePathname();
-  const qs = serializeQuery(parseQuery(useSearchParams()));
+  const qs = useCarriedQuery();
   return <NavLinkList qs={qs} pathname={pathname} />;
 }
 

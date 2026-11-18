@@ -177,7 +177,24 @@ describe("query <-> URL", () => {
         "style=nope&month=Smarch&obs=9&status=x&diff=x&pack=either&stay=x&days=x&sort=x&cmp=OK,,a,a,b,c,d,e",
       ),
     );
-    expect(parsed).toEqual({ ...INITIAL_QUERY, compare: ["a", "b", "c", "d"] });
+    expect(parsed).toEqual({ ...INITIAL_QUERY, compare: ["a", "b", "c", "d", "e"] });
+  });
+
+  it("drops values missing from the catalog before capping compare", () => {
+    const known = ["a", "b", "c", "d", "e"].map((slug) => ({ slug, country: "Nepal" }));
+    const parsed = parseQuery(
+      new URLSearchParams("country=Narnia&cmp=x1,x2,x3,x4,e,a,b,c,d"),
+      known,
+    );
+    expect(parsed.filters.country).toBe("all");
+    expect(parsed.compare).toEqual(["e", "a", "b", "c"]);
+    expect(
+      parseQuery(new URLSearchParams("country=Nepal"), known).filters.country,
+    ).toBe("Nepal");
+    // Without a catalog, values pass through so links can carry them.
+    expect(
+      parseQuery(new URLSearchParams("country=Narnia&cmp=x1")),
+    ).toMatchObject({ filters: { country: "Narnia" }, compare: ["x1"] });
   });
 
   it("applyQuery filters then sorts", () => {

@@ -160,17 +160,33 @@ function oneOf<T extends string>(
 
 type ParamReader = { get(name: string): string | null };
 
-export function parseQuery(params: ParamReader): HikeQuery {
+// Raw upper bound on compare slugs when they cannot be resolved yet; keeps a
+// hostile URL from growing without bound.
+const MAX_UNRESOLVED_COMPARE = 20;
+
+// `known` is the catalog, when the caller has it. With it, values that do not
+// exist (a country with no hikes, a renamed or mistyped slug) are dropped
+// before the compare cap is applied, so they can neither hide every hike
+// behind an invisible filter nor use up compare slots. Without it the values
+// pass through untouched so they survive being carried between pages.
+export function parseQuery(
+  params: ParamReader,
+  known?: readonly { slug: string; country: string }[],
+): HikeQuery {
   const obs = Number(params.get("obs"));
   const sort = params.get("sort");
-  const compare = (params.get("cmp") ?? "")
-    .split(",")
-    .filter((s) => /^[a-z0-9-]+$/.test(s));
+  const country = params.get("country") || "all";
+  const slugs = Array.from(
+    new Set(
+      (params.get("cmp") ?? "").split(",").filter((s) => /^[a-z0-9-]+$/.test(s)),
+    ),
+  );
   return {
     filters: {
       q: params.get("q") ?? "",
       style: oneOf(STYLES, params.get("style")),
-      country: params.get("country") || "all",
+      country:
+        known && !known.some((h) => h.country === country) ? "all" : country,
       month: oneOf(MONTHS, params.get("month")),
       minObscurity: Number.isInteger(obs) && obs >= 1 && obs <= 5 ? obs : 1,
       status: oneOf(STATUSES, params.get("status")),
@@ -185,7 +201,11 @@ export function parseQuery(params: ParamReader): HikeQuery {
     sort: (SORT_KEYS as readonly string[]).includes(sort ?? "")
       ? (sort as SortKey)
       : INITIAL_QUERY.sort,
-    compare: Array.from(new Set(compare)).slice(0, MAX_COMPARE),
+    compare: known
+      ? slugs
+          .filter((s) => known.some((h) => h.slug === s))
+          .slice(0, MAX_COMPARE)
+      : slugs.slice(0, MAX_UNRESOLVED_COMPARE),
   };
 }
 

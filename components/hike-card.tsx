@@ -75,7 +75,11 @@ export function HikeCard({ hike, href, compare }: Props) {
       <SeasonStrip seasons={hike.best_seasons} />
 
       <div className="mt-3 flex items-center justify-between gap-3 text-xs text-neutral-500 dark:text-neutral-400">
-        <div title={`Obscurity: ${hike.obscurity}/5 (5 = least touristy)`}>
+        {/* Raised above the link overlay so the tooltip still shows. */}
+        <div
+          className="relative z-[1]"
+          title={`Obscurity: ${hike.obscurity}/5 (5 = least touristy)`}
+        >
           <span className="font-mono tracking-tight">
             {obscurityStars(hike.obscurity)}
           </span>{" "}
@@ -93,6 +97,7 @@ export function HikeCard({ hike, href, compare }: Props) {
               checked={compare.checked}
               disabled={compare.disabled}
               onChange={compare.onToggle}
+              aria-label={`Compare ${hike.name}`}
               className="accent-sky-600"
             />
             compare

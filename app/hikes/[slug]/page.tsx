@@ -3,6 +3,11 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { HikeLocatorMap } from "@/components/hike-locator-map";
 import { HikeSetNav } from "@/components/hike-set-nav";
+import {
+  type RelatedItem,
+  RelatedList,
+  RelatedListView,
+} from "@/components/related-list";
 import { SeasonStrip } from "@/components/season-strip";
 import { StatusBadge } from "@/components/status-badge";
 import { findHike, loadHikes, loadSummaries } from "@/lib/load-hikes";
@@ -13,7 +18,6 @@ import {
   formatLength,
   obscurityStars,
 } from "@/lib/format";
-import type { HikeSummary } from "@/lib/hike-summary";
 import { readMapApiKey } from "@/lib/map-key";
 import { nearestHikes, similarHikes } from "@/lib/related";
 
@@ -55,6 +59,18 @@ export default async function HikePage({
     RELATED_COUNT,
     nearby.map((n) => n.hike.slug),
   );
+  const nearbyItems: RelatedItem[] = nearby.map(({ hike: h, km }) => ({
+    slug: h.slug,
+    name: h.name,
+    country: h.country,
+    detail: `${Math.round(km).toLocaleString("en-US")} km away`,
+  }));
+  const similarItems: RelatedItem[] = similar.map((h) => ({
+    slug: h.slug,
+    name: h.name,
+    country: h.country,
+    detail: `${formatLength(h.length_km, h.length_days)} · ${h.difficulty}`,
+  }));
   const daily = formatDailyAverage(
     hike.length_days,
     hike.length_km,
@@ -177,11 +193,13 @@ export default async function HikePage({
       )}
 
       <Section title="Where it is">
-        <HikeLocatorMap
-          hikes={[self, ...nearby.map((n) => n.hike)]}
-          focusSlug={slug}
-          apiKey={readMapApiKey()}
-        />
+        <Suspense fallback={<div className="h-[300px]" />}>
+          <HikeLocatorMap
+            hikes={[self, ...nearby.map((n) => n.hike)]}
+            focusSlug={slug}
+            apiKey={readMapApiKey()}
+          />
+        </Suspense>
         <p className="mt-2 text-xs text-neutral-500">
           Approximate center of the route. Blue pins are the nearest other
           hikes in the catalog.
@@ -190,47 +208,17 @@ export default async function HikePage({
 
       <div className="grid sm:grid-cols-2 gap-x-8">
         <Section title="Nearby">
-          <RelatedList
-            items={nearby.map((n) => ({
-              hike: n.hike,
-              detail: `${Math.round(n.km).toLocaleString("en-US")} km away`,
-            }))}
-          />
+          <Suspense fallback={<RelatedListView items={nearbyItems} />}>
+            <RelatedList items={nearbyItems} />
+          </Suspense>
         </Section>
         <Section title="Similar trips elsewhere">
-          <RelatedList
-            items={similar.map((h) => ({
-              hike: h,
-              detail: `${formatLength(h.length_km, h.length_days)} · ${h.difficulty}`,
-            }))}
-          />
+          <Suspense fallback={<RelatedListView items={similarItems} />}>
+            <RelatedList items={similarItems} />
+          </Suspense>
         </Section>
       </div>
     </article>
-  );
-}
-
-function RelatedList({
-  items,
-}: {
-  items: { hike: HikeSummary; detail: string }[];
-}) {
-  return (
-    <ul className="space-y-2">
-      {items.map(({ hike, detail }) => (
-        <li key={hike.slug}>
-          <Link
-            href={`/hikes/${hike.slug}`}
-            className="font-medium hover:underline"
-          >
-            {hike.name}
-          </Link>
-          <div className="text-xs text-neutral-500">
-            {countryFlag(hike.country)} {hike.country} · {detail}
-          </div>
-        </li>
-      ))}
-    </ul>
   );
 }
 

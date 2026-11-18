@@ -16,7 +16,7 @@ import { HikeCard } from "./hike-card";
 import { useHikeQuery } from "./use-hike-query";
 
 export function HikeBrowser({ hikes }: { hikes: HikeSummary[] }) {
-  const { query, qs, setFilters, setSort, setCompare, reset } = useHikeQuery();
+  const { query, qs, setFilters, setSort, setCompare, reset } = useHikeQuery(hikes);
 
   const countries = useMemo(() => uniqueCountries(hikes), [hikes]);
   const visible = useMemo(() => applyQuery(hikes, query), [hikes, query]);
@@ -27,12 +27,9 @@ export function HikeBrowser({ hikes }: { hikes: HikeSummary[] }) {
         .filter((h): h is HikeSummary => h !== undefined),
     [hikes, query.compare],
   );
-  // Toggle against the resolved selection so slugs that no longer exist
-  // (stale bookmark, renamed hike) are dropped rather than using up slots.
-  const selectedSlugs = selected.map((h) => h.slug);
-  const compareFull = selected.length >= MAX_COMPARE;
+  const compareFull = query.compare.length >= MAX_COMPARE;
   const toggleCompareSlug = (slug: string) =>
-    setCompare(toggleCompare(selectedSlugs, slug));
+    setCompare(toggleCompare(query.compare, slug));
 
   return (
     <div className={selected.length > 0 ? "pb-20" : undefined}>
@@ -76,7 +73,7 @@ export function HikeBrowser({ hikes }: { hikes: HikeSummary[] }) {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {visible.map((h) => {
-            const checked = selectedSlugs.includes(h.slug);
+            const checked = query.compare.includes(h.slug);
             return (
               <HikeCard
                 key={h.slug}

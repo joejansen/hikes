@@ -17,7 +17,7 @@ import { StatusBadge } from "./status-badge";
 import { useHikeQuery } from "./use-hike-query";
 
 export function CompareView({ hikes }: { hikes: Hike[] }) {
-  const { query, qs, setCompare } = useHikeQuery();
+  const { query, qs, setCompare } = useHikeQuery(hikes);
 
   const selected = useMemo(
     () =>
@@ -26,8 +26,7 @@ export function CompareView({ hikes }: { hikes: Hike[] }) {
         .filter((h): h is Hike => h !== undefined),
     [hikes, query.compare],
   );
-  // Work from the resolved selection so unknown slugs in the URL are dropped.
-  const selectedSlugs = selected.map((h) => h.slug);
+  const selectedSlugs = query.compare;
   const canAdd = selected.length < MAX_COMPARE;
 
   const picker = canAdd && (

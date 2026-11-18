@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import Link from "next/link";
 import type { HikeSummary } from "@/lib/hike-summary";
-import { filterHikes, uniqueCountries, withQuery } from "@/lib/hike-filters";
+import { applyQuery, uniqueCountries, withQuery } from "@/lib/hike-filters";
 import { HikeFilterBar } from "./hike-filter-bar";
 import { HikeMapLazy } from "./hike-map-lazy";
 import { useHikeQuery } from "./use-hike-query";
@@ -16,13 +16,12 @@ type Props = {
 };
 
 export function HikeMapBrowser({ hikes, apiKey }: Props) {
-  const { query, qs, setFilters, reset } = useHikeQuery();
+  const { query, qs, setFilters, reset } = useHikeQuery(hikes);
 
   const countries = useMemo(() => uniqueCountries(hikes), [hikes]);
-  const visible = useMemo(
-    () => filterHikes(hikes, query.filters),
-    [hikes, query.filters],
-  );
+  // Sorted as well as filtered, so the list under the map is in the same
+  // order as the hike page's prev/next.
+  const visible = useMemo(() => applyQuery(hikes, query), [hikes, query]);
 
   return (
     <div>
