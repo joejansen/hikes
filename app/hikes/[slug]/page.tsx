@@ -1,22 +1,40 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { findHike, loadHikes } from "@/lib/load-hikes";
+import { Suspense } from "react";
+import { HikeLocatorMap } from "@/components/hike-locator-map";
+import { HikeSetNav } from "@/components/hike-set-nav";
+import { SeasonStrip } from "@/components/season-strip";
+import { StatusBadge } from "@/components/status-badge";
+import { findHike, loadHikes, loadSummaries } from "@/lib/load-hikes";
 import {
   countryFlag,
+  formatDailyAverage,
   formatElevation,
   formatLength,
   obscurityStars,
 } from "@/lib/format";
+import type { HikeSummary } from "@/lib/hike-summary";
+import { readMapApiKey } from "@/lib/map-key";
+import { nearestHikes, similarHikes } from "@/lib/related";
+
+const RELATED_COUNT = 4;
 
 export function generateStaticParams() {
   return loadHikes().map((h) => ({ slug: h.slug }));
 }
 
-export function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  return params.then(({ slug }) => {
-    const hike = findHike(slug);
-    return { title: hike ? `${hike.name} · Hike Research` : "Not found" };
-  });
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const hike = findHike(slug);
+  if (!hike) return { title: "Not found" };
+  return {
+    title: `${hike.name} · Hike Research`,
+    description: `${hike.country}${hike.region ? `, ${hike.region}` : ""} — ${hike.highlights[0]}`,
+  };
 }
 
 export default async function HikePage({
@@ -28,28 +46,55 @@ export default async function HikePage({
   const hike = findHike(slug);
   if (!hike) notFound();
 
+  const summaries = loadSummaries();
+  const self = summaries.find((h) => h.slug === slug)!;
+  const nearby = nearestHikes(self, summaries, RELATED_COUNT);
+  const similar = similarHikes(
+    self,
+    summaries,
+    RELATED_COUNT,
+    nearby.map((n) => n.hike.slug),
+  );
+  const daily = formatDailyAverage(
+    hike.length_days,
+    hike.length_km,
+    hike.elevation_gain_m,
+  );
+
   return (
     <article className="max-w-3xl mx-auto">
-      <Link
-        href="/"
-        className="text-sm text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100"
+      <Suspense
+        fallback={
+          <Link
+            href="/"
+            className="text-sm text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100"
+          >
+            ← all hikes
+          </Link>
+        }
       >
-        ← all hikes
-      </Link>
+        <HikeSetNav slug={slug} />
+      </Suspense>
 
       <header className="mt-4 mb-6">
-        <h1 className="text-3xl font-semibold tracking-tight mb-1">
-          {hike.name}
-        </h1>
+        <div className="flex items-start justify-between gap-4">
+          <h1 className="text-3xl font-semibold tracking-tight mb-1">
+            {hike.name}
+          </h1>
+          <div className="mt-2">
+            <StatusBadge status={hike.status} />
+          </div>
+        </div>
         <p className="text-neutral-600 dark:text-neutral-400">
           {countryFlag(hike.country)} {hike.country}
           {hike.region ? ` · ${hike.region}` : ""}
         </p>
       </header>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8 text-sm">
+      <dl className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-6 text-sm">
         <Stat label="Length" value={formatLength(hike.length_km, hike.length_days) || "—"} />
         <Stat label="Elevation gain" value={formatElevation(hike.elevation_gain_m) || "—"} />
+        <Stat label="Per day" value={daily || "—"} />
         <Stat label="Difficulty" value={hike.difficulty} />
         <Stat
           label="Obscurity"
@@ -59,7 +104,7 @@ export default async function HikePage({
             </span>
           }
         />
-      </div>
+      </dl>
 
       <div className="flex flex-wrap gap-2 mb-8">
         <Chip>{hike.style}</Chip>
@@ -67,15 +112,13 @@ export default async function HikePage({
         {hike.accommodation.map((a) => (
           <Chip key={a}>{a}</Chip>
         ))}
-        <Chip tone="status">{hike.status}</Chip>
       </div>
 
       <Section title="Best seasons">
-        <div className="flex flex-wrap gap-1.5">
-          {hike.best_seasons.map((m) => (
-            <Chip key={m}>{m}</Chip>
-          ))}
-        </div>
+        <SeasonStrip seasons={hike.best_seasons} size="md" />
+        <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
+          {hike.best_seasons.join(", ")}
+        </p>
       </Section>
 
       <Section title="Highlights">
@@ -127,12 +170,67 @@ export default async function HikePage({
 
       {hike.notes.trim() && (
         <Section title="Notes">
-          <div className="prose prose-neutral dark:prose-invert max-w-none whitespace-pre-wrap text-neutral-800 dark:text-neutral-200">
+          <div className="whitespace-pre-wrap text-neutral-800 dark:text-neutral-200">
             {hike.notes.trim()}
           </div>
         </Section>
       )}
+
+      <Section title="Where it is">
+        <HikeLocatorMap
+          hikes={[self, ...nearby.map((n) => n.hike)]}
+          focusSlug={slug}
+          apiKey={readMapApiKey()}
+        />
+        <p className="mt-2 text-xs text-neutral-500">
+          Approximate center of the route. Blue pins are the nearest other
+          hikes in the catalog.
+        </p>
+      </Section>
+
+      <div className="grid sm:grid-cols-2 gap-x-8">
+        <Section title="Nearby">
+          <RelatedList
+            items={nearby.map((n) => ({
+              hike: n.hike,
+              detail: `${Math.round(n.km).toLocaleString("en-US")} km away`,
+            }))}
+          />
+        </Section>
+        <Section title="Similar trips elsewhere">
+          <RelatedList
+            items={similar.map((h) => ({
+              hike: h,
+              detail: `${formatLength(h.length_km, h.length_days)} · ${h.difficulty}`,
+            }))}
+          />
+        </Section>
+      </div>
     </article>
+  );
+}
+
+function RelatedList({
+  items,
+}: {
+  items: { hike: HikeSummary; detail: string }[];
+}) {
+  return (
+    <ul className="space-y-2">
+      {items.map(({ hike, detail }) => (
+        <li key={hike.slug}>
+          <Link
+            href={`/hikes/${hike.slug}`}
+            className="font-medium hover:underline"
+          >
+            {hike.name}
+          </Link>
+          <div className="text-xs text-neutral-500">
+            {countryFlag(hike.country)} {hike.country} · {detail}
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -170,19 +268,9 @@ function Stat({
   );
 }
 
-function Chip({
-  children,
-  tone = "default",
-}: {
-  children: React.ReactNode;
-  tone?: "default" | "status";
-}) {
-  const classes =
-    tone === "status"
-      ? "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-200"
-      : "bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300";
+function Chip({ children }: { children: React.ReactNode }) {
   return (
-    <span className={`text-xs px-2 py-0.5 rounded-full ${classes}`}>
+    <span className="text-xs px-2 py-0.5 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">
       {children}
     </span>
   );

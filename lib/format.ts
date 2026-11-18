@@ -1,49 +1,4 @@
-const FLAGS: Record<string, string> = {
-  Nepal: "🇳🇵",
-  Georgia: "🇬🇪",
-  France: "🇫🇷",
-  Italy: "🇮🇹",
-  Switzerland: "🇨🇭",
-  Spain: "🇪🇸",
-  "United Kingdom": "🇬🇧",
-  Iceland: "🇮🇸",
-  Japan: "🇯🇵",
-  Norway: "🇳🇴",
-  Sweden: "🇸🇪",
-  Slovenia: "🇸🇮",
-  Morocco: "🇲🇦",
-  Peru: "🇵🇪",
-  Chile: "🇨🇱",
-  Argentina: "🇦🇷",
-  Greece: "🇬🇷",
-  Turkey: "🇹🇷",
-  Kyrgyzstan: "🇰🇬",
-  Pakistan: "🇵🇰",
-  India: "🇮🇳",
-  China: "🇨🇳",
-  Bhutan: "🇧🇹",
-  Australia: "🇦🇺",
-  "New Zealand": "🇳🇿",
-  Canada: "🇨🇦",
-  "United States": "🇺🇸",
-  Austria: "🇦🇹",
-  Germany: "🇩🇪",
-  Portugal: "🇵🇹",
-  Albania: "🇦🇱",
-  Kosovo: "🇽🇰",
-  Montenegro: "🇲🇪",
-  Slovakia: "🇸🇰",
-  Bulgaria: "🇧🇬",
-  Poland: "🇵🇱",
-  Croatia: "🇭🇷",
-  "Bosnia and Herzegovina": "🇧🇦",
-  "North Macedonia": "🇲🇰",
-  Romania: "🇷🇴",
-};
-
-export function countryFlag(country: string): string {
-  return FLAGS[country] ?? "🏳️";
-}
+export { countryFlag } from "./countries";
 
 export function obscurityStars(n: number): string {
   return "●".repeat(n) + "○".repeat(5 - n);
@@ -58,5 +13,20 @@ export function formatLength(km?: number, days?: number): string {
 
 export function formatElevation(m?: number): string {
   if (!m) return "";
-  return `${m.toLocaleString()}m gain`;
+  return `${m.toLocaleString("en-US")}m gain`;
+}
+
+// Average effort per day, e.g. "14 km · 800 m up". Empty when neither
+// distance nor gain is known.
+export function formatDailyAverage(
+  days: number,
+  km?: number,
+  gainM?: number,
+): string {
+  const parts: string[] = [];
+  if (km) parts.push(`${Math.round(km / days)} km`);
+  if (gainM) {
+    parts.push(`${(Math.round(gainM / days / 10) * 10).toLocaleString("en-US")} m up`);
+  }
+  return parts.join(" · ");
 }

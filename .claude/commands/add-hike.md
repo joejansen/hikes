@@ -25,6 +25,7 @@ Research the hike **$ARGUMENTS** and add it to `data/hikes.yaml`.
 
 4. **Draft the YAML entry** in the same style as existing entries. Important:
    - `slug` is lowercase kebab-case and unique.
+   - `country` must be a key of `COUNTRY_CODES` in `lib/countries.ts` (validation fails otherwise). For a new country, add its ISO 3166-1 alpha-2 code there in the same change.
    - `coordinates` is `[lat, lon]` — double-check the order.
    - Leave `notes: ""` — that column is mine, not yours.
    - Set `status: researching` by default.

@@ -9,7 +9,8 @@ import Map, {
   ScaleControl,
 } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { Hike } from "@/lib/schema";
+import type { HikeSummary as Hike } from "@/lib/hike-summary";
+import { withQuery } from "@/lib/hike-filters";
 import {
   countryFlag,
   formatLength,
@@ -31,8 +32,9 @@ const STYLE_OPTIONS: { id: StyleId; label: string }[] = [
 ];
 
 const FALLBACK_STYLE = "https://tiles.openfreemap.org/styles/liberty";
-const MAP_HEIGHT_PX = 560;
-const INITIAL_VIEW = { longitude: 10, latitude: 25, zoom: 1.4 };
+const DEFAULT_HEIGHT_PX = 560;
+const WORLD_VIEW = { longitude: 10, latitude: 25, zoom: 1.4 };
+const FOCUS_ZOOM = 5;
 
 function styleUrl(id: StyleId, key: string): string {
   return `https://api.maptiler.com/maps/${STYLE_PATHS[id]}/style.json?key=${key}`;
@@ -51,9 +53,21 @@ function seasonsLabel(seasons: Hike["best_seasons"]): string {
 type Props = {
   hikes: Hike[];
   apiKey: string | null;
+  // Query string appended to marker links so the detail page keeps the
+  // current filter context.
+  linkQuery?: string;
+  // Slug of a hike to center on and highlight (detail-page locator map).
+  focusSlug?: string;
+  height?: number;
 };
 
-export function HikeMap({ hikes, apiKey }: Props) {
+export function HikeMap({
+  hikes,
+  apiKey,
+  linkQuery = "",
+  focusSlug,
+  height = DEFAULT_HEIGHT_PX,
+}: Props) {
   const [styleId, setStyleId] = useState<StyleId>("outdoor");
   const [hovered, setHovered] = useState<Hike | null>(null);
 
@@ -69,6 +83,18 @@ export function HikeMap({ hikes, apiKey }: Props) {
     return hikes.some((h) => h.slug === hovered.slug) ? hovered : null;
   }, [hikes, hovered]);
 
+  // Only read on mount: the map is uncontrolled after its initial view.
+  const initialView = useMemo(() => {
+    const focus = hikes.find((h) => h.slug === focusSlug);
+    return focus
+      ? {
+          longitude: focus.coordinates[1],
+          latitude: focus.coordinates[0],
+          zoom: FOCUS_ZOOM,
+        }
+      : WORLD_VIEW;
+  }, [hikes, focusSlug]);
+
   const handleEnter = useCallback((h: Hike) => setHovered(h), []);
   const handleLeave = useCallback(
     (h: Hike) => setHovered((cur) => (cur === h ? null : cur)),
@@ -78,10 +104,10 @@ export function HikeMap({ hikes, apiKey }: Props) {
   return (
     <div
       className="relative rounded-lg border border-neutral-200 dark:border-neutral-800 overflow-hidden bg-neutral-100 dark:bg-neutral-900"
-      style={{ height: MAP_HEIGHT_PX }}
+      style={{ height }}
     >
       <Map
-        initialViewState={INITIAL_VIEW}
+        initialViewState={initialView}
         mapStyle={mapStyle}
         attributionControl={{ compact: true }}
         style={{ width: "100%", height: "100%" }}
@@ -91,6 +117,8 @@ export function HikeMap({ hikes, apiKey }: Props) {
 
         <MarkerList
           hikes={hikes}
+          linkQuery={linkQuery}
+          focusSlug={focusSlug}
           onEnter={handleEnter}
           onLeave={handleLeave}
         />
@@ -140,7 +168,7 @@ export function HikeMap({ hikes, apiKey }: Props) {
         </div>
       )}
 
-      {!apiKey && (
+      {!apiKey && !focusSlug && (
         <div className="absolute bottom-3 right-3 max-w-xs text-xs px-3 py-2 rounded-md bg-amber-50 text-amber-900 border border-amber-200 dark:bg-amber-950 dark:text-amber-200 dark:border-amber-900">
           Set <code className="font-mono">NEXT_PUBLIC_MAPTILER_KEY</code> to
           enable terrain &amp; satellite layers.
@@ -152,12 +180,16 @@ export function HikeMap({ hikes, apiKey }: Props) {
 
 type MarkerListProps = {
   hikes: Hike[];
+  linkQuery: string;
+  focusSlug?: string;
   onEnter: (h: Hike) => void;
   onLeave: (h: Hike) => void;
 };
 
 const MarkerList = memo(function MarkerList({
   hikes,
+  linkQuery,
+  focusSlug,
   onEnter,
   onLeave,
 }: MarkerListProps) {
@@ -169,9 +201,10 @@ const MarkerList = memo(function MarkerList({
           longitude={h.coordinates[1]}
           latitude={h.coordinates[0]}
           anchor="center"
+          style={h.slug === focusSlug ? { zIndex: 1 } : undefined}
         >
           <Link
-            href={`/hikes/${h.slug}`}
+            href={withQuery(`/hikes/${h.slug}`, linkQuery)}
             aria-label={`Open ${h.name}`}
             onMouseEnter={() => onEnter(h)}
             onMouseLeave={() => onLeave(h)}
@@ -183,7 +216,13 @@ const MarkerList = memo(function MarkerList({
             // marker hard to tap on mobile.
             className="group flex items-center justify-center w-8 h-8 -m-2.5 focus:outline-none cursor-pointer"
           >
-            <span className="block w-3 h-3 rounded-full bg-sky-600 ring-2 ring-sky-300/70 group-hover:bg-sky-500 group-hover:ring-sky-200 group-hover:scale-125 group-focus-visible:ring-sky-400 transition" />
+            <span
+              className={
+                h.slug === focusSlug
+                  ? "block w-4 h-4 rounded-full bg-rose-600 ring-2 ring-white shadow group-hover:scale-110 transition"
+                  : "block w-3 h-3 rounded-full bg-sky-600 ring-2 ring-sky-300/70 group-hover:bg-sky-500 group-hover:ring-sky-200 group-hover:scale-125 group-focus-visible:ring-sky-400 transition"
+              }
+            />
           </Link>
         </Marker>
       ))}

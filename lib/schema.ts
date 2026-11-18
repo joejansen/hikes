@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { isKnownCountry } from "./countries";
 
 const MONTHS = [
   "January",
@@ -46,7 +47,12 @@ export const hikeSchema = z.object({
     .string()
     .regex(/^[a-z0-9-]+$/, "slug must be lowercase alphanumeric + dashes"),
   name: z.string().min(1),
-  country: z.string().min(1),
+  country: z
+    .string()
+    .min(1)
+    .refine(isKnownCountry, {
+      message: "unknown country: add it to COUNTRY_CODES in lib/countries.ts",
+    }),
   region: z.string().optional(),
   coordinates: z.tuple([z.number().min(-90).max(90), z.number().min(-180).max(180)]),
   style: z.enum(STYLES),

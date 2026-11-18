@@ -1,8 +1,9 @@
+import { Suspense } from "react";
 import { HikeBrowser } from "@/components/hike-browser";
-import { loadHikes } from "@/lib/load-hikes";
+import { loadSummaries } from "@/lib/load-hikes";
 
 export default function Home() {
-  const hikes = loadHikes();
+  const hikes = loadSummaries();
   return (
     <div>
       <section className="mb-8">
@@ -15,7 +16,22 @@ export default function Home() {
           obscurity 1 is Tour du Mont Blanc.
         </p>
       </section>
-      <HikeBrowser hikes={hikes} />
+      <Suspense fallback={<BrowserSkeleton />}>
+        <HikeBrowser hikes={hikes} />
+      </Suspense>
+    </div>
+  );
+}
+
+// Filters come from the URL query string, which is not known at build time,
+// so the browser renders on the client. Prerendering the full unfiltered grid
+// as the fallback was measured at 2.4 MB of HTML (cards are serialized twice);
+// a skeleton keeps the page small and avoids flashing unfiltered results.
+function BrowserSkeleton() {
+  return (
+    <div aria-busy="true">
+      <div className="rounded-lg border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 mb-6 h-[190px] sm:h-[134px]" />
+      <p className="text-sm text-neutral-500">Loading hikes…</p>
     </div>
   );
 }
