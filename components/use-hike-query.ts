@@ -30,8 +30,8 @@ export function useCarriedQuery(): string {
 //  - state changed, URL still what we wrote  -> write the new query;
 //  - URL is no longer what we wrote (back/forward to another entry of the
 //    same page, or a link carrying an older query) -> adopt the URL.
-// The comparison uses window.location, not useSearchParams, so the lag of
-// Next's own bookkeeping cannot make one of our writes look external.
+// The comparison uses window.location rather than useSearchParams, whose
+// value trails our writes by a transition and would make them look external.
 //
 // Discrete changes (selects, checkboxes, sort) are written immediately. Only
 // search-text changes are debounced, since browsers rate-limit replaceState.
@@ -62,10 +62,9 @@ export function useHikeQuery(
     // A navigation to another page may already have committed.
     if (window.location.pathname !== pathname) return;
 
-    const fromUrl = parseQuery(
-      new URLSearchParams(window.location.search),
-      known,
-    );
+    const readUrl = () =>
+      parseQuery(new URLSearchParams(window.location.search), known);
+    const fromUrl = readUrl();
     const urlQs = serializeQuery(fromUrl);
     if (lastSynced.current !== null && urlQs !== lastSynced.current) {
       // Not our write: follow the URL.
@@ -80,9 +79,17 @@ export function useHikeQuery(
     }
 
     const write = () => {
+      if (window.location.pathname !== pathname) return;
+      // A delayed write can fire after the user moved to another history
+      // entry but before this effect re-ran. That entry is not ours to
+      // overwrite; leave it for the next run to adopt.
+      if (
+        lastSynced.current !== null &&
+        serializeQuery(readUrl()) !== lastSynced.current
+      )
+        return;
       lastSynced.current = qs;
       writtenText.current = text;
-      if (window.location.pathname !== pathname) return;
       if (window.location.search.replace(/^\?/, "") === qs) return;
       window.history.replaceState(null, "", qs ? `${pathname}?${qs}` : pathname);
     };
