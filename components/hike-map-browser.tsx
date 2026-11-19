@@ -1,59 +1,49 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import Link from "next/link";
-import dynamic from "next/dynamic";
-import type { Hike } from "@/lib/schema";
-import {
-  type Filters,
-  INITIAL_FILTERS,
-  filterHikes,
-  uniqueCountries,
-} from "@/lib/hike-filters";
+import type { HikeSummary } from "@/lib/hike-summary";
+import { applyQuery, uniqueCountries, withQuery } from "@/lib/hike-filters";
 import { HikeFilterBar } from "./hike-filter-bar";
+import { HikeMapLazy } from "./hike-map-lazy";
+import { useHikeQuery } from "./use-hike-query";
 
-const HikeMap = dynamic(
-  () => import("./hike-map").then((m) => m.HikeMap),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="rounded-lg border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 h-[560px] flex items-center justify-center text-sm text-neutral-500">
-        Loading map…
-      </div>
-    ),
-  },
-);
+const MAP_HEIGHT_PX = 560;
 
 type Props = {
-  hikes: Hike[];
+  hikes: HikeSummary[];
   apiKey: string | null;
 };
 
 export function HikeMapBrowser({ hikes, apiKey }: Props) {
-  const [filters, setFilters] = useState<Filters>(INITIAL_FILTERS);
+  const { query, qs, setFilters, reset } = useHikeQuery(hikes);
 
   const countries = useMemo(() => uniqueCountries(hikes), [hikes]);
-  const visible = useMemo(
-    () => filterHikes(hikes, filters),
-    [hikes, filters],
-  );
-
-  const reset = () => setFilters(INITIAL_FILTERS);
+  // Sorted as well as filtered, so the list under the map is in the same
+  // order as the hike page's prev/next.
+  const visible = useMemo(() => applyQuery(hikes, query), [hikes, query]);
 
   return (
     <div>
       <HikeFilterBar
-        filters={filters}
+        filters={query.filters}
         onChange={setFilters}
         countries={countries}
         onReset={reset}
       />
 
-      <div className="mb-3 text-sm text-neutral-500">
+      <div className="mb-3 text-sm text-neutral-500" aria-live="polite">
         {visible.length} of {hikes.length} hikes shown on the map
       </div>
 
-      <HikeMap hikes={visible} apiKey={apiKey} />
+      <div style={{ height: MAP_HEIGHT_PX }}>
+        <HikeMapLazy
+          hikes={visible}
+          apiKey={apiKey}
+          linkQuery={qs}
+          height={MAP_HEIGHT_PX}
+        />
+      </div>
 
       {visible.length === 0 ? (
         <p className="mt-6 text-neutral-500 italic">
@@ -72,7 +62,7 @@ export function HikeMapBrowser({ hikes, apiKey }: Props) {
           {visible.map((h) => (
             <li key={h.slug}>
               <Link
-                href={`/hikes/${h.slug}`}
+                href={withQuery(`/hikes/${h.slug}`, qs)}
                 className="hover:text-neutral-900 dark:hover:text-neutral-100 hover:underline"
               >
                 {h.name}

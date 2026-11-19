@@ -10,7 +10,27 @@ Zod-validated at build.
 npm install
 npm run dev       # http://localhost:3000
 npm run build     # also runs YAML validation
+npm test          # unit tests (vitest) for filters, URL state, data
+npm run lint && npm run typecheck
 ```
+
+CI (`.github/workflows/ci.yml`) runs lint, typecheck, tests, and build on
+every PR and push to `main`.
+
+## Features
+
+- **List** (`/`): free-text search (name, country, region, highlights) plus
+  filters for country, month, length, difficulty, style, pack weight,
+  accommodation, status, and obscurity.
+- **Map** (`/map`): the same filters on a MapLibre map.
+- **Compare** (`/compare`): tick *compare* on up to four cards and view them
+  side by side.
+- **Hike page**: stats, season strip, locator map, nearest hikes, similar
+  trips, and prev/next within the filtered list you came from.
+
+Filters, sort, and the compare selection live in the URL query string
+(`lib/hike-filters.ts`), so any view can be bookmarked and is carried between
+pages.
 
 If the build fails with a schema error, the Zod issue path points to the
 offending entry (e.g. `3.downsides.2` = fourth hike, third downside).
@@ -25,6 +45,10 @@ In Claude Code in this repo:
 
 Or just edit `data/hikes.yaml` by hand — `lib/schema.ts` is the source of
 truth for allowed fields and enum values.
+
+A hike in a country not yet in the catalog needs a line in `COUNTRY_CODES`
+(`lib/countries.ts`); the build fails with a pointer there otherwise. Flags
+are derived from that ISO code.
 
 ## Deploy
 

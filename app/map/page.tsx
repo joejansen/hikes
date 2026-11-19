@@ -1,16 +1,13 @@
-import { loadHikes } from "@/lib/load-hikes";
+import { Suspense } from "react";
+import { loadSummaries } from "@/lib/load-hikes";
+import { readMapApiKey } from "@/lib/map-key";
 import { HikeMapBrowser } from "@/components/hike-map-browser";
 
 export const metadata = { title: "Map · Hike Research" };
 
-function readApiKey(): string | null {
-  const raw = process.env.NEXT_PUBLIC_MAPTILER_KEY?.trim();
-  return raw ? raw : null;
-}
-
 export default function MapPage() {
-  const hikes = loadHikes();
-  const apiKey = readApiKey();
+  const hikes = loadSummaries();
+  const apiKey = readMapApiKey();
   return (
     <div>
       <section className="mb-6">
@@ -21,7 +18,9 @@ export default function MapPage() {
           {apiKey && " Switch between outdoor, streets, and satellite layers."}
         </p>
       </section>
-      <HikeMapBrowser hikes={hikes} apiKey={apiKey} />
+      <Suspense fallback={<p className="text-sm text-neutral-500">Loading map…</p>}>
+        <HikeMapBrowser hikes={hikes} apiKey={apiKey} />
+      </Suspense>
     </div>
   );
 }

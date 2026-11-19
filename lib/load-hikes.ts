@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
+import { type HikeSummary, toSummary } from "./hike-summary";
 import { type Hike, hikesFileSchema } from "./schema";
 
 let cache: Hike[] | null = null;
@@ -29,4 +30,8 @@ export function loadHikes(): Hike[] {
 
 export function findHike(slug: string): Hike | undefined {
   return loadHikes().find((h) => h.slug === slug);
+}
+
+export function loadSummaries(): HikeSummary[] {
+  return loadHikes().map(toSummary);
 }
